@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import ProductPage from './pages/ProductPage';
 import CatalogPage from './pages/CatalogPage';
+import RemontPage from './pages/RemontPage';
 import RentCalculatorModal from './components/RentCalculatorModal';
 import QuickLeadModal from './components/QuickLeadModal';
 import { PhoneCall } from 'lucide-react';
@@ -12,7 +13,6 @@ import { PhoneCall } from 'lucide-react';
 export default function App() {
   const [currency, setCurrency] = useState('UAH');
   const [searchTerm, setSearchTerm] = useState('');
-  const [activeCategory, setActiveCategory] = useState('field');
 
   // Modals
   const [isCalculatorModalOpen, setIsCalculatorModalOpen] = useState(false);
@@ -28,7 +28,7 @@ export default function App() {
     <BrowserRouter>
       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', backgroundColor: '#ffffff' }}>
         
-        {/* 3-Level Header with React Router Navigation */}
+        {/* 3-Level Header with Active Category Routing */}
         <Navbar
           currency={currency}
           setCurrency={setCurrency}
@@ -36,14 +36,13 @@ export default function App() {
           setSearchTerm={setSearchTerm}
           onOpenQuickLead={() => handleOpenQuickLead('Консультація спеціаліста')}
           onOpenCalculator={() => setIsCalculatorModalOpen(true)}
-          activeCategory={activeCategory}
-          onSelectCategory={setActiveCategory}
           cartCount={0}
         />
 
         {/* Clean URL Routes (without #) */}
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
           <Routes>
+            {/* 1. Main Home Page */}
             <Route 
               path="/" 
               element={
@@ -57,6 +56,7 @@ export default function App() {
               } 
             />
             
+            {/* 2. Standalone Dedicated Product Details Page */}
             <Route 
               path="/product/:slug" 
               element={
@@ -67,6 +67,27 @@ export default function App() {
               } 
             />
 
+            {/* 3. Dedicated Conveyor Repair Page */}
+            <Route 
+              path="/remont-transporteriv" 
+              element={
+                <RemontPage
+                  currency={currency}
+                  onOpenQuickLead={handleOpenQuickLead}
+                />
+              } 
+            />
+            <Route 
+              path="/remont-transporteriv/" 
+              element={
+                <RemontPage
+                  currency={currency}
+                  onOpenQuickLead={handleOpenQuickLead}
+                />
+              } 
+            />
+
+            {/* 4. Dedicated Category Archive Pages */}
             <Route 
               path="/product-category/:category" 
               element={
@@ -74,13 +95,23 @@ export default function App() {
                   currency={currency}
                   searchTerm={searchTerm}
                   setSearchTerm={setSearchTerm}
-                  activeCategory={activeCategory}
-                  setActiveCategory={setActiveCategory}
+                  onOpenCalculator={() => setIsCalculatorModalOpen(true)}
+                />
+              } 
+            />
+            <Route 
+              path="/product-category/:category/" 
+              element={
+                <CatalogPage
+                  currency={currency}
+                  searchTerm={searchTerm}
+                  setSearchTerm={setSearchTerm}
                   onOpenCalculator={() => setIsCalculatorModalOpen(true)}
                 />
               } 
             />
 
+            {/* 5. Fallback Route */}
             <Route 
               path="*" 
               element={

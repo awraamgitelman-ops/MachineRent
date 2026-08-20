@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { 
   Phone, 
   Search, 
@@ -19,21 +19,19 @@ export default function Navbar({
   setSearchTerm,
   onOpenQuickLead,
   onOpenCalculator,
-  activeCategory,
-  onSelectCategory,
   cartCount = 0
 }) {
   const [currencyDropdownOpen, setCurrencyDropdownOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const navigate = useNavigate();
+  const location = useLocation();
 
   const navCategories = [
-    { id: 'field', label: 'Польова техніка', path: '/' },
-    { id: 'warehouse', label: 'Складська техніка', path: '/' },
-    { id: 'parts', label: 'Запасні частини', path: '/' },
-    { id: 'repairs', label: 'Ремонт транспортерів', path: '/' },
-    { id: 'used', label: 'Техніка Б/В', path: '/' },
-    { id: 'rent_calc', label: 'Оренда & Калькулятор', path: null },
+    { id: 'field', label: 'Польова техніка', path: '/product-category/field' },
+    { id: 'warehouse', label: 'Складська техніка', path: '/product-category/skladska-tehnika' },
+    { id: 'parts', label: 'Запасні частини', path: '/product-category/zapchastyny' },
+    { id: 'repairs', label: 'Ремонт транспортерів', path: '/remont-transporteriv' },
+    { id: 'used', label: 'Техніка Б/В', path: '/product-category/tehnika-b-v' },
   ];
 
   const handleSearchSubmit = (e) => {
@@ -81,7 +79,7 @@ export default function Navbar({
       <div className="whb-general-header">
         <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '20px' }}>
           
-          {/* Adena Agro Logo (React Router Link to /) */}
+          {/* Adena Agro Logo */}
           <Link to="/" className="adena-logo-text">
             <div style={{
               width: '42px',
@@ -250,20 +248,10 @@ export default function Navbar({
         <div className="container">
           <ul className="adena-main-nav">
             {navCategories.map((cat) => {
-              const isActive = activeCategory === cat.id;
+              const isActive = location.pathname === cat.path;
               return (
                 <li key={cat.id} className={isActive ? 'active' : ''}>
-                  <Link
-                    to={cat.path || '/'}
-                    onClick={(e) => {
-                      if (cat.id === 'rent_calc') {
-                        e.preventDefault();
-                        onOpenCalculator();
-                      } else {
-                        onSelectCategory(cat.id);
-                      }
-                    }}
-                  >
+                  <Link to={cat.path}>
                     {cat.label}
                   </Link>
                 </li>
@@ -300,12 +288,8 @@ export default function Navbar({
             {navCategories.map((cat) => (
               <Link
                 key={cat.id}
-                to={cat.path || '/'}
-                onClick={() => {
-                  setMobileMenuOpen(false);
-                  if (cat.id === 'rent_calc') onOpenCalculator();
-                  else onSelectCategory(cat.id);
-                }}
+                to={cat.path}
+                onClick={() => setMobileMenuOpen(false)}
                 style={{
                   padding: '8px 0',
                   fontSize: '14px',
