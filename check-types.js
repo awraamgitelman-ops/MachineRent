@@ -1,12 +1,7 @@
 import { MACHINERY_DATA } from './src/data/machineryData.js';
 
-const typeCounts = {};
-const categoryNames = {};
-
-for (const item of MACHINERY_DATA) {
-  typeCounts[item.machineryType] = (typeCounts[item.machineryType] || 0) + 1;
-  categoryNames[item.categoryName] = (categoryNames[item.categoryName] || 0) + 1;
+const types = {};
+for (const m of MACHINERY_DATA) {
+  types[m.machineryType] = (types[m.machineryType] || 0) + 1;
 }
-
-console.log('MachineryType counts:', typeCounts);
-console.log('CategoryName counts:', categoryNames);
+console.log('Machinery types in catalog:', types);

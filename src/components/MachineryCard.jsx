@@ -62,10 +62,21 @@ export default function MachineryCard({
             <div>
               <div className="product-price-main">
                 {formatPrice(machine.pricing.purchasePriceUah, currency)}
+                {machine.machineryType === 'parts' && (
+                  <span style={{ fontSize: '13px', fontWeight: 500, color: '#666', marginLeft: '4px' }}>
+                    / шт.
+                  </span>
+                )}
               </div>
-              <div className="product-price-sub">
-                Оренда: <strong>{formatPrice(machine.pricing.pricePerShiftUah, currency)} / зміна</strong>
-              </div>
+              {machine.machineryType === 'parts' ? (
+                <div className="product-price-sub" style={{ color: '#777' }}>
+                  Ціна за 1 одиницю (купівля)
+                </div>
+              ) : (
+                <div className="product-price-sub">
+                  Оренда: <strong>{formatPrice(machine.pricing.pricePerShiftUah, currency)} / зміна</strong>
+                </div>
+              )}
             </div>
           ) : (
             <div>
@@ -76,7 +87,7 @@ export default function MachineryCard({
                 </span>
               </div>
               <div className="product-price-sub">
-                або {formatPrice(machine.pricing?.pricePerHaUah || 1400, currency)} / га
+                Оренда: зміна (10-12 год) або {formatPrice(machine.pricing?.pricePerHaUah || 1400, currency)} / га
               </div>
             </div>
           )}

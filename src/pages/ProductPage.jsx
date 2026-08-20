@@ -361,14 +361,47 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
             <div style={{
               borderTop: '1px solid #f0f0f0',
               borderBottom: '1px solid #f0f0f0',
-              padding: '16px 0',
-              marginBottom: '20px'
+              padding: '18px 0',
+              marginBottom: '22px'
             }}>
               {machine.pricing?.purchasePriceUah ? (
                 <div>
-                  <div style={{ fontSize: '32px', fontWeight: 700, color: 'var(--wd-price-red)', lineHeight: 1.1 }}>
-                    {formatPrice(machine.pricing.purchasePriceUah, currency)}
+                  <div style={{ display: 'flex', alignItems: 'baseline', gap: '10px', flexWrap: 'wrap' }}>
+                    <div style={{ fontSize: '32px', fontWeight: 700, color: 'var(--wd-price-red)', lineHeight: 1.1 }}>
+                      {formatPrice(machine.pricing.purchasePriceUah, currency)}
+                    </div>
+                    <span style={{ fontSize: '14px', color: '#666', fontWeight: 600 }}>
+                      {machine.machineryType === 'parts' ? 'ціна за 1 шт. (купівля)' : 'ціна продажу (за 1 од.)'}
+                    </span>
                   </div>
+
+                  {machine.machineryType !== 'parts' && (
+                    <div style={{
+                      marginTop: '12px',
+                      padding: '12px 16px',
+                      backgroundColor: '#f9f9f9',
+                      borderLeft: '3px solid var(--wd-primary-color)',
+                      borderRadius: '0 4px 4px 0',
+                      fontSize: '13px',
+                      lineHeight: 1.6,
+                      color: '#333'
+                    }}>
+                      <div style={{ fontWeight: 700, color: '#111', marginBottom: '2px' }}>
+                        Умови та тарифи оренди:
+                      </div>
+                      <div>
+                        • <strong>{formatPrice(machine.pricing?.pricePerShiftUah || 15200, currency)}</strong> / робоча зміна (10–12 годин)
+                      </div>
+                      {machine.pricing?.pricePerHaUah && (
+                        <div>
+                          • <strong>від {formatPrice(machine.pricing.pricePerHaUah, currency)}</strong> / гектар обробленої площі
+                        </div>
+                      )}
+                      <div style={{ fontSize: '12px', color: '#666', marginTop: '4px' }}>
+                        * Доступна оренда на тиждень, місяць або весь польовий сезон зі знижкою до 20%. Доставка тралом по Україні.
+                      </div>
+                    </div>
+                  )}
                 </div>
               ) : (
                 <div>
@@ -376,7 +409,7 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
                     Ціна за запитом
                   </div>
                   <div style={{ fontSize: '13px', color: '#777', marginTop: '4px' }}>
-                    Зв'яжіться з нами для отримання індивідуальної комерційної пропозиції
+                    Зв'яжіться з нами для отримання індивідуального комерційного розрахунку на купівлю або оренду
                   </div>
                 </div>
               )}
