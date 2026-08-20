@@ -142,7 +142,7 @@ export const HOME_CATEGORY_BOXES = [
     "id": "zhatky",
     "title": "Жатки зернові",
     "link": "/product-category/zhatky-zernovi",
-    "image": "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldLWFIfLldBH1MBBA55VxZbZ1cPEVBOHX0GVFtSSX8HTR0cWkJR.jpg"
+    "image": "/api/media/KRMGHyFfQVsTEUM5AAwZDl4_BBpFHFNdW24UBgAgBAkRShtMOQADBhNUZFdMFQsfVVctCxcdK0oIEQNBG3hRBUQASC0HVBlWAlcbIARGCn9RXxUBTU4pVFVYUhllEhxPQg.webp"
   },
   {
     "id": "warehouse",
