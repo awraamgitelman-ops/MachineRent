@@ -12,6 +12,7 @@ import {
 import { MACHINERY_DATA } from '../data/machineryData';
 import { formatPrice } from '../utils/currency';
 import MachineryCard from '../components/MachineryCard';
+import { setPageSeo } from '../utils/seo';
 
 // Comprehensive translation map for any possible technical parameter keys
 const SPEC_TRANSLATIONS = {
@@ -94,6 +95,51 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
 
   const [activePhotoIdx, setActivePhotoIdx] = useState(0);
   const [activeTab, setActiveTab] = useState('description'); // 'description' | 'specs' | 'delivery'
+
+  // Dynamic Product SEO & Schema.org JSON-LD
+  useEffect(() => {
+    if (!machine) return;
+
+    const mainImg = machine.images && machine.images[0] ? machine.images[0] : 'https://adenaagro.com/wp-content/uploads/2025/01/polyova_tehnika-300x300.webp';
+    const cleanDesc = (machine.shortDescription || machine.fullDescription || `${machine.name} від виробника ${machine.brand}. Гарантія та сервіс від AGRO RENTEX.`).slice(0, 160);
+
+    const schemaData = {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": machine.name,
+      "image": machine.images || [mainImg],
+      "description": machine.shortDescription || machine.name,
+      "sku": machine.id,
+      "mpn": machine.model || machine.slug,
+      "brand": {
+        "@type": "Brand",
+        "name": machine.brand || "AGRO RENTEX"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": `https://agrorentex.com/product/${machine.slug}`,
+        "priceCurrency": "UAH",
+        "price": machine.pricing?.purchasePriceUah || "380000",
+        "priceValidUntil": "2027-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "AGRO RENTEX",
+          "url": "https://agrorentex.com"
+        }
+      }
+    };
+
+    setPageSeo({
+      title: `${machine.name} – Купити в Україні | AGRO RENTEX`,
+      description: cleanDesc,
+      canonicalUrl: `https://agrorentex.com/product/${machine.slug}`,
+      ogImage: mainImg,
+      ogType: 'product',
+      schemaData
+    });
+  }, [machine]);
 
   // Related Products
   const relatedProducts = useMemo(() => {

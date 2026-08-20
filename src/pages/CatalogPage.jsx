@@ -4,29 +4,30 @@ import { ChevronRight } from 'lucide-react';
 import FilterBar from '../components/FilterBar';
 import MachineryCard from '../components/MachineryCard';
 import { MACHINERY_DATA } from '../data/machineryData';
+import { setPageSeo } from '../utils/seo';
 
 const CATEGORY_MAP = {
   'field': {
     id: 'field',
-    title: 'Польова техніка',
+    title: 'Польова техніка для овочівництва',
     subtitle: 'Техніка для обробки ґрунту, посадки та збирання овочевих культур: картоплі, моркви, цукрового буряку та цибулі.',
     machineryType: 'field'
   },
   'skladska-tehnika': {
     id: 'skladska-tehnika',
-    title: 'Складська техніка',
+    title: 'Складська та сортувальна техніка',
     subtitle: 'Устаткування для транспортування, сортування, очищення, пакування та зберігання овочів.',
     machineryType: 'warehouse'
   },
   'zapchastyny': {
     id: 'zapchastyny',
-    title: 'Запасні частини',
+    title: 'Запасні частини та комплектуючі',
     subtitle: 'Широкий асортимент оригінальних запчастин, роликів, стрічок та транспортерів для Grimme, Struik, AVR, Dewulf.',
     machineryType: 'parts'
   },
   'tehnika-b-v': {
     id: 'tehnika-b-v',
-    title: 'Техніка Б/В',
+    title: 'Сільськогосподарська техніка Б/В з Європи',
     subtitle: 'Перевірена вживана сільськогосподарська техніка з Європи за вигідними цінами з повною передпродажною підготовкою.',
     machineryType: 'used'
   }
@@ -50,12 +51,43 @@ export default function CatalogPage({
   const [selectedServiceType, setSelectedServiceType] = useState('all');
   const [sortBy, setSortBy] = useState('popular');
 
-  // Sync category route with filter state
+  // Sync category route with filter state & SEO
   useEffect(() => {
     if (currentCategoryInfo) {
       setMachineryType(currentCategoryInfo.machineryType);
+      
+      const schemaData = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Головна",
+            "item": "https://agrorentex.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": currentCategoryInfo.title,
+            "item": `https://agrorentex.com/product-category/${category}`
+          }
+        ]
+      };
+
+      setPageSeo({
+        title: `${currentCategoryInfo.title} – Купити або орендувати в Україні | AGRO RENTEX`,
+        description: currentCategoryInfo.subtitle,
+        canonicalUrl: `https://agrorentex.com/product-category/${category}`,
+        schemaData
+      });
     } else {
       setMachineryType('all');
+      setPageSeo({
+        title: 'Каталог сільськогосподарської техніки | AGRO RENTEX',
+        description: 'Повний каталог польової, складської техніки, обладнання для збирання та сортування овочів і запчастин AGRO RENTEX.',
+        canonicalUrl: 'https://agrorentex.com/product-category/field'
+      });
     }
   }, [category]);
 

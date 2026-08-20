@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { 
   Phone, 
@@ -12,8 +12,32 @@ import {
   ArrowRight,
   Sparkles
 } from 'lucide-react';
+import { setPageSeo } from '../utils/seo';
 
 export default function RemontPage({ currency, onOpenQuickLead }) {
+  useEffect(() => {
+    const schemaData = {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Ремонт та реставрація транспортерів сільськогосподарської техніки",
+      "provider": {
+        "@type": "Organization",
+        "name": "AGRO RENTEX",
+        "url": "https://agrorentex.com"
+      },
+      "areaServed": "UA",
+      "description": "Професійний ремонт та виготовлення транспортерів для картоплезбиральних та бурякозбиральних комбайнів Grimme, Anna, Bolko, Karlik. Економія до 50% від вартості нового."
+    };
+
+    setPageSeo({
+      title: 'Ремонт та реставрація транспортерів сільгосптехніки | AGRO RENTEX',
+      description: 'Якісний ремонт, заміна стрічок та відновлення гумово-пруткових транспортерів Grimme, Anna, Bolko, AVR, Dewulf. Гарантія 1 рік. Доставка по Україні.',
+      canonicalUrl: 'https://agrorentex.com/remont-transporteriv',
+      ogImage: 'https://adenaagro.com/wp-content/uploads/2025/01/remont-transporteriv-300x300.webp',
+      schemaData
+    });
+  }, []);
+
   // Before / After Slider state
   const [sliderPosition, setSliderPosition] = useState(50);
   const [isDragging, setIsDragging] = useState(false);
