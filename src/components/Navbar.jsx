@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { 
   Phone, 
   Search, 
@@ -7,8 +8,6 @@ import {
   MapPin, 
   Menu, 
   X,
-  Calculator,
-  Wrench,
   ChevronDown
 } from 'lucide-react';
 import { CURRENCY_SYMBOLS } from '../utils/currency';
@@ -26,15 +25,23 @@ export default function Navbar({
 }) {
   const [currencyDropdownOpen, setCurrencyDropdownOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   const navCategories = [
-    { id: 'field', label: 'Польова техніка' },
-    { id: 'warehouse', label: 'Складська техніка' },
-    { id: 'parts', label: 'Запасні частини' },
-    { id: 'repairs', label: 'Ремонт транспортерів' },
-    { id: 'used', label: 'Техніка Б/В' },
-    { id: 'rent_calc', label: 'Оренда & Калькулятор' },
+    { id: 'field', label: 'Польова техніка', path: '/' },
+    { id: 'warehouse', label: 'Складська техніка', path: '/' },
+    { id: 'parts', label: 'Запасні частини', path: '/' },
+    { id: 'repairs', label: 'Ремонт транспортерів', path: '/' },
+    { id: 'used', label: 'Техніка Б/В', path: '/' },
+    { id: 'rent_calc', label: 'Оренда & Калькулятор', path: null },
   ];
+
+  const handleSearchSubmit = (e) => {
+    if (e) e.preventDefault();
+    navigate('/');
+    const el = document.getElementById('main-catalog');
+    if (el) el.scrollIntoView({ behavior: 'smooth' });
+  };
 
   return (
     <header style={{ width: '100%', position: 'sticky', top: 0, zIndex: 100, boxShadow: '0 2px 10px rgba(0,0,0,0.06)' }}>
@@ -55,10 +62,10 @@ export default function Navbar({
 
           {/* Top Info Links (Desktop) */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '24px', ...(window.innerWidth < 960 ? { display: 'none' } : {}) }}>
-            <a href="#" style={{ fontSize: '13px' }}>Головна</a>
-            <a href="#" style={{ fontSize: '13px' }}>Публікації</a>
-            <a href="#" style={{ fontSize: '13px' }}>Про нас</a>
-            <a href="#" style={{ fontSize: '13px' }}>Контакти</a>
+            <Link to="/" style={{ fontSize: '13px' }}>Головна</Link>
+            <a href="tel:+380966610100" onClick={(e) => { e.preventDefault(); onOpenQuickLead('Консультація'); }} style={{ fontSize: '13px' }}>Публікації</a>
+            <a href="tel:+380966610100" onClick={(e) => { e.preventDefault(); onOpenQuickLead('Про нас'); }} style={{ fontSize: '13px' }}>Про нас</a>
+            <a href="tel:+380966610100" onClick={(e) => { e.preventDefault(); onOpenQuickLead('Контакти'); }} style={{ fontSize: '13px' }}>Контакти</a>
           </div>
 
           {/* Location Address */}
@@ -74,8 +81,8 @@ export default function Navbar({
       <div className="whb-general-header">
         <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '20px' }}>
           
-          {/* Adena Agro Logo */}
-          <a href="#" className="adena-logo-text">
+          {/* Adena Agro Logo (React Router Link to /) */}
+          <Link to="/" className="adena-logo-text">
             <div style={{
               width: '42px',
               height: '42px',
@@ -97,10 +104,10 @@ export default function Navbar({
                 Польова техніка для овочів
               </div>
             </div>
-          </a>
+          </Link>
 
           {/* Center Search Bar */}
-          <div className="adena-search-wrap" style={{ ...(window.innerWidth < 768 ? { display: 'none' } : {}) }}>
+          <form onSubmit={handleSearchSubmit} className="adena-search-wrap" style={{ ...(window.innerWidth < 768 ? { display: 'none' } : {}) }}>
             <input
               type="text"
               className="adena-search-input"
@@ -110,20 +117,18 @@ export default function Navbar({
             />
             {searchTerm && (
               <button 
+                type="button"
                 onClick={() => setSearchTerm('')}
                 style={{ background: 'none', border: 'none', padding: '0 8px', cursor: 'pointer', color: '#999' }}
               >
                 <X size={16} />
               </button>
             )}
-            <button className="adena-search-btn" onClick={() => {
-              const el = document.getElementById('main-catalog');
-              if (el) el.scrollIntoView({ behavior: 'smooth' });
-            }}>
+            <button type="submit" className="adena-search-btn">
               <Search size={16} />
               <span>Пошук</span>
             </button>
-          </div>
+          </form>
 
           {/* Right Header Tools */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
@@ -248,8 +253,8 @@ export default function Navbar({
               const isActive = activeCategory === cat.id;
               return (
                 <li key={cat.id} className={isActive ? 'active' : ''}>
-                  <a
-                    href="#main-catalog"
+                  <Link
+                    to={cat.path || '/'}
                     onClick={(e) => {
                       if (cat.id === 'rent_calc') {
                         e.preventDefault();
@@ -260,7 +265,7 @@ export default function Navbar({
                     }}
                   >
                     {cat.label}
-                  </a>
+                  </Link>
                 </li>
               );
             })}
@@ -278,7 +283,7 @@ export default function Navbar({
           flexDirection: 'column',
           gap: '12px'
         }}>
-          <div className="adena-search-wrap" style={{ maxWidth: '100%' }}>
+          <form onSubmit={(e) => { handleSearchSubmit(e); setMobileMenuOpen(false); }} className="adena-search-wrap" style={{ maxWidth: '100%' }}>
             <input
               type="text"
               className="adena-search-input"
@@ -286,16 +291,16 @@ export default function Navbar({
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
-            <button className="adena-search-btn">
+            <button type="submit" className="adena-search-btn">
               <Search size={16} />
             </button>
-          </div>
+          </form>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '8px' }}>
             {navCategories.map((cat) => (
-              <a
+              <Link
                 key={cat.id}
-                href="#main-catalog"
+                to={cat.path || '/'}
                 onClick={() => {
                   setMobileMenuOpen(false);
                   if (cat.id === 'rent_calc') onOpenCalculator();
@@ -310,7 +315,7 @@ export default function Navbar({
                 }}
               >
                 {cat.label}
-              </a>
+              </Link>
             ))}
           </div>
         </div>

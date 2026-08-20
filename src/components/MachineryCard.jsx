@@ -1,6 +1,6 @@
 import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { formatPrice } from '../utils/currency';
-import { ArrowRight, Eye, Calendar, Check } from 'lucide-react';
 
 export default function MachineryCard({ 
   machine, 
@@ -8,14 +8,18 @@ export default function MachineryCard({
   onSelectMachine,
   onQuickBook
 }) {
+  const navigate = useNavigate();
+
+  const handleCardClick = () => {
+    navigate(`/product/${machine.slug}`);
+  };
+
   return (
     <div 
       className="product-grid-item"
-      onClick={() => onSelectMachine(machine)}
+      onClick={handleCardClick}
       style={{ cursor: 'pointer' }}
     >
-
-
       {/* Top Image Container */}
       <div className="product-element-top">
         {machine.badge && (
@@ -28,6 +32,11 @@ export default function MachineryCard({
           src={machine.images[0]}
           alt={machine.name}
           loading="lazy"
+          style={{
+            maxWidth: '100%',
+            maxHeight: '100%',
+            objectFit: 'contain'
+          }}
           onError={(e) => {
             e.target.src = 'https://adenaagro.com/wp-content/uploads/2025/01/87d1cc46a58d545cfcacce8ac5ba77de_big-300x300.jpg';
           }}
@@ -39,12 +48,12 @@ export default function MachineryCard({
         <div>
           {/* Title */}
           <h3 className="wd-entities-title">
-            <a 
-              href="#" 
-              onClick={(e) => { e.preventDefault(); onSelectMachine(machine); }}
+            <Link 
+              to={`/product/${machine.slug}`}
+              onClick={(e) => e.stopPropagation()}
             >
               {machine.name}
-            </a>
+            </Link>
           </h3>
 
           {/* Brand Link */}
@@ -55,12 +64,12 @@ export default function MachineryCard({
           {/* Key Specs Pills */}
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px', marginBottom: '12px' }}>
             <span style={{ fontSize: '11px', background: '#f5f5f5', padding: '2px 6px', color: '#555' }}>
-              {machine.specs.powerHp}
+              {machine.specs?.powerHp || 'від 90 к.с.'}
             </span>
             <span style={{ fontSize: '11px', background: '#f5f5f5', padding: '2px 6px', color: '#555' }}>
-              {machine.specs.workingWidth}
+              {machine.specs?.workingWidth || '2-4 ряди'}
             </span>
-            {machine.specs.operatorIncluded && (
+            {machine.specs?.operatorIncluded && (
               <span style={{ fontSize: '11px', background: '#eefcf1', color: '#10b981', padding: '2px 6px', fontWeight: 600 }}>
                 З оператором
               </span>
@@ -70,7 +79,7 @@ export default function MachineryCard({
 
         {/* Price & Action Button */}
         <div className="price-container">
-          {machine.pricing.purchasePriceUah ? (
+          {machine.pricing?.purchasePriceUah ? (
             <div>
               <div className="product-price-main">
                 {formatPrice(machine.pricing.purchasePriceUah, currency)}
@@ -82,33 +91,31 @@ export default function MachineryCard({
           ) : (
             <div>
               <div className="product-price-main">
-                {formatPrice(machine.pricing.pricePerShiftUah, currency)}
+                {formatPrice(machine.pricing?.pricePerShiftUah || 18000, currency)}
                 <span style={{ fontSize: '12px', fontWeight: 400, color: '#666', marginLeft: '4px' }}>
                   / зміна
                 </span>
               </div>
               <div className="product-price-sub">
-                або {formatPrice(machine.pricing.pricePerHaUah, currency)} / га
+                або {formatPrice(machine.pricing?.pricePerHaUah || 1400, currency)} / га
               </div>
             </div>
           )}
 
           {/* Action Buttons */}
           <div className="product-actions-bar">
-            <button
-              onClick={(e) => {
-                e.stopPropagation();
-                onSelectMachine(machine);
-              }}
+            <Link
+              to={`/product/${machine.slug}`}
+              onClick={(e) => e.stopPropagation()}
               className="btn-adena-primary"
             >
               <span>Читати далі</span>
-            </button>
+            </Link>
 
             <button
               onClick={(e) => {
                 e.stopPropagation();
-                onQuickBook(machine);
+                navigate(`/product/${machine.slug}`);
               }}
               className="btn-adena-secondary"
               title="Швидкий прорахунок"
