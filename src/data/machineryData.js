@@ -1,5 +1,5 @@
 // Auto-generated comprehensive machinery and parts catalog from adenaagro.com
-// Total Products: 111
+// Total Products: 110
 
 export const MACHINERY_DATA = [
   {
@@ -914,53 +914,6 @@ export const MACHINERY_DATA = [
     "fullDescription": "Призначений для збирання і навантаження овочів (картоплі, цибулі і т.д.).Захищає продукт від пошкоджень і ударів. Швидко і просто монтується на будь-який самоскидний причіп. Комплектація: – Міцно укріплена по боковому краю причепа самоскида труба з 2-ма підвісними ланцюгами.- Незношувальне полівінілове полотно, натягнуте по обох бокових сторонах і по задньому краю на направляючі кабелі.- Два еластичних кручених каната, які при прийомі вантажу розтягуються так, що полотно з продуктом плавно опускається на дно причепа.- Укріплення з 4-ма отворами діаметром 13 мм. Параметри полотна:Model A: 180 cm (72 &#8221;) x 180 cm (72 &#8221;)Model B1: 180 cm (72 &#8221;) x 220 cm (88 &#8221;)Model B2: 180 cm (72 &#8221;) x 250 cm (100 &#8221;)Model B2C: 180 cm (72 &#8221;) x 250 cm (100 &#8221;)Model C: 250 cm (100 &#8221;) x 180 cm (72 &#8221;)",
     "aliases": [
       "gasytel-padinnya-dlya-ovochiv"
-    ]
-  },
-  {
-    "id": "field-gasyteli-padinnya-zibo",
-    "slug": "gasyteli-padinnya-zibo",
-    "name": "Гасителі падіння Zibo",
-    "brand": "Struik",
-    "model": "Гасителі падіння Zibo",
-    "activityType": "harvesting",
-    "machineryType": "field",
-    "categoryName": "Польова техніка",
-    "status": "available",
-    "badge": "В наявності",
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2023/01/adenaagrologo.png",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2024/02/logo.png",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_1yazglbqre5d_glutton-1-300x300.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/436538278278-300x300.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/0536ba993ce9398881e68e82b9d18015-300x300.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_6fflam0urwsl_glutton-300x300.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_unxdc0h5oz0s-1_glutton-300x300.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_unxdc0h5oz0s_glutton-300x300.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_7_result-300x300.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_4lopg3oexjwt_biorotix-3000-ot-300x300.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/zf_kvtoqfdjsf3z-1_glutton-300x300.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/stopshock-potato-union-fallbreaker-loading-sequence-5-300x300.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/stopshock-potato-union-fallbreaker-loading-sequence-1-300x300.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp",
-      "https://adenaagro.com/wp-content/uploads/elementor/thumbs/adenaagrologo-rhw5n1zvdv150dtzqtjr73u8lzon712g60aote8sku.png"
-    ],
-    "pricing": {
-      "purchasePriceUah": 380000,
-      "pricePerShiftUah": 15200,
-      "pricePerHaUah": 1140
-    },
-    "specs": {
-      "Виробник": "Struik",
-      "Модель": "Гасителі падіння Zibo",
-      "Категорія": "Польова техніка",
-      "Необхідна потужність трактора": "від 90 к.с.",
-      "Робоча ширина / Кількість рядів": "2-4 ряди"
-    },
-    "shortDescription": "Гасителі падіння Zibo від бренду Struik. Професійна техніка для овочівництва з європейською гарантією.",
-    "fullDescription": "Гасителі падіння використовуються на причепах і бункерах збиральних комбайнів (Grimme, Dewulf, AVR, Wuhlmaus).Легко монтувати на комбайни. Можливе монтування декількох гасителів на самоскидний причіп. Також ідеально підходить для збору в контейнери.Гаситель падіння в бункер комбайна оснащений гідравлічним пристроєм нахилу, що дозволяє повністю заповнювати кузов.Гаситель падіння ZIBO легко монтується. Великою перевагою є те, що гаситель падіння знижує швидкість падіння під час вивантаження картоплі в самоскид.",
-    "aliases": [
-      "gasyteli-padinnya-zibo"
     ]
   },
   {
