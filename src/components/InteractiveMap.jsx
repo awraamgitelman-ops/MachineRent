@@ -55,8 +55,10 @@ export default function InteractiveMap({
         ">
           <span style="
             transform: rotate(45deg);
-            font-size: 16px;
-          ">🚜</span>
+            font-size: 15px;
+            font-weight: 800;
+            color: #ffffff;
+          ">R</span>
         </div>
       `,
       iconSize: [38, 38],
@@ -137,15 +139,15 @@ export default function InteractiveMap({
                   </div>
 
                   <div style={{ fontSize: '12px', color: 'var(--text-muted)', marginBottom: '8px' }}>
-                    📍 {hub.address}
+                    {hub.address}
                   </div>
 
                   <div style={{ display: 'flex', gap: '14px', fontSize: '12px' }}>
                     <span style={{ color: '#34d399', fontWeight: 600 }}>
-                      🚜 В наявності: <strong>{hub.availableUnits} од.</strong>
+                      В наявності: <strong>{hub.availableUnits} од.</strong>
                     </span>
                     <span style={{ color: '#fbbf24', fontWeight: 600 }}>
-                      🚛 Тралів: <strong>{hub.trallCount}</strong>
+                      Тралів: <strong>{hub.trallCount}</strong>
                     </span>
                   </div>
                 </div>
@@ -197,8 +199,8 @@ export default function InteractiveMap({
                         Зона оперативного покриття: <strong>{hub.coverage}</strong>
                       </div>
                       <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px', marginBottom: '10px', fontWeight: 700 }}>
-                        <span style={{ color: '#34d399' }}>🚜 {hub.availableUnits} одиниць</span>
-                        <span style={{ color: '#fbbf24' }}>🚛 {hub.trallCount} трали</span>
+                        <span style={{ color: '#34d399' }}>Техніки: {hub.availableUnits} од.</span>
+                        <span style={{ color: '#fbbf24' }}>Трали: {hub.trallCount}</span>
                       </div>
                       <button
                         onClick={() => onFilterByHub(hub.id)}

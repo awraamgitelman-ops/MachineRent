@@ -13,8 +13,7 @@ import {
   Layers, 
   Cpu, 
   ArrowRight,
-  Sparkles,
-  Send
+  Sparkles
 } from 'lucide-react';
 import { setPageSeo } from '../utils/seo';
 
@@ -170,7 +169,6 @@ export default function AboutUsPage({ onOpenQuickLead }) {
                 className="btn-adena-primary"
                 style={{ height: '48px', padding: '0 24px', fontWeight: 600, fontSize: '14px' }}
               >
-                <Send size={16} />
                 <span>Отримати консультацію</span>
               </button>
               <a

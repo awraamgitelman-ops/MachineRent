@@ -203,7 +203,7 @@ export default function AgroServices({ onOpenQuickLead }) {
         }}>
           <div>
             <h3 style={{ fontSize: '20px', fontWeight: 800, color: '#ffffff', marginBottom: '4px' }}>
-              🌾 Потрібен індивідуальний розрахунок на посівний сезон або жнива?
+              Потрібен індивідуальний розрахунок на посівний сезон або жнива?
             </h3>
             <p style={{ color: 'var(--text-muted)', fontSize: '14px' }}>
               Наші головні агрономи та логісти підберуть оптимальну зчіпку машин під тип вашого ґрунту та рельєф.

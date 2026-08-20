@@ -6,7 +6,6 @@ import {
   MapPin, 
   Clock, 
   ChevronRight, 
-  Send, 
   CheckCircle2, 
   ShieldCheck, 
   Truck, 
@@ -384,7 +383,6 @@ export default function ContactPage({ onOpenQuickLead }) {
                     marginTop: '4px'
                   }}
                 >
-                  <Send size={16} />
                   <span>{loading ? 'Надсилання...' : 'Отримати консультацію'}</span>
                 </button>
 

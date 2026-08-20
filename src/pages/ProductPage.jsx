@@ -6,8 +6,7 @@ import {
   Phone, 
   ShieldCheck, 
   Truck, 
-  Wrench, 
-  Send
+  Wrench
 } from 'lucide-react';
 import { MACHINERY_DATA } from '../data/machineryData';
 import { formatPrice } from '../utils/currency';
@@ -403,16 +402,16 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
               fontSize: '13px'
             }}>
               <div style={{ background: '#f6f6f6', padding: '10px 12px', borderLeft: '3px solid var(--wd-accent-yellow)' }}>
-                ⚡ <strong>Потужність:</strong> {machine.specs?.['Необхідна потужність трактора'] || machine.specs?.['Потужність'] || 'від 90 к.с.'}
+                <strong>Потужність:</strong> {machine.specs?.['Необхідна потужність трактора'] || machine.specs?.['Потужність'] || 'від 90 к.с.'}
               </div>
               <div style={{ background: '#f6f6f6', padding: '10px 12px', borderLeft: '3px solid var(--wd-accent-yellow)' }}>
-                📐 <strong>Ширина / Ряди:</strong> {machine.specs?.['Робоча ширина / Кількість рядів'] || machine.specs?.['Робоча ширина'] || '2-4 ряди'}
+                <strong>Ширина / Ряди:</strong> {machine.specs?.['Робоча ширина / Кількість рядів'] || machine.specs?.['Робоча ширина'] || '2-4 ряди'}
               </div>
               <div style={{ background: '#f6f6f6', padding: '10px 12px', borderLeft: '3px solid var(--wd-accent-yellow)' }}>
-                🚀 <strong>Виробник:</strong> {machine.brand || 'AGRO RENTEX'}
+                <strong>Виробник:</strong> {machine.brand || 'AGRO RENTEX'}
               </div>
               <div style={{ background: '#f6f6f6', padding: '10px 12px', borderLeft: '3px solid var(--wd-accent-yellow)' }}>
-                📦 <strong>Стан:</strong> {machine.badge || 'В наявності'}
+                <strong>Стан:</strong> {machine.badge || 'В наявності'}
               </div>
             </div>
 
@@ -423,7 +422,6 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
                 className="btn-adena-primary"
                 style={{ height: '50px', fontSize: '15px', fontWeight: 600, padding: '0 28px', flex: '1 1 240px' }}
               >
-                <Send size={18} />
                 <span>Замовити / Отримати КП</span>
               </button>
 

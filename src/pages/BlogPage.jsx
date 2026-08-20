@@ -8,8 +8,7 @@ import {
   Search, 
   Tag, 
   User, 
-  Send,
-  Phone,
+  Phone, 
   BookOpen
 } from 'lucide-react';
 import { BLOG_POSTS } from '../data/blogData';

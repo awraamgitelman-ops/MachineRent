@@ -9,7 +9,6 @@ import {
   Phone, 
   User, 
   Tag, 
-  Send,
   BookOpen
 } from 'lucide-react';
 import { BLOG_POSTS } from '../data/blogData';
@@ -224,7 +223,6 @@ export default function BlogPostPage({ onOpenQuickLead }) {
               className="btn-adena-primary"
               style={{ height: '44px', padding: '0 20px', fontWeight: 600, fontSize: '14px' }}
             >
-              <Send size={15} />
               <span>Замовити консультацію</span>
             </button>
             <a
