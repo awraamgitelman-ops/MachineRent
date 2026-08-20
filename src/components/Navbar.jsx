@@ -44,7 +44,7 @@ export default function Navbar({
   };
 
   return (
-    <header style={{ width: '100%', position: 'sticky', top: 0, zIndex: 100, boxShadow: '0 2px 10px rgba(0,0,0,0.06)' }}>
+    <header style={{ width: '100%', position: 'relative', zIndex: 100, boxShadow: '0 2px 10px rgba(0,0,0,0.06)' }}>
       {/* 1. Top Bar */}
       <div className="whb-top-bar">
         <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
