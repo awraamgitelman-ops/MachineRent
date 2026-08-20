@@ -195,6 +195,7 @@ export default function App() {
           machine={activeMachineModal}
           currency={currency}
           onClose={() => setActiveMachineModal(null)}
+          onSelectMachine={(m) => setActiveMachineModal(m)}
         />
       )}
 
