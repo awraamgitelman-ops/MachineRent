@@ -33,7 +33,7 @@ export const HOME_TOP_SEASON = [
 export const HOME_GRID_CENTER = [
   {
     "id": "field-grimme-gl32e-kartoplesadzhalka",
-    "name": "Grimme GL 32E – Картоплесаджалка",
+    "name": "Grimme GL32E Картоплесаджалка",
     "slug": "grimme-gl32e-kartoplesadzhalka",
     "brand": "Grimme",
     "priceUah": 380000,
@@ -49,23 +49,23 @@ export const HOME_GRID_CENTER = [
   },
   {
     "id": "field-struik-glutton-podribnyuvach-badyllya",
-    "name": "Struik GLUTTON – Подрібнювач бадилля",
+    "name": "Struik GLUTTON подрібнювач бадилля",
     "slug": "struik-glutton-podribnyuvach-badyllya",
     "brand": "Struik",
     "priceUah": 380000,
     "image": "https://adenaagro.com/wp-content/uploads/2024/02/glutton_1yazglbqre5d_glutton-1.jpg"
   },
   {
-    "id": "field-row-fix-mizhryadnyj-rotornyj-kultyvator",
-    "name": "Struik ROW-FIX – Роторний культиватор",
-    "slug": "row-fix-mizhryadnyj-rotornyj-kultyvator",
-    "brand": "Struik",
+    "id": "field-row-fix-space-mizhryadnyj-rotornyj-kultyvator",
+    "name": "Struik ROW-FIX SPACE культиватор",
+    "slug": "row-fix-space-mizhryadnyj-rotornyj-kultyvator",
+    "brand": "ZIBO",
     "priceUah": 380000,
-    "image": "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_6zq2ovy3a7eh_glutton.jpg"
+    "image": "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_no37wchkxeoz-1_glutton.jpg"
   },
   {
     "id": "field-varix-3000-ot-rotornyj-kultyvator",
-    "name": "Struik VARIX 3000-OT – Культиватор",
+    "name": "Struik VARIX 3000-OT культиватор",
     "slug": "varix-3000-ot-rotornyj-kultyvator",
     "brand": "Struik",
     "priceUah": 380000,
@@ -115,20 +115,20 @@ export const HOME_GRID_RIGHT = [
     "image": "https://adenaagro.com/wp-content/uploads/2024/12/kadrat-768x768.jpeg"
   },
   {
-    "id": "holmer-1131002797",
-    "name": "Ролик 1131002797 R Holmer",
-    "slug": "rolyk-1131002797-r-holmer",
-    "brand": "Wuhlmaus",
-    "priceUah": 1212,
-    "image": "https://adenaagro.com/wp-content/uploads/2022/11/rolyk_5-768x768.jpg"
+    "id": "field-struik-wr-grebneutvoryuvach",
+    "name": "Struik WR – Гребнеутворювач для овочів",
+    "slug": "struik-wr-grebneutvoryuvach",
+    "brand": "Struik",
+    "priceUah": 380000,
+    "image": "https://adenaagro.com/wp-content/uploads/2024/02/wr_p4jgdqwmcrnp-1_glutton.jpg"
   },
   {
-    "id": "karlik-bolko-zirochka",
-    "name": "Karlik Z642 / Bolko Z643 – Зірочка натяжна",
-    "slug": "zirochka-564230024-bolko-karlik",
-    "brand": "Bolko",
-    "priceUah": 1014,
-    "image": "https://adenaagro.com/wp-content/uploads/2022/11/48_-kopyya_result_result-768x768.jpg"
+    "id": "field-varix-twinrotor-rotornyj-kultyvator-iz-dvoma-valamy-rotora",
+    "name": "Struik VARIX TWIN ROTOR – Культиватор",
+    "slug": "varix-twinrotor-rotornyj-kultyvator-iz-dvoma-valamy-rotora",
+    "brand": "Struik",
+    "priceUah": 380000,
+    "image": "https://adenaagro.com/wp-content/uploads/2024/02/varix_whbob5vilz4a_glutton.jpg"
   }
 ];
 
@@ -175,20 +175,20 @@ export const HOME_DISCOUNTS_PRODUCTS = [
     "image": "https://adenaagro.com/wp-content/uploads/2025/01/we30plus_02.jpg"
   },
   {
-    "id": "grimme-val-rh",
-    "name": "Grimme RH, TC – 50X700, Вал для приймального бункера",
-    "slug": "val-dlya-pryjmalnogo-bunkera-50x700-grimme-rh-tc-076-05615-r",
-    "brand": "Grimme",
-    "priceUah": 7800,
-    "image": "https://adenaagro.com/wp-content/uploads/2022/11/0_14_result-300x300.jpg"
+    "id": "field-struik-lkb-shift-1500",
+    "name": "Struik LKB-SHIFT 1500 – Подрібнювач бадилля",
+    "slug": "struik-lkb-shift-1500",
+    "brand": "Struik",
+    "priceUah": 380000,
+    "image": "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_y7nusch2ghy5_glutton.jpg"
   },
   {
-    "id": "holmer-401051155",
-    "name": "Holmer 401051155 – Привідний вал",
-    "slug": "holmer-401051155-prividnyj-val",
-    "brand": "Holmer",
-    "priceUah": 18720,
-    "image": "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_9-300x300.jpg"
+    "id": "field-weed-master",
+    "name": "Struik WEED-MASTER – Машина для видалення бур'янів",
+    "slug": "weed-master",
+    "brand": "Struik",
+    "priceUah": 380000,
+    "image": "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_o9kpdy1x7cz1_glutton.jpg"
   },
   {
     "id": "adena-perekydach",
