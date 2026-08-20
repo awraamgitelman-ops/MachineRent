@@ -16,11 +16,11 @@ export default function Footer({ onOpenQuickLead }) {
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '14px' }}>
               <span style={{ fontSize: '24px' }}>⚙️</span>
               <div style={{ fontSize: '20px', fontWeight: 700, color: '#111' }}>
-                ADENA<span style={{ color: 'var(--wd-primary-color)' }}>AGRO</span>
+                AGRO<span style={{ color: 'var(--wd-primary-color)' }}>RENTEX</span>
               </div>
             </div>
             <p style={{ fontSize: '13px', lineHeight: 1.6, color: '#666', marginBottom: '14px' }}>
-              Adena Agro – ваш надійний партнер у світі сільськогосподарської техніки та комплектуючих для картоплі, моркви, цукрового буряку та цибулі.
+              AGRO RENTEX – ваш надійний партнер у світі спеціалізованої сільськогосподарської техніки та комплектуючих для картоплі, моркви, цукрового буряку та цибулі.
             </p>
           </div>
 
@@ -78,7 +78,7 @@ export default function Footer({ onOpenQuickLead }) {
         {/* Footer Bottom */}
         <div className="adena-footer-bottom">
           <div>
-            © 2026 Adena Agro. Всі права захищено. Сільськогосподарська техніка для овочівництва.
+            © 2026 AGRO RENTEX. Всі права захищено. Сільськогосподарська техніка для овочівництва.
           </div>
           <div style={{ display: 'flex', gap: '16px' }}>
             <a href="#" style={{ color: '#888' }}>Політика конфіденційності</a>

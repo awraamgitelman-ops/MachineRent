@@ -94,10 +94,10 @@ export default function Navbar({
             </div>
             <div>
               <div className="adena-logo-brand">
-                ADENA<span>AGRO</span>
+                AGRO<span>RENTEX</span>
               </div>
               <div style={{ fontSize: '10px', color: '#888888', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
-                Польова техніка для овочів
+                Польова та складська техніка
               </div>
             </div>
           </Link>

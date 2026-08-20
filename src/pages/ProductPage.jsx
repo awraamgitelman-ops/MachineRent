@@ -111,7 +111,7 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
   // Prepared specifications rows
   const specRows = useMemo(() => {
     const rows = [
-      { label: 'Виробник / Бренд', val: machine.brand || 'Adena Agro' },
+      { label: 'Виробник / Бренд', val: machine.brand || 'AGRO RENTEX' },
       { label: 'Модель техніки', val: machine.model || machine.name },
       { label: 'Категорія', val: machine.categoryName || 'Сільгосптехніка' }
     ];
@@ -350,7 +350,7 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
                 📐 <strong>Ширина / Ряди:</strong> {machine.specs?.['Робоча ширина / Кількість рядів'] || machine.specs?.['Робоча ширина'] || '2-4 ряди'}
               </div>
               <div style={{ background: '#f6f6f6', padding: '10px 12px', borderLeft: '3px solid var(--wd-accent-yellow)' }}>
-                🚀 <strong>Виробник:</strong> {machine.brand || 'Adena Agro'}
+                🚀 <strong>Виробник:</strong> {machine.brand || 'AGRO RENTEX'}
               </div>
               <div style={{ background: '#f6f6f6', padding: '10px 12px', borderLeft: '3px solid var(--wd-accent-yellow)' }}>
                 📦 <strong>Стан:</strong> {machine.badge || 'В наявності'}
@@ -436,7 +436,7 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
                 <li><strong>Висока точність роботи:</strong> якісна підготовка та збирання без втрат і травмування продукції.</li>
                 <li><strong>Оригінальні робочі органи:</strong> застосування зносостійких матеріалів для максимального ресурсу.</li>
                 <li><strong>Мінімальне навантаження на техніку:</strong> збалансовані вузли та оптимізована геометрія зменшують витрати пального.</li>
-                <li><strong>Передпродажна підготовка:</strong> кожен агрегат проходить перевірку та налаштування інженерами Adena Agro.</li>
+                <li><strong>Передпродажна підготовка:</strong> кожен агрегат проходить перевірку та налаштування інженерами AGRO RENTEX.</li>
               </ul>
             </div>
           )}
@@ -464,7 +464,7 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
                 Логістика та розрахунки:
               </h3>
               <p style={{ marginBottom: '12px' }}>
-                Adena Agro здійснює оперативну доставку техніки та запчастин по всій Україні зручними транспортними компаніями (Нова Пошта, Делівері, САТ) та спеціалізованими тралами.
+                AGRO RENTEX здійснює оперативну доставку техніки та запчастин по всій Україні зручними транспортними компаніями (Нова Пошта, Делівері, САТ) та спеціалізованими тралами.
               </p>
               <ul style={{ paddingLeft: '24px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
                 <li><strong>Терміни:</strong> відправка запасних частин у день замовлення, великогабаритної техніки — за узгодженим графіком.</li>

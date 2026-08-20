@@ -178,7 +178,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
             <div>
               <img
                 src="https://adenaagro.com/wp-content/uploads/2024/02/remont.png"
-                alt="Ремонт транспортерів Adena Agro"
+                alt="Ремонт транспортерів AGRO RENTEX"
                 style={{ width: '100%', height: 'auto', borderRadius: '4px', boxShadow: '0 8px 24px rgba(0,0,0,0.08)' }}
               />
             </div>

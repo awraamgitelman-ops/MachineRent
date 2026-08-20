@@ -17,7 +17,7 @@ export default function App() {
   const [isQuickLeadModalOpen, setIsQuickLeadModalOpen] = useState(false);
   const [quickLeadTopic, setQuickLeadTopic] = useState('');
 
-  const handleOpenQuickLead = (topic = 'Підбір техніки Adena Agro') => {
+  const handleOpenQuickLead = (topic = 'Підбір техніки AGRO RENTEX') => {
     setQuickLeadTopic(topic);
     setIsQuickLeadModalOpen(true);
   };
