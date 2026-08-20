@@ -144,7 +144,7 @@ export default function ContactPage({ onOpenQuickLead }) {
               </p>
               <div style={{ fontSize: '13px', color: '#777', display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Clock size={16} color="#888" />
-                <span><strong>Графік роботи:</strong> Пн-Сб: 08:00 – 19:00 (у сезон 24/7), Неділя: за домовленістю</span>
+                <span><strong>Графік роботи:</strong> Пн-Сб: 08:00 – 19:00, Неділя: за домовленістю</span>
               </div>
             </div>
 

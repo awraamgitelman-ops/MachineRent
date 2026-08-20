@@ -69,7 +69,7 @@ export default function Footer({ onOpenQuickLead }) {
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Clock size={15} color="#888" />
-                <span>Пн-Сб: 08:00 — 19:00 (у сезон 24/7)</span>
+                <span>Пн-Сб: 08:00 — 19:00</span>
               </div>
             </div>
           </div>
