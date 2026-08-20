@@ -1,1754 +1,2189 @@
-// Adena Agro Official Scraped Catalog
-// Parsed directly from https://adenaagro.com
+// Auto-generated comprehensive machinery and parts catalog from adenaagro.com
+// Total Products: 111
 
 export const MACHINERY_DATA = [
   {
-    "id": "mach-adena-struik-flkb",
-    "slug": "struik-flkb",
-    "name": "Struik FLKB – Навісний подрібнювач бадилля",
-    "brand": "Struik",
-    "model": "FLKB",
-    "activityType": "potato",
-    "machineryType": "haulm",
-    "badge": null,
-    "discountPercent": 0,
+    "id": "adena-1",
+    "slug": "domasz-c-line-avtomatyzovane-ochyshhennya-czybuli",
+    "name": "Domasz C-Line – Автоматизоване очищення цибулі",
+    "brand": "Domasz",
+    "model": "Domasz C-Line",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "Преміум",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/c-line1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/08/c-line2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/08/c-line3.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/08/c-line4.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/08/c-line1-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 2569840,
+      "pricePerShiftUah": 38548,
+      "pricePerHaUah": 3212
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_4lopg3oexjwt_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_8mlrubqqmmyn_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_8veljgni1zvd_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_cy57q7c1vol7_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_d9m4rece12df_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_f9nlkxspvaa7_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_guv3ilv4k52m_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_hwmaxarcgqhd_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_yftlcuv3u96x_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_4lopg3oexjwt_biorotix-3000-ot-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_8mlrubqqmmyn_biorotix-3000-ot-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_8veljgni1zvd_biorotix-3000-ot-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_cy57q7c1vol7_biorotix-3000-ot-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_d9m4rece12df_biorotix-3000-ot-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_f9nlkxspvaa7_biorotix-3000-ot-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_guv3ilv4k52m_biorotix-3000-ot-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_hwmaxarcgqhd_biorotix-3000-ot-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_yftlcuv3u96x_biorotix-3000-ot-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/struik.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Подрібнювач бадилля Struik FLKB компактний фронтальний подрібнювач. Механічний привід стрічки для видалення бадилля. Горизонтальна стрічка має велику продуктивність і переміщає прибране бадилля у бік, на якому врожай вже зібраний.",
-    "fullDescription": "Подрібнювач бадилля Struik FLKB компактний фронтальний подрібнювач. Механічний привід стрічки для видалення бадилля. Горизонтальна стрічка має велику продуктивність і переміщає прибране бадилля у бік, на якому врожай вже зібраний.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Лінія очищення цибулі Domasz C-Line призначена для автоматизованого очищення цибулі до білого стану. Система поєднує пристрій для точного надрізання зовнішнього шару лушпиння та установку для його видалення потужним потоком повітря. Продуктивність лінії становить 700–1500 кг/год залежно від розміру та якості цибулі. C-Line може комплектуватися приймальним бункером, транспортером для відведення лушпиння та сортувальним столом. Потужність: 6,8 кВт",
+    "fullDescription": "Лінія очищення цибулі Domasz C-Line призначена для автоматизованого очищення цибулі до білого стану. Система поєднує пристрій для точного надрізання зовнішнього шару лушпиння та установку для його видалення потужним потоком повітря. Продуктивність лінії становить 700–1500 кг/год залежно від розміру та якості цибулі. C-Line може комплектуватися приймальним бункером, транспортером для відведення лушпиння та сортувальним столом. Потужність: 6,8 кВт"
   },
   {
-    "id": "mach-adena-aplikator-mikrogranulyator-zibo-gandy-elektropryvid",
-    "slug": "aplikator-mikrogranulyator-zibo-gandy-elektropryvid",
-    "name": "ZIBO / Gandy – Аплікатор-мікрогранулятор 12 В",
-    "brand": "ZIBO",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "planting",
-    "badge": "-5%",
-    "discountPercent": 5,
+    "id": "adena-2",
+    "slug": "domasz-sst-onion-400x120-inspekczijnyj-stil-dlya-czybuli",
+    "name": "Domasz SST ONION 400×120 – Інспекційний стіл для цибулі",
+    "brand": "Domasz",
+    "model": "Domasz SST ONION 400×120",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/sstonion013-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/08/sstonion013.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/08/sstonion014.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/08/sstonion013-1-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 785200,
+      "pricePerShiftUah": 11778,
+      "pricePerHaUah": 982
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2025/01/87d1cc46a58d545cfcacce8ac5ba77de_big.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/2c77dc981eb33ca2cd88f22b4aabeda4-1.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/2c77dc981eb33ca2cd88f22b4aabeda4.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/2b4305bcecbefde988d80ba7f8bbbb97.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/a783dc32cd968e20c70a06998bc93e23.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2025/01/87d1cc46a58d545cfcacce8ac5ba77de_big-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/2c77dc981eb33ca2cd88f22b4aabeda4-1-700x525.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/2c77dc981eb33ca2cd88f22b4aabeda4-700x525.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/2b4305bcecbefde988d80ba7f8bbbb97-700x525.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/a783dc32cd968e20c70a06998bc93e23-700x525.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/2c77dc981eb33ca2cd88f22b4aabeda4-1-150x113.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/2c77dc981eb33ca2cd88f22b4aabeda4-150x113.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/2b4305bcecbefde988d80ba7f8bbbb97-150x113.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/a783dc32cd968e20c70a06998bc93e23-150x113.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Мікрогранулятор Zibo Gandy для внесення інсектицидів і добрив. Бункер на 30 л, електропривід 12 В, універсальність і точність дозування.",
-    "fullDescription": "Мікрогранулятор Zibo Gandy для внесення інсектицидів і добрив. Бункер на 30 л, електропривід 12 В, універсальність і точність дозування.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Стрічковий сортувальний стіл Domasz SST ONION 400×120 Призначений для ручної обробки та сортування цибулі в процесі її очищення до білого стану. Стіл оснащений харчовою стрічкою з плавним регулюванням швидкості, робочим освітленням та подвійною центральною перегородкою. Конструкція повністю виконана з нержавіючої сталі та забезпечує зручний доступ для очищення й дезінфекції.",
+    "fullDescription": "Стрічковий сортувальний стіл Domasz SST ONION 400×120 Призначений для ручної обробки та сортування цибулі в процесі її очищення до білого стану. Стіл оснащений харчовою стрічкою з плавним регулюванням швидкості, робочим освітленням та подвійною центральною перегородкою. Конструкція повністю виконана з нержавіючої сталі та забезпечує зручний доступ для очищення й дезінфекції."
   },
   {
-    "id": "mach-adena-grebneutvoryuvach",
-    "slug": "grebneutvoryuvach",
-    "name": "Дисковий гребенеутворювач 7х75 см",
+    "id": "adena-3",
+    "slug": "domasz-om3-mashyna-dlya-obrizannya-pera-czybuli",
+    "name": "Domasz OM3 – Машина для обрізання пера цибулі",
+    "brand": "Domasz",
+    "model": "Domasz OM3",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "Преміум",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/om3_-nove01.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/08/om3_-nove02.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/08/om3_-01.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/08/om3_-nove01-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 2419040,
+      "pricePerShiftUah": 36286,
+      "pricePerHaUah": 3024
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Машини для обрізання пера цибулі Domasz серії OM призначені для видалення сухої частини пера після збирання цибулі. Обладнання також очищає цибулини від залишків ґрунту та вільної, непотрібної лушпайки. Моделі OM3 оснащені відповідно трьома ріжучими ножами діаметром 1200 мм і забезпечують продуктивність до 9 т/год .",
+    "fullDescription": "Машини для обрізання пера цибулі Domasz серії OM призначені для видалення сухої частини пера після збирання цибулі. Обладнання також очищає цибулини від залишків ґрунту та вільної, непотрібної лушпайки. Моделі OM3 оснащені відповідно трьома ріжучими ножами діаметром 1200 мм і забезпечують продуктивність до 9 т/год ."
+  },
+  {
+    "id": "adena-4",
+    "slug": "domasz-om2-mashyna-dlya-obrizannya-pera-czybuli",
+    "name": "Domasz OM2 – Машина для обрізання пера цибулі",
+    "brand": "Domasz",
+    "model": "Domasz OM2",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "Преміум",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/om2_01.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/08/om2_nowe-02.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/08/om2_01-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 2217800,
+      "pricePerShiftUah": 33267,
+      "pricePerHaUah": 2772
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Машини для обрізання пера цибулі Domasz серії OM призначені для видалення сухої частини пера після збирання цибулі. Обладнання також очищає цибулини від залишків ґрунту та вільної, непотрібної лушпайки. Моделі OM2 оснащені відповідно двома ріжучими ножами діаметром 1200 мм і забезпечують продуктивність до 9 т/год .",
+    "fullDescription": "Машини для обрізання пера цибулі Domasz серії OM призначені для видалення сухої частини пера після збирання цибулі. Обладнання також очищає цибулини від залишків ґрунту та вільної, непотрібної лушпайки. Моделі OM2 оснащені відповідно двома ріжучими ножами діаметром 1200 мм і забезпечують продуктивність до 9 т/год ."
+  },
+  {
+    "id": "adena-5",
+    "slug": "domasz-ans-napovnyuvach-yashhykiv-ta-korobok",
+    "name": "Domasz ANS – Наповнювач ящиків та коробок",
+    "brand": "Domasz",
+    "model": "Domasz ANS",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/ans_02-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 832000,
+      "pricePerShiftUah": 12480,
+      "pricePerHaUah": 1040
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Domasz"
+    },
+    "shortDescription": "Domasz ANS – Наповнювач ящиків та коробок від Domasz. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Domasz ANS – Наповнювач ящиків та коробок від виробника Domasz. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-6",
+    "slug": "domasz-fa-1-avtomatychna-pakuvalna-mashyna",
+    "name": "Domasz FA-1 – Автоматична пакувальна машина",
+    "brand": "Domasz",
+    "model": "Domasz FA-1",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "Преміум",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/fa1_01-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 1194180,
+      "pricePerShiftUah": 17913,
+      "pricePerHaUah": 1493
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Domasz"
+    },
+    "shortDescription": "Domasz FA-1 – Автоматична пакувальна машина від Domasz. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Domasz FA-1 – Автоматична пакувальна машина від виробника Domasz. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-7",
+    "slug": "domasz-ra-1-avtomatychna-pakuvalna-mashyna",
+    "name": "Domasz RA-1 – Автоматична пакувальна машина",
+    "brand": "Domasz",
+    "model": "Domasz RA-1",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/ra1_03-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 998400,
+      "pricePerShiftUah": 14976,
+      "pricePerHaUah": 1248
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Domasz"
+    },
+    "shortDescription": "Domasz RA-1 – Автоматична пакувальна машина від Domasz. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Domasz RA-1 – Автоматична пакувальна машина від виробника Domasz. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-8",
+    "slug": "domasz-r12l-kombinaczijni-vagy",
+    "name": "Domasz R12L – Комбінаційні ваги",
+    "brand": "Domasz",
+    "model": "Domasz R12L",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "Преміум",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/r12l_1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/08/r12l_1-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 3209180,
+      "pricePerShiftUah": 48138,
+      "pricePerHaUah": 4012
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Комбінаційні ваги Domasz R12L Для автоматизованого фасування картоплі, моркви та інших овочів у технологічних лініях після сортування та калібрування. Діапазон зважування від 0,5 до 25 кг Продуктивність до 59 порцій/хв . Об'єм вагового стакана: 7,9 л Потужність: 4,5 кВт Оснащений двома дозувальними стрічками та електричним відкриванням/закриванням вагового бункера.",
+    "fullDescription": "Комбінаційні ваги Domasz R12L Для автоматизованого фасування картоплі, моркви та інших овочів у технологічних лініях після сортування та калібрування. Діапазон зважування від 0,5 до 25 кг Продуктивність до 59 порцій/хв . Об'єм вагового стакана: 7,9 л Потужність: 4,5 кВт Оснащений двома дозувальними стрічками та електричним відкриванням/закриванням вагового бункера."
+  },
+  {
+    "id": "adena-9",
+    "slug": "domasz-r09xl-kombinaczijni-vagy",
+    "name": "Domasz R09XL – Комбінаційні ваги",
+    "brand": "Domasz",
+    "model": "Domasz R09XL",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "Преміум",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/r09xl_1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/08/r09xl_1-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 3209180,
+      "pricePerShiftUah": 48138,
+      "pricePerHaUah": 4012
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Комбінаційні ваги Domasz R09XL Для автоматизованого фасування картоплі, моркви та інших овочів у технологічних лініях після сортування та калібрування. Діапазон зважування від 0,5 до 25 кг Об'єм вагового стакана: 11,3 л Потужність: 3,8 кВт Оснащений двома дозувальними стрічками та електричним відкриванням/закриванням вагового бункера.",
+    "fullDescription": "Комбінаційні ваги Domasz R09XL Для автоматизованого фасування картоплі, моркви та інших овочів у технологічних лініях після сортування та калібрування. Діапазон зважування від 0,5 до 25 кг Об'єм вагового стакана: 11,3 л Потужність: 3,8 кВт Оснащений двома дозувальними стрічками та електричним відкриванням/закриванням вагового бункера."
+  },
+  {
+    "id": "adena-10",
+    "slug": "domasz-r09l-kombinaczijni-vagy",
+    "name": "Domasz R09L – Комбінаційні ваги",
+    "brand": "Domasz",
+    "model": "Domasz R09L",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "Преміум",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/r09l_1-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 3120000,
+      "pricePerShiftUah": 46800,
+      "pricePerHaUah": 3900
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Domasz"
+    },
+    "shortDescription": "Domasz R09L – Комбінаційні ваги від Domasz. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Domasz R09L – Комбінаційні ваги від виробника Domasz. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-11",
+    "slug": "domasz-we-50-plus-zvazhuvalna-stancziya-dlya-ovochiv",
+    "name": "Domasz WE-50 PLUS – Зважувальна станція для овочів",
+    "brand": "Domasz",
+    "model": "Domasz WE-50 PLUS",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/we50plus_03-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 604500,
+      "pricePerShiftUah": 9068,
+      "pricePerHaUah": 756
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Domasz"
+    },
+    "shortDescription": "Domasz WE-50 PLUS – Зважувальна станція для овочів від Domasz. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Domasz WE-50 PLUS – Зважувальна станція для овочів від виробника Domasz. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-12",
+    "slug": "domasz-we-30-iv-zvazhuvalna-stancziya-dlya-ovochiv",
+    "name": "Domasz WE-30 IV – Зважувальна станція для овочів",
+    "brand": "Domasz",
+    "model": "Domasz WE-30 IV",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/we30_iv_03-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 645476,
+      "pricePerShiftUah": 9682,
+      "pricePerHaUah": 807
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Domasz"
+    },
+    "shortDescription": "Domasz WE-30 IV – Зважувальна станція для овочів від Domasz. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Domasz WE-30 IV – Зважувальна станція для овочів від виробника Domasz. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-13",
+    "slug": "domasz-we-15-plus-zvazhuvalna-stancziya-dlya-ovochiv",
+    "name": "Domasz WE-15 PLUS – Зважувальна станція для овочів",
+    "brand": "Domasz",
+    "model": "Domasz WE-15 PLUS",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/we15_01-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 494520,
+      "pricePerShiftUah": 39562,
+      "pricePerHaUah": 3297
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Domasz"
+    },
+    "shortDescription": "Domasz WE-15 PLUS – Зважувальна станція для овочів від Domasz. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Domasz WE-15 PLUS – Зважувальна станція для овочів від виробника Domasz. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-14",
+    "slug": "domasz-bbw-2-napovnyuvach-big-bag-mishkiv",
+    "name": "Domasz BBW-2 – Наповнювач &#8220;Big-Bag&#8221; мішків",
+    "brand": "Domasz",
+    "model": "Domasz BBW-2",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/bbw2_03.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/08/bbw2_01.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/08/bbw2_02.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/08/bbw2_03-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 899600,
+      "pricePerShiftUah": 13494,
+      "pricePerHaUah": 1125
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Наповнювач Big-Bag Domasz BBW-2 — обладнання для автоматичного зважування та наповнення мішків Big-Bag овочами. Призначений для картоплі, моркви, цибулі та інших овочів. Система забезпечує точне дозування продукції, акуратне наповнення мішка та мінімізацію пошкоджень завдяки амортизаційним каскадам. Модель з двома ваговими секціями та діапазоном зважування 100–1200 кг. Стандартне оснащення не передбачає: Подаючий транспортер PT-5: Ціна 9300 Євро (в Україні) Поперечний транспортер: Ціна 3025 Эвро (в Україні)",
+    "fullDescription": "Наповнювач Big-Bag Domasz BBW-2 — обладнання для автоматичного зважування та наповнення мішків Big-Bag овочами. Призначений для картоплі, моркви, цибулі та інших овочів. Система забезпечує точне дозування продукції, акуратне наповнення мішка та мінімізацію пошкоджень завдяки амортизаційним каскадам. Модель з двома ваговими секціями та діапазоном зважування 100–1200 кг. Стандартне оснащення не передбачає: Подаючий транспортер PT-5: Ціна 9300 Євро (в Україні) Поперечний транспортер: Ціна 3025 Эвро (в Україні)"
+  },
+  {
+    "id": "adena-15",
+    "slug": "domasz-bbw-1-napovnyuvach-big-bag-mishkiv",
+    "name": "Domasz BBW-1 – Наповнювач &#8220;Big-Bag&#8221; мішків",
+    "brand": "Domasz",
+    "model": "Domasz BBW-1",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/bbw1_03.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/08/bbw1_01.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/08/bbw1_02.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/08/bbw1_03-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 674180,
+      "pricePerShiftUah": 10113,
+      "pricePerHaUah": 843
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Наповнювач Big-Bag Domasz BBW — обладнання для автоматичного зважування та наповнення мішків Big-Bag овочами. Призначений для картоплі, моркви, цибулі та інших овочів. Система забезпечує точне дозування продукції, акуратне наповнення мішка та мінімізацію пошкоджень завдяки амортизаційним каскадам. Модель з однією ваговою секцією та діапазоном зважування 100–1200 кг. Завантажувальний транспортер PT – 5 – оснащується додатково. Ціна транспортеру – 9300 Євро",
+    "fullDescription": "Наповнювач Big-Bag Domasz BBW — обладнання для автоматичного зважування та наповнення мішків Big-Bag овочами. Призначений для картоплі, моркви, цибулі та інших овочів. Система забезпечує точне дозування продукції, акуратне наповнення мішка та мінімізацію пошкоджень завдяки амортизаційним каскадам. Модель з однією ваговою секцією та діапазоном зважування 100–1200 кг. Завантажувальний транспортер PT – 5 – оснащується додатково. Ціна транспортеру – 9300 Євро"
+  },
+  {
+    "id": "adena-16",
+    "slug": "zvazhuvalno-pakuvalna-mashyna-elektronna",
+    "name": "Domasz WE-30 PLUS – Зважувально-пакувальна машина",
+    "brand": "Domasz",
+    "model": "Domasz WE-30 PLUS",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/we30plus_03-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 676000,
+      "pricePerShiftUah": 10140,
+      "pricePerHaUah": 845
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Domasz"
+    },
+    "shortDescription": "Domasz WE-30 PLUS – Зважувально-пакувальна машина від Domasz. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Domasz WE-30 PLUS – Зважувально-пакувальна машина від виробника Domasz. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-17",
+    "slug": "mashyna-dlya-pakuvannya-ovochiv-kartoplya-morkva-czybulya-ta-in-v-rashel-mishky-2-nytkova",
+    "name": "WE-30, RA-1 – Машина для пакування овочів в рашель-мішки",
+    "brand": "Domasz",
+    "model": "WE-30, RA-1",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "Преміум",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/w13123123b-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 1352000,
+      "pricePerShiftUah": 20280,
+      "pricePerHaUah": 1690
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Domasz"
+    },
+    "shortDescription": "WE-30, RA-1 – Машина для пакування овочів в рашель-мішки від Domasz. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "WE-30, RA-1 – Машина для пакування овочів в рашель-мішки від виробника Domasz. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-18",
+    "slug": "domasz-so-900-2500-sortuvalna-mashyna-dlya-ovochiv",
+    "name": "Domasz SO 900/2500 – Сортувальна машина для овочів",
+    "brand": "Domasz",
+    "model": "Domasz SO 900/2500",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/07/so9002500_1-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/so9002500_2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/so9002500_3.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/so9002500_4.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/so9002500_5.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/so9002500_1-1-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 846716,
+      "pricePerShiftUah": 12701,
+      "pricePerHaUah": 1058
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Інспекційні столи Domasz серії SST 400&#215;120 призначені для ручного сортування овочів . Технічні характеристики Довжина – 4000 мм Ширина – 1200 мм Потужність – 1,1 кВт Електроживлення – 3×400 В AC (N) PE, 50 Гц; кабель 5 м із вилкою 32A 5P 6h",
+    "fullDescription": "Інспекційні столи Domasz серії SST 400&#215;120 призначені для ручного сортування овочів . Технічні характеристики Довжина – 4000 мм Ширина – 1200 мм Потужність – 1,1 кВт Електроживлення – 3×400 В AC (N) PE, 50 Гц; кабель 5 м із вилкою 32A 5P 6h"
+  },
+  {
+    "id": "adena-19",
+    "slug": "domasz-sst-400x120-inspekczijnyj-stil",
+    "name": "Domasz SST 400&#215;120 – Інспекційний стіл",
+    "brand": "Domasz",
+    "model": "Domasz SST 400&#215;120",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/07/sst4012.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/sst4012_1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/sst4012_2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/sst4012-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 705900,
+      "pricePerShiftUah": 10589,
+      "pricePerHaUah": 882
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Інспекційні столи Domasz серії SST 400&#215;120 призначені для ручного сортування овочів . Технічні характеристики Довжина – 4000 мм Ширина – 1200 мм Потужність – 1,1 кВт Електроживлення – 3×400 В AC (N) PE, 50 Гц; кабель 5 м із вилкою 32A 5P 6h",
+    "fullDescription": "Інспекційні столи Domasz серії SST 400&#215;120 призначені для ручного сортування овочів . Технічні характеристики Довжина – 4000 мм Ширина – 1200 мм Потужність – 1,1 кВт Електроживлення – 3×400 В AC (N) PE, 50 Гц; кабель 5 м із вилкою 32A 5P 6h"
+  },
+  {
+    "id": "adena-20",
+    "slug": "domasz-ssr5012-rolykovyj-inspekczijnyj-stil",
+    "name": "Domasz SSR5012 – Роликовий інспекційний стіл",
+    "brand": "Domasz",
+    "model": "Domasz SSR5012",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/07/ssr5012.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/ssr5012_2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/ssr-detile.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/ssr_2_2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/ssr5012-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 686400,
+      "pricePerShiftUah": 10296,
+      "pricePerHaUah": 858
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Роликовий інспекційний стіл SSR5012 Довжина – 5000 мм Ширина – 1200 мм Плавне регулювання швидкості обертання роликів Ролики з алюмінію. Опорні ніжки з регулюванням висоти . Транспортувальні колеса з гальмами. Подвійна центральна перегородка з можливістю налаштування . Освітлення робочої зони з можливістю регулювання. Виготовлена з вуглецевої сталі (DC01, S235), оброблена дробоструминним методом і двічі пофарбована порошковою фарбою. Електроживлення – 3×400 В AC (N) PE, 50 Гц; кабель 5 м із вилкою 32A 5P 6h Потужність від 0,75 до 1,1 кВт (залежно від моделі)",
+    "fullDescription": "Роликовий інспекційний стіл SSR5012 Довжина – 5000 мм Ширина – 1200 мм Плавне регулювання швидкості обертання роликів Ролики з алюмінію. Опорні ніжки з регулюванням висоти . Транспортувальні колеса з гальмами. Подвійна центральна перегородка з можливістю налаштування . Освітлення робочої зони з можливістю регулювання. Виготовлена з вуглецевої сталі (DC01, S235), оброблена дробоструминним методом і двічі пофарбована порошковою фарбою. Електроживлення – 3×400 В AC (N) PE, 50 Гц; кабель 5 м із вилкою 32A 5P 6h Потужність від 0,75 до 1,1 кВт (залежно від моделі)"
+  },
+  {
+    "id": "adena-21",
+    "slug": "domasz-ssr3010-rolykovyj-inspekczijnyj-stil",
+    "name": "Domasz SSR3010 – Роликовий інспекційний стіл",
+    "brand": "Domasz",
+    "model": "Domasz SSR3010",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/07/ssr3010.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/ssr3010_2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/ssr-detile.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/ssr_2_2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/ssr3010-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 423176,
+      "pricePerShiftUah": 33854,
+      "pricePerHaUah": 2821
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Роликовий інспекційний стіл SSR3010 Довжина – 3000 мм Ширина – 1000 мм Плавне регулювання швидкості обертання роликів Ролики з алюмінію. Опорні ніжки з регулюванням висоти . Транспортувальні колеса з гальмами. Подвійна центральна перегородка з можливістю налаштування . Освітлення робочої зони з можливістю регулювання. Виготовлена з вуглецевої сталі (DC01, S235), оброблена дробоструминним методом і двічі пофарбована порошковою фарбою. Електроживлення – 3×400 В AC (N) PE, 50 Гц; кабель 5 м із вилкою 32A 5P 6h Потужність від 0,75 до 1,1 кВт (залежно від моделі)",
+    "fullDescription": "Роликовий інспекційний стіл SSR3010 Довжина – 3000 мм Ширина – 1000 мм Плавне регулювання швидкості обертання роликів Ролики з алюмінію. Опорні ніжки з регулюванням висоти . Транспортувальні колеса з гальмами. Подвійна центральна перегородка з можливістю налаштування . Освітлення робочої зони з можливістю регулювання. Виготовлена з вуглецевої сталі (DC01, S235), оброблена дробоструминним методом і двічі пофарбована порошковою фарбою. Електроживлення – 3×400 В AC (N) PE, 50 Гц; кабель 5 м із вилкою 32A 5P 6h Потужність від 0,75 до 1,1 кВт (залежно від моделі)"
+  },
+  {
+    "id": "adena-22",
+    "slug": "domasz-pd9300-poliruvalna-mashyna-dlya-ovochiv",
+    "name": "Domasz PD9300 – Полірувальна машина для овочів",
+    "brand": "Domasz",
+    "model": "Domasz PD9300",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "Преміум",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/07/pd9300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/pd_rol.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/pd9300-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 1085500,
+      "pricePerShiftUah": 16283,
+      "pricePerHaUah": 1357
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Полірувальна машина PD9300 Кількість щіток – 9 шт. Довжина пензля – 2800 мм Робота коливальної щітки – ТАК . Ефективність – до 4 т/год Електричне підключення – 6,1 кВт 3&#215;400 В змінного струму (N) PE 50 Гц; кабель 5 м з вилкою 32A 5P 6h",
+    "fullDescription": "Полірувальна машина PD9300 Кількість щіток – 9 шт. Довжина пензля – 2800 мм Робота коливальної щітки – ТАК . Ефективність – до 4 т/год Електричне підключення – 6,1 кВт 3&#215;400 В змінного струму (N) PE 50 Гц; кабель 5 м з вилкою 32A 5P 6h"
+  },
+  {
+    "id": "adena-23",
+    "slug": "domasz-pd9200-poliruvalna-mashyna-dlya-ovochiv",
+    "name": "Domasz PD9200 – Полірувальна машина для овочів",
+    "brand": "Domasz",
+    "model": "Domasz PD9200",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/07/pd9200-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 804076,
+      "pricePerShiftUah": 12061,
+      "pricePerHaUah": 1005
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Domasz"
+    },
+    "shortDescription": "Domasz PD9200 – Полірувальна машина для овочів від Domasz. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Domasz PD9200 – Полірувальна машина для овочів від виробника Domasz. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-24",
+    "slug": "domasz-pd8200-poliruvalna-mashyna-dlya-ovochiv",
+    "name": "Domasz PD8200 – Полірувальна машина для овочів",
+    "brand": "Domasz",
+    "model": "Domasz PD8200",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/07/pd8200-1.webp",
+      "https://adenaagro.com/wp-content/uploads/2026/07/pd8200.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/pd8200_2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/pd_rol.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/pd8200-1-300x300.webp"
+    ],
+    "pricing": {
+      "purchasePriceUah": 669500,
+      "pricePerShiftUah": 10043,
+      "pricePerHaUah": 837
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Полірувальна машина PD8200 Кількість щіток – 8 шт. Довжина пензля – 1900 мм Робота коливальної щітки – НІ . Ефективність – до 2 т/год Електричне підключення – 4,0 кВт 3&#215;400 В змінного струму (N) PE 50 Гц; кабель 5 м з вилкою 32A 5P 6h",
+    "fullDescription": "Полірувальна машина PD8200 Кількість щіток – 8 шт. Довжина пензля – 1900 мм Робота коливальної щітки – НІ . Ефективність – до 2 т/год Електричне підключення – 4,0 кВт 3&#215;400 В змінного струму (N) PE 50 Гц; кабель 5 м з вилкою 32A 5P 6h"
+  },
+  {
+    "id": "adena-25",
+    "slug": "domasz-cs-110-shhitkova-mashyna-dlya-ochyshhennya",
+    "name": "Domasz CS-110 – Щіткова машина для очищення",
+    "brand": "Domasz",
+    "model": "Domasz CS-110",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/07/cs-110_1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/cs-110_2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/cs-110_3.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/cs-110_4.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/cs-55_110.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/cs-110_1-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 266240,
+      "pricePerShiftUah": 21299,
+      "pricePerHaUah": 1775
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Щіткові машини серії CS призначені для сухого очищення овочів . Обладнання забезпечує ефективне видалення забруднень із поверхні продукції без пошкодження її структури та зовнішнього вигляду. Робоча ширина щіток – 1100мм; Продуктивність – до 10 т/год; Кількість щіток – 10 шт.; Потужність – 1.1 кВт; Електроживлення – 3×400 В AC (N) PE, 50 Гц; кабель 5 м із вилкою 32A 5P 6h",
+    "fullDescription": "Щіткові машини серії CS призначені для сухого очищення овочів . Обладнання забезпечує ефективне видалення забруднень із поверхні продукції без пошкодження її структури та зовнішнього вигляду. Робоча ширина щіток – 1100мм; Продуктивність – до 10 т/год; Кількість щіток – 10 шт.; Потужність – 1.1 кВт; Електроживлення – 3×400 В AC (N) PE, 50 Гц; кабель 5 м із вилкою 32A 5P 6h"
+  },
+  {
+    "id": "adena-26",
+    "slug": "domasz-cs-55-shhitkova-mashyna-dlya-ochyshhennya",
+    "name": "Domasz CS-55 – Щіткова машина для очищення",
+    "brand": "Domasz",
+    "model": "Domasz CS-55",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/07/cs-55_1-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 220688,
+      "pricePerShiftUah": 17655,
+      "pricePerHaUah": 1471
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Domasz"
+    },
+    "shortDescription": "Domasz CS-55 – Щіткова машина для очищення від Domasz. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Domasz CS-55 – Щіткова машина для очищення від виробника Domasz. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-27",
+    "slug": "domasz-mdw-400-mashyna-dlya-myjky-ovochiv",
+    "name": "Domasz MDW-400 – Машина для мийки овочів",
+    "brand": "Domasz",
+    "model": "Domasz MDW-400",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "Преміум",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/07/mdw-400.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/mdw-400_2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/mdw-400_3.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/mdw-400_4.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/mdw-400-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 1290900,
+      "pricePerShiftUah": 19364,
+      "pricePerHaUah": 1614
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Мийка для овочів Domasz MDW-400 Діаметр барабана – 1500 мм Довжина барабана – 4000 мм Ефективність * – до 15 т/год Електричне підключення – 5,5 кВт Плавне регулювання Чохли для барабанів Роз'єм для інтеграції",
+    "fullDescription": "Мийка для овочів Domasz MDW-400 Діаметр барабана – 1500 мм Довжина барабана – 4000 мм Ефективність * – до 15 т/год Електричне підключення – 5,5 кВт Плавне регулювання Чохли для барабанів Роз'єм для інтеграції"
+  },
+  {
+    "id": "adena-28",
+    "slug": "domasz-mdw-300-mashyna-dlya-myjky-ovochiv",
+    "name": "Domasz MDW-300 – Машина для мийки овочів",
+    "brand": "Domasz",
+    "model": "Domasz MDW-300",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "Преміум",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/07/mdw-300-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 1088464,
+      "pricePerShiftUah": 16327,
+      "pricePerHaUah": 1361
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Domasz"
+    },
+    "shortDescription": "Domasz MDW-300 – Машина для мийки овочів від Domasz. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Domasz MDW-300 – Машина для мийки овочів від виробника Domasz. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-29",
+    "slug": "domasz-kd-m-dozuvalnyj-bunker-z-perekydachem-kontejneriv",
+    "name": "Domasz KD-M – Дозувальний бункер з перекидачем контейнерів",
+    "brand": "Domasz",
+    "model": "Domasz KD-M",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/07/kd_m_2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/kd_m_1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/kd_kdm_in.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/kd_m_2-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 852020,
+      "pricePerShiftUah": 12780,
+      "pricePerHaUah": 1065
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Domasz KD-M – Дозувальний бункер з перекидачем контейнерів Накопичення овочевої продукції та рівномірна подача на виробничу лінію. Параметри бункеру KD Об'єм – 4 м³ Ширина подавальної стрічки – 420 мм Можливість встановлення перекидача на бункері з трьох боків Електроживлення – 3×400 В AC (N) PE, 50 Гц; Кабель 5 м із вилкою 32A 5P 6h Потужність – 1,9 кВт Робоча температура від -5 °C до +40 °C",
+    "fullDescription": "Domasz KD-M – Дозувальний бункер з перекидачем контейнерів Накопичення овочевої продукції та рівномірна подача на виробничу лінію. Параметри бункеру KD Об'єм – 4 м³ Ширина подавальної стрічки – 420 мм Можливість встановлення перекидача на бункері з трьох боків Електроживлення – 3×400 В AC (N) PE, 50 Гц; Кабель 5 м із вилкою 32A 5P 6h Потужність – 1,9 кВт Робоча температура від -5 °C до +40 °C"
+  },
+  {
+    "id": "adena-30",
+    "slug": "domasz-kd-dozuvalnyj-bunker-z-perekydachem-kontejneriv",
+    "name": "Domasz KD – Дозувальний бункер з перекидачем контейнерів",
+    "brand": "Domasz",
+    "model": "Domasz KD",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/07/kd_kdm_2-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 807300,
+      "pricePerShiftUah": 12110,
+      "pricePerHaUah": 1009
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Domasz"
+    },
+    "shortDescription": "Domasz KD – Дозувальний бункер з перекидачем контейнерів від Domasz. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Domasz KD – Дозувальний бункер з перекидачем контейнерів від виробника Domasz. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-31",
+    "slug": "domasz-bd-6-dozuvalnyj-bunker",
+    "name": "Domasz BD-6 – Дозувальний бункер",
+    "brand": "Domasz",
+    "model": "Domasz BD-6",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/07/bd-6_1-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 544076,
+      "pricePerShiftUah": 8161,
+      "pricePerHaUah": 680
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Domasz"
+    },
+    "shortDescription": "Domasz BD-6 – Дозувальний бункер від Domasz. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Domasz BD-6 – Дозувальний бункер від виробника Domasz. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-32",
+    "slug": "kopiyadomasz-ws-1600-1000-perekydach-kontejneriv-z-ovochamy",
+    "name": "Domasz WS-1800/1200 – Перекидач контейнерів з овочами",
+    "brand": "Domasz",
+    "model": "Domasz WS-1800/1200",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/07/ws-18001200-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 483600,
+      "pricePerShiftUah": 38688,
+      "pricePerHaUah": 3224
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Domasz"
+    },
+    "shortDescription": "Domasz WS-1800/1200 – Перекидач контейнерів з овочами від Domasz. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Domasz WS-1800/1200 – Перекидач контейнерів з овочами від виробника Domasz. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-33",
+    "slug": "domasz-ws-1600-1000-perekydach-kontejneriv-z-ovochamy",
+    "name": "Domasz WS-1600/1000 – Перекидач контейнерів з овочами",
+    "brand": "Domasz",
+    "model": "Domasz WS-1600/1000",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/07/ws-16001000.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/ws-16001000-2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/ws-16001000-3.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/ws-16001000-4.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/ws-16001000-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 403676,
+      "pricePerShiftUah": 32294,
+      "pricePerHaUah": 2691
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Самоскид контейнерів Серія WS-1600/1000 Перекидач контейнерів з овочами, використовуються для розвантаження контейнерів, що містять товари. Максимальний розмір коробки 1600&#215;1000 мм Максимальна вага коробки 1000 кг Електричне підключення 3&#215;400 VAC (N) PE 50 Гц ; Кабель 5 м з вилкою 32A 5P 6h 2,2 кВт 2,2 кВт Температура навколишнього середовища для роботи від -5 до 40 градусів Цельсія",
+    "fullDescription": "Самоскид контейнерів Серія WS-1600/1000 Перекидач контейнерів з овочами, використовуються для розвантаження контейнерів, що містять товари. Максимальний розмір коробки 1600&#215;1000 мм Максимальна вага коробки 1000 кг Електричне підключення 3&#215;400 VAC (N) PE 50 Гц ; Кабель 5 м з вилкою 32A 5P 6h 2,2 кВт 2,2 кВт Температура навколишнього середовища для роботи від -5 до 40 градусів Цельсія"
+  },
+  {
+    "id": "adena-34",
+    "slug": "domasz-kpw-3000-pryjmalnyj-bunker-dlya-ovochiv",
+    "name": "Domasz KPW-3000 – Приймальний бункер для овочів",
+    "brand": "Domasz",
+    "model": "Domasz KPW-3000",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/06/kpw-3000-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/06/kpw-all.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/06/kpw-3000-1-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 846664,
+      "pricePerShiftUah": 12700,
+      "pricePerHaUah": 1058
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Стаціонарний приймальний бункуер KPW-3000 Обє’м бункеру – 5,3 м³ ; Продуктивність до – 10 т/год ; Ширина стрічки подачі – 1000 мм ; Крок між сепараторними роликами – 20 мм ; Кількість сепараторних роликів – 6 шт. ; Електричне підключення – 3×400 VAC (N) PE 50 Гц; кабель 5 м з вилкою 32A 5P 6h – 1,3 кВт",
+    "fullDescription": "Стаціонарний приймальний бункуер KPW-3000 Обє’м бункеру – 5,3 м³ ; Продуктивність до – 10 т/год ; Ширина стрічки подачі – 1000 мм ; Крок між сепараторними роликами – 20 мм ; Кількість сепараторних роликів – 6 шт. ; Електричне підключення – 3×400 VAC (N) PE 50 Гц; кабель 5 м з вилкою 32A 5P 6h – 1,3 кВт"
+  },
+  {
+    "id": "adena-35",
+    "slug": "domasz-kpw-1000-pryjmalnyj-bunker-dlya-ovochiv",
+    "name": "Domasz KPW-1000 – Приймальний бункер для овочів",
+    "brand": "Domasz",
+    "model": "Domasz KPW-1000",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/06/kpw-1000-1-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 645424,
+      "pricePerShiftUah": 9681,
+      "pricePerHaUah": 807
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Domasz"
+    },
+    "shortDescription": "Domasz KPW-1000 – Приймальний бункер для овочів від Domasz. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Domasz KPW-1000 – Приймальний бункер для овочів від виробника Domasz. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-36",
+    "slug": "domasz-bd-4-dozuvalnyj-bunker",
+    "name": "Domasz BD-4 – Дозувальний бункер",
+    "brand": "Domasz",
+    "model": "Domasz BD-4",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/07/bd-4.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/bd-4_2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/bd-4_6_1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/bd-4_6_2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/07/bd-4-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 500500,
+      "pricePerShiftUah": 7508,
+      "pricePerHaUah": 626
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Дозувальний бункер BD-4 Призначений для буферизації та рівномірному розподілі продукту по лінії Об'єм – 4 м³ Ширина подавальної стрічки – 500 мм Електроживлення – 3×400 В AC (N) PE, 50 Гц; Кабель 5 м із вилкою 32A 5P 6h 3×400 В AC (N) PE, 50 Гц; Потужність – 1,1 кВт Робоча температура від -5 °C до +40 °C",
+    "fullDescription": "Дозувальний бункер BD-4 Призначений для буферизації та рівномірному розподілі продукту по лінії Об'єм – 4 м³ Ширина подавальної стрічки – 500 мм Електроживлення – 3×400 В AC (N) PE, 50 Гц; Кабель 5 м із вилкою 32A 5P 6h 3×400 В AC (N) PE, 50 Гц; Потужність – 1,1 кВт Робоча температура від -5 °C до +40 °C"
+  },
+  {
+    "id": "adena-37",
+    "slug": "domasz-kpw-650-pryjmalnyj-bunker-dlya-ovochiv",
+    "name": "Domasz KPW-650 – Приймальний бункер для овочів",
+    "brand": "Domasz",
+    "model": "Domasz KPW-650",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/06/kpw-650-1-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 595400,
+      "pricePerShiftUah": 8931,
+      "pricePerHaUah": 744
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Domasz"
+    },
+    "shortDescription": "Domasz KPW-650 – Приймальний бункер для овочів від Domasz. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Domasz KPW-650 – Приймальний бункер для овочів від виробника Domasz. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-38",
+    "slug": "suha-chystka-dlya-kartopli-14-shhitok",
+    "name": "Adena Agro DC1455 – Суха чистка для картоплі",
     "brand": "Інше",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": "-5%",
-    "discountPercent": 5,
+    "model": "Adena Agro DC1455",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/screenshot_1-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 218400,
+      "pricePerShiftUah": 17472,
+      "pricePerHaUah": 1456
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Інше"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2025/01/436538278278.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/0536ba993ce9398881e68e82b9d18015.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/b888266c8c2e864fa8ba229ba56f006e.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/dd8ab31a34362f780ee88074827eac8b_big.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/ebe3bce4eb4fc770581c25a87bfd9a99.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/fbd864676313f91a0f66e68bcf9b0218.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2025/01/436538278278-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/0536ba993ce9398881e68e82b9d18015-700x525.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/b888266c8c2e864fa8ba229ba56f006e-700x525.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/dd8ab31a34362f780ee88074827eac8b_big-700x525.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/ebe3bce4eb4fc770581c25a87bfd9a99-700x525.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/0536ba993ce9398881e68e82b9d18015-150x113.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/b888266c8c2e864fa8ba229ba56f006e-150x113.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/dd8ab31a34362f780ee88074827eac8b_big-150x113.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/ebe3bce4eb4fc770581c25a87bfd9a99-150x113.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/fbd864676313f91a0f66e68bcf9b0218-150x225.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Гребнеутворювач 4х 75см для формування рівних та високих гребенів на посівах картоплі, моркви та буряку. Надійність, ефективність, універсальність.",
-    "fullDescription": "Гребнеутворювач 4х 75см для формування рівних та високих гребенів на посівах картоплі, моркви та буряку. Надійність, ефективність, універсальність.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Adena Agro DC1455 – Суха чистка для картоплі від Інше. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Adena Agro DC1455 – Суха чистка для картоплі від виробника Інше. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-grimme-gl32e-kartoplesadzhalka",
-    "slug": "grimme-gl32e-kartoplesadzhalka",
-    "name": "Grimme GL32E Картоплесаджалка",
-    "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "planting",
-    "badge": "-5%",
-    "discountPercent": 5,
+    "id": "adena-39",
+    "slug": "inspekczijnyj-rolykovyj-stil-z-kanalom-dlya-vidvodu-nekondycziyi",
+    "name": "Adena agro INS25012 – Інспекційний роликовий стіл з каналом для відводу некондиції",
+    "brand": "Adena agro",
+    "model": "Adena agro INS25012",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/bez-nazvy.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0541-2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0543-2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0544-2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0547-2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0548-2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0549-2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0550-2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0551-2.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/bez-nazvy-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 197600,
+      "pricePerShiftUah": 15808,
+      "pricePerHaUah": 1317
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_7_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_1_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/51c02ce3ec9efa9dfa2ad7d10f37355f50982fe3_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/3630fd54411e9c2fd86a298c21abfd5da8d28e0c_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/d532eb5ba096b2e8f96f3645a041c66cf8bc83ac_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/gl_32_e_6_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_4_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_5_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_7_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_1_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/51c02ce3ec9efa9dfa2ad7d10f37355f50982fe3_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/3630fd54411e9c2fd86a298c21abfd5da8d28e0c_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/d532eb5ba096b2e8f96f3645a041c66cf8bc83ac_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/gl_32_e_6_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_4_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_5_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Картоплесаджалка GL 32 E 2-рядна, навісна, компактна та маневренная Cтандартна комплектація із ШМ 75, 80 та 90 см.",
-    "fullDescription": "Картоплесаджалка GL 32 E 2-рядна, навісна, компактна та маневренная Cтандартна комплектація із ШМ 75, 80 та 90 см.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Інспекційний роликовий стіл з каналом для відводу некондиції виробництва Adena agro INS25012 Шовжина – 2,5м , Ширина – 1,2м Плавне регулювання швидкості обертання роликів Ролики з алюмінію . Опорні ніжки з регулюванням висоти . Транспортувальні колеса з гальмами. Подвійна центральна перегородка з можливістю налаштування . Освітлення робочої зони з можливістю регулювання.",
+    "fullDescription": "Інспекційний роликовий стіл з каналом для відводу некондиції виробництва Adena agro INS25012 Шовжина – 2,5м , Ширина – 1,2м Плавне регулювання швидкості обертання роликів Ролики з алюмінію . Опорні ніжки з регулюванням висоти . Транспортувальні колеса з гальмами. Подвійна центральна перегородка з можливістю налаштування . Освітлення робочої зони з можливістю регулювання."
   },
   {
-    "id": "mach-adena-struik-lkb-shift-1500",
-    "slug": "struik-lkb-shift-1500",
-    "name": "Struik LKB-SHIFT 1500 подрібнювач бадилля",
-    "brand": "Struik",
-    "model": "LKB-Shift 1500",
-    "activityType": "potato",
-    "machineryType": "haulm",
-    "badge": "-5%",
-    "discountPercent": 5,
+    "id": "adena-40",
+    "slug": "pryjmalno-sortuvalnyj-bunker-dlya-kartopli-ta-ovochiv-kp-17",
+    "name": "Domasz KP-17 Приймально-сортувальний бункер для картоплі та овочів",
+    "brand": "Domasz",
+    "model": "Domasz KP-17 Приймально-сортувальний бункер для картоплі та овочів",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "Преміум",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/05/d17-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 3224000,
+      "pricePerShiftUah": 48360,
+      "pricePerHaUah": 4030
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Domasz"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_y7nusch2ghy5_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_0vstagho8ngs_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_pw1oahrwfni3_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_2aibuuaz4zoc_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_cdwizkej0ggr_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_e3bwn0dwtlyd_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_qr8okby8y1h9_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_yuusdsrb36xb_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_y7nusch2ghy5_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_0vstagho8ngs_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_pw1oahrwfni3_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_2aibuuaz4zoc_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_cdwizkej0ggr_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_e3bwn0dwtlyd_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_qr8okby8y1h9_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_yuusdsrb36xb_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/struik.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "LKB-Shift 1500 подрібнювач бадилля для переднього навішування під час збирання врожаю.",
-    "fullDescription": "LKB-Shift 1500 подрібнювач бадилля для переднього навішування під час збирання врожаю.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Domasz KP-17 Приймально-сортувальний бункер для картоплі та овочів від Domasz. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Domasz KP-17 Приймально-сортувальний бункер для картоплі та овочів від виробника Domasz. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-struik-glutton-podribnyuvach-badyllya",
-    "slug": "struik-glutton-podribnyuvach-badyllya",
-    "name": "Struik GLUTTON подрібнювач бадилля",
-    "brand": "Struik",
-    "model": "GLUTTON",
-    "activityType": "potato",
-    "machineryType": "haulm",
-    "badge": "-5%",
-    "discountPercent": 5,
+    "id": "adena-41",
+    "slug": "pryjmalno-sortuvalnyj-bunker-dlya-kartopli-ta-ovochiv-kp-12-plus",
+    "name": "Domasz KP-12 plus – Приймально-сортувальний бункер для картоплі та овочів",
+    "brand": "Domasz",
+    "model": "Domasz KP-12 plus",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "Преміум",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/05/d12-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/05/kp-12_long.jpg",
+      "https://adenaagro.com/wp-content/uploads/2026/05/kp-12-kp-12-plus-kp-17-11.03.2025-2048x1590-1.webp",
+      "https://adenaagro.com/wp-content/uploads/2026/05/kosze-przyjeciowe-mobilne-1-ru-2048x1431-1.webp",
+      "https://adenaagro.com/wp-content/uploads/2026/05/d12-1-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 2600000,
+      "pricePerShiftUah": 39000,
+      "pricePerHaUah": 3250
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_1yazglbqre5d_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_bnjyia6n6yo6_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_gfwjw67s1szf_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_fp258gvnyolf_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_n6pfzvv7o8qm_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_3peflabyl4g8_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_a1cvetgdzliv_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_bpsg2xuyv6vv_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_br4h6sqqrbgz_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_brnsorxhqpj7_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_bumsilybf9w9_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_hda5aethdpck_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_iuby4gdyuh92_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_kretcfq0srco_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_l13yppvcjch8_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_nen0r8avw5jh_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_opjasu7tg6qd_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_smsfuflk82tn_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_tfri0pwuhxji_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_umawmlmqyiud_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_utrmb2rzxavz_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_waxkakei88cq_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_xh80mvpgh4zl_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_1yazglbqre5d_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_bnjyia6n6yo6_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_gfwjw67s1szf_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_fp258gvnyolf_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_n6pfzvv7o8qm_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_3peflabyl4g8_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_a1cvetgdzliv_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_bpsg2xuyv6vv_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_br4h6sqqrbgz_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_brnsorxhqpj7_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_bumsilybf9w9_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_hda5aethdpck_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_iuby4gdyuh92_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_kretcfq0srco_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_l13yppvcjch8_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_nen0r8avw5jh_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_opjasu7tg6qd_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_smsfuflk82tn_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_tfri0pwuhxji_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_umawmlmqyiud_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_utrmb2rzxavz_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_waxkakei88cq_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_xh80mvpgh4zl_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/struik.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Struik Glutton подрібнювач для знищення картопляного бадилля. Знищення бадилля допомагає запобігти інфекційним і вірусним захворюванням і скоротити використання хімікатів.",
-    "fullDescription": "Struik Glutton подрібнювач для знищення картопляного бадилля. Знищення бадилля допомагає запобігти інфекційним і вірусним захворюванням і скоротити використання хімікатів.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Приймально-сортувальний бункер для картоплі та овочів KP-12 Plus Об’єм приймального бункера – 8,0 m3 Продуктивність – 5-25 т/год Ширина стрічки подачі – 1200 мм Відстань між роликами першої секції регульована від 20 до 60 мм Відстань між роликами першої секції регульована від 40 до 100 мм Кількість вивідних стрічок – 3 шт Регулювання відстані між роликами – Ручна Кількість роздільних роликів – 12 шт Електричне з’єднання 3×400 VAC (N) PE 50 Hz; Кабіль 5м з розеткою 32A, 5P, 6h, Потужність – 2,6 kW",
+    "fullDescription": "Приймально-сортувальний бункер для картоплі та овочів KP-12 Plus Об’єм приймального бункера – 8,0 m3 Продуктивність – 5-25 т/год Ширина стрічки подачі – 1200 мм Відстань між роликами першої секції регульована від 20 до 60 мм Відстань між роликами першої секції регульована від 40 до 100 мм Кількість вивідних стрічок – 3 шт Регулювання відстані між роликами – Ручна Кількість роздільних роликів – 12 шт Електричне з’єднання 3×400 VAC (N) PE 50 Hz; Кабіль 5м з розеткою 32A, 5P, 6h, Потужність – 2,6 kW"
   },
   {
-    "id": "mach-adena-weed-master",
-    "slug": "weed-master",
-    "name": "Struik WEED-MASTER машина для механічного видалення бур’янів",
-    "brand": "Struik",
-    "model": "Weed-Master",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "id": "adena-42",
+    "slug": "pryyemno-sortuvalnyj-bunker-dlya-kartopli-ta-ovochiv-kp-12",
+    "name": "Domasz KP-12 – Приймально-сортувальний бункер",
+    "brand": "Domasz",
+    "model": "Domasz KP-12",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "Преміум",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/05/d12-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 1950000,
+      "pricePerShiftUah": 29250,
+      "pricePerHaUah": 2438
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Domasz"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_o9kpdy1x7cz1_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_mzpwkjjl9t5a_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_sewsg9ccgk9z_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_5rnywro7thh5_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_5f1wa0uiaenx_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_9omirwctjt7f_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_9ra6ykodqqtg_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_60chpgxaag8y_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_alf0jfq7pf50_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_aodixjz5hzmf_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_cba3ximqq6eo_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_hbo933vwx45t_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_lyftzgkjjstf_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_mvswm35rhk9i_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_o9kpdy1x7cz1_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_mzpwkjjl9t5a_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_sewsg9ccgk9z_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_5rnywro7thh5_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_5f1wa0uiaenx_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_9omirwctjt7f_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_9ra6ykodqqtg_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_60chpgxaag8y_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_alf0jfq7pf50_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_aodixjz5hzmf_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_cba3ximqq6eo_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_hbo933vwx45t_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_lyftzgkjjstf_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_mvswm35rhk9i_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/struik.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Weed-Master спеціально розроблена для механічного видалення бур&#8217;янів при вирощуванні таких культур як цибуля, буряк, часник, броколі, цвітна капуста, брюссельська капуста і багато інших культур, що висаджуються в рядах або на грядках. Висока ефективність &#8211; видалення бур&#8217;янів на 3-12 рядках, швидкість до 7 км за годину",
-    "fullDescription": "Weed-Master спеціально розроблена для механічного видалення бур&#8217;янів при вирощуванні таких культур як цибуля, буряк, часник, броколі, цвітна капуста, брюссельська капуста і багато інших культур, що висаджуються в рядах або на грядках. Висока ефективність &#8211; видалення бур&#8217;янів на 3-12 рядках, швидкість до 7 км за годину",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Domasz KP-12 – Приймально-сортувальний бункер від Domasz. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Domasz KP-12 – Приймально-сортувальний бункер від виробника Domasz. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-struik-wr-grebneutvoryuvach",
-    "slug": "struik-wr-grebneutvoryuvach",
-    "name": "Struik WR Гребнеутворювач",
-    "brand": "Struik",
-    "model": "WR",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "id": "adena-43",
+    "slug": "perekydach-ovochevyh-kontejneriv",
+    "name": "Adena-agro – Перекидач контейнерів з овочами",
+    "brand": "Adena agro",
+    "model": "Adena-agro",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2025/01/fab9c1d142c1cf5c702c8a41505e32ad-222_result_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2025/01/5aae0c4dc012a421ace4f71aa2b320dc_result_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2025/01/fab9c1d142c1cf5c702c8a41505e32ad_result_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2025/01/fab9c1d142c1cf5c702c8a41505e32ad-1_result_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2025/01/533d97c78b12319f03384907d85a8376_result_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2025/01/fab9c1d142c1cf5c702c8a41505e32ad-222_result_result-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 364000,
+      "pricePerShiftUah": 29120,
+      "pricePerHaUah": 2427
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_p4jgdqwmcrnp-1_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_97tdg0wm4i8c_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_saylm3yfnj9e_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_3nsinj4z98gd_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_afh4akfbixso_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_bpfmpdmkr2m1_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_ejbzyrfwjiye_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_vgilvua2zrxw_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_p4jgdqwmcrnp-1_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_97tdg0wm4i8c_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_saylm3yfnj9e_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_3nsinj4z98gd_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_afh4akfbixso_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_bpfmpdmkr2m1_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_ejbzyrfwjiye_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_vgilvua2zrxw_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/struik.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Гребнеутворювач WR розроблений для формування гребенів на легких та середніх типах ґрунтів з камінням або без них. Доступна у версіях з розміром від 2×75 до 8×90 см.",
-    "fullDescription": "Гребнеутворювач WR розроблений для формування гребенів на легких та середніх типах ґрунтів з камінням або без них. Доступна у версіях з розміром від 2×75 до 8×90 см.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Перекидач овочевих контейнерів із регульованою шириною захвату (1,2–1,6 м).",
+    "fullDescription": "Перекидач овочевих контейнерів із регульованою шириною захвату (1,2–1,6 м)."
   },
   {
-    "id": "mach-adena-row-fix-space-mizhryadnyj-rotornyj-kultyvator",
-    "slug": "row-fix-space-mizhryadnyj-rotornyj-kultyvator",
-    "name": "Struik ROW-FIX SPACE міжрядний роторний культиватор",
-    "brand": "Struik",
-    "model": "ROW-FIX",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "id": "adena-44",
+    "slug": "liniya-dlya-zvazhuvannya-i-upakovky-riznyh-sypuchyh-materialiv",
+    "name": "Лінія для зважування і упаковки різних сипучих матеріалів",
+    "brand": "Adena Agro",
+    "model": "Лінія для зважування і упаковки різних сипучих матеріалів",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "Під замовлення",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/pl_domasz_katalog_ogolny-38-e1727684432688.webp",
+      "https://adenaagro.com/wp-content/uploads/2022/11/pakowanie_pelletu_04-scaled-1.webp",
+      "https://adenaagro.com/wp-content/uploads/2022/11/pl_domasz_katalog_ogolny-38-e1727684432688-300x300.webp"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
       "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "pricePerShiftUah": 18000,
+      "pricePerHaUah": 1500
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_no37wchkxeoz-1_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_wfxvtwcn8oyo_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_3ad1sp0nlpt2-1_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_fun9bocqsm1p_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_gpvkysfcqlba_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_hca5lv7k0t5d_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_ilmlpsyu4zxp_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_j2li76zzhmcb_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_no37wchkxeoz-1_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_wfxvtwcn8oyo_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_3ad1sp0nlpt2-1_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_fun9bocqsm1p_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_gpvkysfcqlba_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_hca5lv7k0t5d_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_ilmlpsyu4zxp_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_j2li76zzhmcb_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/struik.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Row-FiX Space з збільшеним на 18 см кліренсом для високих культур. Ідеально підходить для роботи з квітами.",
-    "fullDescription": "Row-FiX Space з збільшеним на 18 см кліренсом для високих культур. Ідеально підходить для роботи з квітами.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Лінія для зважування і упаковки різних сипучих матеріалів від Adena Agro. Надійна європейська техніка для картоплі та овочів.",
+    "fullDescription": "Лінія для зважування і упаковки різних сипучих матеріалів від Adena Agro. Надійна європейська техніка для картоплі та овочів."
   },
   {
-    "id": "mach-adena-zf-mizhryadnyj-rotornyj-kultyvator",
-    "slug": "zf-mizhryadnyj-rotornyj-kultyvator",
-    "name": "Struik ZF міжрядний роторний культиватор",
-    "brand": "Struik",
-    "model": "ZF",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": "-5%",
-    "discountPercent": 5,
+    "id": "adena-45",
+    "slug": "mishkonapovnyuvach-kukurudza-pshenyczya-ta-in",
+    "name": "Мішконаповнювач (кукурудза, пшениця та ін.)",
+    "brand": "Adena Agro",
+    "model": "Мішконаповнювач (кукурудза, пшениця та ін.)",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "Під замовлення",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-300x300.png"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
       "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "pricePerShiftUah": 18000,
+      "pricePerHaUah": 1500
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Adena Agro"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/zf_kvtoqfdjsf3z-1_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/zf_9phcc6hsi3hm_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/zf_aqtrx14wbbbv_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/zf_eovxbrtdovoz_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/zf_wacpvq4somsy_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/zf_wt5nx5lllvhn_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2024/02/zf_kvtoqfdjsf3z-1_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/zf_9phcc6hsi3hm_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/zf_aqtrx14wbbbv_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/zf_eovxbrtdovoz_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/zf_wacpvq4somsy_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/zf_wt5nx5lllvhn_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/struik.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "ZF – це міжрядний роторний культиватор для всіх видів обробки гребенів. Для обробки культур з високим бадиллям.",
-    "fullDescription": "ZF – це міжрядний роторний культиватор для всіх видів обробки гребенів. Для обробки культур з високим бадиллям.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Мішконаповнювач (кукурудза, пшениця та ін.) від Adena Agro. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Мішконаповнювач (кукурудза, пшениця та ін.) від виробника Adena Agro. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-biorotix-3000-ot-rotornyj-kultyvator",
-    "slug": "biorotix-3000-ot-rotornyj-kultyvator",
-    "name": "Struik BIOROTIX 3000-OT роторний культиватор",
-    "brand": "Struik",
-    "model": "BIOROTIX",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "id": "adena-46",
+    "slug": "mashyna-dlya-sortuvannya-ovochiv-po-diametru",
+    "name": "Машина для сортування овочів по діаметру",
+    "brand": "Adena Agro",
+    "model": "Машина для сортування овочів по діаметру",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
-    "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
-    },
-    "specs": {
-      "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
-      "operatorIncluded": true,
-      "gpsGuidance": true
-    },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_rdbuuha1akpw_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/biorotix_sl2c6kbl9wqm_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/biorotix_av5msqs9npxp_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/biorotix_dtjvncboswsn_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/biorotix_obso4kgrnvas_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/biorotix_wjalylq5cxrb_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_rdbuuha1akpw_biorotix-3000-ot-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/biorotix_sl2c6kbl9wqm_biorotix-3000-ot-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/biorotix_av5msqs9npxp_biorotix-3000-ot-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/biorotix_dtjvncboswsn_biorotix-3000-ot-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/biorotix_obso4kgrnvas_biorotix-3000-ot-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/biorotix_wjalylq5cxrb_biorotix-3000-ot-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/struik.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Struik BIOROTIX 3000-OT роторний культиватор — надійна сільськогосподарська техніка від європейського виробника Struik.",
-    "fullDescription": "Struik BIOROTIX 3000-OT роторний культиватор забезпечує найвищу якість виконання технологічних операцій з мінімальними витратами палива.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
-  },
-  {
-    "id": "mach-adena-varix-3000-ot-rotornyj-kultyvator",
-    "slug": "varix-3000-ot-rotornyj-kultyvator",
-    "name": "Struik VARIX 3000-OT роторний культиватор",
-    "brand": "Struik",
-    "model": "VariX",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
-    "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
-    "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
-    },
-    "specs": {
-      "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
-      "operatorIncluded": true,
-      "gpsGuidance": true
-    },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_6fflam0urwsl_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_em2no0mexey3_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_h3bzua3aysrv_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_hm4csr8o0uye_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_ieofr4qpzxnl_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_sxigbnqnthoj_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_urvyvrgorh7a_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_6uxq8kadeu3n_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_31hsyrzqsax4_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_h3bzua3aysrv_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_urvyvrgorh7a_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_6fflam0urwsl_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_em2no0mexey3_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_h3bzua3aysrv_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_hm4csr8o0uye_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_ieofr4qpzxnl_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_sxigbnqnthoj_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_urvyvrgorh7a_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_6uxq8kadeu3n_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_31hsyrzqsax4_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_h3bzua3aysrv_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_urvyvrgorh7a_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/struik.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Роторний культиватор VariX 3000-OT. Ротор що обертається проти напрямку руху. Піднімає ґрунт угору і відкидає його до задньої частини машини на зубчасту рейку із пружинної сталі.",
-    "fullDescription": "Роторний культиватор VariX 3000-OT. Ротор що обертається проти напрямку руху. Піднімає ґрунт угору і відкидає його до задньої частини машини на зубчасту рейку із пружинної сталі.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
-  },
-  {
-    "id": "mach-adena-row-fix-mizhryadnyj-rotornyj-kultyvator",
-    "slug": "row-fix-mizhryadnyj-rotornyj-kultyvator",
-    "name": "Struik ROW-FIX міжрядний роторний культиватор",
-    "brand": "Struik",
-    "model": "ROW-FIX",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": "-5%",
-    "discountPercent": 5,
-    "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
-    "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
-    },
-    "specs": {
-      "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
-      "operatorIncluded": true,
-      "gpsGuidance": true
-    },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_6zq2ovy3a7eh_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_dmyfedgyev5d_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_rdbuuha1akpw-1_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_wfxvtwcn8oyo_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_geb9rnuyk4bp_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_no37wchkxeoz-1_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_7vfgefj4judb_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_3xq0gpaamitc_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_6sezgphce8mt_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_7nljfgyjni6g_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_bpfmk7ktm9wz_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_clzitolhsnj8_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_cnnwxeatkz2l_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_gwabtbkg1a3a_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_h5ksewnvpphg_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_hwlhv0cubim0_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_pvqpgnxcg5jd_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_wlmkuk7oual0_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_6zq2ovy3a7eh_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_dmyfedgyev5d_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_rdbuuha1akpw-1_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_wfxvtwcn8oyo_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_geb9rnuyk4bp_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_no37wchkxeoz-1_glutton-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_7vfgefj4judb_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_3xq0gpaamitc_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_6sezgphce8mt_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_7nljfgyjni6g_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_bpfmk7ktm9wz_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_clzitolhsnj8_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_cnnwxeatkz2l_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_gwabtbkg1a3a_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_h5ksewnvpphg_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_hwlhv0cubim0_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_pvqpgnxcg5jd_glutton-700x394.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_wlmkuk7oual0_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_pvqpgnxcg5jd_glutton-150x84.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/struik.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Row-FiX – це універсальний міжрядний роторний культиватор для всіх видів обробки гребенів.",
-    "fullDescription": "Row-FiX – це універсальний міжрядний роторний культиватор для всіх видів обробки гребенів.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
-  },
-  {
-    "id": "mach-adena-varix-twinrotor-rotornyj-kultyvator-iz-dvoma-valamy-rotora",
-    "slug": "varix-twinrotor-rotornyj-kultyvator-iz-dvoma-valamy-rotora",
-    "name": "Struik VARIX TWIN ROTOR роторний культиватор з двома валами",
-    "brand": "Struik",
-    "model": "VariX",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
-    "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
-    "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
-    },
-    "specs": {
-      "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
-      "operatorIncluded": true,
-      "gpsGuidance": true
-    },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_whbob5vilz4a_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_rleupjvyuk7z_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_1h4kijc9vwez_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_6nhvtbswmxpr_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_avphclnjatfz_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_e0bfe3kf4xab_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_fk1onmickv5o_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_fumzfljubaub_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_g2jf6fklgunn_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_wzme45tnvwag_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_xsqoehpwciwb_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_zlb1rbinrx8r_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_whbob5vilz4a_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_rleupjvyuk7z_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_1h4kijc9vwez_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_6nhvtbswmxpr_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_avphclnjatfz_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_e0bfe3kf4xab_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_fk1onmickv5o_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_fumzfljubaub_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_g2jf6fklgunn_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_wzme45tnvwag_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_xsqoehpwciwb_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_zlb1rbinrx8r_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/struik.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "VariX Twinrotor – це роторний культиватор з двома валами ротора, кожен з яких працює на різній глибині. Основний ротор обробляє ґрунт на максимальну глибину 25 см і створює досить пухкий ґрунт для формування грядок або гребенів.",
-    "fullDescription": "VariX Twinrotor – це роторний культиватор з двома валами ротора, кожен з яких працює на різній глибині. Основний ротор обробляє ґрунт на максимальну глибину 25 см і створює досить пухкий ґрунт для формування грядок або гребенів.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
-  },
-  {
-    "id": "mach-adena-varix-fx-modyfikovanyj-rotornyj-kultyvator",
-    "slug": "varix-fx-modyfikovanyj-rotornyj-kultyvator",
-    "name": "Struik VARIX FX роторний культиватор для полів з плоским рельєфом",
-    "brand": "Struik",
-    "model": "VariX",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": "-5%",
-    "discountPercent": 5,
-    "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
-    "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
-    },
-    "specs": {
-      "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
-      "operatorIncluded": true,
-      "gpsGuidance": true
-    },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_sc4ogsrinemz_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_egnuqcarkmwi_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_jddecwxad0hp_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_otpiknbzlyvl_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_5xjnczfham8z_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_pc3u14myjb4z_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_scwbq1w8bhig_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_sc4ogsrinemz_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_egnuqcarkmwi_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_jddecwxad0hp_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_otpiknbzlyvl_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_5xjnczfham8z_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_pc3u14myjb4z_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_scwbq1w8bhig_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/struik.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "VariX-XF – це модифікований роторний культиватор для полів з плоским рельєфом, який в основному використовується як фронтальний культиватор при посадці або посіві.",
-    "fullDescription": "VariX-XF – це модифікований роторний культиватор для полів з плоским рельєфом, який в основному використовується як фронтальний культиватор при посадці або посіві.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
-  },
-  {
-    "id": "mach-adena-varix-f-kultyvator-dlya-poliv-z-ploskym-relyefom",
-    "slug": "varix-f-kultyvator-dlya-poliv-z-ploskym-relyefom",
-    "name": "Struik VARIX F культиватор для полів з плоским рельєфом",
-    "brand": "Struik",
-    "model": "VariX",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": "-5%",
-    "discountPercent": 5,
-    "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
-    "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
-    },
-    "specs": {
-      "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
-      "operatorIncluded": true,
-      "gpsGuidance": true
-    },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_unxdc0h5oz0s-1_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_unxdc0h5oz0s_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_6estnczz8xn6_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_coc7tta289cm_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_dhwzkxns1m3i_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_fspa14cpw0yj_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_fvr1ttpsbqjz_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_i6kzvgttcmog_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_mxdrf8ijvcxb_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_n2ocgrf8l3ff_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_qigtwxugwbfp_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_unxdc0h5oz0s-1_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_unxdc0h5oz0s_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_6estnczz8xn6_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_coc7tta289cm_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_dhwzkxns1m3i_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_fspa14cpw0yj_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_fvr1ttpsbqjz_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_i6kzvgttcmog_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_mxdrf8ijvcxb_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_n2ocgrf8l3ff_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_qigtwxugwbfp_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/struik.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "VariX-F &#8211; роторний культиватор для полів з плоским рельєфом, який в основному використовується як фронтальний культиватор при посадці або посіві",
-    "fullDescription": "VariX-F &#8211; роторний культиватор для полів з плоским рельєфом, який в основному використовується як фронтальний культиватор при посадці або посіві",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
-  },
-  {
-    "id": "mach-adena-struik-rf-universalnyj-rotornyj-kultyvator",
-    "slug": "struik-rf-universalnyj-rotornyj-kultyvator",
-    "name": "Struik RF універсальний роторний культиватор",
-    "brand": "Struik",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
-    "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
-    "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
-    },
-    "specs": {
-      "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
-      "operatorIncluded": true,
-      "gpsGuidance": true
-    },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_rrydjxfhnqm2_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_4myexk1krhrh_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_yisirqlxr7ye_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_e46txksbap0b_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_0fqcscuhymti_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_0kqbjsnocggi_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_2k4or8smjszu_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_4qzwfykqvlcc_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_78qo18lgfhcn_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_541vogc3pe8x_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_avj0uvzw3hek_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_bhbhfnq3w6er_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_dinwwjbwzoik_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_fb46jszgeezq_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_fxunxhy5cduj_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_gda5ou5mrcpw_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_hyvrh1sikpyj_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_jdytg2fg0bq7_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_phcfcwyh0vth_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_qadlpwzpfamu_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_qnrurr1jrcut_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_imtpth6n9qba_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_ruajkhvjzrrb_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_seqpehjbesm0_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_vmzr5mf4ae2n_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_rrydjxfhnqm2_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_4myexk1krhrh_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_yisirqlxr7ye_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_e46txksbap0b_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_0fqcscuhymti_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_0kqbjsnocggi_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_2k4or8smjszu_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_4qzwfykqvlcc_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_78qo18lgfhcn_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_541vogc3pe8x_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_avj0uvzw3hek_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_bhbhfnq3w6er_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_dinwwjbwzoik_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_fb46jszgeezq_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_fxunxhy5cduj_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_gda5ou5mrcpw_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_hyvrh1sikpyj_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_jdytg2fg0bq7_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_phcfcwyh0vth_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_qadlpwzpfamu_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_qnrurr1jrcut_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_imtpth6n9qba_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_ruajkhvjzrrb_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_seqpehjbesm0_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_vmzr5mf4ae2n_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/struik.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Техніка Struik серії RF призначена для спеціалізованих рослинницьких господарств та ідеально підходить для всіх видів обробки ґрунту. Машина серії RF оснащена фіксованою верхньою кришкою.",
-    "fullDescription": "Техніка Struik серії RF призначена для спеціалізованих рослинницьких господарств та ідеально підходить для всіх видів обробки ґрунту. Машина серії RF оснащена фіксованою верхньою кришкою.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
-  },
-  {
-    "id": "mach-adena-79612",
-    "slug": "79612",
-    "name": "Struik VariX універсальний роторний культиватор",
-    "brand": "Struik",
-    "model": "VariX",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": "-5%",
-    "discountPercent": 5,
-    "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
-    "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
-    },
-    "specs": {
-      "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
-      "operatorIncluded": true,
-      "gpsGuidance": true
-    },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/01/photo_2023-11-28_10-09-13_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_fufoqns0pwzd_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_san0uhcvpznj_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_pwhhgnpmhh9i_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/screenshot_2_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/screenshot_4_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/screenshot_3_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_5wy7m1itnz0v_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_bon4snzpaypw_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_1hjijbnq0drc_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_c3e0o8vfwtn4_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_cpejlz09bipo_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_est3ra5aq2mw_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_pqub0ffo0gza_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_uvpzhss31mmf_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_vnq8fignihzf_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2024/01/photo_2023-11-28_10-09-13_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_fufoqns0pwzd_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_san0uhcvpznj_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_pwhhgnpmhh9i_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/screenshot_2_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/screenshot_4_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/screenshot_3_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_5wy7m1itnz0v_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_bon4snzpaypw_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_1hjijbnq0drc_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_c3e0o8vfwtn4_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_cpejlz09bipo_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_est3ra5aq2mw_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_pqub0ffo0gza_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_uvpzhss31mmf_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_vnq8fignihzf_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/struik.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Серія культиваторів VariX &#8211; це універсальний роторний культиватор, який ідеально підходить для всіх видів обробки ґрунту будь-якого типу.",
-    "fullDescription": "Серія культиваторів VariX &#8211; це універсальний роторний культиватор, який ідеально підходить для всіх видів обробки ґрунту будь-якого типу.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
-  },
-  {
-    "id": "mach-adena-transporter-dlya-zbyrannya-kapusty-ta-inshyh-ovochiv",
-    "slug": "transporter-dlya-zbyrannya-kapusty-ta-inshyh-ovochiv",
-    "name": "Транспортер для збирання капусти та інших овочів",
-    "brand": "Інше",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "harvest",
-    "badge": null,
-    "discountPercent": 0,
-    "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
-    "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
-    },
-    "specs": {
-      "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
-      "operatorIncluded": true,
-      "gpsGuidance": true
-    },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-4-kopyya_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-kopyya_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-5-kopyya_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-3-kopyya_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-2-kopyya_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-1-kopyya_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-4-kopyya_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-kopyya_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-5-kopyya_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-3-kopyya_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-2-kopyya_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-1-kopyya_result-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Транспортер для збирання капусти та інших овочів — надійна сільськогосподарська техніка від європейського виробника Інше.",
-    "fullDescription": "Транспортер для збирання капусти та інших овочів забезпечує найвищу якість виконання технологічних операцій з мінімальними витратами палива.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
-  },
-  {
-    "id": "mach-adena-ustanovka-dlya-protruyuvannya-bulb-kartopli-pid-prestyzh",
-    "slug": "ustanovka-dlya-protruyuvannya-bulb-kartopli-pid-prestyzh",
-    "name": "Установка для протруювання бульб картоплі під &#8220;Престиж&#8221;",
-    "brand": "Інше",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
-    "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
-    "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
-    },
-    "specs": {
-      "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
-      "operatorIncluded": true,
-      "gpsGuidance": true
-    },
+    "badge": "Під замовлення",
     "images": [
       "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-700x700.png",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-300x300.png"
     ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Установка для протруювання бульб картоплі під &#8220;Престиж&#8221; — надійна сільськогосподарська техніка від європейського виробника Інше.",
-    "fullDescription": "Установка для протруювання бульб картоплі під &#8220;Престиж&#8221; забезпечує найвищу якість виконання технологічних операцій з мінімальними витратами палива.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
-  },
-  {
-    "id": "mach-adena-pidgortach-grebneutvoryuvach-zibo-super",
-    "slug": "pidgortach-grebneutvoryuvach-zibo-super",
-    "name": "Підгортач-гребнеутворювач Zibo Super",
-    "brand": "ZIBO",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
-    "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
       "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "pricePerShiftUah": 18000,
+      "pricePerHaUah": 1500
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/p17-2654982440.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/zibo_aanbouw_rugvormer6.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/p17-2676661445.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150910-1-1-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150840-1-1-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150613-1-1-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150603-1-1-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150536-11-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/59.png",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2022/11/p17-2654982440-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/zibo_aanbouw_rugvormer6-700x469.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/p17-2676661445-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150910-1-1-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150840-1-1-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150613-1-1-700x933.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150603-1-1-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150536-11-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/p17-2654982440-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/zibo_aanbouw_rugvormer6-150x101.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/p17-2676661445-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150910-1-1-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150840-1-1-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150613-1-1-150x200.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150603-1-1-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150536-11-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/59-150x199.png",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Підгортач-гребнеутворювач Zibo Super — надійна сільськогосподарська техніка від європейського виробника ZIBO.",
-    "fullDescription": "Підгортач-гребнеутворювач Zibo Super забезпечує найвищу якість виконання технологічних операцій з мінімальними витратами палива.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Машина для сортування овочів по діаметру від Adena Agro. Надійна європейська техніка для картоплі та овочів.",
+    "fullDescription": "Машина для сортування овочів по діаметру від Adena Agro. Надійна європейська техніка для картоплі та овочів."
   },
   {
-    "id": "mach-adena-gasytel-padinnya-dlya-ovochiv",
-    "slug": "gasytel-padinnya-dlya-ovochiv",
-    "name": "Гаситель падіння для овочів",
+    "id": "adena-47",
+    "slug": "mashyna-dlya-obrizannya-shyjky-czybuli-zakrytogo-typu",
+    "name": "Машина для обрізання шийки цибулі (закритого типу)",
     "brand": "Інше",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": "-5%",
-    "discountPercent": 5,
+    "model": "Машина для обрізання шийки цибулі (закритого типу)",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/om2_om3_kpl1_obr_zuvach_czybul__result-—-kopyya_result-300x300.webp"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 618800,
+      "pricePerShiftUah": 9282,
+      "pricePerHaUah": 774
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Інше"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/stopshock-potato-union-fallbreaker-loading-sequence-5.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/stopshock-potato-union-fallbreaker-loading-sequence-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2022/11/stopshock-potato-union-fallbreaker-loading-sequence-5-150x112.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/stopshock-potato-union-fallbreaker-loading-sequence-1-150x112.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Гаситель падіння для овочів — надійна сільськогосподарська техніка від європейського виробника Інше.",
-    "fullDescription": "Гаситель падіння для овочів забезпечує найвищу якість виконання технологічних операцій з мінімальними витратами палива.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Машина для обрізання шийки цибулі (закритого типу) від Інше. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Машина для обрізання шийки цибулі (закритого типу) від виробника Інше. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-gasyteli-padinnya-zibo",
-    "slug": "gasyteli-padinnya-zibo",
-    "name": "Гасителі падіння Zibo",
-    "brand": "ZIBO",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": "-5%",
-    "discountPercent": 5,
+    "id": "adena-48",
+    "slug": "mashyna-dlya-obrizannya-shyjky-czybuli",
+    "name": "Машина для обрізання шийки цибулі",
+    "brand": "Інше",
+    "model": "Машина для обрізання шийки цибулі",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/om2_om3_kpl1_obr_zuvach_czybul__result-—-kopyya_result-300x300.webp"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 254800,
+      "pricePerShiftUah": 20384,
+      "pricePerHaUah": 1699
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Інше"
     },
+    "shortDescription": "Машина для обрізання шийки цибулі від Інше. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Машина для обрізання шийки цибулі від виробника Інше. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-49",
+    "slug": "transporter-tc-9-m-shyryna-65-sm",
+    "name": "Транспортер TC 9 м, ширина 65 см",
+    "brand": "Інше",
+    "model": "Транспортер TC 9 м, ширина 65 см",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/gorizontalnye-tr-ry-1-kopiya-1_result_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/gorizontalnye-tr-ry-kopiya_result_result-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/gorizontalnye-tr-ry-1-kopiya-1_result_result-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 218400,
+      "pricePerShiftUah": 17472,
+      "pricePerHaUah": 1456
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Транспортер TC 9 м, ширина 65 см від Інше. Надійна європейська техніка для картоплі та овочів.",
+    "fullDescription": "Транспортер TC 9 м, ширина 65 см від Інше. Надійна європейська техніка для картоплі та овочів."
+  },
+  {
+    "id": "adena-50",
+    "slug": "vagovyj-mishkonapovnyuvach-elektronnyj-we-30-iv",
+    "name": "Ваговий мішконаповнювач електронний WE – 30 IV",
+    "brand": "Adena Agro",
+    "model": "Ваговий мішконаповнювач електронний WE",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "Під замовлення",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-300x300.png"
+    ],
+    "pricing": {
+      "purchasePriceUah": null,
+      "pricePerShiftUah": 18000,
+      "pricePerHaUah": 1500
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Adena Agro"
+    },
+    "shortDescription": "Ваговий мішконаповнювач електронний WE – 30 IV від Adena Agro. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Ваговий мішконаповнювач електронний WE – 30 IV від виробника Adena Agro. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-51",
+    "slug": "strichkovyj-konveyer-tc-6m-shyryna-06-m",
+    "name": "Стрічковий конвеєр TC 6м, ширина 0,6 м",
+    "brand": "Інше",
+    "model": "Стрічковий конвеєр TC 6м, ширина 0,6 м",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/gorizontalnye-tr-ry-2-kopiya_result_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/gorizontalnye-tr-ry-kopiya_result_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/gorizontalnye-tr-ry-5-kopiya_result_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/gorizontalnye-tr-ry-4-kopiya_result_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/gorizontalnye-tr-ry-3-kopiya_result_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/gorizontalnye-tr-ry-1-kopiya_result_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/gorizontalnye-tr-ry-2-kopiya_result_result-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 182000,
+      "pricePerShiftUah": 14560,
+      "pricePerHaUah": 1213
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Стрічковий конвеєр TC 6м, ширина 0,6 м від Інше. Надійна європейська техніка для картоплі та овочів.",
+    "fullDescription": "Стрічковий конвеєр TC 6м, ширина 0,6 м від Інше. Надійна європейська техніка для картоплі та овочів."
+  },
+  {
+    "id": "adena-52",
+    "slug": "poliruvalna-mashyna-ps8",
+    "name": "Полірувальна машина PS8",
+    "brand": "Adena Agro",
+    "model": "Полірувальна машина PS8",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "Під замовлення",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-300x300.png"
+    ],
+    "pricing": {
+      "purchasePriceUah": null,
+      "pricePerShiftUah": 18000,
+      "pricePerHaUah": 1500
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Adena Agro"
+    },
+    "shortDescription": "Полірувальна машина PS8 від Adena Agro. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Полірувальна машина PS8 від виробника Adena Agro. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-53",
+    "slug": "shhitkova-poliruvalna-mashyna-ps7",
+    "name": "Щіткова полірувальна машина PS7",
+    "brand": "Adena Agro",
+    "model": "Щіткова полірувальна машина PS7",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "Під замовлення",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/pd_02_pol_ruvalnyky_result_result.webp",
+      "https://adenaagro.com/wp-content/uploads/2022/11/pd_01_pol_ruvalnyky_result_result.webp",
+      "https://adenaagro.com/wp-content/uploads/2022/11/pd_detail01_pol_ruvalnyky_result_result.webp",
+      "https://adenaagro.com/wp-content/uploads/2022/11/pd_detail03_pol_ruvalnyky_result_result.webp",
+      "https://adenaagro.com/wp-content/uploads/2022/11/pd_kpl01_pol_ruvalnyky_result_result.webp",
+      "https://adenaagro.com/wp-content/uploads/2022/11/pd8200_pd9200_pd9300_pol_ruvalnyky_rozm_gabarytn_result_3_result.webp",
+      "https://adenaagro.com/wp-content/uploads/2022/11/pd_02_pol_ruvalnyky_result_result-300x300.webp"
+    ],
+    "pricing": {
+      "purchasePriceUah": null,
+      "pricePerShiftUah": 18000,
+      "pricePerHaUah": 1500
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Щіткова полірувальна машина PS7 від Adena Agro. Надійна європейська техніка для картоплі та овочів.",
+    "fullDescription": "Щіткова полірувальна машина PS7 від Adena Agro. Надійна європейська техніка для картоплі та овочів."
+  },
+  {
+    "id": "adena-54",
+    "slug": "pryjmalnyj-bunker-zasypna-korzyna-kps-1-350",
+    "name": "Приймальний бункер засипна корзина KPS – 1 350",
+    "brand": "Adena Agro",
+    "model": "Приймальний бункер засипна корзина KPS",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "Під замовлення",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/kp12_12-kp17_02-scaled_mobbunkery_result_result-300x300.webp"
+    ],
+    "pricing": {
+      "purchasePriceUah": null,
+      "pricePerShiftUah": 18000,
+      "pricePerHaUah": 1500
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Adena Agro"
+    },
+    "shortDescription": "Приймальний бункер засипна корзина KPS – 1 350 від Adena Agro. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Приймальний бункер засипна корзина KPS – 1 350 від виробника Adena Agro. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-55",
+    "slug": "pryjmalnyj-bunker",
+    "name": "Приймальний бункер",
+    "brand": "Інше",
+    "model": "Приймальний бункер",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
     "images": [
       "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-700x700.png",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-300x300.png"
     ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Гасителі падіння Zibo — надійна сільськогосподарська техніка від європейського виробника ZIBO.",
-    "fullDescription": "Гасителі падіння Zibo забезпечує найвищу якість виконання технологічних операцій з мінімальними витратами палива.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "pricing": {
+      "purchasePriceUah": 234000,
+      "pricePerShiftUah": 18720,
+      "pricePerHaUah": 1560
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Приймальний бункер від Інше. Надійна європейська техніка для картоплі та овочів.",
+    "fullDescription": "Приймальний бункер від Інше. Надійна європейська техніка для картоплі та овочів."
   },
   {
-    "id": "mach-adena-mishkonapovnyuvach-dlya-sypuchyh-pisok-vugillya-ta-in",
+    "id": "adena-56",
+    "slug": "napovnyuvach-kontejneriv-miedema-mb-33",
+    "name": "Наповнювач контейнерів MIEDEMA MB – 33",
+    "brand": "Adena Agro",
+    "model": "Наповнювач контейнерів MIEDEMA MB",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "Під замовлення",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-300x300.png"
+    ],
+    "pricing": {
+      "purchasePriceUah": null,
+      "pricePerShiftUah": 18000,
+      "pricePerHaUah": 1500
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Adena Agro"
+    },
+    "shortDescription": "Наповнювач контейнерів MIEDEMA MB – 33 від Adena Agro. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Наповнювач контейнерів MIEDEMA MB – 33 від виробника Adena Agro. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-57",
+    "slug": "suha-chystka-dlya-kartopli",
+    "name": "Суха чистка для картоплі",
+    "brand": "Інше",
+    "model": "Суха чистка для картоплі",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-300x300.png"
+    ],
+    "pricing": {
+      "purchasePriceUah": 234000,
+      "pricePerShiftUah": 18720,
+      "pricePerHaUah": 1560
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Інше"
+    },
+    "shortDescription": "Суха чистка для картоплі від Інше. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Суха чистка для картоплі від виробника Інше. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-58",
+    "slug": "karetka-na-navantazhuvach-35-tonny",
+    "name": "Каретка на навантажувач (3,5 тонни)",
+    "brand": "Adena Agro",
+    "model": "Каретка на навантажувач (3,5 тонни)",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "Під замовлення",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-700x700.png",
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-300x300.png"
+    ],
+    "pricing": {
+      "purchasePriceUah": null,
+      "pricePerShiftUah": 18000,
+      "pricePerHaUah": 1500
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Каретка на навантажувач (3,5 тонни) від Adena Agro. Надійна європейська техніка для картоплі та овочів.",
+    "fullDescription": "Каретка на навантажувач (3,5 тонни) від Adena Agro. Надійна європейська техніка для картоплі та овочів."
+  },
+  {
+    "id": "adena-59",
+    "slug": "inspekczijnyj-rolykovyj-stil",
+    "name": "Інспекційний роликовий стіл",
+    "brand": "Adena Agro",
+    "model": "Інспекційний роликовий стіл",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-700x700.png",
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-300x300.png"
+    ],
+    "pricing": {
+      "purchasePriceUah": 130000,
+      "pricePerShiftUah": 10400,
+      "pricePerHaUah": 867
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Інспекційний роликовий стіл від Adena Agro. Надійна європейська техніка для картоплі та овочів.",
+    "fullDescription": "Інспекційний роликовий стіл від Adena Agro. Надійна європейська техніка для картоплі та овочів."
+  },
+  {
+    "id": "adena-60",
+    "slug": "mashyna-dlya-ochyshhennya-ta-poliruvannya-ovochiv-z-reczyklingom-vody",
+    "name": "Машина для очищення та полірування овочів з рециклінгом води",
+    "brand": "Інше",
+    "model": "Машина для очищення та полірування овочів з рециклінгом води",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "Преміум",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-700x700.png",
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-300x300.png"
+    ],
+    "pricing": {
+      "purchasePriceUah": 1820000,
+      "pricePerShiftUah": 27300,
+      "pricePerHaUah": 2275
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Машина для очищення та полірування овочів з рециклінгом води від Інше. Надійна європейська техніка для картоплі та овочів.",
+    "fullDescription": "Машина для очищення та полірування овочів з рециклінгом води від Інше. Надійна європейська техніка для картоплі та овочів."
+  },
+  {
+    "id": "adena-61",
+    "slug": "pryjomnyj-bunker-z-sortuvalnym-modulem-14-rolykiv",
+    "name": "Прийомний бункер з сортувальним модулем (14 роликів)",
+    "brand": "Інше",
+    "model": "Прийомний бункер з сортувальним модулем (14 роликів)",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "Преміум",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-700x700.png",
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-300x300.png"
+    ],
+    "pricing": {
+      "purchasePriceUah": 1580800,
+      "pricePerShiftUah": 23712,
+      "pricePerHaUah": 1976
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Прийомний бункер з сортувальним модулем (14 роликів) від Інше. Надійна європейська техніка для картоплі та овочів.",
+    "fullDescription": "Прийомний бункер з сортувальним модулем (14 роликів) від Інше. Надійна європейська техніка для картоплі та овочів."
+  },
+  {
+    "id": "adena-62",
+    "slug": "myjka-dlya-ovochiv",
+    "name": "Мийка для овочів",
+    "brand": "Adena Agro",
+    "model": "Мийка для овочів",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "Під замовлення",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-700x700.png",
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-300x300.png"
+    ],
+    "pricing": {
+      "purchasePriceUah": null,
+      "pricePerShiftUah": 18000,
+      "pricePerHaUah": 1500
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Мийка для овочів від Adena Agro. Надійна європейська техніка для картоплі та овочів.",
+    "fullDescription": "Мийка для овочів від Adena Agro. Надійна європейська техніка для картоплі та овочів."
+  },
+  {
+    "id": "adena-63",
+    "slug": "pryjomnyj-bunker-z-sortuvalnym-modulem-7-rolykiv",
+    "name": "Прийомний бункер з сортувальним модулем (7 роликів)",
+    "brand": "Інше",
+    "model": "Прийомний бункер з сортувальним модулем (7 роликів)",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-700x700.png",
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-300x300.png"
+    ],
+    "pricing": {
+      "purchasePriceUah": 676000,
+      "pricePerShiftUah": 10140,
+      "pricePerHaUah": 845
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Прийомний бункер з сортувальним модулем (7 роликів) від Інше. Надійна європейська техніка для картоплі та овочів.",
+    "fullDescription": "Прийомний бункер з сортувальним модулем (7 роликів) від Інше. Надійна європейська техніка для картоплі та овочів."
+  },
+  {
+    "id": "adena-64",
+    "slug": "karetka-na-navantazhuvach-25-tonny",
+    "name": "Каретка на навантажувач (2,5 тонни)",
+    "brand": "Adena Agro",
+    "model": "Каретка на навантажувач (2,5 тонни)",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-300x300.png"
+    ],
+    "pricing": {
+      "purchasePriceUah": 96200,
+      "pricePerShiftUah": 7696,
+      "pricePerHaUah": 641
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Adena Agro"
+    },
+    "shortDescription": "Каретка на навантажувач (2,5 тонни) від Adena Agro. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Каретка на навантажувач (2,5 тонни) від виробника Adena Agro. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-65",
+    "slug": "mashyna-dlya-upakovky-ovochiv-v-polietylenovyj-paket",
+    "name": "Машина для упаковки овочів в поліетиленовий пакет",
+    "brand": "Adena Agro",
+    "model": "Машина для упаковки овочів в поліетиленовий пакет",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-300x300.png"
+    ],
+    "pricing": {
+      "purchasePriceUah": 962000,
+      "pricePerShiftUah": 14430,
+      "pricePerHaUah": 1203
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Adena Agro"
+    },
+    "shortDescription": "Машина для упаковки овочів в поліетиленовий пакет від Adena Agro. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Машина для упаковки овочів в поліетиленовий пакет від виробника Adena Agro. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-66",
+    "slug": "myjka-dlya-ovochiv-z-transporterom-pt",
+    "name": "Мийка для овочів з транспортером PT",
+    "brand": "Інше",
+    "model": "Мийка для овочів з транспортером PT",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-300x300.png"
+    ],
+    "pricing": {
+      "purchasePriceUah": 358800,
+      "pricePerShiftUah": 28704,
+      "pricePerHaUah": 2392
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Інше"
+    },
+    "shortDescription": "Мийка для овочів з транспортером PT від Інше. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Мийка для овочів з транспортером PT від виробника Інше. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-67",
+    "slug": "transporter-pohylyj-pt-4",
+    "name": "Транспортер похилий PT-4",
+    "brand": "Adena Agro",
+    "model": "Транспортер похилий PT-4",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-700x700.png",
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-300x300.png"
+    ],
+    "pricing": {
+      "purchasePriceUah": 166400,
+      "pricePerShiftUah": 13312,
+      "pricePerHaUah": 1109
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Транспортер похилий PT-4 від Adena Agro. Надійна європейська техніка для картоплі та овочів.",
+    "fullDescription": "Транспортер похилий PT-4 від Adena Agro. Надійна європейська техніка для картоплі та овочів."
+  },
+  {
+    "id": "adena-68",
+    "slug": "transporter-pohylyj-pt-1-2-m",
+    "name": "Транспортер похилий PT-1 (2 м )",
+    "brand": "Adena Agro",
+    "model": "Транспортер похилий PT-1 (2 м )",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-700x700.png",
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-300x300.png"
+    ],
+    "pricing": {
+      "purchasePriceUah": 78000,
+      "pricePerShiftUah": 6240,
+      "pricePerHaUah": 520
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Транспортер похилий PT-1 (2 м ) від Adena Agro. Надійна європейська техніка для картоплі та овочів.",
+    "fullDescription": "Транспортер похилий PT-1 (2 м ) від Adena Agro. Надійна європейська техніка для картоплі та овочів."
+  },
+  {
+    "id": "adena-69",
+    "slug": "konveyer-pidjomnyj-lc-4-m",
+    "name": "Конвеєр підйомний LC 4 м",
+    "brand": "Adena Agro",
+    "model": "Конвеєр підйомний LC 4 м",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-300x300.png"
+    ],
+    "pricing": {
+      "purchasePriceUah": 166400,
+      "pricePerShiftUah": 13312,
+      "pricePerHaUah": 1109
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Adena Agro"
+    },
+    "shortDescription": "Конвеєр підйомний LC 4 м від Adena Agro. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Конвеєр підйомний LC 4 м від виробника Adena Agro. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-70",
+    "slug": "konveyer-pidjomnyj-lc-456m",
+    "name": "Конвеєр підйомний LC 4,5,6м",
+    "brand": "Adena Agro",
+    "model": "Конвеєр підйомний LC 4,5,6м",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/woocommerce-placeholder-300x300.png"
+    ],
+    "pricing": {
+      "purchasePriceUah": 166400,
+      "pricePerShiftUah": 13312,
+      "pricePerHaUah": 1109
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Adena Agro"
+    },
+    "shortDescription": "Конвеєр підйомний LC 4,5,6м від Adena Agro. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Конвеєр підйомний LC 4,5,6м від виробника Adena Agro. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-71",
     "slug": "mishkonapovnyuvach-dlya-sypuchyh-pisok-vugillya-ta-in",
     "name": "Domasz – Мішконаповнювач для сипучих (пісок, вугілля та ін.)",
-    "brand": "Інше",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "brand": "Domasz",
+    "model": "Domasz",
+    "activityType": "soil_preparation",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
-    "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
-    },
-    "specs": {
-      "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
-      "operatorIncluded": true,
-      "gpsGuidance": true
-    },
+    "badge": "В наявності",
     "images": [
       "https://adenaagro.com/wp-content/uploads/2022/11/w13123123b-1.jpg",
       "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0195.jpg",
@@ -1760,205 +2195,94 @@ export const MACHINERY_DATA = [
       "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0202.jpg",
       "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0203.jpg",
       "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0204.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2022/11/w13123123b-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0195-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0197-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0198-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0199-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0200-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0201-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0202-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0203-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0204-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/domasz.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+      "https://adenaagro.com/wp-content/uploads/2022/11/w13123123b-1-300x300.jpg"
     ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Domasz &#8211; зважування різноманітних сипких матеріалів (для сипучих &#8211; пісок, вугілля та ін.) Максимальна вага порції 50 кг. Висока продуктивність (наприклад, еко-горошок 25 кг. &#8211; 6 тонн/год ) Чотири швидкості стрічки зважування Пневматично керований затиск , який притримує мішки С амотаруюча ємність для зважування",
-    "fullDescription": "Domasz &#8211; зважування різноманітних сипких матеріалів (для сипучих &#8211; пісок, вугілля та ін.) Максимальна вага порції 50 кг. Висока продуктивність (наприклад, еко-горошок 25 кг. &#8211; 6 тонн/год ) Чотири швидкості стрічки зважування Пневматично керований затиск , який притримує мішки С амотаруюча ємність для зважування",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
-  },
-  {
-    "id": "mach-adena-okuchnyk-dlya-kartopli-75sm-4-h-ryad-grimme-hd3000n-z-mozhlyvistyu-okuchuvaty-kartoplyu-shho-zijshla",
-    "slug": "okuchnyk-dlya-kartopli-75sm-4-h-ryad-grimme-hd3000n-z-mozhlyvistyu-okuchuvaty-kartoplyu-shho-zijshla",
-    "name": "Окучник для картоплі (75см 4-х ряд) Grimme HD3000N з можливістю окучувати картоплю, що зійшла",
-    "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
-    "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 442000,
+      "pricePerShiftUah": 35360,
+      "pricePerHaUah": 2947
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/04/20260401_190443.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/04/20260401_190458-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/04/20260401_190514.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/04/20260401_190529-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/04/20260401_190538-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/04/20260401_190549-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/04/20260401_190443-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/04/20260401_190458-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/04/20260401_190514-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/04/20260401_190529-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/04/20260401_190538-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/04/20260401_190549-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/04/20260401_190443-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/04/20260401_190458-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/04/20260401_190514-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/04/20260401_190529-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/04/20260401_190538-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/04/20260401_190549-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Модель Grimme HD 3000 оптимальна для формування гребенів як до посадки, так і після неї (до змикання бадилля), забезпечуючи оптимальні умови для розвитку бульб і захисту від позеленіння. &nbsp;",
-    "fullDescription": "Модель Grimme HD 3000 оптимальна для формування гребенів як до посадки, так і після неї (до змикання бадилля), забезпечуючи оптимальні умови для розвитку бульб і захисту від позеленіння. &nbsp;",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Domasz – зважування різноманітних сипких матеріалів (для сипучих – пісок, вугілля та ін.) Максимальна вага порції 50 кг. Висока продуктивність (наприклад, еко-горошок 25 кг. – 6 тонн/год ) Чотири швидкості стрічки зважування Пневматично керований затиск , який притримує мішки С амотаруюча ємність для зважування",
+    "fullDescription": "Domasz – зважування різноманітних сипких матеріалів (для сипучих – пісок, вугілля та ін.) Максимальна вага порції 50 кг. Висока продуктивність (наприклад, еко-горошок 25 кг. – 6 тонн/год ) Чотири швидкості стрічки зважування Пневматично керований затиск , який притримує мішки С амотаруюча ємність для зважування"
   },
   {
-    "id": "mach-adena-struik-ushhilnyuyuchi-rolyky-dlya-mokvy-ta-czybuli-4h75sm-novi-ta-b-v",
+    "id": "adena-72",
+    "slug": "okuchnyk-dlya-kartopli-75sm-4-h-ryad-grimme-hd3000n-z-mozhlyvistyu-okuchuvaty-kartoplyu-shho-zijshla",
+    "name": "Окучник для картоплі (75см 4-х ряд) Grimme HD3000N з можливістю окучувати картоплю, що зійшла",
+    "brand": "Adena Agro",
+    "model": "Окучник для картоплі (75см 4-х ряд) Grimme HD3000N з можливістю окучувати картоплю, що зійшла",
+    "activityType": "soil_preparation",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/04/20260401_190443-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 353600,
+      "pricePerShiftUah": 28288,
+      "pricePerHaUah": 2357
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Adena Agro"
+    },
+    "shortDescription": "Окучник для картоплі (75см 4-х ряд) Grimme HD3000N з можливістю окучувати картоплю, що зійшла від Adena Agro. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Окучник для картоплі (75см 4-х ряд) Grimme HD3000N з можливістю окучувати картоплю, що зійшла від виробника Adena Agro. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-73",
     "slug": "struik-ushhilnyuyuchi-rolyky-dlya-mokvy-ta-czybuli-4h75sm-novi-ta-b-v",
     "name": "Struik ущільнюючі ролики для моркви та цибулі 4х75см (нові та б/в)",
     "brand": "Struik",
-    "model": "Інше",
-    "activityType": "carrot",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Struik ущільнюючі ролики для моркви та цибулі 4х75см (нові та б/в)",
+    "activityType": "maintenance",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/01/img-cbc46d8298ba58708ac13e1aa6681c19-v-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 192400,
+      "pricePerShiftUah": 15392,
+      "pricePerHaUah": 1283
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Struik"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-cbc46d8298ba58708ac13e1aa6681c19-v.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-fd570987928bfc1effcf044ff8e752f5-v.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/varix_uvpzhss31mmf_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-cbc46d8298ba58708ac13e1aa6681c19-v-700x920.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-fd570987928bfc1effcf044ff8e752f5-v-700x1251.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/varix_uvpzhss31mmf_glutton-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-cbc46d8298ba58708ac13e1aa6681c19-v-150x197.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-fd570987928bfc1effcf044ff8e752f5-v-150x268.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/struik.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Struik ущільнюючі ролики для моркви та цибулі 4х75см",
-    "fullDescription": "Struik ущільнюючі ролики для моркви та цибулі 4х75см",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Struik ущільнюючі ролики для моркви та цибулі 4х75см (нові та б/в) від Struik. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Struik ущільнюючі ролики для моркви та цибулі 4х75см (нові та б/в) від виробника Struik. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-kartoplezbyralnyj-kombajn-grimme-dr-1500-2-ryadnyj-2005-roku-vypuska",
+    "id": "adena-74",
     "slug": "kartoplezbyralnyj-kombajn-grimme-dr-1500-2-ryadnyj-2005-roku-vypuska",
     "name": "Картоплезбиральний комбайн Grimme DR-1500 2-рядний (2005 року випуска)",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "harvest",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Картоплезбиральний комбайн Grimme DR-1500 2-рядний (2005 року випуска)",
+    "activityType": "harvesting",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
-    "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
-    },
-    "specs": {
-      "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
-      "operatorIncluded": true,
-      "gpsGuidance": true
-    },
+    "badge": "Преміум",
     "images": [
       "https://adenaagro.com/wp-content/uploads/2026/01/img_20260116_163542_229-1.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/01/20260119_113336-scaled.jpg",
@@ -1968,76 +2292,34 @@ export const MACHINERY_DATA = [
       "https://adenaagro.com/wp-content/uploads/2026/01/20260119_120720-scaled.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/01/img_20260116_163542_353.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/01/img_20260116_163552_550.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20260116_163542_229-1-700x933.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20260119_113336-700x933.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20260119_113444-700x933.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20260119_113509-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20260119_120350-700x933.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20260119_120720-700x933.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20260116_163542_353-700x933.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20260116_163552_550-700x933.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20260116_163542_229-1-150x200.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20260119_113336-150x200.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20260119_113444-150x200.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20260119_113509-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20260119_120350-150x200.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20260119_120720-150x200.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20260116_163542_353-150x200.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20260116_163552_550-150x200.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+      "https://adenaagro.com/wp-content/uploads/2026/01/img_20260116_163542_229-1-300x300.jpg"
     ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Картоплезбиральний комбайн Grimme DR-1500 2-рядний (2005 року випуска) &nbsp;",
-    "fullDescription": "Картоплезбиральний комбайн Grimme DR-1500 2-рядний (2005 року випуска) &nbsp;",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
-  },
-  {
-    "id": "mach-adena-modul-dlya-sortuvannya-ovochiv-shyryna-120sm-climax",
-    "slug": "modul-dlya-sortuvannya-ovochiv-shyryna-120sm-climax",
-    "name": "Модуль для сортування овочів ширина 120см CLIMAX",
-    "brand": "Інше",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
-    "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 1664000,
+      "pricePerShiftUah": 24960,
+      "pricePerHaUah": 2080
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
+    "shortDescription": "Картоплезбиральний комбайн Grimme DR-1500 2-рядний (2005 року випуска)",
+    "fullDescription": "Картоплезбиральний комбайн Grimme DR-1500 2-рядний (2005 року випуска)"
+  },
+  {
+    "id": "adena-75",
+    "slug": "modul-dlya-sortuvannya-ovochiv-shyryna-120sm-climax",
+    "name": "Модуль для сортування овочів ширина 120см CLIMAX",
+    "brand": "Climax",
+    "model": "Модуль для сортування овочів ширина 120см CLIMAX",
+    "activityType": "soil_preparation",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
+    "status": "available",
+    "badge": "В наявності",
     "images": [
       "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0007-1.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/01/aiselect_20250902_105345_kleinanzeigen.jpg",
@@ -2046,397 +2328,184 @@ export const MACHINERY_DATA = [
       "https://adenaagro.com/wp-content/uploads/2026/01/aiselect_20250902_105418_kleinanzeigen.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/01/img_20250902_105446_939.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0006.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0007-1-700x394.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/aiselect_20250902_105345_kleinanzeigen-700x933.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/aiselect_20250902_105358_kleinanzeigen-700x933.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/aiselect_20250902_105410_kleinanzeigen-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/aiselect_20250902_105418_kleinanzeigen-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0006-700x1244.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0007-1-150x84.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/aiselect_20250902_105345_kleinanzeigen-150x200.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/aiselect_20250902_105358_kleinanzeigen-150x200.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/aiselect_20250902_105410_kleinanzeigen-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/aiselect_20250902_105418_kleinanzeigen-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250902_105446_939-150x333.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0006-150x267.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0007-1-300x300.jpg"
     ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Модуль для сортування овочів ширина 120см CLIMAX &nbsp; &nbsp;",
-    "fullDescription": "Модуль для сортування овочів ширина 120см CLIMAX &nbsp; &nbsp;",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "pricing": {
+      "purchasePriceUah": 442000,
+      "pricePerShiftUah": 35360,
+      "pricePerHaUah": 2947
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Модуль для сортування овочів ширина 120см CLIMAX",
+    "fullDescription": "Модуль для сортування овочів ширина 120см CLIMAX"
   },
   {
-    "id": "mach-adena-gychkopodribnyuvach-botvovydalyach-dlya-kartopli-4-ryada-na-75-sm-struik-2002-rik",
+    "id": "adena-76",
     "slug": "gychkopodribnyuvach-botvovydalyach-dlya-kartopli-4-ryada-na-75-sm-struik-2002-rik",
     "name": "Гичкоподрібнювач ( ботвовидаляч ) для картоплі 4 ряда на 75 см STRUIK 2002 рік",
     "brand": "Struik",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "haulm",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Гичкоподрібнювач ( ботвовидаляч ) для картоплі 4 ряда на 75 см STRUIK 2002 рік",
+    "activityType": "soil_preparation",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0016-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 301600,
+      "pricePerShiftUah": 24128,
+      "pricePerHaUah": 2011
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Struik"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0016.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0018.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0016-700x315.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0018-700x315.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0016-150x68.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0018-150x68.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/struik.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Гичкоподрібнювач ( ботвовидаляч ) для картоплі 4 ряда на 75 см STRUIK 2002 рік &nbsp;",
-    "fullDescription": "Гичкоподрібнювач ( ботвовидаляч ) для картоплі 4 ряда на 75 см STRUIK 2002 рік &nbsp;",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Гичкоподрібнювач ( ботвовидаляч ) для картоплі 4 ряда на 75 см STRUIK 2002 рік від Struik. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Гичкоподрібнювач ( ботвовидаляч ) для картоплі 4 ряда на 75 см STRUIK 2002 рік від виробника Struik. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-kopachka-dlya-czybuli-lukovaya-kopalka-keulmac-150sm-shyryna-zahvata-2008-rik",
+    "id": "adena-77",
     "slug": "kopachka-dlya-czybuli-lukovaya-kopalka-keulmac-150sm-shyryna-zahvata-2008-rik",
     "name": "Копачка для цибулі ( Луковая копалка ) KEULMAC – 150см ширина захвата 2008 рік",
-    "brand": "Інше",
-    "model": "Інше",
-    "activityType": "onion",
-    "machineryType": "harvest",
-    "badge": null,
-    "discountPercent": 0,
+    "brand": "Keulmac",
+    "model": "Копачка для цибулі ( Луковая копалка ) KEULMAC",
+    "activityType": "harvesting",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
-    "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
-    },
-    "specs": {
-      "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
-      "operatorIncluded": true,
-      "gpsGuidance": true
-    },
+    "badge": "В наявності",
     "images": [
       "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0008.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0008-700x1244.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0008-150x267.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/keulmac.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0008-300x300.jpg"
     ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Копачка для цибулі ( Луковая копалка ) KEULMAC &#8211; 150см ширина захвата Для цибулі, червоного буряка, моркви, картоплі",
-    "fullDescription": "Копачка для цибулі ( Луковая копалка ) KEULMAC &#8211; 150см ширина захвата Для цибулі, червоного буряка, моркви, картоплі",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
-  },
-  {
-    "id": "mach-adena-gychkopodribnyuvach-botvovydalyach-dlya-kartopli-4-ryada-na-75-sm-struik-2005rik",
-    "slug": "gychkopodribnyuvach-botvovydalyach-dlya-kartopli-4-ryada-na-75-sm-struik-2005rik",
-    "name": "Гичкоподрібнювач ( ботвовидаляч ) для картоплі 4 ряда на 75 см STRUIK  2005рік",
-    "brand": "Struik",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "haulm",
-    "badge": null,
-    "discountPercent": 0,
-    "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 442000,
+      "pricePerShiftUah": 35360,
+      "pricePerHaUah": 2947
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0025.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0027.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0026.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0025-700x394.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0027-700x394.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0026-700x394.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0025-150x84.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0027-150x84.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0026-150x84.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/struik.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Гичкоподрібнювач ( ботвовидаляч ) для картоплі 4 ряда на 75 см STRUIK Гичкоподрібнювач ( ботвовидаляч ) для картоплі 4 ряди на 75 см STRUIK 2005 рік Ботвовидаляч, ботвоудалитель, ботводрабитель для картоплі. В наявності. Додаткові фото за запитом.",
-    "fullDescription": "Гичкоподрібнювач ( ботвовидаляч ) для картоплі 4 ряда на 75 см STRUIK Гичкоподрібнювач ( ботвовидаляч ) для картоплі 4 ряди на 75 см STRUIK 2005 рік Ботвовидаляч, ботвоудалитель, ботводрабитель для картоплі. В наявності. Додаткові фото за запитом.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Копачка для цибулі ( Луковая копалка ) KEULMAC – 150см ширина захвата Для цибулі, червоного буряка, моркви, картоплі",
+    "fullDescription": "Копачка для цибулі ( Луковая копалка ) KEULMAC – 150см ширина захвата Для цибулі, червоного буряка, моркви, картоплі"
   },
   {
-    "id": "mach-adena-mashyna-dlya-suhogo-ochyshhennya-ovochiv-shyryna-60sm-dlya-s-g-vyrobnykiv",
+    "id": "adena-78",
+    "slug": "gychkopodribnyuvach-botvovydalyach-dlya-kartopli-4-ryada-na-75-sm-struik-2005rik",
+    "name": "Гичкоподрібнювач ( ботвовидаляч ) для картоплі 4 ряда на 75 см STRUIK 2005рік",
+    "brand": "Struik",
+    "model": "Гичкоподрібнювач ( ботвовидаляч ) для картоплі 4 ряда на 75 см STRUIK 2005рік",
+    "activityType": "soil_preparation",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0025-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 390000,
+      "pricePerShiftUah": 31200,
+      "pricePerHaUah": 2600
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Struik"
+    },
+    "shortDescription": "Гичкоподрібнювач ( ботвовидаляч ) для картоплі 4 ряда на 75 см STRUIK 2005рік від Struik. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Гичкоподрібнювач ( ботвовидаляч ) для картоплі 4 ряда на 75 см STRUIK 2005рік від виробника Struik. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-79",
     "slug": "mashyna-dlya-suhogo-ochyshhennya-ovochiv-shyryna-60sm-dlya-s-g-vyrobnykiv",
     "name": "Машина для сухого очищення овочів (ширина 60см) для с/г виробників",
     "brand": "Інше",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Машина для сухого очищення овочів (ширина 60см) для с/г виробників",
+    "activityType": "sorting",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132135_654-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 286000,
+      "pricePerShiftUah": 22880,
+      "pricePerHaUah": 1907
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Інше"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132135_654.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132135_840.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251020-wa0003.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251020-wa0001.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251020-wa0000.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132135_654-700x394.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132135_840-700x1244.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251020-wa0003-700x1244.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251020-wa0001-700x1244.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251020-wa0000-700x1244.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132135_654-150x84.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132135_840-150x267.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251020-wa0003-150x267.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251020-wa0001-150x267.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251020-wa0000-150x267.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Машина для сухого очищення овочів (ширина 60см) SCHOUTEN Модуль для сухого очищення овочів призначений для очищення моркви, буряка картоплі та інших овочів від бруду та гички з подальшим відведенням некондиції та бруду через відвідний транспортер.",
-    "fullDescription": "Машина для сухого очищення овочів (ширина 60см) SCHOUTEN Модуль для сухого очищення овочів призначений для очищення моркви, буряка картоплі та інших овочів від бруду та гички з подальшим відведенням некондиції та бруду через відвідний транспортер.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Машина для сухого очищення овочів (ширина 60см) для с/г виробників від Інше. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Машина для сухого очищення овочів (ширина 60см) для с/г виробників від виробника Інше. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-kombajn-dlya-zbyrannya-kartopli-ta-czybuli-amac-d2",
+    "id": "adena-80",
     "slug": "kombajn-dlya-zbyrannya-kartopli-ta-czybuli-amac-d2",
     "name": "Комбайн для збирання картоплі та цибулі Amac- D2",
-    "brand": "Інше",
-    "model": "Інше",
-    "activityType": "onion",
-    "machineryType": "harvest",
-    "badge": null,
-    "discountPercent": 0,
+    "brand": "Amac",
+    "model": "Комбайн для збирання картоплі та цибулі Amac- D2",
+    "activityType": "harvesting",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/01/img-5d919533db908645b434f77504398033-v-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 182000,
+      "pricePerShiftUah": 14560,
+      "pricePerHaUah": 1213
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Amac"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-5d919533db908645b434f77504398033-v.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-441f71c46b099593ac122e2d7405f8fe-v.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-501b0e15b5277d3d62690c7d5b3d7ac9-v.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-1265a68c8ca762d8aecec192422ba3aa-v.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-606600aa40f7de9731747f5280a0576b-v.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-868334cb82ea9d4e4d9fbe7d09b9e7f1-v.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-5d919533db908645b434f77504398033-v-700x933.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-441f71c46b099593ac122e2d7405f8fe-v-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-501b0e15b5277d3d62690c7d5b3d7ac9-v-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-1265a68c8ca762d8aecec192422ba3aa-v-700x933.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-606600aa40f7de9731747f5280a0576b-v-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-868334cb82ea9d4e4d9fbe7d09b9e7f1-v-700x933.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-5d919533db908645b434f77504398033-v-150x200.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-441f71c46b099593ac122e2d7405f8fe-v-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-501b0e15b5277d3d62690c7d5b3d7ac9-v-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-1265a68c8ca762d8aecec192422ba3aa-v-150x200.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-606600aa40f7de9731747f5280a0576b-v-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-868334cb82ea9d4e4d9fbe7d09b9e7f1-v-150x200.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/amac.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Комбайн для збирання картоплі та цибулі Amac- D2 Підбирач цибулі, картоплекопач, червоний буряк, морква. Подовжений елеватор (вивантажувальний транспортер) Лукоуборочный комбайн AMAC &#8211; 1,5 м В такому стані як на фото",
-    "fullDescription": "Комбайн для збирання картоплі та цибулі Amac- D2 Підбирач цибулі, картоплекопач, червоний буряк, морква. Подовжений елеватор (вивантажувальний транспортер) Лукоуборочный комбайн AMAC &#8211; 1,5 м В такому стані як на фото",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Комбайн для збирання картоплі та цибулі Amac- D2 від Amac. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Комбайн для збирання картоплі та цибулі Amac- D2 від виробника Amac. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-pryjmalnyj-bunker-sortuvalka-grimme-rh-24-60-na-try-frakcziyi-2008-rik",
+    "id": "adena-81",
     "slug": "pryjmalnyj-bunker-sortuvalka-grimme-rh-24-60-na-try-frakcziyi-2008-rik",
     "name": "Grimme RH 24-60 – Приймальний бункер 2008 рік",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Grimme RH 24-60",
+    "activityType": "sorting",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
-    "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
-    },
-    "specs": {
-      "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
-      "operatorIncluded": true,
-      "gpsGuidance": true
-    },
+    "badge": "Преміум",
     "images": [
       "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_11.jpg",
       "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_10.jpg",
@@ -2449,220 +2518,94 @@ export const MACHINERY_DATA = [
       "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_04.jpg",
       "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_08.jpg",
       "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_09.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_11-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_10-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_05-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_07-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_01-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_06-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_03-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_02-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_04-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_08-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_09-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_11-300x300.jpg"
     ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Приймальний бункер &#8211; сортувалка Grimme RH 24-60 на три фракції Розподіл на три фракції, для картоплі, цибулі та інших овочів Пропускна спроможність від 100 до 140 т/год",
-    "fullDescription": "Приймальний бункер &#8211; сортувалка Grimme RH 24-60 на три фракції Розподіл на три фракції, для картоплі, цибулі та інших овочів Пропускна спроможність від 100 до 140 т/год",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
-  },
-  {
-    "id": "mach-adena-prychypna-kosarka-czybuli-keulmac-ventelyatornogo-typu-pidnimaye-gychku",
-    "slug": "prychypna-kosarka-czybuli-keulmac-ventelyatornogo-typu-pidnimaye-gychku",
-    "name": "Причипна косарка цибулі &#8220;Keulmac&#8221; вентеляторного типу (піднімає гичку)",
-    "brand": "Інше",
-    "model": "Інше",
-    "activityType": "onion",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
-    "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 4420000,
+      "pricePerShiftUah": 66300,
+      "pricePerHaUah": 5525
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132648_254.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132648_191.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132648_502.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132648_903.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132648_818.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132648_254-700x394.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132648_191-700x394.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132648_502-700x394.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132648_903-700x394.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132648_818-700x394.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132648_254-150x84.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132648_191-150x84.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132648_502-150x84.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132648_903-150x84.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132648_818-150x84.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/keulmac.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Причипна косарка цибулі &#8220;Keulmac&#8221; вентеляторного типу (піднімає гичку)",
-    "fullDescription": "Причипна косарка цибулі &#8220;Keulmac&#8221; вентеляторного типу (піднімає гичку)",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Приймальний бункер – сортувалка Grimme RH 24-60 на три фракції Розподіл на три фракції, для картоплі, цибулі та інших овочів Пропускна спроможність від 100 до 140 т/год",
+    "fullDescription": "Приймальний бункер – сортувалка Grimme RH 24-60 на три фракції Розподіл на три фракції, для картоплі, цибулі та інших овочів Пропускна спроможність від 100 до 140 т/год"
   },
   {
-    "id": "mach-adena-ustanovka-dlya-protruyuvannya-bulb-kartopli-pid-prestyzh-vyrobnyk-grimme",
+    "id": "adena-82",
+    "slug": "prychypna-kosarka-czybuli-keulmac-ventelyatornogo-typu-pidnimaye-gychku",
+    "name": "Причипна косарка цибулі &#8220;Keulmac&#8221; вентеляторного типу (піднімає гичку)",
+    "brand": "Keulmac",
+    "model": "Причипна косарка цибулі &#8220;Keulmac&#8221; вентеляторного типу (піднімає гичку)",
+    "activityType": "soil_preparation",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132648_254-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 405600,
+      "pricePerShiftUah": 32448,
+      "pricePerHaUah": 2704
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Keulmac"
+    },
+    "shortDescription": "Причипна косарка цибулі &#8220;Keulmac&#8221; вентеляторного типу (піднімає гичку) від Keulmac. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Причипна косарка цибулі &#8220;Keulmac&#8221; вентеляторного типу (піднімає гичку) від виробника Keulmac. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-83",
     "slug": "ustanovka-dlya-protruyuvannya-bulb-kartopli-pid-prestyzh-vyrobnyk-grimme",
     "name": "Установка для протруювання бульб картоплі під Престиж виробник Grimme",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Установка для протруювання бульб картоплі під Престиж виробник Grimme",
+    "activityType": "soil_preparation",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/01/img-1ed7466d51bc5abfb4837770e1756593-v-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 78000,
+      "pricePerShiftUah": 6240,
+      "pricePerHaUah": 520
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Grimme"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-1ed7466d51bc5abfb4837770e1756593-v-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-a3bc3362d2d57032add3da2e893d71cc-v-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20250305_164009-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20250305_164020-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20250305_164043-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20250305_164106-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-c35cee3d98ab8688d1928aeff825a847-v-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-ce95cad4fc907d7442c5a593b3450b0b-v-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-1ed7466d51bc5abfb4837770e1756593-v-700x1244.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-a3bc3362d2d57032add3da2e893d71cc-v-700x394.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20250305_164009-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20250305_164020-700x933.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20250305_164043-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20250305_164106-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-c35cee3d98ab8688d1928aeff825a847-v-700x394.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-ce95cad4fc907d7442c5a593b3450b0b-v-700x394.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-1ed7466d51bc5abfb4837770e1756593-v-150x267.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-a3bc3362d2d57032add3da2e893d71cc-v-150x84.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20250305_164009-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20250305_164020-150x200.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20250305_164043-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20250305_164106-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-c35cee3d98ab8688d1928aeff825a847-v-150x84.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-ce95cad4fc907d7442c5a593b3450b0b-v-150x84.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Установка для протруювання бульб картоплі під Престиж виробник Grimme &nbsp;",
-    "fullDescription": "Установка для протруювання бульб картоплі під Престиж виробник Grimme &nbsp;",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Установка для протруювання бульб картоплі під Престиж виробник Grimme від Grimme. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Установка для протруювання бульб картоплі під Престиж виробник Grimme від виробника Grimme. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-avtomatychna-klipsatorna-mashyna-sorma-rb2-120-at-5e-c-pack-net-clipper-met-wijnglas-labeler",
+    "id": "adena-84",
     "slug": "avtomatychna-klipsatorna-mashyna-sorma-rb2-120-at-5e-c-pack-net-clipper-met-wijnglas-labeler",
     "name": "Sorma RB2-120 AT-5E – Автоматична кліпсаторна машина",
-    "brand": "Інше",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": "-18%",
-    "discountPercent": 18,
+    "brand": "Sorma",
+    "model": "Sorma RB2-120 AT-5E",
+    "activityType": "soil_preparation",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
-    "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
-    },
-    "specs": {
-      "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
-      "operatorIncluded": true,
-      "gpsGuidance": true
-    },
+    "badge": "В наявності",
     "images": [
       "https://adenaagro.com/wp-content/uploads/2025/01/20211007_083502-scaled-1.jpg",
       "https://adenaagro.com/wp-content/uploads/2022/11/20211007_083123-scaled.jpg",
@@ -2673,74 +2616,34 @@ export const MACHINERY_DATA = [
       "https://adenaagro.com/wp-content/uploads/2022/11/silgosptehnika-pakuvalna-mashinaavtomaticheskaya-klipsatornaya-mashina-sorma-sorma-rb-2-120-at-5e-5_big-12110815243622996700.jpg",
       "https://adenaagro.com/wp-content/uploads/2022/11/img_1714.jpg",
       "https://adenaagro.com/wp-content/uploads/2022/11/20211007_083513-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2025/01/20211007_083502-scaled-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20211007_083123-700x394.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20211007_083137-700x394.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20211007_083204-700x394.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20211007_083216-700x394.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20211007_083403-700x394.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/img_1714-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20211007_083513-700x394.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20211007_083123-150x84.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20211007_083137-150x84.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20211007_083204-150x84.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20211007_083216-150x84.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20211007_083403-150x84.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/img_1714-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20211007_083513-150x84.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+      "https://adenaagro.com/wp-content/uploads/2025/01/20211007_083502-scaled-1-300x300.jpg"
     ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Автоматична кліпсаторна машина Sorma RB2 120 AT 5E для пакування овочів, фруктів і цитрусових у сітки.",
-    "fullDescription": "Автоматична кліпсаторна машина Sorma RB2 120 AT 5E для пакування овочів, фруктів і цитрусових у сітки.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
-  },
-  {
-    "id": "mach-adena-grimme-dl-1500-2h75-1999-rik",
-    "slug": "grimme-dl-1500-2h75-1999-rik",
-    "name": "Grimme DL-1500 – Картоплезбиральний комбайн",
-    "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "harvest",
-    "badge": null,
-    "discountPercent": 0,
-    "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 468000,
+      "pricePerShiftUah": 37440,
+      "pricePerHaUah": 3120
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
+    "shortDescription": "Автоматична кліпсаторна машина Sorma RB2 120 AT 5E для пакування овочів, фруктів і цитрусових у сітки.",
+    "fullDescription": "Автоматична кліпсаторна машина Sorma RB2 120 AT 5E для пакування овочів, фруктів і цитрусових у сітки."
+  },
+  {
+    "id": "adena-85",
+    "slug": "grimme-dl-1500-2h75-1999-rik",
+    "name": "Grimme DL-1500 – Картоплезбиральний комбайн",
+    "brand": "Grimme",
+    "model": "Grimme DL-1500",
+    "activityType": "harvesting",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
+    "status": "available",
+    "badge": "Преміум",
     "images": [
       "https://adenaagro.com/wp-content/uploads/2024/12/kadrat.jpeg",
       "https://adenaagro.com/wp-content/uploads/2022/11/f4fdf4adb58c5a4992963693d13ff0c1_big.jpeg",
@@ -2750,1604 +2653,820 @@ export const MACHINERY_DATA = [
       "https://adenaagro.com/wp-content/uploads/2022/11/926dab9ea928d165fc9af86c6eb6305d.jpeg",
       "https://adenaagro.com/wp-content/uploads/2022/11/51599b870486edbe4a9f148bf07655ba.jpeg",
       "https://adenaagro.com/wp-content/uploads/2022/11/de87c113bd8ec19640e7c83758e9a149.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2024/12/kadrat-700x700.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/f4fdf4adb58c5a4992963693d13ff0c1_big-700x525.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/3ccbf9b15c0a76813c6df315d4916351-700x525.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/26a7da0a30422027b919ad526deea5d6-700x525.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/60e4d25951d42c429c304fcf5b90f4ac-700x414.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/926dab9ea928d165fc9af86c6eb6305d-700x318.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/51599b870486edbe4a9f148bf07655ba-700x599.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/de87c113bd8ec19640e7c83758e9a149-700x379.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/f4fdf4adb58c5a4992963693d13ff0c1_big-150x113.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/3ccbf9b15c0a76813c6df315d4916351-150x113.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/26a7da0a30422027b919ad526deea5d6-150x113.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/60e4d25951d42c429c304fcf5b90f4ac-150x89.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/926dab9ea928d165fc9af86c6eb6305d-150x68.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/51599b870486edbe4a9f148bf07655ba-150x128.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/de87c113bd8ec19640e7c83758e9a149-150x81.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2024/03/remont-transporteriv_natysnit.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+      "https://adenaagro.com/wp-content/uploads/2024/12/kadrat-300x300.jpeg"
     ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
+    "pricing": {
+      "purchasePriceUah": 1222000,
+      "pricePerShiftUah": 18330,
+      "pricePerHaUah": 1528
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
     "shortDescription": "Grimme DL 1500 (2&#215;75см), 1999 рік Причіпний, двухрядний картоплезбиральний комбайн. Висока продуктивність, якісна сепарація та мінімальні пошкодження врожаю.",
-    "fullDescription": "Grimme DL 1500 (2&#215;75см), 1999 рік Причіпний, двухрядний картоплезбиральний комбайн. Висока продуктивність, якісна сепарація та мінімальні пошкодження врожаю.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "fullDescription": "Grimme DL 1500 (2&#215;75см), 1999 рік Причіпний, двухрядний картоплезбиральний комбайн. Висока продуктивність, якісна сепарація та мінімальні пошкодження врожаю."
   },
   {
-    "id": "mach-adena-pidbyrach-karotopli-czybuli-z-kagativ-krot-skuter-pidbyrach",
+    "id": "adena-86",
     "slug": "pidbyrach-karotopli-czybuli-z-kagativ-krot-skuter-pidbyrach",
     "name": "Підбирач картоплі, цибулі з кагатів (крот) СКУТЕР-ПІДБИРАЧ",
     "brand": "Інше",
-    "model": "Інше",
-    "activityType": "onion",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Підбирач картоплі, цибулі з кагатів (крот) СКУТЕР-ПІДБИРАЧ",
+    "activityType": "soil_preparation",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/img-20251019-wa0003.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/img-20251019-wa0003-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 286000,
+      "pricePerShiftUah": 22880,
+      "pricePerHaUah": 1907
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/img-20251019-wa0003.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2022/11/img-20251019-wa0003-700x1244.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/img-20251019-wa0003-150x267.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
     "shortDescription": "Підбирач каротоплі, цибулі з кагатів (крот) СКУТЕР-ПІДБИРАЧ",
-    "fullDescription": "Підбирач каротоплі, цибулі з кагатів (крот) СКУТЕР-ПІДБИРАЧ",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "fullDescription": "Підбирач каротоплі, цибулі з кагатів (крот) СКУТЕР-ПІДБИРАЧ"
   },
   {
-    "id": "mach-adena-plyta-dlya-kartoplesadzhalky-grimme-gl",
+    "id": "adena-87",
     "slug": "plyta-dlya-kartoplesadzhalky-grimme-gl",
     "name": "Плита для картоплесаджалки Grimme GL",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "planting",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Плита для картоплесаджалки Grimme GL",
+    "activityType": "planting",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/img-0e1531461ff2eecbcaf0ac4681118905-v-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 78000,
+      "pricePerShiftUah": 6240,
+      "pricePerHaUah": 520
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Grimme"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/img-0e1531461ff2eecbcaf0ac4681118905-v.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/grimme-gl-420-pootmachine-combdba5be52.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2022/11/img-0e1531461ff2eecbcaf0ac4681118905-v-700x323.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/grimme-gl-420-pootmachine-combdba5be52-700x525.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/img-0e1531461ff2eecbcaf0ac4681118905-v-150x69.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/grimme-gl-420-pootmachine-combdba5be52-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Плита для картоплесаджалки Grimme GL — надійна сільськогосподарська техніка від європейського виробника Grimme.",
-    "fullDescription": "Плита для картоплесаджалки Grimme GL забезпечує найвищу якість виконання технологічних операцій з мінімальними витратами палива.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Плита для картоплесаджалки Grimme GL від Grimme. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Плита для картоплесаджалки Grimme GL від виробника Grimme. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-pidshypnyk-kulkovyj-radialnyj-6005-zzrst-zakrytyj-dlya-silgosptehniky-grimme-b96-00016",
+    "id": "adena-88",
     "slug": "pidshypnyk-kulkovyj-radialnyj-6005-zzrst-zakrytyj-dlya-silgosptehniky-grimme-b96-00016",
     "name": "Grimme B96.00016 – Підшипник кульковий радіальний",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Grimme B96.00016",
+    "activityType": "maintenance",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/b96.00016_1-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 208,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 1
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Grimme"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/b96.00016_1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/03/b96.00016.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/08/b96.00016_1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/03/b96.00016-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Код виробника (OEM): B96.00016 Тип: Радіальний кульковий підшипник (глибока канавка), однорядний Посадковий діаметр (внутрішній діаметр / Bore): 25 мм Зовнішній діаметр (Outer): 47 мм Ширина (Width): 12 мм Ущільнення: Металеві захисні шайби з обох боків (ZZ) Мастило: Консистентне (попередньо закладене) Динамічне навантаження (Cr): 10.1 кН Статичне навантаження (Cor): 5.85 кН Гранична швидкість (для ZZ): ~15,000 об/хв Матеріал: Підшипникова сталь (GCr15)",
-    "fullDescription": "Код виробника (OEM): B96.00016 Тип: Радіальний кульковий підшипник (глибока канавка), однорядний Посадковий діаметр (внутрішній діаметр / Bore): 25 мм Зовнішній діаметр (Outer): 47 мм Ширина (Width): 12 мм Ущільнення: Металеві захисні шайби з обох боків (ZZ) Мастило: Консистентне (попередньо закладене) Динамічне навантаження (Cr): 10.1 кН Статичне навантаження (Cor): 5.85 кН Гранична швидкість (для ZZ): ~15,000 об/хв Матеріал: Підшипникова сталь (GCr15)",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Grimme B96.00016 – Підшипник кульковий радіальний від Grimme. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Grimme B96.00016 – Підшипник кульковий радіальний від виробника Grimme. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-prykotuyuchyj-grebnevyj-kartoplezbyralnogo-kombajna-grimme-100-27347",
+    "id": "adena-89",
     "slug": "prykotuyuchyj-grebnevyj-kartoplezbyralnogo-kombajna-grimme-100-27347",
     "name": "Grimme 100.27347 – Діаболо-ролер (комкодавець)",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Grimme 100.27347",
+    "activityType": "maintenance",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
-    "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
-    },
-    "specs": {
-      "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
-      "operatorIncluded": true,
-      "gpsGuidance": true
-    },
+    "badge": "В наявності",
     "images": [
       "https://adenaagro.com/wp-content/uploads/2026/08/6518a65chm.png",
       "https://adenaagro.com/wp-content/uploads/2026/08/1231231313.png",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/08/6518a65chm-700x700.png",
-      "https://adenaagro.com/wp-content/uploads/2026/08/1231231313-700x700.png",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+      "https://adenaagro.com/wp-content/uploads/2026/08/6518a65chm-300x300.png"
     ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Діаболо-ролер (гребеневий барабан, комкодавець) Grimme 100.27347 для картоплезбиральних комбайнів. Призначений для копіювання поверхні ґрунту та стабілізації положення робочих органів під час збирання картоплі. Розмір — 600 мм",
-    "fullDescription": "Діаболо-ролер (гребеневий барабан, комкодавець) Grimme 100.27347 для картоплезбиральних комбайнів. Призначений для копіювання поверхні ґрунту та стабілізації положення робочих органів під час збирання картоплі. Розмір — 600 мм",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
-  },
-  {
-    "id": "mach-adena-grimme-300-45199-zyednuvalnyj-kabel",
-    "slug": "grimme-300-45199-zyednuvalnyj-kabel",
-    "name": "Grimme 300.45199 – З’єднувальний кабель",
-    "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
-    "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 38740,
+      "pricePerShiftUah": 3099,
+      "pricePerHaUah": 258
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0184.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01842.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0184-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01842-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Кабель Grimme 300.45199 З&#8217;єднувальний кабель, призначений для підключення електронних компонентів картоплезбиральних комбайнів та іншої техніки Grimme. Оснащений заводськими герметичними роз&#8217;ємами, забезпечує надійну передачу електричних сигналів і стабільну роботу електросистеми машини.",
-    "fullDescription": "Кабель Grimme 300.45199 З&#8217;єднувальний кабель, призначений для підключення електронних компонентів картоплезбиральних комбайнів та іншої техніки Grimme. Оснащений заводськими герметичними роз&#8217;ємами, забезпечує надійну передачу електричних сигналів і стабільну роботу електросистеми машини.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Діаболо-ролер (гребеневий барабан, комкодавець) Grimme 100.27347 для картоплезбиральних комбайнів. Призначений для копіювання поверхні ґрунту та стабілізації положення робочих органів під час збирання картоплі. Розмір — 600 мм",
+    "fullDescription": "Діаболо-ролер (гребеневий барабан, комкодавець) Grimme 100.27347 для картоплезбиральних комбайнів. Призначений для копіювання поверхні ґрунту та стабілізації положення робочих органів під час збирання картоплі. Розмір — 600 мм"
   },
   {
-    "id": "mach-adena-grimme-b94-01021-peremykach-dvopozyczijnyj",
+    "id": "adena-90",
+    "slug": "grimme-300-45199-zyednuvalnyj-kabel",
+    "name": "Grimme 300.45199 – З'єднувальний кабель",
+    "brand": "Grimme",
+    "model": "Grimme 300.45199",
+    "activityType": "maintenance",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0184-300x300.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 3900,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 26
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Grimme"
+    },
+    "shortDescription": "Grimme 300.45199 – З'єднувальний кабель від Grimme. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Grimme 300.45199 – З'єднувальний кабель від виробника Grimme. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "adena-91",
     "slug": "grimme-b94-01021-peremykach-dvopozyczijnyj",
     "name": "Grimme B94.01021 – Перемикач двопозиційний",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Grimme B94.01021",
+    "activityType": "maintenance",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01852-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 1820,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 12
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Grimme"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01852.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01851.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0185.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01852-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01851-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0185-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Перемикач Grimme B94.01021 Для керування електричними колами картоплезбиральних комбайнів та іншої техніки Grimme. Оснащений двопозиційним механізмом та модульними контактними блоками, що забезпечують надійну комутацію електричних кіл у системі керування машиною. Тип: поворотний (селекторний) перемикач Кількість положень: 2 Монтаж: панельний Тип підключення: гвинтові клеми Максимальна робоча напруга контактних блоків: до 600 V AC Призначення: керування електричними колами та вибір режимів роботи Застосування: картоплезбиральні комбайни та інша техніка Grimme",
-    "fullDescription": "Перемикач Grimme B94.01021 Для керування електричними колами картоплезбиральних комбайнів та іншої техніки Grimme. Оснащений двопозиційним механізмом та модульними контактними блоками, що забезпечують надійну комутацію електричних кіл у системі керування машиною. Тип: поворотний (селекторний) перемикач Кількість положень: 2 Монтаж: панельний Тип підключення: гвинтові клеми Максимальна робоча напруга контактних блоків: до 600 V AC Призначення: керування електричними колами та вибір режимів роботи Застосування: картоплезбиральні комбайни та інша техніка Grimme",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Grimme B94.01021 – Перемикач двопозиційний від Grimme. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Grimme B94.01021 – Перемикач двопозиційний від виробника Grimme. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-grimme-b94-01029-kontaktnyj-blok",
+    "id": "adena-92",
     "slug": "grimme-b94-01029-kontaktnyj-blok",
     "name": "Grimme B94.01029 – Контактний блок",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Grimme B94.01029",
+    "activityType": "maintenance",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
-    "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
-    },
-    "specs": {
-      "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
-      "operatorIncluded": true,
-      "gpsGuidance": true
-    },
+    "badge": "В наявності",
     "images": [
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_018211.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01831.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/08/bez-nazvy.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_018211-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01831-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/bez-nazvy-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_018211-300x300.jpg"
     ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
+    "pricing": {
+      "purchasePriceUah": 624,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 4
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
     "shortDescription": "Контактний блок Grimme B94.01029 призначений для встановлення на кнопки та селекторні перемикачі панелі керування техніки Grimme. Оснащений одним нормально відкритим контактом (1NO) та забезпечує надійну комутацію електричних кіл керування в системах автоматизації машини. Артикул GRIMME: B94.01029 Тип: контактний блок Тип контакту: 1NO (нормально відкритий) Тип підключення: гвинтові клеми Номінальна напруга: до 250 В AC Номінальний струм: 5(4) А Монтажний діаметр: 22 мм Призначення: комутація електричних кіл керування Застосування: картоплезбиральні комбайни та інша техніка Grimme",
-    "fullDescription": "Контактний блок Grimme B94.01029 призначений для встановлення на кнопки та селекторні перемикачі панелі керування техніки Grimme. Оснащений одним нормально відкритим контактом (1NO) та забезпечує надійну комутацію електричних кіл керування в системах автоматизації машини. Артикул GRIMME: B94.01029 Тип: контактний блок Тип контакту: 1NO (нормально відкритий) Тип підключення: гвинтові клеми Номінальна напруга: до 250 В AC Номінальний струм: 5(4) А Монтажний діаметр: 22 мм Призначення: комутація електричних кіл керування Застосування: картоплезбиральні комбайни та інша техніка Grimme",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "fullDescription": "Контактний блок Grimme B94.01029 призначений для встановлення на кнопки та селекторні перемикачі панелі керування техніки Grimme. Оснащений одним нормально відкритим контактом (1NO) та забезпечує надійну комутацію електричних кіл керування в системах автоматизації машини. Артикул GRIMME: B94.01029 Тип: контактний блок Тип контакту: 1NO (нормально відкритий) Тип підключення: гвинтові клеми Номінальна напруга: до 250 В AC Номінальний струм: 5(4) А Монтажний діаметр: 22 мм Призначення: комутація електричних кіл керування Застосування: картоплезбиральні комбайни та інша техніка Grimme"
   },
   {
-    "id": "mach-adena-grimme-b94-01469-relejnyj-modul",
+    "id": "adena-93",
     "slug": "grimme-b94-01469-relejnyj-modul",
     "name": "Grimme B94.01469 – Релейний модуль",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Grimme B94.01469",
+    "activityType": "maintenance",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0176_21-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 9620,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 64
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Grimme"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0176_21.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0176_2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0176_22.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0176_21-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0176_2-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0176_22-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Релейний модуль Grimme B94.01469 Для комутації електричних кіл у системі керування картоплезбиральних комбайнів та іншої техніки Grimme . Модуль оснащений двома промисловими електромагнітними реле із котушками 12 В DC та гвинтовими клемами для швидкого підключення електрообладнання. Артикул GRIMME: B94.01469 Тип: релейний модуль Кількість реле: 2 Живлення котушок: 12 В DC Тип контактів: 1 перекидний (SPDT) на кожному реле Максимальний струм контактів: 16 А Тип підключення: гвинтові клеми Призначення: комутація та керування електричними колами",
-    "fullDescription": "Релейний модуль Grimme B94.01469 Для комутації електричних кіл у системі керування картоплезбиральних комбайнів та іншої техніки Grimme . Модуль оснащений двома промисловими електромагнітними реле із котушками 12 В DC та гвинтовими клемами для швидкого підключення електрообладнання. Артикул GRIMME: B94.01469 Тип: релейний модуль Кількість реле: 2 Живлення котушок: 12 В DC Тип контактів: 1 перекидний (SPDT) на кожному реле Максимальний струм контактів: 16 А Тип підключення: гвинтові клеми Призначення: комутація та керування електричними колами",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Grimme B94.01469 – Релейний модуль від Grimme. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Grimme B94.01469 – Релейний модуль від виробника Grimme. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-kopiyagrimme-b94-01025-mehanichne-rele-tysku-presostat",
+    "id": "adena-94",
     "slug": "kopiyagrimme-b94-01025-mehanichne-rele-tysku-presostat",
     "name": "Grimme B92.03257 – механічне реле тиску (пресостат)",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Grimme B92.03257",
+    "activityType": "maintenance",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
-    "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
-    },
-    "specs": {
-      "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
-      "operatorIncluded": true,
-      "gpsGuidance": true
-    },
+    "badge": "В наявності",
     "images": [
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01751-5.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01752-6.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01753-2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01751-5-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01752-6-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01753-2-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01751-5-300x300.jpg"
     ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Реле тиску гідравліки Grimme Контролю тиску в гідравлічній системі картоплезбиральних комбайнів та іншої техніки Grimme . При досягненні встановленого тиску пресостат автоматично перемикає електричний контакт, забезпечуючи керування роботою гідравлічних вузлів і захист системи від аварійних режимів. Артикул Grimme: B92.03257 Тип: реле тиску (пресостат) Діапазон регулювання: 10–100 бар Тип контакту: перемикаючий (SPDT) Номінальна напруга: 24 В DC / 220 В AC Максимальний струм: 2 А Ступінь захисту: IP65",
-    "fullDescription": "Реле тиску гідравліки Grimme Контролю тиску в гідравлічній системі картоплезбиральних комбайнів та іншої техніки Grimme . При досягненні встановленого тиску пресостат автоматично перемикає електричний контакт, забезпечуючи керування роботою гідравлічних вузлів і захист системи від аварійних режимів. Артикул Grimme: B92.03257 Тип: реле тиску (пресостат) Діапазон регулювання: 10–100 бар Тип контакту: перемикаючий (SPDT) Номінальна напруга: 24 В DC / 220 В AC Максимальний струм: 2 А Ступінь захисту: IP65",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
-  },
-  {
-    "id": "mach-adena-grimme-b94-01161-modul-pidsvitky",
-    "slug": "grimme-b94-01161-modul-pidsvitky",
-    "name": "Grimme B94.01161 – Модуль підсвітки",
-    "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
-    "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 11960,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 80
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
+    "shortDescription": "Реле тиску гідравліки Grimme Контролю тиску в гідравлічній системі картоплезбиральних комбайнів та іншої техніки Grimme . При досягненні встановленого тиску пресостат автоматично перемикає електричний контакт, забезпечуючи керування роботою гідравлічних вузлів і захист системи від аварійних режимів. Артикул Grimme: B92.03257 Тип: реле тиску (пресостат) Діапазон регулювання: 10–100 бар Тип контакту: перемикаючий (SPDT) Номінальна напруга: 24 В DC / 220 В AC Максимальний струм: 2 А Ступінь захисту: IP65",
+    "fullDescription": "Реле тиску гідравліки Grimme Контролю тиску в гідравлічній системі картоплезбиральних комбайнів та іншої техніки Grimme . При досягненні встановленого тиску пресостат автоматично перемикає електричний контакт, забезпечуючи керування роботою гідравлічних вузлів і захист системи від аварійних режимів. Артикул Grimme: B92.03257 Тип: реле тиску (пресостат) Діапазон регулювання: 10–100 бар Тип контакту: перемикаючий (SPDT) Номінальна напруга: 24 В DC / 220 В AC Максимальний струм: 2 А Ступінь захисту: IP65"
+  },
+  {
+    "id": "adena-95",
+    "slug": "grimme-b94-01161-modul-pidsvitky",
+    "name": "Grimme B94.01161 – Модуль підсвітки",
+    "brand": "Grimme",
+    "model": "Grimme B94.01161",
+    "activityType": "maintenance",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
+    "status": "available",
+    "badge": "В наявності",
     "images": [
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01821.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01822.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01823.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01821-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01822-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01823-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01821-300x300.jpg"
     ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
+    "pricing": {
+      "purchasePriceUah": 1040,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 7
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
     "shortDescription": "Модуль підсвітки Grimme B94.01161 Призначений для встановлення в кнопки та селекторні перемикачі панелі керування картоплезбиральних комбайнів Grimme. Забезпечує підсвічування органів керування, покращуючи їхню видимість і зручність роботи оператора. Використовується з лампами типу BA9s та сумісний із кнопками діаметром 22 мм. Вологозахист: IP65 Підходить для роботи в колах змінного та постійного струму",
-    "fullDescription": "Модуль підсвітки Grimme B94.01161 Призначений для встановлення в кнопки та селекторні перемикачі панелі керування картоплезбиральних комбайнів Grimme. Забезпечує підсвічування органів керування, покращуючи їхню видимість і зручність роботи оператора. Використовується з лампами типу BA9s та сумісний із кнопками діаметром 22 мм. Вологозахист: IP65 Підходить для роботи в колах змінного та постійного струму",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "fullDescription": "Модуль підсвітки Grimme B94.01161 Призначений для встановлення в кнопки та селекторні перемикачі панелі керування картоплезбиральних комбайнів Grimme. Забезпечує підсвічування органів керування, покращуючи їхню видимість і зручність роботи оператора. Використовується з лампами типу BA9s та сумісний із кнопками діаметром 22 мм. Вологозахист: IP65 Підходить для роботи в колах змінного та постійного струму"
   },
   {
-    "id": "mach-adena-grimme-b94-01160-chotyrohpozyczijnyj-peremykach",
+    "id": "adena-96",
     "slug": "grimme-b94-01160-chotyrohpozyczijnyj-peremykach",
     "name": "Grimme B94.01160 – Чотирьохпозиційний перемикач",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Grimme B94.01160",
+    "activityType": "maintenance",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01752-5-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 4940,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 33
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Grimme"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01752-5.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175-6.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01752-5-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175-6-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Трипозиційний перемикач (тумблер) Grimme &#8211; B94.01160 Елемент керування для картоплезбиральних комбайнів. Призначений для перемикання режимів роботи та керування окремими функціями машини. Надійність та тривалий ресурс роботи навіть в умовах інтенсивної польової експлуатації.",
-    "fullDescription": "Трипозиційний перемикач (тумблер) Grimme &#8211; B94.01160 Елемент керування для картоплезбиральних комбайнів. Призначений для перемикання режимів роботи та керування окремими функціями машини. Надійність та тривалий ресурс роботи навіть в умовах інтенсивної польової експлуатації.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Grimme B94.01160 – Чотирьохпозиційний перемикач від Grimme. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Grimme B94.01160 – Чотирьохпозиційний перемикач від виробника Grimme. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-grimme-b94-01028-trypozyczijnyj-peremykach",
+    "id": "adena-97",
     "slug": "grimme-b94-01028-trypozyczijnyj-peremykach",
     "name": "Grimme B94.01028 – Трипозиційний перемикач",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Grimme B94.01028",
+    "activityType": "maintenance",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
-    "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
-    },
-    "specs": {
-      "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
-      "operatorIncluded": true,
-      "gpsGuidance": true
-    },
+    "badge": "В наявності",
     "images": [
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175222.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01753-1.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01751-2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175222-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01753-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01751-2-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175222-300x300.jpg"
     ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Трипозиційний перемикач (тумблер) Grimme &#8211; B94.01028 Елемент керування для картоплезбиральних комбайнів. Призначений для перемикання режимів роботи та керування окремими функціями машини. Надійність та тривалий ресурс роботи навіть в умовах інтенсивної польової експлуатації. Захист від вологи : IP 65",
-    "fullDescription": "Трипозиційний перемикач (тумблер) Grimme &#8211; B94.01028 Елемент керування для картоплезбиральних комбайнів. Призначений для перемикання режимів роботи та керування окремими функціями машини. Надійність та тривалий ресурс роботи навіть в умовах інтенсивної польової експлуатації. Захист від вологи : IP 65",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
-  },
-  {
-    "id": "mach-adena-grimme-b94-01159-kontaktnyj-blok-10-v-10-a",
-    "slug": "grimme-b94-01159-kontaktnyj-blok-10-v-10-a",
-    "name": "Grimme B94.01159 – Контактний блок (10 В, 10 А)",
-    "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
-    "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 3900,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 26
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
+    "shortDescription": "Трипозиційний перемикач (тумблер) Grimme – B94.01028 Елемент керування для картоплезбиральних комбайнів. Призначений для перемикання режимів роботи та керування окремими функціями машини. Надійність та тривалий ресурс роботи навіть в умовах інтенсивної польової експлуатації. Захист від вологи : IP 65",
+    "fullDescription": "Трипозиційний перемикач (тумблер) Grimme – B94.01028 Елемент керування для картоплезбиральних комбайнів. Призначений для перемикання режимів роботи та керування окремими функціями машини. Надійність та тривалий ресурс роботи навіть в умовах інтенсивної польової експлуатації. Захист від вологи : IP 65"
+  },
+  {
+    "id": "adena-98",
+    "slug": "grimme-b94-01159-kontaktnyj-blok-10-v-10-a",
+    "name": "Grimme B94.01159 – Контактний блок (10 В, 10 А)",
+    "brand": "Grimme",
+    "model": "Grimme B94.01159",
+    "activityType": "maintenance",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
+    "status": "available",
+    "badge": "В наявності",
     "images": [
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0176-2.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175-5.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01751-4.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0176-2-700x698.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175-5-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01751-4-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0176-2-300x300.jpg"
     ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Контактний блок Grimme B94.01159 Призначений для використання в електричній системі керування картоплезбиральних комбайнів. Використовується у кнопках, перемикачах та джойстиках, забезпечуючи надійну комутацію електричних кіл і стабільну роботу системи керування. Номінальні характеристики: 10 В, 10 А . Захист від вологи : IP 65 Відповідає за надійне замикання і розмикання електричних контактів, забезпечуючи коректну роботу електричних і гідравлічних систем машини. &nbsp;",
-    "fullDescription": "Контактний блок Grimme B94.01159 Призначений для використання в електричній системі керування картоплезбиральних комбайнів. Використовується у кнопках, перемикачах та джойстиках, забезпечуючи надійну комутацію електричних кіл і стабільну роботу системи керування. Номінальні характеристики: 10 В, 10 А . Захист від вологи : IP 65 Відповідає за надійне замикання і розмикання електричних контактів, забезпечуючи коректну роботу електричних і гідравлічних систем машини. &nbsp;",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "pricing": {
+      "purchasePriceUah": 2860,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 19
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
+    "shortDescription": "Контактний блок Grimme B94.01159 Призначений для використання в електричній системі керування картоплезбиральних комбайнів. Використовується у кнопках, перемикачах та джойстиках, забезпечуючи надійну комутацію електричних кіл і стабільну роботу системи керування. Номінальні характеристики: 10 В, 10 А . Захист від вологи : IP 65 Відповідає за надійне замикання і розмикання електричних контактів, забезпечуючи коректну роботу електричних і гідравлічних систем машини.",
+    "fullDescription": "Контактний блок Grimme B94.01159 Призначений для використання в електричній системі керування картоплезбиральних комбайнів. Використовується у кнопках, перемикачах та джойстиках, забезпечуючи надійну комутацію електричних кіл і стабільну роботу системи керування. Номінальні характеристики: 10 В, 10 А . Захист від вологи : IP 65 Відповідає за надійне замикання і розмикання електричних контактів, забезпечуючи коректну роботу електричних і гідравлічних систем машини."
   },
   {
-    "id": "mach-adena-grimme-b94-02370-dvopozyczijnyj-peremykach",
+    "id": "adena-99",
     "slug": "grimme-b94-02370-dvopozyczijnyj-peremykach",
     "name": "Grimme B94.02370 – Двопозиційний перемикач",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Grimme B94.02370",
+    "activityType": "maintenance",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01752-3-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 2860,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 19
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Grimme"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01752-3.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175-4.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01751-3.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01752-3-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175-4-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01751-3-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Двопозиційний перемикач (Start/Stop) з підсвіткою Grimme B94.02370 Тумблер для пультів керування картоплезбиральних комбайнів. Призначений для керування функціями запуску та зупинки обладнання. Оснащений підсвіткою, яка забезпечує зручну роботу оператора в умовах недостатнього освітлення. Захист від вологи : IP 65",
-    "fullDescription": "Двопозиційний перемикач (Start/Stop) з підсвіткою Grimme B94.02370 Тумблер для пультів керування картоплезбиральних комбайнів. Призначений для керування функціями запуску та зупинки обладнання. Оснащений підсвіткою, яка забезпечує зручну роботу оператора в умовах недостатнього освітлення. Захист від вологи : IP 65",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Grimme B94.02370 – Двопозиційний перемикач від Grimme. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Grimme B94.02370 – Двопозиційний перемикач від виробника Grimme. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-grimme-b94-01024-trypozyczijnyj-peremykach",
+    "id": "adena-100",
     "slug": "grimme-b94-01024-trypozyczijnyj-peremykach",
     "name": "Grimme B94.01024 – Трипозиційний перемикач",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Grimme B94.01024",
+    "activityType": "maintenance",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175-3-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 3380,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 23
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Grimme"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175-3.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01753-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01752-2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175-3-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01753-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01752-2-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Трипозиційний перемикач (тумблер) Grimme &#8211; B94.01024 Елемент керування для картоплезбиральних комбайнів. Призначений для перемикання режимів роботи та керування окремими функціями машини. Надійність та тривалий ресурс роботи навіть в умовах інтенсивної польової експлуатації.",
-    "fullDescription": "Трипозиційний перемикач (тумблер) Grimme &#8211; B94.01024 Елемент керування для картоплезбиральних комбайнів. Призначений для перемикання режимів роботи та керування окремими функціями машини. Надійність та тривалий ресурс роботи навіть в умовах інтенсивної польової експлуатації.",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Grimme B94.01024 – Трипозиційний перемикач від Grimme. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Grimme B94.01024 – Трипозиційний перемикач від виробника Grimme. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-grimme-b94-01027-kontaktnyj-blok-2-v-10-a",
+    "id": "adena-101",
     "slug": "grimme-b94-01027-kontaktnyj-blok-2-v-10-a",
     "name": "Grimme B94.01027 – Контактний блок (2 В, 10 А)",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Grimme B94.01027",
+    "activityType": "maintenance",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01752-1-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 2860,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 19
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Grimme"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01752-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175-2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01751-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01752-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175-2-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01751-1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Контактний блок Grimme B94.01027 Призначений для використання в електричній системі керування картоплезбиральних комбайнів. Використовується у кнопках, перемикачах та джойстиках, забезпечуючи надійну комутацію електричних кіл і стабільну роботу системи керування. Номінальні характеристики: 2 В, 10 А . Відповідає за надійне замикання і розмикання електричних контактів, забезпечуючи коректну роботу електричних і гідравлічних систем машини. Захист від вологи : IP 65",
-    "fullDescription": "Контактний блок Grimme B94.01027 Призначений для використання в електричній системі керування картоплезбиральних комбайнів. Використовується у кнопках, перемикачах та джойстиках, забезпечуючи надійну комутацію електричних кіл і стабільну роботу системи керування. Номінальні характеристики: 2 В, 10 А . Відповідає за надійне замикання і розмикання електричних контактів, забезпечуючи коректну роботу електричних і гідравлічних систем машини. Захист від вологи : IP 65",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Grimme B94.01027 – Контактний блок (2 В, 10 А) від Grimme. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Grimme B94.01027 – Контактний блок (2 В, 10 А) від виробника Grimme. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-grimme-b94-01027-kontaktnyj-blok-20-v-10-a",
+    "id": "adena-102",
     "slug": "grimme-b94-01027-kontaktnyj-blok-20-v-10-a",
     "name": "Grimme B94.01026 – Контактний блок (20 В, 10 А)",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Grimme B94.01026",
+    "activityType": "maintenance",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
-    "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
-    },
-    "specs": {
-      "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
-      "operatorIncluded": true,
-      "gpsGuidance": true
-    },
+    "badge": "В наявності",
     "images": [
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_017522222.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01761.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0180.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_017522222-700x698.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01761-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0180-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_017522222-300x300.jpg"
     ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Контактний блок B94.01026 20 В, 10 А Для органів керування картоплезбиральних комбайнів Grimme . Забезпечує надійну комутацію електричних кіл, стабільну передачу сигналів та безвідмовну роботу системи керування навіть в умовах підвищених навантажень. Захист від вологи : IP 65",
-    "fullDescription": "Контактний блок B94.01026 20 В, 10 А Для органів керування картоплезбиральних комбайнів Grimme . Забезпечує надійну комутацію електричних кіл, стабільну передачу сигналів та безвідмовну роботу системи керування навіть в умовах підвищених навантажень. Захист від вологи : IP 65",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
-  },
-  {
-    "id": "mach-adena-grimme-b94-01025-dzhojstyk-4h-pozyczijnyj",
-    "slug": "grimme-b94-01025-dzhojstyk-4h-pozyczijnyj",
-    "name": "Grimme B94.01025 – Джойстик 4х позиційний",
-    "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
-    "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 10140,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 68
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
+    "shortDescription": "Контактний блок B94.01026 20 В, 10 А Для органів керування картоплезбиральних комбайнів Grimme . Забезпечує надійну комутацію електричних кіл, стабільну передачу сигналів та безвідмовну роботу системи керування навіть в умовах підвищених навантажень. Захист від вологи : IP 65",
+    "fullDescription": "Контактний блок B94.01026 20 В, 10 А Для органів керування картоплезбиральних комбайнів Grimme . Забезпечує надійну комутацію електричних кіл, стабільну передачу сигналів та безвідмовну роботу системи керування навіть в умовах підвищених навантажень. Захист від вологи : IP 65"
+  },
+  {
+    "id": "adena-103",
+    "slug": "grimme-b94-01025-dzhojstyk-4h-pozyczijnyj",
+    "name": "Grimme B94.01025 – Джойстик 4х позиційний",
+    "brand": "Grimme",
+    "model": "Grimme B94.01025",
+    "activityType": "maintenance",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
+    "status": "available",
+    "badge": "В наявності",
     "images": [
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_017541.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01754.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01753.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01751.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_017541-700x698.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01754-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01753-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01751-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_017541-300x300.jpg"
     ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Grimme Оригінальний багатофункціональний елемент керування для пультів картоплезбиральних комбайнів Grimme. Забезпечує точне керування гідравлічними та електронними функціями машини, відрізняється високою надійністю, плавністю роботи та стійкістю до інтенсивної експлуатації в польових умовах. Оригінальний артикул: B94.01025 та 200.53135",
-    "fullDescription": "Grimme Оригінальний багатофункціональний елемент керування для пультів картоплезбиральних комбайнів Grimme. Забезпечує точне керування гідравлічними та електронними функціями машини, відрізняється високою надійністю, плавністю роботи та стійкістю до інтенсивної експлуатації в польових умовах. Оригінальний артикул: B94.01025 та 200.53135",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
-  },
-  {
-    "id": "mach-adena-grimme-b94-04908-dzhojstyk-2h-pozyczijnyj",
-    "slug": "grimme-b94-04908-dzhojstyk-2h-pozyczijnyj",
-    "name": "Grimme B94.04908 – Джойстик 2х позиційний",
-    "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
-    "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 10816,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 72
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
+    "shortDescription": "Grimme Оригінальний багатофункціональний елемент керування для пультів картоплезбиральних комбайнів Grimme. Забезпечує точне керування гідравлічними та електронними функціями машини, відрізняється високою надійністю, плавністю роботи та стійкістю до інтенсивної експлуатації в польових умовах. Оригінальний артикул: B94.01025 та 200.53135",
+    "fullDescription": "Grimme Оригінальний багатофункціональний елемент керування для пультів картоплезбиральних комбайнів Grimme. Забезпечує точне керування гідравлічними та електронними функціями машини, відрізняється високою надійністю, плавністю роботи та стійкістю до інтенсивної експлуатації в польових умовах. Оригінальний артикул: B94.01025 та 200.53135"
+  },
+  {
+    "id": "adena-104",
+    "slug": "grimme-b94-04908-dzhojstyk-2h-pozyczijnyj",
+    "name": "Grimme B94.04908 – Джойстик 2х позиційний",
+    "brand": "Grimme",
+    "model": "Grimme B94.04908",
+    "activityType": "maintenance",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
+    "status": "available",
+    "badge": "В наявності",
     "images": [
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_017432.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01741.jpg",
       "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0174.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_017432-700x698.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01741-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0174-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_017432-300x300.jpg"
     ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
+    "pricing": {
+      "purchasePriceUah": 6500,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 43
+    },
+    "specs": {
+      "powerHp": "від 90 к.с.",
+      "workingWidth": "2-4 ряди",
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "minRentDays": 1
+    },
     "shortDescription": "Двохходовий джойстик керування картоплезбиральних комбайныв GRIMME Оригінальний елемент керування для пультів ккомбайнів GRIMME. Забезпечує точне та плавне керування функціями машини, відрізняється високою надійністю та стійкістю до інтенсивної експлуатації в польових умовах. Оригінальний номер деталі: B94.04908",
-    "fullDescription": "Двохходовий джойстик керування картоплезбиральних комбайныв GRIMME Оригінальний елемент керування для пультів ккомбайнів GRIMME. Забезпечує точне та плавне керування функціями машини, відрізняється високою надійністю та стійкістю до інтенсивної експлуатації в польових умовах. Оригінальний номер деталі: B94.04908",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "fullDescription": "Двохходовий джойстик керування картоплезбиральних комбайныв GRIMME Оригінальний елемент керування для пультів ккомбайнів GRIMME. Забезпечує точне та плавне керування функціями машини, відрізняється високою надійністю та стійкістю до інтенсивної експлуатації в польових умовах. Оригінальний номер деталі: B94.04908"
   },
   {
-    "id": "mach-adena-pryvodnyj-pas-z-nyzkym-profilem-ta-zahysnymy-vystupamy-typ-ds",
+    "id": "adena-105",
     "slug": "pryvodnyj-pas-z-nyzkym-profilem-ta-zahysnymy-vystupamy-typ-ds",
     "name": "Приводний пас з низьким профілем тип DS",
-    "brand": "Інше",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "tillage",
-    "badge": null,
-    "discountPercent": 0,
+    "brand": "AVR , DeWulf , Grimme , Keulmac , Samon , Інше",
+    "model": "Приводний пас з низьким профілем тип DS",
+    "activityType": "maintenance",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2026/05/pass-priv_3-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 2496,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 17
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "AVR , DeWulf , Grimme , Keulmac , Samon , Інше"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/05/pass-priv_3.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/05/pass-priv_1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/05/pass-priv_2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/05/pas-ds.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2026/05/pass-priv_3-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/05/pass-priv_1-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/05/pass-priv_2-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/05/pas-ds-700x526.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/05/pas-ds-150x113.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/avr.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/dewulf.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/keulmac.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/03/remont-transporteriv_natysnit.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Приводний пас з низьким профілем та захисними виступами Для картоплезбиральной та цибулезбиральної техніки DeWulf, AVR, Keulmak, Amac, Samon",
-    "fullDescription": "Приводний пас з низьким профілем та захисними виступами Для картоплезбиральной та цибулезбиральної техніки DeWulf, AVR, Keulmak, Amac, Samon",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Приводний пас з низьким профілем тип DS від AVR , DeWulf , Grimme , Keulmac , Samon , Інше. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Приводний пас з низьким профілем тип DS від виробника AVR , DeWulf , Grimme , Keulmac , Samon , Інше. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-rolyk-pryvodnyj-frykczijnyj-gumovyj-drive-roller-vulcanized-dm194-dlya-kartoplezbyralnyh-kombajniv-grimme-076-05115-r",
+    "id": "adena-106",
     "slug": "rolyk-pryvodnyj-frykczijnyj-gumovyj-drive-roller-vulcanized-dm194-dlya-kartoplezbyralnyh-kombajniv-grimme-076-05115-r",
-    "name": "Ролик приводний (фрикційний) гумовий (Drive Roller Vulcanized) DM194 для картоплезбиральних комбайнів Grimme 076.05115  R",
+    "name": "Ролик приводний (фрикційний) гумовий (Drive Roller Vulcanized) DM194 для картоплезбиральних комбайнів Grimme 076.05115 R",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "harvest",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Ролик приводний (фрикційний) гумовий (Drive Roller Vulcanized) DM194 для картоплезбиральних комбайнів Grimme 076.05115 R",
+    "activityType": "harvesting",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/rolyky-950-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 5460,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 36
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Grimme"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/rolyky-950.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/07-cz031__result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2022/11/rolyky-950-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/07-cz031__result-700x544.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/07-cz031__result-150x117.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Код виробника (OEM): 076.05115 Тип деталі: Приводний ролик фрикційний з гумовим покриттям (Drive Roller Vulcanized) Конструктивні особливості: Металева основа з вулканізованим гумовим покриттям Профіль робочої поверхні: Квадратний (eckig / square) Зовнішній діаметр робочої поверхні (D): 194 мм Робоча ширина (B): 60 мм Внутрішній діаметр отвору (під вал) (d): 35 мм Кріплення: Монтується на вал (через маточину) Вага деталі (Weight): 5,975 кг",
-    "fullDescription": "Код виробника (OEM): 076.05115 Тип деталі: Приводний ролик фрикційний з гумовим покриттям (Drive Roller Vulcanized) Конструктивні особливості: Металева основа з вулканізованим гумовим покриттям Профіль робочої поверхні: Квадратний (eckig / square) Зовнішній діаметр робочої поверхні (D): 194 мм Робоча ширина (B): 60 мм Внутрішній діаметр отвору (під вал) (d): 35 мм Кріплення: Монтується на вал (через маточину) Вага деталі (Weight): 5,975 кг",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Ролик приводний (фрикційний) гумовий (Drive Roller Vulcanized) DM194 для картоплезбиральних комбайнів Grimme 076.05115 R від Grimme. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Ролик приводний (фрикційний) гумовий (Drive Roller Vulcanized) DM194 для картоплезбиральних комбайнів Grimme 076.05115 R від виробника Grimme. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-rolyk-opornyj-support-roller-malyj-d75-dlya-kartoplezbyralnyh-kombajniv-grimme-200-26632-r",
+    "id": "adena-107",
     "slug": "rolyk-opornyj-support-roller-malyj-d75-dlya-kartoplezbyralnyh-kombajniv-grimme-200-26632-r",
     "name": "Ролик опорний (Support Roller) малий D75 для картоплезбиральних комбайнів Grimme 200.26632 R",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "harvest",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Ролик опорний (Support Roller) малий D75 для картоплезбиральних комбайнів Grimme 200.26632 R",
+    "activityType": "harvesting",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_3.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_3-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 1976,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 13
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_3.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_3-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
     "shortDescription": "Код виробника (OEM): 200.26632 Тип: Опорний ролик (Support Roller) Матеріал: Метал (стійкий до зносу) з покриттям Кількість підшипників: 1 (один) Зовнішній діаметр (D): 75 мм Внутрішній діаметр (отвір під болт) (d): 16,3 мм Робоча ширина (B): 49,5 мм Тип кріплення: Болт M16",
-    "fullDescription": "Код виробника (OEM): 200.26632 Тип: Опорний ролик (Support Roller) Матеріал: Метал (стійкий до зносу) з покриттям Кількість підшипників: 1 (один) Зовнішній діаметр (D): 75 мм Внутрішній діаметр (отвір під болт) (d): 16,3 мм Робоча ширина (B): 49,5 мм Тип кріплення: Болт M16",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "fullDescription": "Код виробника (OEM): 200.26632 Тип: Опорний ролик (Support Roller) Матеріал: Метал (стійкий до зносу) з покриттям Кількість підшипників: 1 (один) Зовнішній діаметр (D): 75 мм Внутрішній діаметр (отвір під болт) (d): 16,3 мм Робоча ширина (B): 49,5 мм Тип кріплення: Болт M16"
   },
   {
-    "id": "mach-adena-rolyk-opornyj-support-roller-malyj-d75-dlya-kartoplezbyralnyh-kombajniv-grimme-088-00334-r",
+    "id": "adena-108",
     "slug": "rolyk-opornyj-support-roller-malyj-d75-dlya-kartoplezbyralnyh-kombajniv-grimme-088-00334-r",
     "name": "Ролик опорний (Support Roller) малий D75 для картоплезбиральних комбайнів Grimme 088.00334 R",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "harvest",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Ролик опорний (Support Roller) малий D75 для картоплезбиральних комбайнів Grimme 088.00334 R",
+    "activityType": "harvesting",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_3.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_3-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 1976,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 13
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_3.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_3-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
     "shortDescription": "Код виробника (OEM): 088.00334 Тип: Опорний ролик (Support Roller) Матеріал: Метал (стійкий до зносу) з покриттям Кількість підшипників: 1 (один) Зовнішній діаметр (D): 75 мм Внутрішній діаметр (отвір під болт) (d): 16,3 мм Робоча ширина (B): 49,5 мм Тип кріплення: Болт M16",
-    "fullDescription": "Код виробника (OEM): 088.00334 Тип: Опорний ролик (Support Roller) Матеріал: Метал (стійкий до зносу) з покриттям Кількість підшипників: 1 (один) Зовнішній діаметр (D): 75 мм Внутрішній діаметр (отвір під болт) (d): 16,3 мм Робоча ширина (B): 49,5 мм Тип кріплення: Болт M16",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "fullDescription": "Код виробника (OEM): 088.00334 Тип: Опорний ролик (Support Roller) Матеріал: Метал (стійкий до зносу) з покриттям Кількість підшипників: 1 (один) Зовнішній діаметр (D): 75 мм Внутрішній діаметр (отвір під болт) (d): 16,3 мм Робоча ширина (B): 49,5 мм Тип кріплення: Болт M16"
   },
   {
-    "id": "mach-adena-rolyk-opornyj-support-roller-malyj-d75-dlya-kartoplezbyralnyh-kombajniv-grimme-200-39239-r",
+    "id": "adena-109",
     "slug": "rolyk-opornyj-support-roller-malyj-d75-dlya-kartoplezbyralnyh-kombajniv-grimme-200-39239-r",
     "name": "Ролик опорний (Support Roller) малий D75 для картоплезбиральних комбайнів Grimme 200.39239 R",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "harvest",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Ролик опорний (Support Roller) малий D75 для картоплезбиральних комбайнів Grimme 200.39239 R",
+    "activityType": "harvesting",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_3.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_3-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 1976,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 13
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_3.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_3-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
     "shortDescription": "Код виробника (OEM): 200.39239 Тип: Опорний ролик (Support Roller) Матеріал: Метал (стійкий до зносу) з покриттям Кількість підшипників: 1 (один) Зовнішній діаметр (D): 75 мм Внутрішній діаметр (отвір під болт) (d): 16,3 мм Робоча ширина (B): 49,5 мм Тип кріплення: Болт M16",
-    "fullDescription": "Код виробника (OEM): 200.39239 Тип: Опорний ролик (Support Roller) Матеріал: Метал (стійкий до зносу) з покриттям Кількість підшипників: 1 (один) Зовнішній діаметр (D): 75 мм Внутрішній діаметр (отвір під болт) (d): 16,3 мм Робоча ширина (B): 49,5 мм Тип кріплення: Болт M16",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "fullDescription": "Код виробника (OEM): 200.39239 Тип: Опорний ролик (Support Roller) Матеріал: Метал (стійкий до зносу) з покриттям Кількість підшипників: 1 (один) Зовнішній діаметр (D): 75 мм Внутрішній діаметр (отвір під болт) (d): 16,3 мм Робоча ширина (B): 49,5 мм Тип кріплення: Болт M16"
   },
   {
-    "id": "mach-adena-rolyk-opornyj-support-roller-malyj-d75-dlya-kartoplezbyralnyh-kombajniv-grimme-200-54884-r",
+    "id": "adena-110",
     "slug": "rolyk-opornyj-support-roller-malyj-d75-dlya-kartoplezbyralnyh-kombajniv-grimme-200-54884-r",
     "name": "Ролик опорний (Support Roller) малий D75 для картоплезбиральних комбайнів Grimme 200.54884 R",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "harvest",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Ролик опорний (Support Roller) малий D75 для картоплезбиральних комбайнів Grimme 200.54884 R",
+    "activityType": "harvesting",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_3-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 1976,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 13
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Grimme"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_3.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_3-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Код виробника (OEM): 200.54884 Тип: Опорний ролик (Support Roller) Матеріал: Метал (стійкий до зносу) з покриттям Кількість підшипників: 1 (один) Зовнішній діаметр (D): 75 мм Внутрішній діаметр (отвір під болт) (d): 16,3 мм Робоча ширина (B): 49,5 мм Тип кріплення: Болт M16",
-    "fullDescription": "Код виробника (OEM): 200.54884 Тип: Опорний ролик (Support Roller) Матеріал: Метал (стійкий до зносу) з покриттям Кількість підшипників: 1 (один) Зовнішній діаметр (D): 75 мм Внутрішній діаметр (отвір під болт) (d): 16,3 мм Робоча ширина (B): 49,5 мм Тип кріплення: Болт M16",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Ролик опорний (Support Roller) малий D75 для картоплезбиральних комбайнів Grimme 200.54884 R від Grimme. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Ролик опорний (Support Roller) малий D75 для картоплезбиральних комбайнів Grimme 200.54884 R від виробника Grimme. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "mach-adena-rolyk-opornyj-support-roller-d75-dlya-kartoplezbyralnyh-kombajniv-grimme-200-09664-r",
+    "id": "adena-111",
     "slug": "rolyk-opornyj-support-roller-d75-dlya-kartoplezbyralnyh-kombajniv-grimme-200-09664-r",
     "name": "Ролик опорний (Support Roller) малий D75 для картоплезбиральних комбайнів Grimme 200.09664 R",
     "brand": "Grimme",
-    "model": "Інше",
-    "activityType": "potato",
-    "machineryType": "harvest",
-    "badge": null,
-    "discountPercent": 0,
+    "model": "Ролик опорний (Support Roller) малий D75 для картоплезбиральних комбайнів Grimme 200.09664 R",
+    "activityType": "harvesting",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
     "status": "available",
-    "isRented": false,
-    "rentedUntil": null,
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_3-300x300.jpg"
+    ],
     "pricing": {
-      "pricePerDayUah": 20700,
-      "pricePerHaUah": 1286,
-      "pricePerShiftUah": 18000,
-      "purchasePriceUah": null,
-      "depositUah": 36000,
-      "minRentDays": 2
+      "purchasePriceUah": 1976,
+      "pricePerShiftUah": 1200,
+      "pricePerHaUah": 13
     },
     "specs": {
       "powerHp": "від 90 к.с.",
-      "workingWidth": "2 — 4 ряди (1.5 — 3.0 м)",
-      "hopperCapacity": "—",
-      "performanceHaPerHour": "2.0 — 3.5 га/год",
-      "year": 2024,
-      "engineHours": "120 — 250 м/г",
-      "weightKg": 1450,
-      "fuelConsumption": "9-14 л/год",
-      "requiredTractorHp": "90-150 к.с.",
+      "workingWidth": "2-4 ряди",
       "operatorIncluded": true,
-      "gpsGuidance": true
+      "fuelIncluded": false,
+      "minRentDays": 1,
+      "Виробник": "Grimme"
     },
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_3.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_3-700x700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/grimme.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
-    ],
-    "hubId": "hub-kyiv",
-    "suitableFor": [
-      "Картопля",
-      "Морква",
-      "Цибуля",
-      "Цукровий буряк",
-      "Овочеві культури"
-    ],
-    "shortDescription": "Код виробника (OEM): 200.09664 Тип: Опорний ролик (Support Roller) Матеріал: Метал (стійкий до зносу) з покриттям Кількість підшипників: 1 (один) Зовнішній діаметр (D): 75 мм Внутрішній діаметр (отвір під болт) (d): 16,3 мм Робоча ширина (B): 49,5 мм Тип кріплення: Болт M16",
-    "fullDescription": "Код виробника (OEM): 200.09664 Тип: Опорний ролик (Support Roller) Матеріал: Метал (стійкий до зносу) з покриттям Кількість підшипників: 1 (один) Зовнішній діаметр (D): 75 мм Внутрішній діаметр (отвір під болт) (d): 16,3 мм Робоча ширина (B): 49,5 мм Тип кріплення: Болт M16",
-    "includedServices": [
-      "Оригінальні робочі органи",
-      "Сервісне обслуговування 24/7",
-      "Доставка на поле замовника"
-    ]
+    "shortDescription": "Ролик опорний (Support Roller) малий D75 для картоплезбиральних комбайнів Grimme 200.09664 R від Grimme. Надійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Ролик опорний (Support Roller) малий D75 для картоплезбиральних комбайнів Grimme 200.09664 R від виробника Grimme. Надійне рішення для вашого агрогосподарства."
   }
 ];
