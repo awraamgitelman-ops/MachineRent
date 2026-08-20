@@ -7,12 +7,33 @@ import {
   ShieldCheck, 
   Truck, 
   Wrench, 
-  CheckCircle2, 
   Send
 } from 'lucide-react';
 import { MACHINERY_DATA } from '../data/machineryData';
 import { formatPrice } from '../utils/currency';
 import MachineryCard from '../components/MachineryCard';
+
+// Comprehensive translation map for any possible technical parameter keys
+const SPEC_TRANSLATIONS = {
+  powerHp: 'Необхідна потужність трактора',
+  workingWidth: 'Робоча ширина / Кількість рядів',
+  performanceHaPerHour: 'Продуктивність',
+  requiredTractorHp: 'Вимоги до трактора',
+  engineHours: 'Напрацювання',
+  year: 'Рік випуску',
+  weightKg: 'Маса агрегату',
+  suitableFor: 'Призначення'
+};
+
+const EXCLUDED_SPEC_KEYS = new Set([
+  'operatorIncluded',
+  'fuelIncluded',
+  'minRentDays',
+  'depositUah',
+  'pricePerShiftUah',
+  'pricePerHaUah',
+  'pricePerDayUah'
+]);
 
 export default function ProductPage({ currency, onOpenQuickLead }) {
   const { slug } = useParams();
@@ -52,6 +73,40 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
       </div>
     );
   }
+
+  // Prepared specifications rows
+  const specRows = useMemo(() => {
+    const rows = [
+      { label: 'Виробник / Бренд', val: machine.brand || 'Adena Agro' },
+      { label: 'Модель техніки', val: machine.model || machine.name },
+      { label: 'Категорія', val: machine.categoryName || 'Сільгосптехніка' }
+    ];
+
+    if (machine.specs && typeof machine.specs === 'object') {
+      for (const [rawKey, rawVal] of Object.entries(machine.specs)) {
+        if (EXCLUDED_SPEC_KEYS.has(rawKey)) continue;
+        const translatedLabel = SPEC_TRANSLATIONS[rawKey] || rawKey;
+        
+        // Avoid duplicate brand/model if already added
+        if (translatedLabel.toLowerCase() === 'виробник' && machine.brand) continue;
+
+        let displayVal = rawVal;
+        if (typeof rawVal === 'boolean') {
+          displayVal = rawVal ? 'Так' : 'Ні';
+        } else if (Array.isArray(rawVal)) {
+          displayVal = rawVal.join(', ');
+        } else {
+          displayVal = String(rawVal);
+        }
+
+        if (displayVal.trim()) {
+          rows.push({ label: translatedLabel, val: displayVal });
+        }
+      }
+    }
+
+    return rows;
+  }, [machine]);
 
   return (
     <div style={{ backgroundColor: '#ffffff', minHeight: '80vh', paddingBottom: '60px' }}>
@@ -255,10 +310,10 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
               fontSize: '13px'
             }}>
               <div style={{ background: '#f6f6f6', padding: '10px 12px', borderLeft: '3px solid var(--wd-accent-yellow)' }}>
-                ⚡ <strong>Потужність:</strong> {machine.specs?.powerHp || machine.specs['Потужність'] || 'від 90 к.с.'}
+                ⚡ <strong>Потужність:</strong> {machine.specs?.['Необхідна потужність трактора'] || machine.specs?.['Потужність'] || 'від 90 к.с.'}
               </div>
               <div style={{ background: '#f6f6f6', padding: '10px 12px', borderLeft: '3px solid var(--wd-accent-yellow)' }}>
-                📐 <strong>Ширина / Ряди:</strong> {machine.specs?.workingWidth || machine.specs['Робоча ширина'] || '2-4 ряди'}
+                📐 <strong>Ширина / Ряди:</strong> {machine.specs?.['Робоча ширина / Кількість рядів'] || machine.specs?.['Робоча ширина'] || '2-4 ряди'}
               </div>
               <div style={{ background: '#f6f6f6', padding: '10px 12px', borderLeft: '3px solid var(--wd-accent-yellow)' }}>
                 🚀 <strong>Виробник:</strong> {machine.brand || 'Adena Agro'}
@@ -357,15 +412,7 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
             <div style={{ maxWidth: '960px' }}>
               <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '14px' }}>
                 <tbody>
-                  {[
-                    { label: 'Виробник / Бренд', val: machine.brand },
-                    { label: 'Модель техніки', val: machine.model || machine.name },
-                    { label: 'Категорія', val: machine.categoryName || 'Сільгосптехніка' },
-                    ...(machine.specs ? Object.entries(machine.specs).map(([key, val]) => ({
-                      label: key,
-                      val: typeof val === 'boolean' ? (val ? 'Так' : 'Ні') : String(val)
-                    })) : [])
-                  ].map((row, idx) => (
+                  {specRows.map((row, idx) => (
                     <tr key={idx} style={{ background: idx % 2 === 0 ? '#ffffff' : '#f9f9f9', borderBottom: '1px solid #eaeaea' }}>
                       <th style={{ textAlign: 'left', padding: '12px 16px', width: '35%', color: '#666', fontWeight: 500 }}>{row.label}</th>
                       <td style={{ padding: '12px 16px', color: '#111', fontWeight: 600 }}>{row.val}</td>
