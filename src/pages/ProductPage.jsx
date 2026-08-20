@@ -44,46 +44,52 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
     window.scrollTo(0, 0);
   }, [slug]);
 
-  // Find product by slug, id, alias, or fuzzy normalized match
+  // Find product by slug, id, alias, or precise normalized match
   const machine = useMemo(() => {
-    if (!slug) return MACHINERY_DATA[0];
+    if (!slug) return null;
     const s = slug.toLowerCase().trim();
     
     // 1. Exact slug or id match
-    const exact = MACHINERY_DATA.find((m) => m.slug === s || m.id === s);
+    const exact = MACHINERY_DATA.find((m) => m.slug.toLowerCase() === s || m.id.toLowerCase() === s);
     if (exact) return exact;
 
     // 2. Check aliases array
     const byAlias = MACHINERY_DATA.find((m) => m.aliases && m.aliases.some((a) => a.toLowerCase() === s));
     if (byAlias) return byAlias;
 
-    // 3. Partial inclusion match
-    const partial = MACHINERY_DATA.find((m) => m.slug.includes(s) || s.includes(m.slug));
-    if (partial) return partial;
+    // 3. Clean prefixes (part-, field-, adena-, used-)
+    const cleanS = s.replace(/^(part-|field-|adena-|warehouse-|used-)/, '');
+    const cleanMatch = MACHINERY_DATA.find((m) => 
+      m.slug.toLowerCase() === cleanS || 
+      m.id.replace(/^(part-|field-|adena-|warehouse-|used-)/, '').toLowerCase() === cleanS
+    );
+    if (cleanMatch) return cleanMatch;
 
-    // 4. Token overlap match (e.g. domasz + we-30 + plus)
+    // 4. Token overlap match with strict threshold (at least 3 matching words or 75% overlap)
     const slugTokens = s.split(/[-_/\s]+/).filter((t) => t.length > 2);
-    let bestMatch = null;
-    let maxOverlap = 0;
+    if (slugTokens.length > 0) {
+      let bestMatch = null;
+      let maxOverlap = 0;
 
-    for (const item of MACHINERY_DATA) {
-      const itemTokens = `${item.slug} ${item.id} ${item.name} ${(item.aliases || []).join(' ')}`
-        .toLowerCase()
-        .split(/[-_/\s]+/)
-        .filter((t) => t.length > 2);
-      
-      const overlap = slugTokens.filter((t) => itemTokens.includes(t)).length;
-      if (overlap > maxOverlap) {
-        maxOverlap = overlap;
-        bestMatch = item;
+      for (const item of MACHINERY_DATA) {
+        const itemTokens = `${item.slug} ${(item.aliases || []).join(' ')}`
+          .toLowerCase()
+          .split(/[-_/\s]+/)
+          .filter((t) => t.length > 2);
+        
+        const overlap = slugTokens.filter((t) => itemTokens.includes(t)).length;
+        const ratio = overlap / slugTokens.length;
+        
+        if (overlap > maxOverlap && (overlap >= 3 || ratio >= 0.75)) {
+          maxOverlap = overlap;
+          bestMatch = item;
+        }
       }
+
+      if (bestMatch) return bestMatch;
     }
 
-    if (maxOverlap >= 2 && bestMatch) {
-      return bestMatch;
-    }
-
-    return MACHINERY_DATA[0];
+    return null;
   }, [slug]);
 
   const [activePhotoIdx, setActivePhotoIdx] = useState(0);
@@ -99,10 +105,17 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
 
   if (!machine) {
     return (
-      <div className="container" style={{ padding: '60px 15px', textAlign: 'center' }}>
-        <h2>Товар не знайдено</h2>
-        <Link to="/" className="btn-adena-primary" style={{ display: 'inline-block', marginTop: '16px' }}>
-          Повернутися до каталогу
+      <div className="container" style={{ padding: '80px 15px', textAlign: 'center', minHeight: '60vh' }}>
+        <h2 style={{ fontSize: '26px', color: '#111', marginBottom: '12px' }}>Товар не знайдено</h2>
+        <p style={{ fontSize: '14px', color: '#666', marginBottom: '24px' }}>
+          Можливо, цей товар було переміщено або знято з продажу.
+        </p>
+        <Link 
+          to="/" 
+          className="btn-adena-primary" 
+          style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '12px 24px', fontWeight: 600 }}
+        >
+          <span>Повернутися до каталогу</span>
         </Link>
       </div>
     );

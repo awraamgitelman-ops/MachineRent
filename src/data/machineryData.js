@@ -1,5 +1,5 @@
 // Auto-generated comprehensive machinery and parts catalog from adenaagro.com
-// Total Products: 110
+// Total Products: 120
 
 export const MACHINERY_DATA = [
   {
@@ -3441,5 +3441,322 @@ export const MACHINERY_DATA = [
     },
     "shortDescription": "Ролик опорний (Support Roller) малий D75 для картоплезбиральних комбайнів Grimme 200.09664 R від Grimme. Надійна техніка для овочівництва з європейською гарантією.",
     "fullDescription": "Ролик опорний (Support Roller) малий D75 для картоплезбиральних комбайнів Grimme 200.09664 R від виробника Grimme. Надійне рішення для вашого агрогосподарства."
+  },
+  {
+    "id": "part-gychkovydalyayuchyj-transprter-200-40946-grimme-dr-1500",
+    "slug": "gychkovydalyayuchyj-transprter-200-40946-grimme-dr-1500",
+    "name": "Grimme 200.40946 – Гичковидаляючий транспортер DR-1500",
+    "brand": "Yao-Han",
+    "model": "Grimme 200.40946",
+    "activityType": "harvesting",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2025/01/802a4e77797eb259f8896526ce8e3225_big_800.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 5000,
+      "pricePerShiftUah": 250,
+      "pricePerHaUah": 25
+    },
+    "specs": {
+      "Виробник": "Yao-Han",
+      "Модель": "Grimme 200.40946",
+      "Категорія": "Запасні частини"
+    },
+    "shortDescription": "Гичковидаляючий гумово-прутковий транспортер 200.40946. Для картоплезбиральних комбайнів Grimme DR-1500",
+    "fullDescription": "Для картоплезбиральних комбайнів Grimme DR-1500 Гичковидаляючий транспортер 200.40946. Гумово-пруткові транспортери це одна з ключових складових у конструкції овочезбиральних комбайнів. Вони просіюють овочі від землі, рослинних залишків та передають в бункер (ємність) для збору товару.   Також наша компанія займається професійним ремонтом транспотерів для овочезбиральних комбайнів.    ",
+    "aliases": [
+      "gychkovydalyayuchyj-transprter-200-40946-grimme-dr-1500"
+    ]
+  },
+  {
+    "id": "part-transporter-gychkovidkydnyj-anna-2-h-ryadna",
+    "slug": "transporter-gychkovidkydnyj-anna-2-h-ryadna",
+    "name": "Anna Z-644 – Транспортер гичковидаляючий",
+    "brand": "Holmer",
+    "model": "Anna Z",
+    "activityType": "harvesting",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2024/03/c43035ed375f7ecb348b35cd7e8afb1b_big-1_result_01.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/03/050f1332a508ac225a23de0520cb0b1b_result.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 5000,
+      "pricePerShiftUah": 250,
+      "pricePerHaUah": 25
+    },
+    "specs": {
+      "Виробник": "Holmer",
+      "Модель": "Anna Z",
+      "Категорія": "Запасні частини"
+    },
+    "shortDescription": "Транспортер гичковідкидний для 2-х рядних комбайнів Anna Z-644  ",
+    "fullDescription": "Транспортер гичковідкидний для 2-х рядних комбайнів Анна Причепні картоплезбиральні комбайни Гумово-пруткові транспортери це одна з ключових складових у конструкції овочезбиральних комбайнів. Вони просіюють овочі від землі, рослинних залишків та передають в бункер (ємність) для збору товару.   Також наша компанія займається професійним ремонтом транспотерів для овочезбиральних комбайнів.      ",
+    "aliases": [
+      "transporter-gychkovidkydnyj-anna-2-h-ryadna"
+    ]
+  },
+  {
+    "id": "part-rolyk-pryvodu-transportera-006-00066-r",
+    "slug": "rolyk-pryvodu-transportera-006-00066-r",
+    "name": "Ролик приводу транспортера 006.00066 R",
+    "brand": "Holmer",
+    "model": "Ролик приводу транспортера 006.00066 R",
+    "activityType": "harvesting",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/0_14_result.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 5000,
+      "pricePerShiftUah": 250,
+      "pricePerHaUah": 25
+    },
+    "specs": {
+      "Виробник": "Holmer",
+      "Модель": "Ролик приводу транспортера 006.00066 R",
+      "Категорія": "Запасні частини"
+    },
+    "shortDescription": "Ролик приводу транспортера 006.00066 R. Оригінальна якість та гарантія AGRO RENTEX.",
+    "fullDescription": "Ролик металевий приводу транспортера &#8220;корона&#8221; на картоплезбиральний комбайн Grimme Зовнішній діаметр ролика по бортику – 140 мм Зовнішній діаметр ролика по зубах – 100 мм Кількість зубів – 10 шт. Ширина ролика – 50 мм Отвір під вал – 25 мм",
+    "aliases": [
+      "rolyk-pryvodu-transportera-006-00066-r"
+    ]
+  },
+  {
+    "id": "part-transporter-zavantazhuvalnyj-300-34940-grimme-se-75-30",
+    "slug": "transporter-zavantazhuvalnyj-300-34940-grimme-se-75-30",
+    "name": "Grimme 300.34940 – Транспортер завантажувальний",
+    "brand": "Grimme",
+    "model": "Grimme 300.34940",
+    "activityType": "harvesting",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/transporter-zavantazhuvalnyj-300.34940-grimme-se-75-30.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 5000,
+      "pricePerShiftUah": 250,
+      "pricePerHaUah": 25
+    },
+    "specs": {
+      "Виробник": "Grimme",
+      "Модель": "Grimme 300.34940",
+      "Категорія": "Запасні частини"
+    },
+    "shortDescription": "Транспортер завантажувальний гумово-прутковий Ширина – 423 мм, Кількість прутків – 220 шт., Крок – 35 мм Grimme SE 75-30 однорядний картоплезбиральний комбайн.",
+    "fullDescription": "Для картоплезбиральних комбайнів Grimme SE 75-30 Гумово-пруткові транспортери це одна з ключових складових у конструкції овочезбиральних комбайнів. Вони просіюють овочі від землі, рослинних залишків та передають в бункер (ємність) для збору товару. Ширина – 423 мм, Кількість прутків – 220 шт., Крок – 35 мм   Наша компанія займається професійним ремонтом транспотерів для овочезбиральних комбайнів    ",
+    "aliases": [
+      "transporter-zavantazhuvalnyj-300-34940-grimme-se-75-30"
+    ]
+  },
+  {
+    "id": "part-pidtrymuyuchyj-rolyk-602-00052-r-grimme",
+    "slug": "pidtrymuyuchyj-rolyk-602-00052-r-grimme",
+    "name": "Підтримуючий ролик 602.00052 R Grimme",
+    "brand": "Holmer",
+    "model": "Підтримуючий ролик 602.00052 R Grimme",
+    "activityType": "harvesting",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/01-cz018__result-1_result-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort1_17.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort1_11.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 5000,
+      "pricePerShiftUah": 250,
+      "pricePerHaUah": 25
+    },
+    "specs": {
+      "Виробник": "Holmer",
+      "Модель": "Підтримуючий ролик 602.00052 R Grimme",
+      "Категорія": "Запасні частини"
+    },
+    "shortDescription": "Підтримуючий ролик 602.00052 R Grimme. Оригінальна якість та гарантія AGRO RENTEX.",
+    "fullDescription": "Ролик підтримуючий прогумований на картоплезбиральний комбайн Grimme Зовнішній діаметр ролика – 95 мм Ширина ролика – 63 мм Діаметр отвору – 16 мм",
+    "aliases": [
+      "pidtrymuyuchyj-rolyk-602-00052-r-grimme"
+    ]
+  },
+  {
+    "id": "part-rolyk-1131002797-r-holmer",
+    "slug": "rolyk-1131002797-r-holmer",
+    "name": "Ролик 1131002797 R Holmer",
+    "brand": "Holmer",
+    "model": "Ролик 1131002797 R Holmer",
+    "activityType": "harvesting",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/rolyk_5.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/07-cz035__result.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 5000,
+      "pricePerShiftUah": 250,
+      "pricePerHaUah": 25
+    },
+    "specs": {
+      "Виробник": "Holmer",
+      "Модель": "Ролик 1131002797 R Holmer",
+      "Категорія": "Запасні частини"
+    },
+    "shortDescription": "Ролик 1131002797 R Holmer. Оригінальна якість та гарантія AGRO RENTEX.",
+    "fullDescription": "Ролик на комбайн бурякозбиральний Holmer Діаметр ролика з бортиком – 130 мм Діаметр ролика – 90 мм Ширина ролика – 50 мм Отвір – М-16",
+    "aliases": [
+      "rolyk-1131002797-r-holmer"
+    ]
+  },
+  {
+    "id": "part-zirochka-564230024-bolko-karlik",
+    "slug": "zirochka-564230024-bolko-karlik",
+    "name": "Karlik Z642 / Bolko Z643 564230024 – Зірочка натяжна",
+    "brand": "Grimme",
+    "model": "Karlik Z642 / Bolko Z643 564230024",
+    "activityType": "harvesting",
+    "machineryType": "used",
+    "categoryName": "Техніка Б/В",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/48_-kopyya_result_result.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 5000,
+      "pricePerShiftUah": 250,
+      "pricePerHaUah": 25
+    },
+    "specs": {
+      "Виробник": "Grimme",
+      "Модель": "Karlik Z642 / Bolko Z643 564230024",
+      "Категорія": "Запасні частини"
+    },
+    "shortDescription": "Код деталі: 8255-642-300-241 | 5642/30-024/0, 564230024 Вузол призначення: Натяжний вузол ланцюга відкидача порослі (бадилля) Тип деталі: Натяжна зірочка (з посадкою під підшипник) Кількість зубів (z): 14 Крок ланцюга (p): 15.875 мм (ланцюг 10В-1) Посадковий внутрішній діаметр (d): 40 мм (під підшипник) Тип підшипника: 6203-RS (з ущільненням) Зовнішній діаметр (по зубцях) (D): 78 мм Висота (ширина) зірочки (H): 22 мм  ",
+    "fullDescription": "Зірочка натяжна Z14 (d40) для відокремлювача бадилля комбайнів Karlik Z642 / Bolko Z643 Код деталі: 8255-642-300-241 | 5642/30-024/0, 564230024 Опис: Універсальна оригінальна запчастина для польських картоплезбиральних комбайнів Karlik Z642 (Карлик) та Bolko Z643 (Болко) . Натяжна зубчаста зірочка з 14 зубами (Z14) , призначена для привідного ланцюга механізму відкидача порослі (бадилля). Виконує функцію регулювання натягу та напрямку ланцюга типу 10В-1 (крок 15.875 мм) . Внутрішній отвір діаметром 40 мм призначений для встановлення промислового підшипника 6203-RS , що забезпечує легке обертання зірочки на нерухомій осі. Технічні параметри: Код виробника: 8255-642-300-241 Інші номери: 5642/30-024/0, 564230024 Сумісні моделі техніки: Картоплезбиральні комбайни Karlik Z642 , Bolko Z643 Вузол призначення: Натяжний вузол ланцюга відкидача порослі (бадилля) Тип деталі: Натяжна зірочка (з посадкою під підшипник) Кількість зубів (z): 14 Крок ланцюга (p): 15.875 мм (ланцюг 10В-1) Посадковий внутрішній діаметр (d): 40 мм (під підшипник) Тип підшипника: 6203-RS (з ущільненням) Зовнішній діаметр (по зубцях) (D): 78 мм Висота (ширина) зірочки (H): 22 мм Вага деталі: 0.24 кг Ключові переваги: ✅ Універсальна сумісність — одна деталь для двох основних моделей комбайнів (код 8255-642-300-241 ). ✅ Критично важливий елемент ланцюгової передачі — забезпечує правильний натяг та напрямок приводного ланцюга, запобігаючи його зскакуванню та зносу. ✅ Конструкція під підшипник — готове посадочне місце під підшипник 6203-RS гарантує легке обертання зірочки, мінімізуючи втрати на тертя. ✅ Оптимальні розміри — компактна конструкція (Ø78&#215;22 мм) придатна для встановлення в обмеженому просторі. ✅ Відновлення надійності приводу — заміна зношеної натяжної зірочки усуває провисання ланцюга та відновлює стабільність роботи відкидача. Застосування: Деталь призначена для заміни зношеної або пошкодженої натяжної зірочки при ремонті або регулюванні ланцюгової передачі механізму відкидача порослі на картоплезбиральних комбайнах Karlik Z642 та Bolko Z643 . *При замовленні вкажіть код 8255-642-300-241 або 5642/30-024/0 . Для монтажу необхідний підшипник 6203-RS та відповідна вісь (палець). Наші фахівці нададуть консультацію",
+    "aliases": [
+      "zirochka-564230024-bolko-karlik"
+    ]
+  },
+  {
+    "id": "part-val-dlya-pryjmalnogo-bunkera-50x700-grimme-rh-tc-076-05615-r",
+    "slug": "val-dlya-pryjmalnogo-bunkera-50x700-grimme-rh-tc-076-05615-r",
+    "name": "Grimme RH, TC – 50X700, Вал для приймального бункера 076.05615 R",
+    "brand": "Grimme",
+    "model": "076.05615 R",
+    "activityType": "harvesting",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/0_14_result-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+    ],
+    "pricing": {
+      "purchasePriceUah": 7800,
+      "pricePerShiftUah": 390,
+      "pricePerHaUah": 39
+    },
+    "specs": {
+      "Виробник": "Grimme",
+      "Модель": "076.05615 R",
+      "Категорія": "Запасні частини",
+      "Розмір": "50x700 мм",
+      "Сумісність": "Приймальні бункери Grimme RH, TC"
+    },
+    "shortDescription": "Оригінальний вал для приймального бункера 50X700 Grimme RH, TC 076.05615 R. Високоякісна сталь, точна геометрія.",
+    "fullDescription": "Вал для приймального бункера 50X700 Grimme RH, TC (каталожний номер 076.05615 R). Призначений для встановлення в привідні та натяжні вузли сортувальних столів і бункерів Grimme. Виготовлений із загартованої легованої сталі, стійкої до високих навантажень та абразивного зносу.",
+    "aliases": [
+      "val-dlya-pryjmalnogo-bunkera-50x700-grimme-rh-tc-076-05615-r",
+      "grimme-val-rh"
+    ]
+  },
+  {
+    "id": "part-holmer-401051155-prividnyj-val",
+    "slug": "holmer-401051155-prividnyj-val",
+    "name": "Holmer 401051155 – Привідний вал бурякозбиральної техніки",
+    "brand": "Holmer",
+    "model": "401051155",
+    "activityType": "harvesting",
+    "machineryType": "parts",
+    "categoryName": "Запасні частини",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_9-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+    ],
+    "pricing": {
+      "purchasePriceUah": 18720,
+      "pricePerShiftUah": 936,
+      "pricePerHaUah": 93
+    },
+    "specs": {
+      "Виробник": "Holmer",
+      "Модель": "401051155",
+      "Категорія": "Запасні частини",
+      "Сумісність": "Бурякозбиральні комбайни Holmer Terra Dos"
+    },
+    "shortDescription": "Привідний вал Holmer 401051155 для бурякозбиральних комбайнів. Оригінальна європейська якість AGRO RENTEX.",
+    "fullDescription": "Привідний вал Holmer 401051155 забезпечує стабільну передачу крутного моменту в силових вузлах бурякозбиральних комбайнів Holmer. Надійне шліцьове з'єднання та термообробка робочих поверхонь.",
+    "aliases": [
+      "holmer-401051155-prividnyj-val",
+      "holmer-401051155"
+    ]
+  },
+  {
+    "id": "warehouse-adena-agro-perekydach-kontejneriv-z-ovochamy",
+    "slug": "adena-agro-perekydach-kontejneriv-z-ovochamy",
+    "name": "AGRO RENTEX – Перекидач контейнерів з овочами",
+    "brand": "AGRO RENTEX",
+    "model": "ПК-1200",
+    "activityType": "sorting",
+    "machineryType": "warehouse",
+    "categoryName": "Складська техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+    ],
+    "pricing": {
+      "purchasePriceUah": 145600,
+      "pricePerShiftUah": 7280,
+      "pricePerHaUah": 728
+    },
+    "specs": {
+      "Виробник": "AGRO RENTEX",
+      "Модель": "ПК-1200",
+      "Категорія": "Складська техніка",
+      "Вантажопідйомність": "до 1200 кг",
+      "Кут перекидання": "до 135°",
+      "Привід": "Гідравлічний / Електричний"
+    },
+    "shortDescription": "Гідравлічний перекидач контейнерів з овочами для завантаження сортувальних столів, приймальних бункерів та мийок.",
+    "fullDescription": "Перекидач контейнерів призначений для безпечного, плавного та безтравматичного вивантаження картоплі, моркви, цибулі та буряку з дерев'яних або пластикових контейнерів у бункери ліній сортування та фасування.",
+    "aliases": [
+      "adena-agro-perekydach-kontejneriv-z-ovochamy",
+      "adena-perekydach",
+      "perekydach-kontejneriv"
+    ]
   }
 ];
