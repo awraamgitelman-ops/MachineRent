@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
 import { 
-  Tractor, 
-  PhoneCall, 
+  Phone, 
+  Search, 
+  User, 
+  ShoppingCart, 
   MapPin, 
-  Calculator, 
-  Wrench, 
   Menu, 
-  X, 
-  Search,
-  Sparkles,
-  ShieldCheck,
+  X,
+  Calculator,
+  Wrench,
   ChevronDown
 } from 'lucide-react';
 import { CURRENCY_SYMBOLS } from '../utils/currency';
@@ -21,413 +20,299 @@ export default function Navbar({
   setSearchTerm,
   onOpenQuickLead,
   onOpenCalculator,
-  onOpenServices,
-  totalAvailableCount
+  activeCategory,
+  onSelectCategory,
+  cartCount = 0
 }) {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [currencyDropdownOpen, setCurrencyDropdownOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const currencies = ['UAH', 'USD', 'EUR'];
+  const navCategories = [
+    { id: 'field', label: 'Польова техніка' },
+    { id: 'warehouse', label: 'Складська техніка' },
+    { id: 'parts', label: 'Запасні частини' },
+    { id: 'repairs', label: 'Ремонт транспортерів' },
+    { id: 'used', label: 'Техніка Б/В' },
+    { id: 'rent_calc', label: 'Оренда & Калькулятор' },
+  ];
 
   return (
-    <header style={{
-      position: 'sticky',
-      top: 0,
-      zIndex: 100,
-      backgroundColor: 'rgba(8, 13, 11, 0.92)',
-      backdropFilter: 'blur(16px)',
-      borderBottom: '1px solid var(--border-light)',
-      transition: 'all 0.3s'
-    }}>
-      {/* Top Banner Notice */}
-      <div style={{
-        background: 'linear-gradient(90deg, #064e3b 0%, #047857 50%, #064e3b 100%)',
-        padding: '6px 0',
-        fontSize: '12px',
-        fontWeight: 600,
-        color: '#ffffff',
-        borderBottom: '1px solid rgba(255, 255, 255, 0.1)'
-      }}>
-        <div className="container" style={{
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          flexWrap: 'wrap',
-          gap: '8px'
-        }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <span style={{ 
-              display: 'inline-block', 
-              width: '8px', 
-              height: '8px', 
-              borderRadius: '50%', 
-              backgroundColor: '#34d399',
-              boxShadow: '0 0 8px #34d399'
-            }}></span>
-            <span>Посівна & Збиральна кампанія 2026: готові до виїзду в поле <strong>{totalAvailableCount} одиниць</strong> техніки</span>
+    <header style={{ width: '100%', position: 'sticky', top: 0, zIndex: 100, boxShadow: '0 2px 10px rgba(0,0,0,0.06)' }}>
+      {/* 1. Top Bar */}
+      <div className="whb-top-bar">
+        <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          
+          {/* Phone Numbers */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '18px' }}>
+            <a href="tel:+380950706877" style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: 500 }}>
+              <Phone size={14} color="var(--wd-primary-color)" />
+              <span>+38 (095) 07 06 877</span>
+            </a>
+            <a href="tel:+380966610100" style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: 500 }}>
+              <span>+38 (096) 66 10 100</span>
+            </a>
           </div>
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
-            <span style={{ display: 'flex', alignItems: 'center', gap: '4px', opacity: 0.9 }}>
-              <ShieldCheck size={14} /> Власна сервісна служба 24/7
-            </span>
-            <span style={{ display: 'flex', alignItems: 'center', gap: '4px', opacity: 0.9 }}>
-              <MapPin size={14} /> 7 хабів по Україні
-            </span>
+          {/* Top Info Links (Desktop) */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '24px', ...(window.innerWidth < 960 ? { display: 'none' } : {}) }}>
+            <a href="#" style={{ fontSize: '13px' }}>Головна</a>
+            <a href="#" style={{ fontSize: '13px' }}>Публікації</a>
+            <a href="#" style={{ fontSize: '13px' }}>Про нас</a>
+            <a href="#" style={{ fontSize: '13px' }}>Контакти</a>
           </div>
+
+          {/* Location Address */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '12px', color: '#666', ...(window.innerWidth < 768 ? { display: 'none' } : {}) }}>
+            <MapPin size={13} color="var(--wd-primary-color)" />
+            <span>35306, Україна, м.Рівне, с.Колоденка, вул.Свободи 26</span>
+          </div>
+
         </div>
       </div>
 
-      {/* Main Navbar */}
-      <div className="container" style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        paddingTop: '12px',
-        paddingBottom: '12px',
-        gap: '20px'
-      }}>
-        {/* Brand Logo */}
-        <a href="#" style={{
-          display: 'flex',
-          alignItems: 'center',
-          gap: '12px',
-          textDecoration: 'none',
-          color: 'var(--text-main)'
-        }}>
-          <div style={{
-            width: '44px',
-            height: '44px',
-            borderRadius: '12px',
-            background: 'linear-gradient(135deg, #10b981 0%, #047857 100%)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            boxShadow: '0 4px 14px rgba(16, 185, 129, 0.4)',
-            color: '#ffffff'
-          }}>
-            <Tractor size={26} />
-          </div>
-          <div>
+      {/* 2. General Header Row */}
+      <div className="whb-general-header">
+        <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '20px' }}>
+          
+          {/* Adena Agro Logo */}
+          <a href="#" className="adena-logo-text">
             <div style={{
-              fontSize: '20px',
-              fontWeight: 800,
-              letterSpacing: '-0.02em',
-              display: 'flex',
-              alignItems: 'center',
-              gap: '6px'
-            }}>
-              <span>AGRORENT</span>
-              <span style={{
-                fontSize: '11px',
-                padding: '2px 6px',
-                background: 'rgba(245, 158, 11, 0.2)',
-                color: '#fbbf24',
-                border: '1px solid rgba(245, 158, 11, 0.4)',
-                borderRadius: '4px',
-                fontWeight: 700
-              }}>PRO</span>
-            </div>
-            <div style={{
-              fontSize: '11px',
-              color: 'var(--text-muted)',
-              textTransform: 'uppercase',
-              letterSpacing: '0.08em',
-              fontWeight: 600
-            }}>
-              Важка агротехніка & Польові машини
-            </div>
-          </div>
-        </a>
-
-        {/* Quick Live Search Bar (Desktop) */}
-        <div style={{
-          flex: '1',
-          maxWidth: '380px',
-          position: 'relative',
-          display: 'none',
-          ...(window.innerWidth > 960 ? { display: 'block' } : {})
-        }}>
-          <Search size={16} style={{
-            position: 'absolute',
-            left: '14px',
-            top: '50%',
-            transform: 'translateY(-50%)',
-            color: 'var(--text-muted)'
-          }} />
-          <input
-            type="text"
-            placeholder="Пошук: Grimme, комбайн, трактор 400 к.с..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="input-field"
-            style={{
-              paddingLeft: '40px',
-              paddingRight: '32px',
+              width: '42px',
               height: '42px',
-              fontSize: '13px',
-              borderRadius: 'var(--radius-full)',
-              backgroundColor: 'rgba(16, 28, 24, 0.8)'
-            }}
-          />
-          {searchTerm && (
-            <button
-              onClick={() => setSearchTerm('')}
-              style={{
-                position: 'absolute',
-                right: '12px',
-                top: '50%',
-                transform: 'translateY(-50%)',
-                background: 'none',
-                border: 'none',
-                color: 'var(--text-muted)',
-                cursor: 'pointer'
-              }}
-            >
-              <X size={14} />
-            </button>
-          )}
-        </div>
-
-        {/* Navigation Links */}
-        <nav style={{
-          display: 'flex',
-          alignItems: 'center',
-          gap: '24px',
-          ...(window.innerWidth <= 1080 ? { display: 'none' } : {})
-        }}>
-          <a href="#catalog" style={{
-            color: 'var(--text-main)',
-            textDecoration: 'none',
-            fontSize: '14px',
-            fontWeight: 600,
-            transition: 'color 0.2s'
-          }} onMouseEnter={(e) => e.target.style.color = 'var(--color-accent-primary)'}
-             onMouseLeave={(e) => e.target.style.color = 'var(--text-main)'}>
-            Каталог техніки
-          </a>
-
-          <a href="#map-section" style={{
-            color: 'var(--text-main)',
-            textDecoration: 'none',
-            fontSize: '14px',
-            fontWeight: 600,
-            display: 'flex',
-            alignItems: 'center',
-            gap: '6px'
-          }}>
-            <MapPin size={15} color="#10b981" />
-            Карта баз
-          </a>
-
-          <button 
-            onClick={onOpenCalculator}
-            style={{
-              background: 'none',
-              border: 'none',
-              color: 'var(--text-main)',
-              fontSize: '14px',
-              fontWeight: 600,
-              cursor: 'pointer',
-              display: 'flex',
-              alignItems: 'center',
-              gap: '6px'
-            }}>
-            <Calculator size={15} color="#f59e0b" />
-            Калькулятор робіт
-          </button>
-
-          <button 
-            onClick={onOpenServices}
-            style={{
-              background: 'none',
-              border: 'none',
-              color: 'var(--text-main)',
-              fontSize: '14px',
-              fontWeight: 600,
-              cursor: 'pointer',
-              display: 'flex',
-              alignItems: 'center',
-              gap: '6px'
-            }}>
-            <Wrench size={15} color="#34d399" />
-            Сервіс & Трали
-          </button>
-        </nav>
-
-        {/* Actions & Currency Switcher */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-          {/* Currency Toggle */}
-          <div style={{ position: 'relative' }}>
-            <button
-              onClick={() => setCurrencyDropdownOpen(!currencyDropdownOpen)}
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '4px',
-                background: 'rgba(255, 255, 255, 0.06)',
-                border: '1px solid var(--border-light)',
-                borderRadius: 'var(--radius-sm)',
-                padding: '6px 10px',
-                color: 'var(--text-main)',
-                fontSize: '13px',
-                fontWeight: 700,
-                cursor: 'pointer'
-              }}
-            >
-              <span>{currency}</span>
-              <span style={{ color: 'var(--color-accent-primary)' }}>({CURRENCY_SYMBOLS[currency]})</span>
-              <ChevronDown size={14} />
-            </button>
-
-            {currencyDropdownOpen && (
-              <div style={{
-                position: 'absolute',
-                top: '100%',
-                right: 0,
-                marginTop: '6px',
-                backgroundColor: 'var(--bg-elevated)',
-                border: '1px solid var(--border-light)',
-                borderRadius: 'var(--radius-md)',
-                boxShadow: 'var(--shadow-md)',
-                overflow: 'hidden',
-                zIndex: 200,
-                minWidth: '100px'
-              }}>
-                {currencies.map((curr) => (
-                  <button
-                    key={curr}
-                    onClick={() => {
-                      setCurrency(curr);
-                      setCurrencyDropdownOpen(false);
-                    }}
-                    style={{
-                      width: '100%',
-                      padding: '8px 14px',
-                      background: currency === curr ? 'rgba(16, 185, 129, 0.15)' : 'transparent',
-                      border: 'none',
-                      color: currency === curr ? 'var(--color-accent-primary)' : 'var(--text-main)',
-                      fontSize: '13px',
-                      fontWeight: 600,
-                      textAlign: 'left',
-                      cursor: 'pointer',
-                      display: 'flex',
-                      justifyContent: 'space-between'
-                    }}
-                  >
-                    <span>{curr}</span>
-                    <span>{CURRENCY_SYMBOLS[curr]}</span>
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
-
-          {/* Quick Call Button */}
-          <a
-            href="tel:+380800339420"
-            className="btn btn-outline btn-sm"
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '6px',
-              borderColor: 'rgba(16, 185, 129, 0.4)',
-              color: '#34d399'
-            }}
-          >
-            <PhoneCall size={14} />
-            <span style={{ fontWeight: 700 }}>0 800 339 420</span>
-          </a>
-
-          {/* Lead Consultation Button */}
-          <button
-            onClick={onOpenQuickLead}
-            className="btn btn-primary btn-sm"
-            style={{ display: 'flex', alignItems: 'center', gap: '6px' }}
-          >
-            <Sparkles size={14} />
-            <span>Підібрати під поле</span>
-          </button>
-
-          {/* Mobile Menu Trigger */}
-          <button
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            style={{
-              background: 'transparent',
-              border: '1px solid var(--border-light)',
-              borderRadius: 'var(--radius-sm)',
-              padding: '8px',
-              color: 'var(--text-main)',
-              cursor: 'pointer',
+              borderRadius: '50%',
+              backgroundColor: '#111111',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              ...(window.innerWidth > 1080 ? { display: 'none' } : {})
-            }}
-          >
-            {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
-          </button>
+              color: '#f7ce34',
+              boxShadow: '0 2px 8px rgba(0,0,0,0.15)'
+            }}>
+              <span style={{ fontSize: '22px' }}>⚙️</span>
+            </div>
+            <div>
+              <div className="adena-logo-brand">
+                ADENA<span>AGRO</span>
+              </div>
+              <div style={{ fontSize: '10px', color: '#888888', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
+                Польова техніка для овочів
+              </div>
+            </div>
+          </a>
+
+          {/* Center Search Bar */}
+          <div className="adena-search-wrap" style={{ ...(window.innerWidth < 768 ? { display: 'none' } : {}) }}>
+            <input
+              type="text"
+              className="adena-search-input"
+              placeholder="Для пошуку введіть назву чи код товару"
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
+            {searchTerm && (
+              <button 
+                onClick={() => setSearchTerm('')}
+                style={{ background: 'none', border: 'none', padding: '0 8px', cursor: 'pointer', color: '#999' }}
+              >
+                <X size={16} />
+              </button>
+            )}
+            <button className="adena-search-btn" onClick={() => {
+              const el = document.getElementById('main-catalog');
+              if (el) el.scrollIntoView({ behavior: 'smooth' });
+            }}>
+              <Search size={16} />
+              <span>Пошук</span>
+            </button>
+          </div>
+
+          {/* Right Header Tools */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
+            
+            {/* Currency Selector */}
+            <div style={{ position: 'relative' }}>
+              <button
+                onClick={() => setCurrencyDropdownOpen(!currencyDropdownOpen)}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '4px',
+                  background: '#f8f8f8',
+                  border: '1px solid #d2d2d2',
+                  padding: '6px 10px',
+                  fontSize: '13px',
+                  fontWeight: 600,
+                  cursor: 'pointer'
+                }}
+              >
+                <span>{currency}</span>
+                <span style={{ color: 'var(--wd-primary-color)' }}>({CURRENCY_SYMBOLS[currency]})</span>
+                <ChevronDown size={14} />
+              </button>
+
+              {currencyDropdownOpen && (
+                <div style={{
+                  position: 'absolute',
+                  top: '100%',
+                  right: 0,
+                  marginTop: '4px',
+                  backgroundColor: '#ffffff',
+                  border: '1px solid #e0e0e0',
+                  boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+                  zIndex: 200,
+                  minWidth: '110px'
+                }}>
+                  {['UAH', 'USD', 'EUR'].map((curr) => (
+                    <button
+                      key={curr}
+                      onClick={() => {
+                        setCurrency(curr);
+                        setCurrencyDropdownOpen(false);
+                      }}
+                      style={{
+                        width: '100%',
+                        padding: '8px 12px',
+                        background: currency === curr ? '#fff6f0' : 'transparent',
+                        border: 'none',
+                        color: currency === curr ? 'var(--wd-primary-color)' : '#111',
+                        fontSize: '13px',
+                        fontWeight: 600,
+                        textAlign: 'left',
+                        cursor: 'pointer',
+                        display: 'flex',
+                        justifyContent: 'space-between'
+                      }}
+                    >
+                      <span>{curr}</span>
+                      <span>{CURRENCY_SYMBOLS[curr]}</span>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {/* Profile Tool */}
+            <button 
+              onClick={() => onOpenQuickLead('Кабінет клієнта / Реєстрація')} 
+              className="header-tool-btn" 
+              title="Вхід / Реєстрація"
+            >
+              <User size={18} />
+            </button>
+
+            {/* Cart / Orders Tool */}
+            <button 
+              onClick={onOpenCalculator} 
+              className="header-tool-btn" 
+              title="Кошик / Калькулятор оренди"
+            >
+              <ShoppingCart size={18} />
+              <span className="header-tool-badge">{cartCount}</span>
+            </button>
+
+            {/* Language Switch */}
+            <div style={{
+              fontWeight: 700,
+              fontSize: '14px',
+              padding: '6px 8px',
+              borderLeft: '1px solid #e0e0e0',
+              marginLeft: '4px'
+            }}>
+              UA
+            </div>
+
+            {/* Mobile Menu Toggle */}
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              style={{
+                background: 'none',
+                border: 'none',
+                cursor: 'pointer',
+                padding: '4px',
+                display: 'none',
+                ...(window.innerWidth < 960 ? { display: 'block' } : {})
+              }}
+            >
+              {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+
+          </div>
+
         </div>
       </div>
 
-      {/* Mobile Drawer */}
+      {/* 3. Dark Bottom Navigation Bar */}
+      <div className="whb-header-bottom">
+        <div className="container">
+          <ul className="adena-main-nav">
+            {navCategories.map((cat) => {
+              const isActive = activeCategory === cat.id;
+              return (
+                <li key={cat.id} className={isActive ? 'active' : ''}>
+                  <a
+                    href="#main-catalog"
+                    onClick={(e) => {
+                      if (cat.id === 'rent_calc') {
+                        e.preventDefault();
+                        onOpenCalculator();
+                      } else {
+                        onSelectCategory(cat.id);
+                      }
+                    }}
+                  >
+                    {cat.label}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </div>
+
+      {/* Mobile Search & Drawer */}
       {mobileMenuOpen && (
         <div style={{
-          backgroundColor: 'var(--bg-secondary)',
-          borderTop: '1px solid var(--border-light)',
+          backgroundColor: '#ffffff',
+          borderBottom: '2px solid var(--wd-primary-color)',
           padding: '16px 20px',
           display: 'flex',
           flexDirection: 'column',
-          gap: '14px',
-          animation: 'fadeIn 0.2s ease'
+          gap: '12px'
         }}>
-          <div style={{ position: 'relative' }}>
-            <Search size={16} style={{
-              position: 'absolute',
-              left: '12px',
-              top: '50%',
-              transform: 'translateY(-50%)',
-              color: 'var(--text-muted)'
-            }} />
+          <div className="adena-search-wrap" style={{ maxWidth: '100%' }}>
             <input
               type="text"
+              className="adena-search-input"
               placeholder="Пошук техніки..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="input-field"
-              style={{ paddingLeft: '38px', height: '40px' }}
             />
+            <button className="adena-search-btn">
+              <Search size={16} />
+            </button>
           </div>
 
-          <a 
-            href="#catalog" 
-            onClick={() => setMobileMenuOpen(false)}
-            style={{ color: 'var(--text-main)', textDecoration: 'none', fontWeight: 600, padding: '8px 0' }}
-          >
-            🚜 Каталог техніки
-          </a>
-
-          <a 
-            href="#map-section" 
-            onClick={() => setMobileMenuOpen(false)}
-            style={{ color: 'var(--text-main)', textDecoration: 'none', fontWeight: 600, padding: '8px 0' }}
-          >
-            📍 Карта агро-баз та хабів
-          </a>
-
-          <button 
-            onClick={() => { setMobileMenuOpen(false); onOpenCalculator(); }}
-            style={{ background: 'none', border: 'none', color: 'var(--text-main)', textAlign: 'left', fontWeight: 600, padding: '8px 0', cursor: 'pointer' }}
-          >
-            🧮 Калькулятор вартості робіт
-          </button>
-
-          <button 
-            onClick={() => { setMobileMenuOpen(false); onOpenServices(); }}
-            style={{ background: 'none', border: 'none', color: 'var(--text-main)', textAlign: 'left', fontWeight: 600, padding: '8px 0', cursor: 'pointer' }}
-          >
-            🛠️ Сервіс, екіпажі та трали
-          </button>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '8px' }}>
+            {navCategories.map((cat) => (
+              <a
+                key={cat.id}
+                href="#main-catalog"
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  if (cat.id === 'rent_calc') onOpenCalculator();
+                  else onSelectCategory(cat.id);
+                }}
+                style={{
+                  padding: '8px 0',
+                  fontSize: '14px',
+                  fontWeight: 600,
+                  color: '#111111',
+                  borderBottom: '1px solid #f0f0f0'
+                }}
+              >
+                {cat.label}
+              </a>
+            ))}
+          </div>
         </div>
       )}
     </header>

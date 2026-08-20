@@ -1,49 +1,36 @@
 import React, { useState } from 'react';
-import { 
-  X, 
-  Calculator, 
-  Sprout, 
-  Sparkles, 
-  Check, 
-  ArrowRight,
-  TrendingDown,
-  Phone
-} from 'lucide-react';
+import { X, Calculator, ArrowRight } from 'lucide-react';
 import { formatPrice } from '../utils/currency';
-import { MACHINERY_DATA } from '../data/machineryData';
 
 export default function RentCalculatorModal({ 
   currency, 
   onClose, 
   onOpenQuickLead 
 }) {
-  const [cropType, setCropType] = useState('potato'); // potato, grain, corn, sunflower, vegetables
-  const [fieldAreaHa, setFieldAreaHa] = useState(120);
-  const [operation, setOperation] = useState('harvest'); // tillage, planting, spraying, harvest
+  const [cropType, setCropType] = useState('potato');
+  const [fieldAreaHa, setFieldAreaHa] = useState(80);
+  const [operation, setOperation] = useState('harvest');
   const [operatorNeeded, setOperatorNeeded] = useState(true);
   const [trallNeeded, setTrallNeeded] = useState(true);
 
-  // Operations pricing matrix per hectare
   const operationRates = {
-    tillage: { uahPerHa: 1400, name: 'Ґрунтообробка / Гребенеутворення', minDays: 2 },
-    planting: { uahPerHa: 1650, name: 'Посів / Висадка розсади/бульб', minDays: 3 },
-    spraying: { uahPerHa: 850, name: 'Внесення ЗЗР та КАС (обприскування)', minDays: 2 },
-    harvest: { uahPerHa: 3600, name: 'Збирання врожаю комбайнами', minDays: 4 },
+    tillage: { uahPerHa: 1400, name: 'Підготовка ґрунту / Фрезерування' },
+    planting: { uahPerHa: 1650, name: 'Посадка / Посів овочевих' },
+    haulm: { uahPerHa: 1100, name: 'Видалення бадилля (Struik GLUTTON)' },
+    harvest: { uahPerHa: 3600, name: 'Збір врожаю комбайнами Grimme / Dewulf' },
   };
 
-  const currentOp = operationRates[operation];
+  const currentOp = operationRates[operation] || operationRates.harvest;
   const rawTotal = currentOp.uahPerHa * fieldAreaHa;
 
-  // Volume discount calculation
   let discountPercent = 0;
-  if (fieldAreaHa >= 500) discountPercent = 18;
-  else if (fieldAreaHa >= 250) discountPercent = 12;
-  else if (fieldAreaHa >= 100) discountPercent = 7;
-  else if (fieldAreaHa >= 50) discountPercent = 4;
+  if (fieldAreaHa >= 300) discountPercent = 15;
+  else if (fieldAreaHa >= 150) discountPercent = 10;
+  else if (fieldAreaHa >= 50) discountPercent = 5;
 
   const discountAmount = Math.round(rawTotal * (discountPercent / 100));
-  const trallTotal = trallNeeded ? 24000 : 0;
-  const operatorTotal = operatorNeeded ? fieldAreaHa * 250 : 0;
+  const trallTotal = trallNeeded ? 18000 : 0;
+  const operatorTotal = operatorNeeded ? fieldAreaHa * 200 : 0;
   const grandTotal = rawTotal - discountAmount + trallTotal + operatorTotal;
 
   return (
@@ -51,240 +38,143 @@ export default function RentCalculatorModal({
       <div 
         className="modal-content-box"
         onClick={(e) => e.stopPropagation()}
-        style={{ maxWidth: '780px', padding: '28px' }}
+        style={{ maxWidth: '720px', padding: '28px' }}
       >
-        {/* Header */}
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            <div style={{
-              width: '42px',
-              height: '42px',
-              borderRadius: '12px',
-              background: 'rgba(245, 158, 11, 0.2)',
-              color: '#fbbf24',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center'
-            }}>
-              <Calculator size={22} />
-            </div>
-            <div>
-              <h3 style={{ fontSize: '20px', fontWeight: 800, color: '#ffffff' }}>
-                Калькулятор Вартості Польових Робіт
-              </h3>
-              <p style={{ fontSize: '12px', color: 'var(--text-muted)' }}>
-                Миттєвий розрахунок оренди важкої техніки під площу вашого поля
-              </p>
-            </div>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
+          <div>
+            <span style={{ fontSize: '12px', color: 'var(--wd-primary-color)', fontWeight: 700, textTransform: 'uppercase' }}>
+              Онлайн сервіс
+            </span>
+            <h3 style={{ fontSize: '20px', fontWeight: 600, color: '#111', margin: 0 }}>
+              Калькулятор Вартості Оренди Техніки
+            </h3>
           </div>
 
           <button
             onClick={onClose}
             style={{
-              background: 'rgba(255, 255, 255, 0.08)',
-              border: 'none',
-              borderRadius: '50%',
+              background: '#fff',
+              border: '1px solid #ddd',
               width: '32px',
               height: '32px',
+              cursor: 'pointer',
               display: 'flex',
               alignItems: 'center',
-              justifyContent: 'center',
-              color: 'var(--text-main)',
-              cursor: 'pointer'
+              justifyContent: 'center'
             }}
           >
             <X size={16} />
           </button>
         </div>
 
-        {/* Inputs */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginBottom: '24px' }}>
-          
-          {/* Crop Type */}
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '20px' }}>
           <div>
-            <label style={{ display: 'block', fontSize: '12px', fontWeight: 700, color: 'var(--text-muted)', marginBottom: '6px', textTransform: 'uppercase' }}>
-              Сільськогосподарська культура:
-            </label>
+            <label style={{ display: 'block', fontSize: '12px', fontWeight: 600, marginBottom: '4px' }}>Культура:</label>
             <select
               value={cropType}
               onChange={(e) => setCropType(e.target.value)}
-              className="select-field"
-              style={{ height: '44px', fontWeight: 600 }}
+              className="wpf-select"
             >
-              <option value="potato">🥔 Картопля (Повний цикл Grimme / Struik)</option>
-              <option value="grain">🌾 Зернові (Пшениця, Ячмінь, Жито)</option>
-              <option value="corn">🌽 Кукурудза на зерно / силос</option>
-              <option value="sunflower">🌻 Соняшник</option>
-              <option value="vegetables">🥕 Овочеві (Морква, Цибуля, Буряк)</option>
+              <option value="potato">🥔 Картопля (Повний комплекс)</option>
+              <option value="carrot">🥕 Морква</option>
+              <option value="onion">🧅 Цибуля</option>
+              <option value="beet">🌱 Цукровий буряк</option>
+              <option value="grain">🌾 Зернові та кукурудза</option>
             </select>
           </div>
 
-          {/* Operation Type */}
           <div>
-            <label style={{ display: 'block', fontSize: '12px', fontWeight: 700, color: 'var(--text-muted)', marginBottom: '6px', textTransform: 'uppercase' }}>
-              Технологічна операція:
-            </label>
+            <label style={{ display: 'block', fontSize: '12px', fontWeight: 600, marginBottom: '4px' }}>Технологічна операція:</label>
             <select
               value={operation}
               onChange={(e) => setOperation(e.target.value)}
-              className="select-field"
-              style={{ height: '44px', fontWeight: 600 }}
+              className="wpf-select"
             >
-              <option value="tillage">🚜 Глибока ґрунтообробка / Фрезерування</option>
-              <option value="planting">🌱 Точний посів / Посадка</option>
-              <option value="spraying">💧 Захист посівів / Внесення КАС</option>
-              <option value="harvest">🌾 Збирання врожаю комбайнами</option>
+              <option value="tillage">Підготовка ґрунту / Фрезерування</option>
+              <option value="planting">Посадка / Посів</option>
+              <option value="haulm">Видалення бадилля</option>
+              <option value="harvest">Збір врожаю комбайнами</option>
             </select>
           </div>
-
         </div>
 
-        {/* Hectares Slider */}
-        <div style={{ marginBottom: '24px' }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
-            <span style={{ fontSize: '13px', fontWeight: 700, color: 'var(--text-main)' }}>
-              Загальна площа поля для обробітку:
-            </span>
-            <span style={{ fontSize: '18px', fontWeight: 800, color: '#34d399' }}>
-              {fieldAreaHa} гектарів (га)
-            </span>
+        <div style={{ marginBottom: '20px' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '6px', fontSize: '13px' }}>
+            <span style={{ fontWeight: 600 }}>Площа поля для обробітку:</span>
+            <strong style={{ color: 'var(--wd-primary-color)' }}>{fieldAreaHa} га</strong>
           </div>
           <input
             type="range"
             min="10"
-            max="1000"
+            max="500"
             step="10"
             value={fieldAreaHa}
             onChange={(e) => setFieldAreaHa(Number(e.target.value))}
+            style={{ width: '100%', accentColor: 'var(--wd-primary-color)' }}
           />
-          <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '11px', color: 'var(--text-muted)', marginTop: '4px' }}>
-            <span>10 га</span>
-            <span>250 га</span>
-            <span>500 га</span>
-            <span>1000 га</span>
-          </div>
         </div>
 
-        {/* Checkbox Options */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px', marginBottom: '24px' }}>
-          <label style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '10px',
-            padding: '12px',
-            background: 'rgba(255, 255, 255, 0.03)',
-            borderRadius: 'var(--radius-md)',
-            border: '1px solid var(--border-light)',
-            cursor: 'pointer',
-            fontSize: '13px'
-          }}>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '20px', fontSize: '13px' }}>
+          <label style={{ display: 'flex', alignItems: 'center', gap: '6px', cursor: 'pointer' }}>
             <input
               type="checkbox"
               checked={operatorNeeded}
               onChange={(e) => setOperatorNeeded(e.target.checked)}
-              style={{ accentColor: '#10b981', width: '16px', height: '16px' }}
+              style={{ accentColor: 'var(--wd-primary-color)' }}
             />
-            <span>Робота сертифікованого оператора</span>
+            <span>Робота оператора Adena Agro</span>
           </label>
 
-          <label style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '10px',
-            padding: '12px',
-            background: 'rgba(255, 255, 255, 0.03)',
-            borderRadius: 'var(--radius-md)',
-            border: '1px solid var(--border-light)',
-            cursor: 'pointer',
-            fontSize: '13px'
-          }}>
+          <label style={{ display: 'flex', alignItems: 'center', gap: '6px', cursor: 'pointer' }}>
             <input
               type="checkbox"
               checked={trallNeeded}
               onChange={(e) => setTrallNeeded(e.target.checked)}
-              style={{ accentColor: '#10b981', width: '16px', height: '16px' }}
+              style={{ accentColor: 'var(--wd-primary-color)' }}
             />
-            <span>Доставка важким тралом на поле</span>
+            <span>Подача тралом по області</span>
           </label>
         </div>
 
-        {/* Calculation Result Breakdown Card */}
-        <div className="glass-panel" style={{
-          padding: '20px',
-          borderRadius: 'var(--radius-lg)',
-          border: '1px solid rgba(16, 185, 129, 0.4)',
-          background: 'rgba(16, 185, 129, 0.06)',
-          marginBottom: '24px'
-        }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '13px', marginBottom: '8px', color: 'var(--text-muted)' }}>
-            <span>Базова оренда ({fieldAreaHa} га × {formatPrice(currentOp.uahPerHa, currency)}):</span>
-            <span style={{ color: '#ffffff', fontWeight: 600 }}>{formatPrice(rawTotal, currency)}</span>
+        {/* Calculation Result */}
+        <div style={{ background: '#fafafa', border: '1px solid #eaeaea', padding: '16px', marginBottom: '20px' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '13px', marginBottom: '6px', color: '#666' }}>
+            <span>Базова вартість ({fieldAreaHa} га):</span>
+            <span style={{ color: '#111', fontWeight: 600 }}>{formatPrice(rawTotal, currency)}</span>
           </div>
 
           {discountPercent > 0 && (
-            <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '13px', marginBottom: '8px', color: '#fbbf24' }}>
-              <span>Знижка за обсяг площі (-{discountPercent}%):</span>
-              <span style={{ fontWeight: 700 }}>-{formatPrice(discountAmount, currency)}</span>
+            <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '13px', marginBottom: '6px', color: 'var(--wd-primary-color)' }}>
+              <span>Оптова знижка (-{discountPercent}%):</span>
+              <span style={{ fontWeight: 600 }}>-{formatPrice(discountAmount, currency)}</span>
             </div>
           )}
 
-          {operatorNeeded && (
-            <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '13px', marginBottom: '8px', color: 'var(--text-muted)' }}>
-              <span>Послуги механізатора з паливною підтримкою:</span>
-              <span style={{ color: '#ffffff', fontWeight: 600 }}>{formatPrice(operatorTotal, currency)}</span>
-            </div>
-          )}
-
-          {trallNeeded && (
-            <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '13px', marginBottom: '8px', color: 'var(--text-muted)' }}>
-              <span>Подача та повернення негабаритного тралу:</span>
-              <span style={{ color: '#ffffff', fontWeight: 600 }}>{formatPrice(trallTotal, currency)}</span>
-            </div>
-          )}
-
-          <div style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'baseline',
-            paddingTop: '12px',
-            marginTop: '12px',
-            borderTop: '1px solid rgba(255, 255, 255, 0.1)'
-          }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', borderTop: '1px solid #e0e0e0', paddingTop: '10px', marginTop: '10px' }}>
             <div>
-              <span style={{ fontSize: '12px', color: 'var(--text-muted)', display: 'block' }}>
-                Орієнтовна вартість робіт з ПДВ:
-              </span>
-              <div style={{ fontSize: '24px', fontWeight: 800, color: '#34d399' }}>
+              <span style={{ fontSize: '12px', color: '#666', display: 'block' }}>Разом з ПДВ:</span>
+              <strong style={{ fontSize: '24px', color: 'var(--wd-price-red)' }}>
                 {formatPrice(grandTotal, currency)}
-              </div>
+              </strong>
             </div>
-
-            <div style={{ textAlign: 'right' }}>
-              <span style={{ fontSize: '12px', color: 'var(--text-muted)', display: 'block' }}>
-                Собівартість на 1 га:
-              </span>
-              <span style={{ fontSize: '16px', fontWeight: 700, color: '#ffffff' }}>
-                {formatPrice(Math.round(grandTotal / fieldAreaHa), currency)} / га
-              </span>
+            <div style={{ textAlign: 'right', fontSize: '13px', color: '#333' }}>
+              <strong>{formatPrice(Math.round(grandTotal / fieldAreaHa), currency)}</strong> / га
             </div>
           </div>
         </div>
 
-        {/* Bottom Actions */}
-        <div style={{ display: 'flex', gap: '14px' }}>
+        <div style={{ display: 'flex', gap: '10px' }}>
           <button
             onClick={() => {
               onClose();
-              onOpenQuickLead(`Прорахунок калькулятора: ${currentOp.name} (${fieldAreaHa} га) на суму ${formatPrice(grandTotal, currency)}`);
+              onOpenQuickLead(`Прорахунок: ${currentOp.name} (${fieldAreaHa} га) на суму ${formatPrice(grandTotal, currency)}`);
             }}
-            className="btn btn-primary btn-lg"
-            style={{ flex: 1, fontWeight: 700 }}
+            className="btn-adena-primary"
+            style={{ flex: 1, padding: '12px', fontWeight: 600 }}
           >
-            <span>Зафіксувати ціну та забронювати графік</span>
-            <ArrowRight size={16} />
+            Замовити за цією вартістю
           </button>
-
-          <button onClick={onClose} className="btn btn-outline btn-lg">
+          <button onClick={onClose} className="btn-adena-secondary" style={{ padding: '12px 20px' }}>
             Закрити
           </button>
         </div>
