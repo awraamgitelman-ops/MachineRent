@@ -1,5 +1,5 @@
 // Auto-generated comprehensive machinery and parts catalog from adenaagro.com
-// Total Products: 112
+// Total Products: 108
 
 export const MACHINERY_DATA = [
   {
@@ -759,88 +759,6 @@ export const MACHINERY_DATA = [
     "fullDescription": "Серія культиваторів VariX є наступником серії RF. VariX – це універсальний роторний культиватор , який ідеально підходить для всіх видів обробки ґрунту будь-якого типу. Роторний культиватор VariX оснащений пружною верхньою кришкою. Це ідеальний культиватор-плоскоріз для передпосівного обробітку ґрунту під картоплю, формування гребенів під моркву, ендівій та цикорій, а також для формування посадкових або посівних грядок. VariX також може використовуватися як міжрядний ротаційний культиватор. Завдяки притискним вузлам з нержавіючої сталі в гребінцевому кожусі, культиватор VariX створює об'ємні, міцні та рівномірні гребені. Підпружинений верхній кожух над лапами культиватора немає «мертвих» зон, де може накопичуватися грунт. Машина пропонується в жорсткому виконанні розміром від 4×75 см до 8×38&#8243;. Якщо на машині встановлено 6 і більше рядів, вона також доступна з складною гідравлічною рамою.   Переваги: Діаметр роторного культиватора становить Ø 760 мм, що уможливлює більш глибоке обробіток ґрунту. Потужний та тихо працюючий спірально-конічний редуктор зі спіральними зубами Доступні редуктори потужністю від 220 до 540 л. с., можливі різні швидкості обертання Ротор з ланцюговим приводом та загартованими зірочками Верхня кришка встановлена на пружинах Верхня кришка точно прилягає по радіусу гаків, зменшуючи налипання ґрунту. Відсутність «мертвих» зон у корпусі Приварені тримачі гаків на роторному валу Ідеальне дроблення ґрунту завдяки системі гаків, розташованих у випадковому порядку У стандартній комплектації культиватор оснащується сполучним валом із кулачковою муфтою. Поставляється у виконанні для гребенів, грядок або плоских ділянок поля Доступний у жорсткому чи складаному виконанні Широкий спектр доступних опцій  ",
     "aliases": [
       "79612"
-    ]
-  },
-  {
-    "id": "field-transporter-dlya-zbyrannya-kapusty-ta-inshyh-ovochiv",
-    "slug": "transporter-dlya-zbyrannya-kapusty-ta-inshyh-ovochiv",
-    "name": "Транспортер для збирання капусти та інших овочів",
-    "brand": "Struik",
-    "model": "Транспортер для збирання капусти та інших овочів",
-    "activityType": "harvesting",
-    "machineryType": "field",
-    "categoryName": "Польова техніка",
-    "status": "available",
-    "badge": "В наявності",
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-4-kopyya_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-kopyya_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-5-kopyya_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-3-kopyya_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-2-kopyya_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-1-kopyya_result.jpg"
-    ],
-    "pricing": {
-      "purchasePriceUah": 380000,
-      "pricePerShiftUah": 15200,
-      "pricePerHaUah": 1140
-    },
-    "specs": {
-      "Виробник": "Struik",
-      "Модель": "Транспортер для збирання капусти та інших овочів",
-      "Категорія": "Польова техніка",
-      "Необхідна потужність трактора": "від 90 к.с.",
-      "Робоча ширина / Кількість рядів": "2-4 ряди"
-    },
-    "shortDescription": "Транспортер для збирання капусти та інших овочів від бренду Struik. Професійна техніка для овочівництва з європейською гарантією.",
-    "fullDescription": "Транспортер (конвеєр) для збирання капусти, новий Виробник ЄС. Транспортер використовується для збирання капусти з поля у причіп, у ящики на причіпі. Під час збирання врожаю при вокиристанні конвеєра можна залучити від двох до восьми осіб. Три-шість ріжуть капусту, укладаючи її на конвеєр, а один-два забирають її на причепі і кладуть у ящики/піддони. Вага: від 90 кг у стандартній версії. Оснащений гідравлічним приводом, з регулюванням швидкості. У комплект конвеєра входять гідравлічні шланги довжиною 10 м. Ширина стрічки: 30 см Елементи транспортера виготовлені з некорозійних елементів (алюміній, нержавіюча сталь, пластик). Конвеєр має посилені лопатки, які дозволяють забирати качани капусти більшої ваги. Конвеєр на похилій частині оснащений піднятими секціями для запобігання бокового падіння капусти. Конвеєр доступний в декількох варіантах довжини: Модель транспортера Робоча зона, метри Довжина загальна, метри Ціна з ПДВ, євро Стандартний 6,9 8,3 7300 Розкладний 9,6 11 11200",
-    "aliases": [
-      "transporter-dlya-zbyrannya-kapusty-ta-inshyh-ovochiv"
-    ]
-  },
-  {
-    "id": "field-ustanovka-dlya-protruyuvannya-bulb-kartopli-pid-prestyzh",
-    "slug": "ustanovka-dlya-protruyuvannya-bulb-kartopli-pid-prestyzh",
-    "name": "Установка для протруювання бульб картоплі під &#8220;Престиж&#8221;",
-    "brand": "Adena Agro",
-    "model": "Установка для протруювання бульб картоплі під &#8220;Престиж&#8221;",
-    "activityType": "soil_prep",
-    "machineryType": "field",
-    "categoryName": "Польова техніка",
-    "status": "available",
-    "badge": "В наявності",
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2023/01/adenaagrologo.png",
-      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
-      "https://adenaagro.com/wp-content/uploads/2024/02/logo.png",
-      "https://adenaagro.com/wp-content/uploads/2022/11/p17-2654982440-300x300.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/zibo_aanbouw_rugvormer6-300x300.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_1yazglbqre5d_glutton-1-300x300.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_sc4ogsrinemz_glutton-300x300.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_7_result-300x300.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_4lopg3oexjwt_biorotix-3000-ot-300x300.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_p4jgdqwmcrnp-1_glutton-300x300.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_6zq2ovy3a7eh_glutton-300x300.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_o9kpdy1x7cz1_glutton-300x300.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp",
-      "https://adenaagro.com/wp-content/uploads/elementor/thumbs/adenaagrologo-rhw5n1zvdv150dtzqtjr73u8lzon712g60aote8sku.png"
-    ],
-    "pricing": {
-      "purchasePriceUah": 380000,
-      "pricePerShiftUah": 15200,
-      "pricePerHaUah": 1140
-    },
-    "specs": {
-      "Виробник": "Adena Agro",
-      "Модель": "Установка для протруювання бульб картоплі під &#8220;Престиж&#8221;",
-      "Категорія": "Польова техніка",
-      "Необхідна потужність трактора": "від 90 к.с.",
-      "Робоча ширина / Кількість рядів": "2-4 ряди"
-    },
-    "shortDescription": "Установка для протруювання бульб картоплі під &#8220;Престиж&#8221; від бренду Adena Agro. Професійна техніка для овочівництва з європейською гарантією.",
-    "fullDescription": "Кількість рядів – 4. Установка для обробки бульб картоплі інсектицидами типу &#8220;Престиж&#8221; в комплекті з насосом і форсунками. Об'єм бака – 248 л. Живлення насоса – 12 в. Кількість форсунок – 8 шт.",
-    "aliases": [
-      "ustanovka-dlya-protruyuvannya-bulb-kartopli-pid-prestyzh"
     ]
   },
   {
@@ -2626,33 +2544,6 @@ export const MACHINERY_DATA = [
     "fullDescription": "Причипна косарка цибулі &#8220;Keulmac&#8221; вентеляторного типу (піднімає гичку) від виробника Keulmac. Надійне рішення для вашого агрогосподарства."
   },
   {
-    "id": "adena-83",
-    "slug": "ustanovka-dlya-protruyuvannya-bulb-kartopli-pid-prestyzh-vyrobnyk-grimme",
-    "name": "Установка для протруювання бульб картоплі під Престиж виробник Grimme",
-    "brand": "Grimme",
-    "model": "Установка для протруювання бульб картоплі під Престиж виробник Grimme",
-    "activityType": "soil_preparation",
-    "machineryType": "used",
-    "categoryName": "Техніка Б/В",
-    "status": "available",
-    "badge": "В наявності",
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-1ed7466d51bc5abfb4837770e1756593-v-300x300.jpg"
-    ],
-    "pricing": {
-      "purchasePriceUah": 78000,
-      "pricePerShiftUah": 6240,
-      "pricePerHaUah": 520
-    },
-    "specs": {
-      "Необхідна потужність трактора": "від 90 к.с.",
-      "Робоча ширина / Кількість рядів": "2-4 ряди",
-      "Виробник": "Grimme"
-    },
-    "shortDescription": "Установка для протруювання бульб картоплі під Престиж виробник Grimme від Grimme. Надійна техніка для овочівництва з європейською гарантією.",
-    "fullDescription": "Установка для протруювання бульб картоплі під Престиж виробник Grimme від виробника Grimme. Надійне рішення для вашого агрогосподарства."
-  },
-  {
     "id": "adena-84",
     "slug": "avtomatychna-klipsatorna-mashyna-sorma-rb2-120-at-5e-c-pack-net-clipper-met-wijnglas-labeler",
     "name": "Sorma RB2-120 AT-5E – Автоматична кліпсаторна машина",
@@ -3279,33 +3170,6 @@ export const MACHINERY_DATA = [
     },
     "shortDescription": "Приводний пас з низьким профілем тип DS від AVR , DeWulf , Grimme , Keulmac , Samon , Інше. Надійна техніка для овочівництва з європейською гарантією.",
     "fullDescription": "Приводний пас з низьким профілем тип DS від виробника AVR , DeWulf , Grimme , Keulmac , Samon , Інше. Надійне рішення для вашого агрогосподарства."
-  },
-  {
-    "id": "adena-106",
-    "slug": "rolyk-pryvodnyj-frykczijnyj-gumovyj-drive-roller-vulcanized-dm194-dlya-kartoplezbyralnyh-kombajniv-grimme-076-05115-r",
-    "name": "Ролик приводний (фрикційний) гумовий (Drive Roller Vulcanized) DM194 для картоплезбиральних комбайнів Grimme 076.05115 R",
-    "brand": "Grimme",
-    "model": "Ролик приводний (фрикційний) гумовий (Drive Roller Vulcanized) DM194 для картоплезбиральних комбайнів Grimme 076.05115 R",
-    "activityType": "harvesting",
-    "machineryType": "parts",
-    "categoryName": "Запасні частини",
-    "status": "available",
-    "badge": "В наявності",
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/rolyky-950-300x300.jpg"
-    ],
-    "pricing": {
-      "purchasePriceUah": 5460,
-      "pricePerShiftUah": 1200,
-      "pricePerHaUah": 36
-    },
-    "specs": {
-      "Необхідна потужність трактора": "від 90 к.с.",
-      "Робоча ширина / Кількість рядів": "2-4 ряди",
-      "Виробник": "Grimme"
-    },
-    "shortDescription": "Ролик приводний (фрикційний) гумовий (Drive Roller Vulcanized) DM194 для картоплезбиральних комбайнів Grimme 076.05115 R від Grimme. Надійна техніка для овочівництва з європейською гарантією.",
-    "fullDescription": "Ролик приводний (фрикційний) гумовий (Drive Roller Vulcanized) DM194 для картоплезбиральних комбайнів Grimme 076.05115 R від виробника Grimme. Надійне рішення для вашого агрогосподарства."
   },
   {
     "id": "part-gychkovydalyayuchyj-transprter-200-40946-grimme-dr-1500",
