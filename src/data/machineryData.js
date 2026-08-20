@@ -12,11 +12,11 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2025/01/87d1cc46a58d545cfcacce8ac5ba77de_big.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/2c77dc981eb33ca2cd88f22b4aabeda4-1.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/2c77dc981eb33ca2cd88f22b4aabeda4.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/2b4305bcecbefde988d80ba7f8bbbb97.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/a783dc32cd968e20c70a06998bc93e23.jpeg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQ52A0MMMVFYFVBASXhRUQoHTioGGkgKUVEDIwZFWDYAMRYMHwMnFQM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQQiUEULMVxWRQAaHn4GBVsCSXNdHx8AUgZXIAUXCzNRQ0VLEl0oAg.jpeg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQQiUEULMVxWRQAaHn4GBVsCSXNdHx8AUgZXIAUXCzNRQB4VHUo.jpeg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQQjU0FfZwcNEQYaSCsBAVBZFS9dSU9TB1QOIwUQDWtSQB4VHUo.jpeg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHVd2X0ELMVZcFwFBG3UAVlkCGnsESRsLCQpUIl5BCmBWQB4VHUo.jpeg"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
@@ -48,12 +48,12 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2025/01/436538278278.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/0536ba993ce9398881e68e82b9d18015.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/b888266c8c2e864fa8ba229ba56f006e.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/dd8ab31a34362f780ee88074827eac8b_big.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/ebe3bce4eb4fc770581c25a87bfd9a99.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/fbd864676313f91a0f66e68bcf9b0218.jpeg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQJyUUdcaldZTFdPFWMPFA4.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQZ0VEQNM1xXRwYdFH5cXFFZHC5TQUgKAlAPJVZKX2NQQB4VHUo.jpeg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHVR5X0pdZFMNTAZKSHVTUA8AFSkESx8LUlMDdwFCX2QAQB4VHUo.jpeg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHVIlXxMNYVQPR1FLG38DU1FRSC5dQR0FBAoEdgITDGoHMRYMHwMnFQEO.jpeg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHVMjAkENMQBaEQdMSy5SU1lUFXoGSxhTCAVUJwNLDmtcQB4VHUo.jpeg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHVAjA0pZZlNZQlZJHitcVQhRS31THBsKUlFQeAVCXWNdQB4VHUo.jpeg"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
@@ -85,14 +85,14 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_7_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_1_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/51c02ce3ec9efa9dfa2ad7d10f37355f50982fe3_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/3630fd54411e9c2fd86a298c21abfd5da8d28e0c_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/d532eb5ba096b2e8f96f3645a041c66cf8bc83ac_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/gl_32_e_6_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_4_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_5_result.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUUiFRcKPBYGGxEnGhIXARoUQT9LE11V.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUUiFRcKPBYGGxEnHBIXARoUQT9LE11V.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHQNwBEJdMQBdEQZBSCsEXQ0HTHkEHRpWAQJQclBBWmcDW0RcQB8rAFc2E0g4EBVZHFpCUQ.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHQV3VEIJNlBaQFRJSHQGVg8FFX0ESxQKUwAHIAUUC2cBD0wBShUoVQc2E0g4EBVZHFpCUQ.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVJ0VEAKMFAMFVVBGy9XAVEHFH0DShsGBVMGdVYRWWQGCEwHGxV-BAc2E0g4EBVZHFpCUQ.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtOEFdDQAxQjoKSD4QCB1PRzsC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUUiFRcKPBYGGxEnGRIXARoUQT9LE11V.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUUiFRcKPBYGGxEnGBIXARoUQT9LE11V.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
@@ -124,15 +124,15 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_4lopg3oexjwt_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_8mlrubqqmmyn_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_8veljgni1zvd_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_cy57q7c1vol7_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_d9m4rece12df_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_f9nlkxspvaa7_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_guv3ilv4k52m_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_hwmaxarcgqhd_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_yftlcuv3u96x_biorotix-3000-ot.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVAtDBAwZgkBBAJLQigdDh4VcikMFl9dRFtObFRCX2JIAQBLEl0q.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVAtDBAwaggCBhAaXDwICRAPcikMFl9dRFtObFRCX2JIAQBLEl0q.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVAtDBAwahMLGA8fQyRUHh8FcikMFl9dRFtObFRCX2JIAQBLEl0q.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVAtDBAwMRxbQxRPTnwTCwVWcikMFl9dRFtObFRCX2JIAQBLEl0q.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVAtDBAwNlwDQBcdTihUVg0HcikMFl9dRFtObFRCX2JIAQBLEl0q.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVAtDBAwNFwAGA4AXj0TBQhWcikMFl9dRFtObFRCX2JIAQBLEl0q.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVAtDBAwNRAYRwwUW3kOUVsMcikMFl9dRFtObFRCX2JIAQBLEl0q.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVAtDBAwOhIDFR0ZXy4CFQEFcikMFl9dRFtObFRCX2JIAQBLEl0q.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVAtDBAwKwMaGAYNW34QXV8ZcikMFl9dRFtObFRCX2JIAQBLEl0q.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
@@ -164,14 +164,14 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_y7nusch2ghy5_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_0vstagho8ngs_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_pw1oahrwfni3_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_2aibuuaz4zoc_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_cdwizkej0ggr_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_e3bwn0dwtlyd_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_qr8okby8y1h9_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_yuusdsrb36xb_glutton.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVoqBV8cOgwIAEhJGH1VOxBWQz4WGkUAV1pPdDgVAycRGhsLVkc9Ag.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVoqBV8cOgwIAEhJGH1VO1kXXj8EHkVdCFxRMjgVAycRGhsLVkc9Ag.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVoqBV8cOgwIAEhJGH1VOxkWHCQEEV9FVlxfcjgVAycRGhsLVkc9Ag.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVoqBV8cOgwIAEhJGH1VO1sARCkQDExIBEhZIjgVAycRGhsLVkc9Ag.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVoqBV8cOgwIAEhJGH1VOwoFWiIfEkhYAFVRMzgVAycRGhsLVkc9Ag.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVoqBV8cOgwIAEhJGH1VOwxSTzwLSUlFRF5PJTgVAycRGhsLVkc9Ag.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVoqBV8cOgwIAEhJGH1VOxgTFSQOG1QKSQNeeDgVAycRGhsLVkc9Ag.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVoqBV8cOgwIAEhJGH1VOxAUWDgBCl9QAwROIzgVAycRGhsLVkc9Ag.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
@@ -203,29 +203,29 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_1yazglbqre5d_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_bnjyia6n6yo6_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_gfwjw67s1szf_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_fp258gvnyolf_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_n6pfzvv7o8qm_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_3peflabyl4g8_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_a1cvetgdzliv_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_bpsg2xuyv6vv_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_br4h6sqqrbgz_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_brnsorxhqpj7_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_bumsilybf9w9_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_hda5aethdpck_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_iuby4gdyuh92_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_kretcfq0srco_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_l13yppvcjch8_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_nen0r8avw5jh_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_opjasu7tg6qd_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_smsfuflk82tn_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_tfri0pwuhxji_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_umawmlmqyiud_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_utrmb2rzxavz_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_waxkakei88cq_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_xh80mvpgh4zl_glutton-1.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxRRwZVyoJBhgTSH4BJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxFgsSVCQEUgdXVCRTJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxEwMPRzpTUxpQXjEDJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxEhVKGHUCEgcYQicDJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxGlMISzcTEl4OFToIJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxRxUdSyEEBhANGSxdJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxFVQbWygRAw0bQSITJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxFhULSn8dERAXGz0TJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxFhdMRXsWFRgTTywfJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxFhcWXiIXHAEQXSFSJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxFhAVXiQJHQsHFDxcJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxHAEZGCwAEAEFXSgOJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxHRAaVHkCABAURXJXJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxHxcdWS4DFVkSXygKJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxGFRLVD0VEgoLTiNdJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxGgAWHT9dBR8WGCENJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxGxUSTD4QUx0GGzoBJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxBwgLSzgDCAJZHz8LJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxAAMKRH0VExwJVSEMJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxAQgZWiAJCRgYRD4BJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxAREKQC9XFhMZTD0fJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxAwQARiwOAQBZFSgUJkpeRUZCLglfXnwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxDA1AHSATFA4JGTEJJkpeRUZCLglfXnwPHhM.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
@@ -257,20 +257,20 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_o9kpdy1x7cz1_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_mzpwkjjl9t5a_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_sewsg9ccgk9z_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_5rnywro7thh5_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_5f1wa0uiaenx_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_9omirwctjt7f_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_9ra6ykodqqtg_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_60chpgxaag8y_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_alf0jfq7pf50_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_aodixjz5hzmf_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_cba3ximqq6eo_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_hbo933vwx45t_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_lyftzgkjjstf_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_mvswm35rhk9i_glutton.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEkAhZCPwQdAAAKciJcDxkFVHodTk5IAW1RLRIGGz0LQB4VHw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEkAhZCPwQdAAAKciAfFB4KRyEJQFkHUW1RLRIGGz0LQB4VHw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEkAhZCPwQdAAAKcj4AExoGFCgGHkYLSm1RLRIGGz0LQB4VHw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEkAhZCPwQdAAAKcngXChAWXyRSDUVaBW1RLRIGGz0LQB4VHw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEkAhZCPwQdAAAKcngDVR4AHT4MGEhcSG1RLRIGGz0LQB4VHw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEkAhZCPwQdAAAKcnQKCQATWigRE1kFVm1RLRIGGz0LQB4VHw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEkAhZCPwQdAAAKcnQXBV8YRiQBCFxGV21RLRIGGz0LQB4VHw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEkAhZCPwQdAAAKcntVBwERSjMEGEoKSW1RLRIGGz0LQB4VHw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEkAhZCPwQdAAAKciwJAlkLSzpSCUsHAG1RLRIGGz0LQB4VHw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEkAhZCPwQdAAAKciwKAAAZRzFQEVdfVm1RLRIGGz0LQB4VHw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEkAhZCPwQdAAAKci4HBVoZRCYUCBtXX21RLRIGGz0LQB4VHw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEkAhZCPwQdAAAKciUHC1BSHj0SARkHRG1RLRIGGz0LQB4VHw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEkAhZCPwQdAAAKciEcAh0bSiAPE15GVm1RLRIGGz0LQB4VHw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEkAhZCPwQdAAAKciATFx4MHn4XEUYLWW1RLRIGGz0LQB4VHw.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
@@ -302,14 +302,14 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_p4jgdqwmcrnp-1_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_97tdg0wm4i8c_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_saylm3yfnj9e_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_3nsinj4z98gd_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_afh4akfbixso_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_bpfmpdmkr2m1_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_ejbzyrfwjiye_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/wr_vgilvua2zrxw_glutton.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEzOAJbOAIKBRIVTj8LFERQciwJDFlGX1wYKxcV.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEzOEtYJgEJRBIVGSRdBzYGQT4RDUJcHlhGJg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEzOAEOKwkDRxweQydcATYGQT4RDUJcHlhGJg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEzOEEBIQwAHlECFHUCADYGQT4RDUJcHlhGJg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEzOBMJOlEPHwMaRDUWCzYGQT4RDUJcHlhGJg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEzOBAfNAgeEAgTX38IVTYGQT4RDUJcHlhGJg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEzOBcFMB8XBgMPRyQcATYGQT4RDUJcHlhGJg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEzOAQIOwkYAQRKVz8dEzYGQT4RDUJcHlhGJg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
@@ -341,14 +341,14 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_no37wchkxeoz-1_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_wfxvtwcn8oyo_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_3ad1sp0nlpt2-1_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_fun9bocqsm1p_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_gpvkysfcqlba_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_hca5lv7k0t5d_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_ilmlpsyu4zxp_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_j2li76zzhmcb_glutton.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx1DBxUZTig6CgZSGjwGEUZKVV1MbFYtCD4QGgAKFgMnFQM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx1DBxUZTig6Ew8ZWz8SGkMKX0tZHgAeGiYRARpLEl0q.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx1DBxUZTig6VwgFHDgVSUNeQEYEbFYtCD4QGgAKFgMnFQM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx1DBxUZTig6AhwPFCkKGlxBXQNGHgAeGiYRARpLEl0q.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx1DBxUZTig6AxkXRjIWH05DXFBXHgAeGiYRARpLEl0q.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx1DBxUZTig6DAoAGCcTTkYCRAdSHgAeGiYRARpLEl0q.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx1DBxUZTig6DQUMQTsWAFgGSkpGHgAeGiYRARpLEl0q.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx1DBxUZTig6DlsNRHxTA1daXVFUHgAeGiYRARpLEl0q.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
@@ -380,12 +380,12 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/zf_kvtoqfdjsf3z-1_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/zf_9phcc6hsi3hm_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/zf_aqtrx14wbbbv_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/zf_eovxbrtdovoz_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/zf_wacpvq4somsy_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/zf_wt5nx5lllvhn_glutton.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUwnOBkZJgofEgESXitWHkRQciwJDFlGX1wYKxcV.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUwnOEsfOgYNQg0LRH4NCTYGQT4RDUJcHlhGJg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUwnOBMeJhcWRVEPTy8HEjYGQT4RDUJcHlhGJg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUwnOBcAJB0MBhEcQjsKHjYGQT4RDUJcHlhGJg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUwnOAUOMRUYBVELQiAWHTYGQT4RDUJcHlhGJg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUwnOAUbZwsWQQkUQTsNCjYGQT4RDUJcHlhGJg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
@@ -417,24 +417,24 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_6zq2ovy3a7eh_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_dmyfedgyev5d_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_rdbuuha1akpw-1_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_wfxvtwcn8oyo_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_geb9rnuyk4bp_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_no37wchkxeoz-1_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_7vfgefj4judb_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_3xq0gpaamitc_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_6sezgphce8mt_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_7nljfgyjni6g_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_bpfmk7ktm9wz_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_clzitolhsnj8_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_cnnwxeatkz2l_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_gwabtbkg1a3a_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_h5ksewnvpphg_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_hwlhv0cubim0_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_pvqpgnxcg5jd_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_wlmkuk7oual0_glutton.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xQh8JHyITHVoAGi4NJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xEAgBSygBAxAEW34BJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xBgEaWDgNBVgARjsSVBxtV15DNRMdAXwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx1DBxUZTig6Ew8ZWz8SGkMKX0tZHgAeGiYRARpISQMnFQM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xEwAaFD8LERAKGSkVJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx1DBxUZTig6CgZSGjwGEUZKVV1MbFYtCD4QGgAKFgB8Sw4ZBg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xQxMeSigDDl0LWC8HJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xRx0JHSoVBQgMRD8GJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xQhYdVyoVDAoEFSYRJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xQwsURysCHQMPRH0CJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xFhUeQCZSDx0MFDwfJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xFwkCRDkKCAESQyFdJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xFwsWWjUABR0KV3kJJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xExIZTzkHDw5QTHgEJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xHFATXigSCh8RXSMCJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xHBIURTtVBxwDRCZVJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xBBMJXSoLHAoGGCEBJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xAwkVRjgOUwYUTCdVJkpeRUZCLglcBSIC.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
@@ -466,12 +466,12 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_rdbuuha1akpw_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/biorotix_sl2c6kbl9wqm_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/biorotix_av5msqs9npxp_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/biorotix_dtjvncboswsn_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/biorotix_obso4kgrnvas_biorotix-3000-ot.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/biorotix_wjalylq5cxrb_biorotix-3000-ot.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xBgEaWDgNBVgARjsSJk9bX0BZNQ4KQmFVXkRIF1ljDxQO.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQoCAAAJgwWKxYUHy5TDwsNFDwUFHJQWV1ELhMbF39WXkRVVUI5Sw4ZBg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQoCAAAJgwWKwQOGCAWFRpYQzsdCXJQWV1ELhMbF39WXkRVVUI5Sw4ZBg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQoCAAAJgwWKwEMRzsLBwsOXjwWF3JQWV1ELhMbF39WXkRVVUI5Sw4ZBg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQoCAAAJgwWKwoaXiJRDw4TQz0ECnJQWV1ELhMbF39WXkRVVUI5Sw4ZBg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQoCAAAJgwWKxISTCEcCBhUTjMXG3JQWV1ELhMbF39WXkRVVUI5Sw4ZBg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
@@ -503,17 +503,17 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_6fflam0urwsl_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_em2no0mexey3_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_h3bzua3aysrv_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_hm4csr8o0uye_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_ieofr4qpzxnl_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_sxigbnqnthoj_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_urvyvrgorh7a_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_6uxq8kadeu3n_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_31hsyrzqsax4_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_h3bzua3aysrv_glutton-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_urvyvrgorh7a_glutton-1.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwoYERcMQj0DFgwEXhRTH0teUV8GNBUFHD46CRgQDFkiC0oDEUo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwoYERcMQj0DFgwEXhQAFB9cXwJbJB8XFmE6CRgQDFkiC0oDEUo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwoYERcMQj0DFgwEXhQNSk9IRVMFIB4BHSQ6CRgQDFkiC0oDEUo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwoYERcMQj0DFgwEXhQNFBlRQ0AOLlcHFjc6CRgQDFkiC0oDEUo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwoYERcMQj0DFgwEXhQMHEJUQgZHMR0KAT46CRgQDFkiC0oDEUo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwoYERcMQj0DFgwEXhQWAURVUlxHLxMaADg6CRgQDFkiC0oDEUo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwoYERcMQj0DFgwEXhQQC1tLRkBRLhUaWDM6CRgQDFkiC0oDEUo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwoYERcMQj0DFgwEXhRTDFVDCFlXJQIHXDw6CRgQDFkiC0oDEUo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwoYERcMQj0DFgwEXhRWSEVBSUBMMBQTF2Y6CRgQDFkiC0oDEUo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwoYERcMQj0DFgwEXhQNSk9IRVMFIB4BHSQ6CRgQDFkiC0lYT0c7Ag.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwoYERcMQj0DFgwEXhQQC1tLRkBRLhUaWDM6CRgQDFkiC0lYT0c7Ag.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
@@ -545,18 +545,18 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_whbob5vilz4a_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_rleupjvyuk7z_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_1h4kijc9vwez_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_6nhvtbswmxpr_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_avphclnjatfz_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_e0bfe3kf4xab_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_fk1onmickv5o_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_fumzfljubaub_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_g2jf6fklgunn_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_wzme45tnvwag_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_xsqoehpwciwb_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix_zlb1rbinrx8r_glutton.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXDRIGFgoaGDsMCBNVTBQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXDRcCERAIRzscEQJWVxQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXDVQGQA4RRy5cEh4EVxQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXDVMAHBMMTz4SCRERXxQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXDQQYBA0bQSMPBR0HVxQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXDQBeFgMdHiYDUBEATxQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXDQMFRQoWQCQGDx9UQhQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXDQMbGR8eQScQBggUTxQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXDQJcHgNOSyYJAxwPQxQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXDRIUGQBMGDkLEh4AShQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXDR0dBQodRT0SBwAWTxQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXDR8CFlQKTyQLFhFZXxQCFVhGRF1Ybw0CCA.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
@@ -588,13 +588,13 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_sc4ogsrinemz_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_egnuqcarkmwi_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_jddecwxad0hp_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_otpiknbzlyvl_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_5xjnczfham8z_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_pc3u14myjb4z_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_scwbq1w8bhig_glutton.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMWKxYbGSICFxsIQy4IA3JVXEdCNQgcQTgVCQ.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMWKwAfQzgUBwgTRiYSEHJVXEdCNQgcQTgVCQ.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMWKw8cSSgGExEASXsNCXJVXEdCNQgcQTgVCQ.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMWKwoMXSQOCgsbQTITFXJVXEdCNQgcQTgVCQ.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMWK1AARyMGHg8JTCZdA3JVXEdCNQgcQTgVCQ.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMWKxUbHjhUUAQYRylRA3JVXEdCNQgcQTgVCQ.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMWKxYbWi8UVR5ZTyMMHnJVXEdCNQgcQTgVCQ.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
@@ -626,17 +626,17 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_unxdc0h5oz0s-1_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_unxdc0h5oz0s_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_6estnczz8xn6_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_coc7tta289cm_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_dhwzkxns1m3i_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_fspa14cpw0yj_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_fvr1ttpsbqjz_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_i6kzvgttcmog_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_mxdrf8ijvcxb_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_n2ocgrf8l3ff_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_qigtwxugwbfp_glutton.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMxAQsASS5VDFwOV3sWVBxtV15DNRMdAXwPHhM.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMxAQsASS5VDFwOV3sWJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMxQgALWSMGHhNZVSVTJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMxFwobGjkRBVtZFCgIJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMxEA0PVyYdChpQQHgMJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMxEhYITHxRBxkWHTIPJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMxEhMKHDkRFBoDXCEfJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMxHVMTVzsCEB0CQCQCJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMxGR0cXytdDQMXTjMHJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMxGlcXTioXAlENHi0DJkpeRUZCLglcBSIC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMxBQwfWTodEQ4WTy0VJkpeRUZCLglcBSIC.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
@@ -668,31 +668,31 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_rrydjxfhnqm2_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_4myexk1krhrh_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_yisirqlxr7ye_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_e46txksbap0b_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_0fqcscuhymti_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_0kqbjsnocggi_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_2k4or8smjszu_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_4qzwfykqvlcc_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_78qo18lgfhcn_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_541vogc3pe8x_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_avj0uvzw3hek_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_bhbhfnq3w6er_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_dinwwjbwzoik_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_fb46jszgeezq_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_fxunxhy5cduj_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_gda5ou5mrcpw_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_hyvrh1sikpyj_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_jdytg2fg0bq7_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_phcfcwyh0vth_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_qadlpwzpfamu_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_qnrurr1jrcut_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_imtpth6n9qba_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_ruajkhvjzrrb_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_seqpehjbesm0_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_vmzr5mf4ae2n_result.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcj8XHQ0LVS0NF1xfAm1EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcnkIHQwZRnoOC0VAWG1EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcjQMFwATXCcdCxpLVW1EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcihRUh0ZRjgHGF0CUm1EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcn0DFQoSTj4NAEBGWW1EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcn0OFQsLXiUKGkpVWW1EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcn8OUAYTFTgIE15IRW1EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcnkUHh4HVCAUD0FRU21EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcnpdFQZQFScCH0VRXm1EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcnhRVR8OSihWCUgKSG1EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKciwTDlkUWzESSkVXW21EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKci8NBgEHQzpWDhtXQm1EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcikMCh4WRykSA0JbW21EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcisHUF8LXjECHEhIQW1EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcisdEQcZRTJQGklHWm1EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcioBBVwOWH4IC05CR21EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKciUcEhsJHDgMEl1LWm1EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcicBHR0GHy0CSU9DB21EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcj0NBw8CWjINSVtGWG1EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcjwEAAURWjEVH0xfRW1EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcjwLFhwTX3oPC05HRG1EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKciQIEBkVRX0LQFxQUW1EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcj8QBQMKRT0PA19AUm1EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcj4AFRkERSEHHF5fAG1EJBQHAyZLBAQC.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcjsIHhtUQC1RGEgAXm1EJBQHAyZLBAQC.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
@@ -724,22 +724,22 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/01/photo_2023-11-28_10-09-13_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_fufoqns0pwzd_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_san0uhcvpznj_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_pwhhgnpmhh9i_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/screenshot_2_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/screenshot_4_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/screenshot_3_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_5wy7m1itnz0v_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_bon4snzpaypw_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_1hjijbnq0drc_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_c3e0o8vfwtn4_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_cpejlz09bipo_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_est3ra5aq2mw_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_pqub0ffo0gza_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_uvpzhss31mmf_glutton.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/01/varix_vnq8fignihzf_glutton.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIBHUYpCAYADVdeRlZVHHxIVlE-HHtISRQfAQFpJgsHGyYKAFoPCEo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIBHUAgFRsXDQMbEgoJQz5VFB4bSRQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIBHUAgFRsXDRYPGlUNRS4TFBMPRxQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIBHUAgFRsXDRUZHA0fQz0IDAFYRBQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIBHUUiFRcKPBYGGxEnHxICCBwVWSQLV0dCVw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIBHUUiFRcKPBYGGxEnGRICCBwVWSQLV0dCVw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIBHUUiFRcKPBYGGxEnHhICCBwVWSQLV0dCVw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIBHUAgFRsXDVAZDVIVHCQRChNRWxQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIBHUAgFRsXDQcBGlELQzcVBRARWhQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIBHUAgFRsXDVQGHgwSTyMUVA0TThQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIBHUAgFRsXDQZdEVUXFTsDEx0PGRQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIBHUAgFRsXDQYeEQ8UV31cBgARQhQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIBHUAgFRsXDQAdAFYKTHgEFVsMWhQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIBHUAgFRsXDRUfAQdISysKVA4bTBQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIBHUAgFRsXDRAYBB8QXj5WVQQMSxQCFVhGRF1Ybw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIBHUAgFRsXDRMABV0eRCoLDQEbSxQCFVhGRF1Ybw0CCA.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
@@ -771,15 +771,15 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/p17-2654982440.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/zibo_aanbouw_rugvormer6.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/p17-2676661445.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150910-1-1-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150840-1-1-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150613-1-1-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150603-1-1-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150536-11-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/59.png"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUZwUF9dZFBaTV1KGXlVSgMRSg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUwoBR0wMwQAFgoNWhIXEQ4XQjkIHF8EHlhGJg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUZwUF9dZFJYQlNJGXlQSgMRSg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQRxVUNfZlddK1RNHXRUVERQAHpICk5TXFdSbw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQRxVUNfZlddK1RNHXVRVERQAHpICk5TXFdSbw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQRxVUNfZlddK1RNHXtUV0RQAHpICk5TXFdSbw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQRxVUNfZlddK1RNHXtVV0RQAHpICk5TXFdSbw0CCA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQRxVUNfZlddK1RNHXhWUkRQHGYWGkxeVVYYKxcV.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQN4SQIBNQ.png"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
@@ -811,8 +811,8 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/stopshock-potato-union-fallbreaker-loading-sequence-5.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/stopshock-potato-union-fallbreaker-loading-sequence-1.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUU1CAIcOgoNH0gIQjkEEAZMWCUMFkMfVlNaLQUACjMOCwZIFEIsAQ0HBgA4AAhYV15RU2xSXAUiAg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUU1CAIcOgoNH0gIQjkEEAZMWCUMFkMfVlNaLQUACjMOCwZIFEIsAQ0HBgA4AAhYV15RU2xWXAUiAg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
@@ -844,11 +844,11 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "Преміум",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/c-line1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/c-line2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/c-line3.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/c-line4.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/c-line1-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVVsCxsBN1RAHhUf.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVVsCxsBN1dAHhUf.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVVsCxsBN1ZAHhUf.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVVsCxsBN1FAHhUf.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVVsCxsBN1RDR1VIVX5VVEcLXSw.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 2569840,
@@ -874,10 +874,10 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/sstonion013-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/sstonion013.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/sstonion014.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/sstonion013-1-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHUUyEx0BOwoARFRLAHxLDhkG.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHUUyEx0BOwoARFRLAycVAw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHUUyEx0BOwoARFRMAycVAw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHUUyEx0BOwoARFRLAHxIV1lRVXhVSQNYQFU.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 785200,
@@ -903,10 +903,10 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "Преміум",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/om3_-nove01.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/om3_-nove02.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/om3_-01.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/om3_-nove01-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVksVC1CPAoYEVVJAycVAw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVksVC1CPAoYEVVKAycVAw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVksVC1CYlRAHhUf.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVksVC1CPAoYEVVJAH5VVBFSHXtLE11V.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 2419040,
@@ -932,9 +932,9 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "Преміум",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/om2_01.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/om2_nowe-02.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/om2_01-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVksVS1fY0sEBAI.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVksVS0BPRILWVVKAycVAw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVksVS1fY0hdRFUAHn1VSgMRSg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 2217800,
@@ -960,7 +960,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/ans_02-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVcvFC1fYEhdRFUAHn1VSgMRSg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 832000,
@@ -987,7 +987,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "Преміум",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/fa1_01-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVAgVi1fY0hdRFUAHn1VSgMRSg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 1194180,
@@ -1014,7 +1014,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/ra1_03-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHUQgVi1fYUhdRFUAHn1VSgMRSg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 998400,
@@ -1041,8 +1041,8 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "Преміум",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/r12l_1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/r12l_1-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHURwVR4wY0sEBAI.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHURwVR4wY0hdRFUAHn1VSgMRSg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 3209180,
@@ -1068,8 +1068,8 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "Преміум",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/r09xl_1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/r09xl_1-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHURxXgoDDVRAHhUf.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHURxXgoDDVRDR1VIVX5VVEcLXSw.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 3209180,
@@ -1095,7 +1095,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "Преміум",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/r09l_1-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHURxXh4wY0hdRFUAHn1VSgMRSg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 3120000,
@@ -1122,7 +1122,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/we50plus_03-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHUEkUkIfPhAdK1VLAH5VVBFSHXtLE11V.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 604500,
@@ -1149,9 +1149,9 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2025/01/we30plus_02.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/we30plus_03.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/090-90-0_result_result.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUEkVEIfPhAdK1VKAycVAw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUEkVEIfPhAdK1VLAycVAw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQZ4V19WYkheKxcdXjgJEDYTSDgQFVkcWkJR.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 218400,
@@ -1195,7 +1195,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/we15_01-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHUEkVkcwYlRDR1VIVX5VVEcLXSw.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 494520,
@@ -1222,10 +1222,10 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/bbw2_03.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/bbw2_01.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/bbw2_02.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/bbw2_03-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVQjEEAwYlZAHhUf.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVQjEEAwYlRAHhUf.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVQjEEAwYldAHhUf.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVQjEEAwYlZDR1VIVX5VVEcLXSw.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 899600,
@@ -1251,10 +1251,10 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/bbw1_03.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/bbw1_01.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/bbw1_02.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/bbw1_03-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVQjEEMwYlZAHhUf.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVQjEEMwYlRAHhUf.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVQjEEMwYldAHhUf.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVQjEEMwYlZDR1VIVX5VVEcLXSw.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 674180,
@@ -1280,7 +1280,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "Преміум",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/w13123123b-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUFwVENdYVRcRwdVHn1VHFpRHWUPCUo.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 1352000,
@@ -1307,12 +1307,12 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/07/so9002500_1-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/so9002500_2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/so9002500_3.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/so9002500_4.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/so9002500_5.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/so9002500_1-1-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUuXkJfYFBeRDpJAHxLDhkG.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUuXkJfYFBeRDpKAycVAw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUuXkJfYFBeRDpLAycVAw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUuXkJfYFBeRDpMAycVAw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUuXkJfYFBeRDpNAycVAw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUuXkJfYFBeRDpJAHxIV1lRVXhVSQNYQFU.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 846716,
@@ -1338,10 +1338,10 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/07/sst4012.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/sst4012_1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/sst4012_2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/sst4012-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyE0ZfY1dAHhUf.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyE0ZfY1cxRUsSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyE0ZfY1cxRksSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyE0ZfY1dDR1VIVX5VVEcLXSw.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 705900,
@@ -1367,11 +1367,11 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/07/ssr5012.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/ssr5012_2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/ssr-detile.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/ssr_2_2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/ssr5012-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyFUdfY1dAHhUf.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyFUdfY1cxRksSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyFV8LNxEHGABWRz0C.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyFS1dDVdAHhUf.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyFUdfY1dDR1VIVX5VVEcLXSw.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 686400,
@@ -1397,11 +1397,11 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/07/ssr3010.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/ssr3010_2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/ssr-detile.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/ssr_2_2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/ssr3010-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyFUFfY1VAHhUf.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyFUFfY1UxRksSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyFV8LNxEHGABWRz0C.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyFS1dDVdAHhUf.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyFUFfY1VDR1VIVX5VVEcLXSw.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 423176,
@@ -1427,9 +1427,9 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "Преміум",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/07/pd9300.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/pd_rol.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/pd9300-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUYlXkFfYksEBAI.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUYlOAAAPksEBAI.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUYlXkFfYkhdRFUAHn1VSgMRSg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 1085500,
@@ -1455,7 +1455,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/07/pd9200-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUYlXkBfYkhdRFUAHn1VSgMRSg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 804076,
@@ -1482,11 +1482,11 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/07/pd8200-1.webp",
-      "https://adenaagro.com/wp-content/uploads/2026/07/pd8200.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/pd8200_2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/pd_rol.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/pd8200-1-300x300.webp"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUYlX0BfYkhfWhIdTz0.webp",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUYlX0BfYksEBAI.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUYlX0BfYjpcWg8ISg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUYlOAAAPksEBAI.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUYlX0BfYkhfWVZIHTVWVFlPWi4HCQ.webp"
     ],
     "pricing": {
       "purchasePriceUah": 669500,
@@ -1512,12 +1512,12 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/07/cs-110_1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/cs-110_2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/cs-110_3.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/cs-110_4.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/cs-55_110.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/cs-110_1-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVUySkNeYjpfWg8ISg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVUySkNeYjpcWg8ISg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVUySkNeYjpdWg8ISg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVUySkNeYjpaWg8ISg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVUySkdaDVRfREsSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVUySkNeYjpfWVZIHTVWVFlPRzsC.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 266240,
@@ -1543,7 +1543,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/07/cs-55_1-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVUySkdaDVRDR1VIVX5VVEcLXSw.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 220688,
@@ -1570,11 +1570,11 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "Преміум",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/07/mdw-400.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/mdw-400_2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/mdw-400_3.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/mdw-400_4.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/mdw-400-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVslEF9bYlVAHhUf.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVslEF9bYlUxRksSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVslEF9bYlUxR0sSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVslEF9bYlUxQEsSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVslEF9bYlVDR1VIVX5VVEcLXSw.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 1290900,
@@ -1600,7 +1600,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "Преміум",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/07/mdw-300-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVslEF9cYlVDR1VIVX5VVEcLXSw.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 1088464,
@@ -1627,10 +1627,10 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/07/kd_m_2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/kd_m_1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/kd_kdm_in.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/kd_m_2-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHV0lOB8wYEsEBAI.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHV0lOB8wY0sEBAI.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHV0lOBkLPzoHGksSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHV0lOB8wYEhdRFUAHn1VSgMRSg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 852020,
@@ -1656,7 +1656,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/07/kd_kdm_2-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHV0lOBkLPzpcWVZIHTVWVFlPRzsC.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 807300,
@@ -1683,7 +1683,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/07/bd-6_1-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVQlSkQwY0hdRFUAHn1VSgMRSg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 544076,
@@ -1710,7 +1710,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/07/ws-18001200-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUEySkNXYlVfRlVIAH5VVBFSHXtLE11V.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 483600,
@@ -1737,11 +1737,11 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/07/ws-16001000.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/ws-16001000-2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/ws-16001000-3.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/ws-16001000-4.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/ws-16001000-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUEySkNZYlVfRFVIAycVAw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUEySkNZYlVfRFVIAH9LDhkG.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUEySkNZYlVfRFVIAH5LDhkG.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUEySkNZYlVfRFVIAHlLDhkG.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUEySkNZYlVfRFVIAH5VVBFSHXtLE11V.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 403676,
@@ -1767,9 +1767,9 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/06/kpw-3000-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/06/kpw-all.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/06/kpw-3000-1-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIGHV0xEF9cYlVeWVRWRz0C.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIGHV0xEF8OPglAHhUf.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIGHV0xEF9cYlVeWVRVHn1VHFpRHWUPCUo.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 846664,
@@ -1795,7 +1795,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/06/kpw-1000-1-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIGHV0xEF9eYlVeWVRVHn1VHFpRHWUPCUo.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 645424,
@@ -1822,11 +1822,11 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/07/bd-4.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/bd-4_2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/bd-4_6_1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/bd-4_6_2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/07/bd-4-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVQlSkZBOBUJ.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVQlSkYwYEsEBAI.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVQlSkYwZDpfWg8ISg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVQlSkYwZDpcWg8ISg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVQlSkZCYVVeDFZIHWMPFA4.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 500500,
@@ -1852,7 +1852,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/06/kpw-650-1-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIGHV0xEF9ZZ1VDRUhLHX0dV1lRAyEVHg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 595400,
@@ -1879,7 +1879,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/screenshot_1-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUUiFRcKPBYGGxEnHGBWVFkZHntVV0dCVw.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 218400,
@@ -1906,16 +1906,16 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/bez-nazvy.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0541-2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0543-2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0544-2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0547-2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0548-2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0549-2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0550-2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0551-2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/bez-nazvy-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVQkHV8BMx8YDUsSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fZ1FfWVdWRz0C.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fZ1FdWVdWRz0C.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fZ1FaWVdWRz0C.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fZ1FZWVdWRz0C.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fZ1FWWVdWRz0C.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fZ1FXWVdWRz0C.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fZ1BeWVdWRz0C.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fZ1BfWVdWRz0C.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVQkHV8BMx8YDUhLHX0dV1lRAyEVHg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 197600,
@@ -1941,7 +1941,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "Преміум",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/05/d17-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIFHVJwUF9cYlUWR1VIAycVAw.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 3224000,
@@ -1968,11 +1968,11 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "Преміум",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/05/d12-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/05/kp-12_long.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/05/kp-12-kp-12-plus-kp-17-11.03.2025-2048x1590-1.webp",
-      "https://adenaagro.com/wp-content/uploads/2026/05/kosze-przyjeciowe-mobilne-1-ru-2048x1431-1.webp",
-      "https://adenaagro.com/wp-content/uploads/2026/05/d12-1-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIFHVJwVV9efA8eEw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIFHV0xSkNdDQkBGgJWRz0C.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIFHV0xSkNdfw4eWVRKAD0JERpMRjtISBofAQMYcVRcXWJXW1lXSBl1HVVcWB1mVFdaV1JC.webp",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIFHV0uFAgKfxUcDhwSSC4MCx4EACYKG0ReXlcbcEoAGn9XXkBdABx5VlVEUAM8ABtd.webp",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIFHVJwVV9ef1ZeRB1LHX1LDhkG.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 2600000,
@@ -1998,7 +1998,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "Преміум",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/05/d12-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIFHVJwVV9cYlUWR1VIAycVAw.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 1950000,
@@ -2025,12 +2025,12 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2025/01/fab9c1d142c1cf5c702c8a41505e32ad-222_result_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/5aae0c4dc012a421ace4f71aa2b320dc_result_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/fab9c1d142c1cf5c702c8a41505e32ad_result_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/fab9c1d142c1cf5c702c8a41505e32ad-1_result_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/533d97c78b12319f03384907d85a8376_result_result.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/fab9c1d142c1cf5c702c8a41505e32ad-222_result_result-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHVAgBUsMYwFfQFcbHC4DUQpWHXkGQUwGAQcGdAJBXTMBQ0ZXSnI_ABccDVkUFxxeR1xGGCsXFQ.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQMgBhdfMVEKF1VJHyxRVlgATi5RHxoDUVMEI1RAXzYGMQYAC1ghETsbBF4-CQ0DWEBV.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHVAgBUsMYwFfQFcbHC4DUQpWHXkGQUwGAQcGdAJBXTMBMQYAC1ghETsbBF4-CQ0DWEBV.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHVAgBUsMYwFfQFcbHC4DUQpWHXkGQUwGAQcGdAJBXTMBQ0U6Ckg-EAgdPl8uFgxBRh5YRiY.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQNyVBZWZQZZTAdJH35UXQ9RHnhdTRQCB1YOdAZKXGVTMQYAC1ghETsbBF4-CQ0DWEBV.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHVAgBUsMYwFfQFcbHC4DUQpWHXkGQUwGAQcGdAJBXTMBQ0ZXSnI_ABccDVkUFxxeR1xGG3JXQhdhVV5aDwhK.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 364000,
@@ -2056,9 +2056,9 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "Під замовлення",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/pl_domasz_katalog_ogolny-38-e1727684432688.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/11/pakowanie_pelletu_04-scaled-1.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/11/pl_domasz_katalog_ogolny-38-e1727684432688-300x300.webp"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUYtOBYAPwQdDjoTTDkECAYGciQCFkFcSR8FeUoXXmVXWUJdTBl-V1JRWQM8ABtd.webp",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUYgDB0YMwsHEToISCEJAR0UcntRVF5RUV5TJUpDQSUADAQ.webp",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUYtOBYAPwQdDjoTTDkECAYGciQCFkFcSR8FeUoXXmVXWUJdTBl-V1JRWQB4VUlVAQACGDYCEB8.webp"
     ],
     "pricing": {
       "purchasePriceUah": null,
@@ -2084,7 +2084,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/om2_om3_kpl1_obr_zuvach_czybul__result-—-kopyya_result-300x300.webp"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVksVS0AP1YxHxUUHBIKBhs-Vz4TGE5ab1FMOAUHAw06HBEWDUE5SIbp9QAgCglUS1FtRCQUBwMmSF1EVQAefVVKHgRPOw.webp"
     ],
     "pricing": {
       "purchasePriceUah": 618800,
@@ -2111,7 +2111,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/om2_om3_kpl1_obr_zuvach_czybul__result-—-kopyya_result-300x300.webp"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVksVS0AP1YxHxUUHBIKBhs-Vz4TGE5ab1FMOAUHAw06HBEWDUE5SIbp9QAgCglUS1FtRCQUBwMmSF1EVQAefVVKHgRPOw.webp"
     ],
     "pricing": {
       "purchasePriceUah": 254800,
@@ -2138,13 +2138,13 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "Під замовлення",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/pd_02_pol_ruvalnyky_result_result.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/11/pd_01_pol_ruvalnyky_result_result.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/11/pd_detail01_pol_ruvalnyky_result_result.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/11/pd_detail03_pol_ruvalnyky_result_result.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/11/pd_kpl01_pol_ruvalnyky_result_result.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/11/pd8200_pd9200_pd9300_pol_ruvalnyky_rozm_gabarytn_result_3_result.webp",
-      "https://adenaagro.com/wp-content/uploads/2022/11/pd_02_pol_ruvalnyky_result_result-300x300.webp"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUYlOEJdDRUBGDoKWDsECAcYRjI6C0hBRV5CHhUXHCcJGloSHU89.webp",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUYlOEJeDRUBGDoKWDsECAcYRjI6C0hBRV5CHhUXHCcJGloSHU89.webp",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUYlOBYKJgQHGFVJcj0KCDYTWD0EFUNLW0tpMwIBGj4RMQYAC1ghEUoeBE87.webp",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUYlOBYKJgQHGFVLcj0KCDYTWD0EFUNLW0tpMwIBGj4RMQYAC1ghEUoeBE87.webp",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUYlOBkfPlVfKxUXQRIXER8AQSUcElRtQldFNAsGMCAAHQEJDAM6AAYZ.webp",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUYlX0BfYjoeEFxKHX06FA1YHntVJl1dXG1ENBETAzwcBQ06CkI3CDsOAE8qFwBZXG9AUzISHhsNVjEGAAtYIRFKHgRPOw.webp",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUYlOEJdDRUBGDoKWDsECAcYRjI6C0hBRV5CHhUXHCcJGllWSB01VlRZT1ouBwk.webp"
     ],
     "pricing": {
       "purchasePriceUah": null,
@@ -2170,7 +2170,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "Під замовлення",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/kp12_12-kp17_02-scaled_mobbunkery_result_result-300x300.webp"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHV0xVkAwY1dDHxVJGhJVVkQSTioJHEltXV1UIxIcBDcXFysXHV44CRA2E0g4EBVZHwMCBjlUQl98EgsWFQ.webp"
     ],
     "pricing": {
       "purchasePriceUah": null,
@@ -2197,17 +2197,17 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/w13123123b-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0195.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0197.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0198.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0199.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0200.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0201.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0202.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0203.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/dsc_0204.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/w13123123b-1-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUFwVENdYVRcRwdVHGMPFA4.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fY1xbWg8ISg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fY1xZWg8ISg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fY1xWWg8ISg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fY1xXWg8ISg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fYFVeWg8ISg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fYFVfWg8ISg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fYFVcWg8ISg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fYFVdWg8ISg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fYFVaWg8ISg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUFwVENdYVRcRwdVHGBWVFkZHntVV0dCVw.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 442000,
@@ -2233,7 +2233,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/04/20260401_190443-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIEHQRxVURfZlVfK1RBHXlRV0RSHXsdSh0CHlhGJg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 353600,
@@ -2260,7 +2260,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-cbc46d8298ba58708ac13e1aa6681c19-v-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAF8MMAZaQgFAH3RdBghUFXxVQUxRAQFTcAYTWWRdXxdUQQA7SFdZUVV4VUkDWEBV.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 192400,
@@ -2287,15 +2287,15 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "Преміум",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20260116_163542_229-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20260119_113336-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20260119_113444-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20260119_113509-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20260119_120350-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/20260119_120720-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20260116_163542_353.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20260116_163552_550.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20260116_163542_229-1-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAC1dYldYRFRJGxJUUlpUGXk6Sx8LHQMYKxcV.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHQRxVURfY1RXK1RJHn5WUkQSTioJHEkcWkJR.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHQRxVURfY1RXK1RJHnlRUEQSTioJHEkcWkJR.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHQRxVURfY1RXK1RJHnhVXUQSTioJHEkcWkJR.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHQRxVURfY1RXK1RKHX5QVEQSTioJHEkcWkJR.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHQRxVURfY1RXK1RKHXpXVEQSTioJHEkcWkJR.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAC1dYldYRFRJGxJUUlpUGXk6ShgBHlhGJg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAC1dYldYRFRJGxJUUlpUGHk6TBgCHlhGJg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAC1dYldYRFRJGxJUUlpUGXk6Sx8LHQMbcldCF2FVXloPCEo.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 1664000,
@@ -2321,14 +2321,14 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0007-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/aiselect_20250902_105345_kleinanzeigen.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/aiselect_20250902_105358_kleinanzeigen.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/aiselect_20250902_105410_kleinanzeigen.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/aiselect_20250902_105418_kleinanzeigen.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250902_105446_939.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0006.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0007-1-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAF9dYldbRVVJFGASBVlRHXxISANYQFU.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHVcoFBcDNwYaK1dIH3hVXVlTcnpVTB4GBW1dLQIbATMLFBEMH0gjSw4ZBg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHVcoFBcDNwYaK1dIH3hVXVlTcnpVTB4HCG1dLQIbATMLFBEMH0gjSw4ZBg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHVcoFBcDNwYaK1dIH3hVXVlTcnpVTBkDAG1dLQIbATMLFBEMH0gjSw4ZBg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHVcoFBcDNwYaK1dIH3hVXVlTcnpVTBkDCG1dLQIbATMLFBEMH0gjSw4ZBg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAC1dYldbRFxIHxJUVFxVGX06QB4LHlhGJg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAF9dYldbRVVJFGASBVlRHX1LE11V.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAF9dYldbRVVJFGASBVlRHXxISAABAAJOcldCQTgVCQ.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 442000,
@@ -2354,7 +2354,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0016-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAF9dYldbRVVJFGASBVlRHH1ISh0CSAEGcUkYHzU.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 301600,
@@ -2381,8 +2381,8 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0008.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0008-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAF9dYldbRVVJFGASBVlRHXNLE11V.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAF9dYldbRVVJFGASBVlRHXNISh0CSAEGcUkYHzU.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 442000,
@@ -2408,7 +2408,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-20251019-wa0025-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAF9dYldbRVVJFGASBVlRH35ISh0CSAEGcUkYHzU.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 390000,
@@ -2435,7 +2435,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132135_654-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAC1dYldbRFxIFBJUV1tQHn46TxgGHQEGcR9BX2JLBAQC.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 286000,
@@ -2462,7 +2462,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/01/img-5d919533db908645b434f77504398033-v-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAF9aNlxfTVBLHikHXVlZG39QGxkBBFQBdlJCW2FcVkRWSwA7SFdZUVV4VUkDWEBV.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 182000,
@@ -2489,18 +2489,18 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "Преміум",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_11.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_10.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_05.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_07.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_01.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_06.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_03.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_02.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_04.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_08.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_09.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_11-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQpVUBZYjpfRUsSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQpVUBZYjpfREsSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQpVUBZYjpeQUsSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQpVUBZYjpeQ0sSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQpVUBZYjpeRUsSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQpVUBZYjpeQksSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQpVUBZYjpeR0sSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQpVUBZYjpeRksSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQpVUBZYjpeQEsSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQpVUBZYjpeTEsSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQpVUBZYjpeTUsSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQpVUBZYjpfRUhLHX0dV1lRAyEVHg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 4420000,
@@ -2526,7 +2526,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/01/img_20250909_132648_254-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAC1dYldbRFxIFBJUV1tXGXM6SxgGHQEGcR9BX2JLBAQC.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 405600,
@@ -2553,16 +2553,16 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2025/01/20211007_083502-scaled-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20211007_083123-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20211007_083137-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20211007_083204-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20211007_083216-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20211007_083403-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/silgosptehnika-pakuvalna-mashinaavtomaticheskaya-klipsatornaya-mashina-sorma-sorma-rb-2-120-at-5e-5_big-12110815243622996700.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/img_1714.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/20211007_083513-scaled.jpg",
-      "https://adenaagro.com/wp-content/uploads/2025/01/20211007_083502-scaled-1-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQRxVUNeYlVZK1VAHnhVVkQSTioJHEkfARxcMQA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQRxVUNeYlVZK1VAHnxXV0QSTioJHEkcWkJR.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQRxVUNeYlVZK1VAHnxWU0QSTioJHEkcWkJR.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQRxVUNeYlVZK1VAHn9VUEQSTioJHEkcWkJR.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQRxVUNeYlVZK1VAHn9UUkQSTioJHEkcWkJR.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQRxVUNeYlVZK1VAHnlVV0QSTioJHEkcWkJR.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUUoCxUAIRUaEQ0WRCYESRkARj4TGEFcUR9bIBQaBjwEDwIRF0AsEQ0KCUg4DhhUUx1ZWigXAQ4mChwaBAFMYAgFGglEJQRUXl1CX1dsFB0dPwRDBgdVH2BUVllMTD9ITEgfBW1UKABfXmBUX0RdSRh_UVdfUx9yXE8aAgAcXDEA.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHV8sAC1eZVRaWg8ISg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQRxVUNeYlVZK1VAHnhUV0QSTioJHEkcWkJR.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQRxVUNeYlVZK1VAHnhVVkQSTioJHEkfAR8FcVcKXGJVQB4VHw.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 468000,
@@ -2588,15 +2588,15 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "Преміум",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/12/kadrat.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/f4fdf4adb58c5a4992963693d13ff0c1_big.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/3ccbf9b15c0a76813c6df315d4916351.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/26a7da0a30422027b919ad526deea5d6.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/60e4d25951d42c429c304fcf5b90f4ac.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/926dab9ea928d165fc9af86c6eb6305d.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/51599b870486edbe4a9f148bf07655ba.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/de87c113bd8ec19640e7c83758e9a149.jpeg",
-      "https://adenaagro.com/wp-content/uploads/2024/12/kadrat-300x300.jpeg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgMCHV0gAwAOJksEBAAf.jpeg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVB1ARYJZgQKFlBATngEUFBYH3JTShsLA1YHcgEUXzFUMRYMHwMnFQEO.jpeg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQUiBBAJawdfQQZITHpTXFhSTn0BHx4DBVYCeFZEXGdUQB4VHUo.jpeg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQR3BkULM1UPR1VMH39VVl4DFHpcGEkHAgRSJAITWjZTQB4VHUo.jpeg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQBxAkYLYFBXQVQcGX8GUFtYTnhVTUtRVgdUeFcUWzMGQB4VHUo.jpeg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQ9zURYOMFwLFVxKFSlUUlwHTnIEHxUEUwRTI1FBX2cBQB4VHUo.jpeg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQNwUktWMF1ZRFFAGygBBgxVTHIDSBkKUlQGdlFHWjAEQB4VHUo.jpeg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIkX0UMY1RdFgFASC5UXV9VHS5SGhUBBwcOJF4TXmZcQB4VHUo.jpeg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgMCHV0gAwAOJkhdRFUAHn1VSgMRSCw.jpeg"
     ],
     "pricing": {
       "purchasePriceUah": 1222000,
@@ -2622,8 +2622,8 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/img-20251019-wa0003.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/img-20251019-wa0003-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHV8sAF9dYldbRVVJFGASBVlRHXhLE11V.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHV8sAF9dYldbRVVJFGASBVlRHXhISh0CSAEGcUkYHzU.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 286000,
@@ -2649,7 +2649,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/img-0e1531461ff2eecbcaf0ac4681118905-v-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHV8sAF9fN1RbR1RMG3wDAlsESCgHGkxUAFNVdVFKXmNUVk1VTQA7SFdZUVV4VUkDWEBV.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 78000,
@@ -2676,7 +2676,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/b96.00016_1-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVR4UVxfYlVfQjpJAH5VVBFSHXtLE11V.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 208,
@@ -2703,9 +2703,9 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/6518a65chm.png",
-      "https://adenaagro.com/wp-content/uploads/2026/08/1231231313.png",
-      "https://adenaagro.com/wp-content/uploads/2026/08/6518a65chm-300x300.png"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHQB0VkoOZFANHAhWXSMC.png",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHQdzVENdYVRdRVZWXSMC.png",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHQB0VkoOZFANHAhVHn1VHFpRHWUVF0o.png"
     ],
     "pricing": {
       "purchasePriceUah": 38740,
@@ -2731,7 +2731,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0184-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY11aWVZIHTVWVFlPRzsC.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 3900,
@@ -2758,7 +2758,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01852-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY11bRkhLHX0dV1lRAyEVHg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 1820,
@@ -2785,10 +2785,10 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_018211.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01831.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/bez-nazvy.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_018211-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY11cRVRWRz0C.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY11dRUsSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVQkHV8BMx8YDUsSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY11cRVRVHn1VHFpRHWUPCUo.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 624,
@@ -2814,7 +2814,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0176_21-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JYK1dJAH5VVBFSHXtLE11V.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 9620,
@@ -2841,10 +2841,10 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01751-5.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01752-6.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01753-2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01751-5-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRUhNAycVAw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRkhOAycVAw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbR0hKAycVAw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRUhNAH5VVBFSHXtLE11V.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 11960,
@@ -2870,10 +2870,10 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01821.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01822.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01823.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01821-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY11cRUsSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY11cRksSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY11cR0sSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY11cRUhLHX0dV1lRAyEVHg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 1040,
@@ -2899,7 +2899,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01752-5-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRkhNAH5VVBFSHXtLE11V.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 4940,
@@ -2926,10 +2926,10 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175222.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01753-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01751-2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175222-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRldKAycVAw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbR0hJAycVAw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRUhKAycVAw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRldKAH5VVBFSHXtLE11V.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 3900,
@@ -2955,10 +2955,10 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0176-2.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175-5.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01751-4.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0176-2-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JYWVdWRz0C.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbWVBWRz0C.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRUhMAycVAw.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JYWVdVHn1VHFpRHWUPCUo.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 2860,
@@ -2984,7 +2984,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01752-3-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRkhLAH5VVBFSHXtLE11V.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 2860,
@@ -3011,7 +3011,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175-3-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbWVZVHn1VHFpRHWUPCUo.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 3380,
@@ -3038,7 +3038,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01752-1-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRkhJAH5VVBFSHXtLE11V.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 2860,
@@ -3065,10 +3065,10 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_017522222.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01761.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0180.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_017522222-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRldKH39LDhkG.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JYRUsSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY11eWg8ISg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRldKH39IV1lRVXhVSQNYQFU.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 10140,
@@ -3094,12 +3094,12 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_017541.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0175.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01754.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01753.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01751.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_017541-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbQFRWRz0C.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbWg8ISg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbQEsSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbR0sSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRUsSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbQFRVHn1VHFpRHWUPCUo.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 10816,
@@ -3125,10 +3125,10 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_017432.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_01741.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_0174.jpg",
-      "https://adenaagro.com/wp-content/uploads/2026/08/dsc_017432-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JaR1dWRz0C.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JaRUsSXSo.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JaWg8ISg.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JaR1dVHn1VHFpRHWUPCUo.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 6500,
@@ -3154,7 +3154,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2026/05/pass-priv_3-300x300.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIFHUYgFAFCIhcHAjpLAH5VVBFSHXtLE11V.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 2496,
@@ -3181,7 +3181,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2025/01/802a4e77797eb259f8896526ce8e3225_big_800.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQ5xVRNbN1JZQ1xPSC9XUVAHFXNcTxgABlFTeQJBXWBQMRYMH3J1VVRHC10s.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 5000,
@@ -3211,8 +3211,8 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2024/03/c43035ed375f7ecb348b35cd7e8afb1b_big-1_result_01.jpg",
-      "https://adenaagro.com/wp-content/uploads/2024/03/050f1332a508ac225a23de0520cb0b1b_result.jpg"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIDHVV1VEJcZwAKR1JNS3oABwtSGXMHShhRVAVTeQYUDWMHMRYMHwB8OhYMElgnESYdAx5YRiY.jpg",
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIDHQZ0VxReYVZcFVBIFSwGVltUTHlWHUgCBQAGIgVCDWMHMQYAC1ghEUoDEUo.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 5000,
@@ -3242,7 +3242,7 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMCHUIzBhkbPRdDQ1NAVXlWVkcWSCkV.webp"
     ],
     "pricing": {
       "purchasePriceUah": 145600,
@@ -3279,7 +3279,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 694
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/2/132e282a16880d452ae5600c023d4b40.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldLWFIfLldBH1MBBA55VxZbZ1cPEVBOHX0GVFtSSX8HTR0cWkJR.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка зерновая прямого комбайнирования ЖУ 6. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка зерновая прямого комбайнирования ЖУ 6 від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка зерновая прямого комбайнирования ЖУ 6 розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3306,7 +3306,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 694
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/6/e80df952ae038a024646dd4b6452ed5f.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYlNLDFkdLwNAGABRVwZyXxNfYFFYQFMcSXkHUl1UHy4BTEscWkJR.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка зернобобова ЖЗБ-4,2. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка зернобобова ЖЗБ-4,2 від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка зернобобова ЖЗБ-4,2 розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3333,7 +3333,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/2/f0345d66a3dba2b95193d2081760ef8d.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldLD1Eef1AdGwRRAVIjBkANa1BfTVYcH31dVV5XHS4DQUkcWkJR.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатки для комбайнів. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатки для комбайнів від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатки для комбайнів розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3360,7 +3360,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 608
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/541/458f37d0f58463a7eeddceacfbfcdade.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYlBQWE4Zfl0fHgVUAlB0X0ZZYQRZEQAcSS4ABQoHTy0GHUxWVRxcMQA.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Приставка для збирання сої та гороху Flex Ettaro. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Приставка для збирання сої та гороху Flex Ettaro від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Приставка для збирання сої та гороху Flex Ettaro розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3387,7 +3387,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 1100
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/420/d62fdc777d4049a5b81e7baa22d9774c.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYlFWWU5JfVcfSVEHBQElU0JbawRbFl1JSHoHBQhTHy9cThoGUxxcMQA.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка CLAAS CAT MAXFLO 1050. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка CLAAS CAT MAXFLO 1050 від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка CLAAS CAT MAXFLO 1050 розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3414,7 +3414,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/2/31de28ba04ebd6623bd6c0d2daa2bfe8.jpeg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldLWlBJLldBT1MABlMjA0RZYFYMEFMbHSlXAAgAHykDHBUcWkJTJg.jpeg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка Джон Дир 600R. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка Джон Дир 600R від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка Джон Дир 600R розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3441,7 +3441,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 1100
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/676/7783abb6171abb18c2601b7a1b0fc918.jpeg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYlNTX04afF1KTFBSBAd2VhMNMFRWF1dOHXwHUwhQT3sDGhQDCBxcMQIV.jpeg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жниварка зернобобова John Deere 635F HydraFlex™ 10.7 м, 2008 р.в., імпорт зі США. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жниварка зернобобова John Deere 635F HydraFlex™ 10.7 м, 2008 р.в., імпорт зі США від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жниварка зернобобова John Deere 635F HydraFlex™ 10. , імпорт зі США розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля.",
@@ -3468,7 +3468,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/2/b6a7cb29dd3f2c4aa218f94679aa6db2.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldLC1dMfAYbHwtUVgUnVRFbMwRcRV0eFHlTU1AATH0BGx8cWkJR.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатки. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатки від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатки розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3495,7 +3495,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/2/37200198162d1d1451d7fd1fefd604c4.png"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldLWlYfe1VIFAoBBAQlVhZeZlBfEFIeSXwDAQ8FG3tRGhkcQFxR.png"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатки Grain Headers. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатки Grain Headers від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатки Grain Headers розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3522,7 +3522,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 694
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/6/83521264f3c0e14fe628004dd94de199.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYlNLUVIYeVRLGwZWAVVxAkNbNABYRl1IHXkBAFBVSS5UQBQcWkJR.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка зернобобовая ЖБВ-4,2. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка зернобобовая ЖБВ-4,2 від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка зернобобовая ЖБВ-4,2 розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3549,7 +3549,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/2/ba272d16b77bc28d78696280fa6b8e53.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldLCwAffFcdHARSBQEjBEBXNlJWQlxOH3VVAghXT3MATB4cWkJR.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатки зернобобові. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатки зернобобові від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатки зернобобові розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3576,7 +3576,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/2/5f2f819f11ab53486a9ea7e17d176b13.jpeg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldLXAcfLV1IFFQBA1cjUkFbalMPTQAZGihUUw1QGn0HSB4cWkJTJg.jpeg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатки Джон Дир 600F. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатки Джон Дир 600F від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатки Джон Дир 600F розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3603,7 +3603,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 1100
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/676/d2b5e6485b05148d8300bb764dd8a649.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYlNTX05JeQdMSAQECgMjV0deZl0KTFZIHS8HU19VSS9dGBsGCRxcMQA.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жниварка Case IH 1020 Flex шириною 6.1 метра. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жниварка Case IH 1020 Flex шириною 6.1 метра від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жниварка Case IH 1020 Flex шириною 6. 1 метра розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля.",
@@ -3630,7 +3630,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 1049
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/676/fac4c8abf44715811552f2e8f7197211.jpeg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYlNTX05LKgZNTgpRUFB1U0VeZ11fRVBNHytXAVEHGnpcTh8DARxcMQIV.jpeg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жниварка зернова Case IH 1020 7,6 м флекс в наявності зі США. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жниварка зернова Case IH 1020 7,6 м флекс в наявності зі США від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жниварка зернова Case IH 1020 7,6 м флекс в наявності зі США розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3657,7 +3657,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/2/7d61da9b1799a91b6a744893b3fc6d46.png"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldLXgUbegEYFFABBQ94BkteMFMPQ1FMFXRWBloHTn0BTRscQFxR.png"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка Дон 1500 6 м. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка Дон 1500 6 м від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка Дон 1500 6 м розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3684,7 +3684,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 694
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/6/9d09ae0de74f88edbd77d538e3cf2065.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYlNLUAUdcgQcHVZVBQInX0oKNgcKQ1IcGH5dAVoCS3lVTxgcWkJR.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка зернобобова на комбайни Нива, СК-5А, СКД-6, СК-5М, Єнісей. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка зернобобова на комбайни Нива, СК-5А, СКД-6, СК-5М, Єнісей від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка зернобобова на комбайни Нива, СК-5А, СКД-6, СК-5М, Єнісей розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3711,7 +3711,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 694
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/2/abef3edee7c093a96bbfed4413eb7e09.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldLCANILVYcSVdVBVVxXkEOa1MMFgMdSXlRVVoET3wASRQcWkJR.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка зернобобова зустрічно-потокова ЖБВ-4,2. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка зернобобова зустрічно-потокова ЖБВ-4,2 від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка зернобобова зустрічно-потокова ЖБВ-4,2 розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3738,7 +3738,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/2/f30af0e3d050867aff192ffcf8a88002.jpeg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldLD1IdKgNJSAFUAgNxX0RYMwMIRVxKSysGAlEAFXNVSR8cWkJTJg.jpeg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка John Deere 600D. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка John Deere 600D від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка John Deere 600D розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3765,7 +3765,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 1100
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/676/71e390e43ef6a959222c9410613915fc.jpeg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYlNTX04aegBKFAJVBgUkAUQOa1BXRldKTnRRVVlXHHhcSBhUUxxcMQIV.jpeg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жниварка зернобобова John Deere 625F 7.6 м HydraFlex™ з США, з ВІЗКОМ, мін.напрацювання. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жниварка зернобобова John Deere 625F 7.6 м HydraFlex™ з США, з ВІЗКОМ, мін.напрацювання від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жниварка зернобобова John Deere 625F 7. 6 м HydraFlex™ з США, з ВІЗКОМ, мін. напрацювання розроблена для прямого комбайнування зернових колосових, зернобобових та сої.",
@@ -3792,7 +3792,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/2/7a387af0694c4b1746cb70f8906413e5.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldLXgAec1IYSwIGCwIiUxBeZVFYFwdPHStdXVlXGXpWHBgcWkJR.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка Нива 5м. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка Нива 5м від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка Нива 5м розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3819,7 +3819,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 694
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/6/a144a1e9a87a3c4102001645e659b363.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYlNLCFAZfwRISAtRCgEgVBFbY1VcRFVJG3lQAV9UFClWTx4cWkJR.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жниварка валкова зернобобова до косарок КПС, КПС, Е/Д. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жниварка валкова зернобобова до косарок КПС, КПС, Е/Д від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жниварка валкова зернобобова до косарок КПС, КПС, Е/Д розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3846,7 +3846,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 694
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/2/09114d6f6c9d626859d33b78de35e01c.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldLWVgcelEdG1QGUQ8lUUBZalBXEFZLT3pdAAxSGC5VSE4cWkJR.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка зернобобова ЖЗБ-4,2. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка зернобобова ЖЗБ-4,2 від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка зернобобова ЖЗБ-4,2 розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3873,7 +3873,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/2/147f584035cdff473ef2d139a91bc9bb.jpeg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldLWFUaLVBBGQIDB1UlARRbZVYLElccHH5cBVBQTyhcG08cWkJTJg.jpeg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка John Deere 600C. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка John Deere 600C від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка John Deere 600C розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3900,7 +3900,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 1100
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/676/894f0a0f4d9b64dc0df8e0c13af92df2.jpeg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYlNTX04VclEfHVMAVAIlXhBZZgENRAEeFShVB1hSTC1cS0lUAhxcMQIV.jpeg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Зернобобова жатка case ih 1020 flex шириною 7.6 метрів. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Зернобобова жатка case ih 1020 flex шириною 7.6 метрів від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Зернобобова жатка case ih 1020 flex шириною 7. 6 метрів розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля.",
@@ -3927,7 +3927,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 1100
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/676/246745b68c7e3211de4d5970199a0399.jpeg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYlNTX04ff1NOGQdSBA4iUBdcYFRfEABMSXhcU1lQFHIESR4LCRxcMQIV.jpeg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жниварка зернобобова John Deere 630F HydraFlex™ 9.1 м імпорт зі США. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жниварка зернобобова John Deere 630F HydraFlex™ 9.1 м імпорт зі США від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жниварка зернобобова John Deere 630F HydraFlex™ 9. 1 м імпорт зі США розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля.",
@@ -3954,7 +3954,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/238/0395cdc2c027f4766a9b056619bc2fa4.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldXUU4deFxMTlZTAFVxVUUJZlJYQgRBT31QUl9QFCkGS0tTBBxcMQA.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка ЖН-4 для комбайна Нива. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка ЖН-4 для комбайна Нива від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка ЖН-4 для комбайна Нива розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -3981,7 +3981,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 694
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/6/fc11decae6bae42a5e62b37ea8a21df9.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYlNLDwIcegEcTlNVBFQgAkZdM1ALQlcaHnoABVEAH3oBHxQcWkJR.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка зернобобова ЖБВ. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка зернобобова ЖБВ від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка зернобобова ЖБВ розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -4008,7 +4008,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 1100
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/676/d8880f18a75cd420dbf2d852db888525.JPG"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYlNTX05Jc11BHVQBCld2UhELZldeEAceHyldUVsFT3NdQRgABRx8ESA.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка Case IH 2020 Flex шириною 9 метрів. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка Case IH 2020 Flex шириною 9 метрів від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка Case IH 2020 Flex шириною 9 метрів розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -4035,7 +4035,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/238/9b3fcf3fcd6f021d05ed8d1aae9c4fa5.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldXUU4UKVYfTlQDVFUlURRfYFQKRFAdSXUBVQgASHIGTUtTBRxcMQA.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка ЖН-5 для комбайна Нива. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка ЖН-5 для комбайна Нива від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка ЖН-5 для комбайна Нива розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -4062,7 +4062,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 694
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/6/bf73cfba7f949d5fe44d4fc9a0a5fa5c.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYlNLCwcaeAYfT1MHVA91XhZaNABaQAFMSy5cBVkAGC0ETE4cWkJR.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка навісна зернобобова ЖБВ. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка навісна зернобобова ЖБВ від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка навісна зернобобова ЖБВ розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -4089,7 +4089,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 1100
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/676/fed68fcc3ee14951882a0aae6c215502.jpeg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYlNTX05LLgFPFVRTUQUkAkNba1BfTF1KTH0EBQxXTnlUTBgCAhxcMQIV.jpeg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка Case IH 2020 flex шириною 9.1 метрів. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка Case IH 2020 flex шириною 9.1 метрів від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка Case IH 2020 flex шириною 9. 1 метрів розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля.",
@@ -4116,7 +4116,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/238/8cf2ca8512764e5af9813d3bbcb37f5b.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldXUU4VKANLTlMIBwdzUERbN1APElxAHH4BVwsDTilWTksHUhxcMQA.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка до комбайну Поліссі 812, 1218. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка до комбайну Поліссі 812, 1218 від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка до комбайну Поліссі 812, 1218 розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -4143,7 +4143,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 694
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/6/9bdd527025bcdf7f9930fd731eacf729.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYlNLUANJL1BLGgICB1QiAxRYNFxXR1UeSXpWVQwATi1SSxQcWkJR.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка навісна зернобобова ЖЗБ. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка навісна зернобобова ЖЗБ від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка навісна зернобобова ЖЗБ розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -4170,7 +4170,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 1100
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/676/fd4632b665ff08ff173167f8815e159a.jpeg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYlNTX05LL1FPHgBSBAB0ARRfagMIRVJLHHtSAlFZHH4ASBgLURxcMQIV.jpeg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка John Deere 630 Hydraflex шириною 9 метрів. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка John Deere 630 Hydraflex шириною 9 метрів від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка John Deere 630 Hydraflex шириною 9 метрів розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -4197,7 +4197,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/238/33cdcc24618954d268d41fcfa7069472.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldXUU4eeAYdTlECBgBwX0taZgFcQl0cGXwDBw8AGntTQBkFAhxcMQA.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жниварка для комбайна New Holland 4 м. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жниварка для комбайна New Holland 4 м від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жниварка для комбайна New Holland 4 м розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -4224,7 +4224,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 1100
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/676/02e06df706f29e6def54280d24509ae0.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYlNTX04deQBJG1ZWBQZ3AUBWN1MKEQNNGX9dVA1TGX5VQExXABxcMQA.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жниварка John Deere 630F Hydraflex шириною 9 метрів. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жниварка John Deere 630F Hydraflex шириною 9 метрів від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жниварка John Deere 630F Hydraflex шириною 9 метрів розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -4251,7 +4251,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/238/60498036f3dc01cbaab895124740aced.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldXUU4be1FAFQIDBFByAxFfYwYMFQQaFXRQVVtVGn9VGE5XVBxcMQA.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка прямого комбайнування для комбайну Дон-1500. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка прямого комбайнування для комбайну Дон-1500 від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка прямого комбайнування для комбайну Дон-1500 розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -4278,7 +4278,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/238/8830d8e053ccf966641485425ff570cd.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldXUU4Vc1ZJSQpVAgNyBBEJa1NYQlFJGXVQUFtUSy1QTh1RVBxcMQA.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка прямого комбайнування для комбайна Акрос-530. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка прямого комбайнування для комбайна Акрос-530 від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка прямого комбайнування для комбайна Акрос-530 розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -4305,7 +4305,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/238/2ab5ed3f168922d5e3f619194f7bde47.png"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldXUU4fKgdMSFYDVAd3X0tdYAFbEVYeG3xcVVBVS3wHHUgGBxxGLwA.png"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка прямого комбайнування для комбайна Вектор. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка прямого комбайнування для комбайна Вектор від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка прямого комбайнування для комбайна Вектор розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -4332,7 +4332,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/238/5f39d33f5da52b55fe6882fe2532192a.png"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldXUU4YLVZASQEDVAMlBkddMFBbEgBOFXVXAgxTGHhXSBQAURxGLwA.png"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка прямого комбайнування ЖН 6-7. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка прямого комбайнування ЖН 6-7 від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка прямого комбайнування ЖН 6-7 розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -4359,7 +4359,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/238/aeb9e6bb180318e6f774b677b279e8a3.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldXUU5MLgdASARSUAd5V0FeagBYElJPGS9TU14DH3xcHBVTAxxcMQA.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка Нива, Дон МПН. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка Нива, Дон МПН від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка Нива, Дон МПН розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -4386,7 +4386,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/238/788eaf144ebc3b4e093648d18557eb51.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldXUU4ac10cTFQBBgIkBRFcMFELRFxLG3ldAFhZGH5SHE8HARxcMQA.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка прямого комбайнування Єнісей-950. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка прямого комбайнування Єнісей-950 від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка прямого комбайнування Єнісей-950 розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -4413,7 +4413,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/238/ceeb638042cb2477affa21a5578d6974.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldXUU5OLgAbGwEIAgJzBBBdZlJZFQMeTH9UBVxUGnMBTxQFBBxcMQA.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка прямого комбайнування Дон-1200. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка прямого комбайнування Дон-1200 від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка прямого комбайнування Дон-1200 розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -4440,7 +4440,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/238/85cd1e79f7fc8d84289363d94df94d74.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldXUU4VfgYdHFcHC1B2ARFXNl1aRl1BHntWAFBVSS1cTUkFBBxcMQA.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка прямого комбайнування 5 м. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка прямого комбайнування 5 м від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка прямого комбайнування 5 м розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -4467,7 +4467,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/238/b76cc692f75ca714ee553b1e75dd6ec1.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldXUU5PfFMaTgQJAFB2UhEOZVRaEQBNGH4HVQxWGC8BT0hRARxcMQA.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка прямого комбайнування 6 м. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка прямого комбайнування 6 м від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка прямого комбайнування 6 м розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -4494,7 +4494,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/238/9f1c8ffb72e7709e0508e0bc5e4a8682.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldXUU4ULVQaFVRWUAFzAkVYYlwLRFBIFShVBgpUSH8EQRsKAhxcMQA.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка прямого комбайнування 7 м. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка прямого комбайнування 7 м від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка прямого комбайнування 7 м розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",
@@ -4521,7 +4521,7 @@ export const MACHINERY_DATA = [
       "pricePerHaUah": 681
     },
     "images": [
-      "https://agrovektor.com/uploads/photo/238/efc78a5aa2fe914ce95f28855e45788c.jpg"
+      "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldXUU5ILQZOFVMFU1dzARdWY1ENEVxNS39dXFxUSH9QThUKUxxcMQA.jpg"
     ],
     "shortDescription": "Високопродуктивна зернова жатка Жатка універсальна ЖУ-6 ПСМ. Забезпечує чистий низький зріз стеблостою, швидкісне копіювання мікрорельєфу поля та мінімальні втрати зерна при збиранні колосових, сої та бобових культур.",
     "fullDescription": "Жатка Жатка універсальна ЖУ-6 ПСМ від компанії AGRO RENTEX спроектована для інтенсивної роботи під час жнив у різних агрокліматичних зонах України. Агрегат оснащений прецизійним ріжучим апаратом системи Schumacher з високою частотою подвійних ходів ножа, гідравлічним приводом мотовила та надійною системою захисту від перевантажень. Завдяки оптимізованій геометрії шнека та регульованому пальцевому механізму досягається рівномірна та плавна подача хлібної маси в похилу камеру комбайна. Техніка пройшла повне сервісне тестування, відкалібрована та готова до негайного виходу в поле. Доступна як для прямого придбання з офіційною гарантією, так і в сезонну оренду. Зернова жатка Жатка універсальна ЖУ-6 ПСМ розроблена для прямого комбайнування зернових колосових, зернобобових та сої. Оснащена високошвидкісним ріжучим апаратом типу Schumacher, гідравлічним приводом мотовила з регулюванням обертів з кабіни комбайна, а також надійною системою копіювання рельєфу поля. Доступна для купівлі з гарантією та в сезонну оренду.",

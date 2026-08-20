@@ -33,7 +33,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
       title: 'Ремонт та реставрація транспортерів сільгосптехніки | AGRO RENTEX',
       description: 'Якісний ремонт, заміна стрічок та відновлення гумово-пруткових транспортерів Grimme, Anna, Bolko, AVR, Dewulf. Гарантія 1 рік. Доставка по Україні.',
       canonicalUrl: 'https://agrorentex.com/remont-transporteriv',
-      ogImage: 'https://adenaagro.com/wp-content/uploads/2025/01/remont-transporteriv-300x300.webp',
+      ogImage: '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQkCh0BJkgaBgQWXj0KFh0EXyITVB4CAEoFcVdcGDcHHg.webp',
       schemaData
     });
   }, []);
@@ -76,35 +76,35 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
   };
 
   const brandLogos = [
-    'https://adenaagro.com/wp-content/uploads/2024/02/d5caacd05f4a3c2fa3c8917591115487_result.jpg',
-    'https://adenaagro.com/wp-content/uploads/2024/02/brend-2.png',
-    'https://adenaagro.com/wp-content/uploads/2024/02/brend-3.png',
-    'https://adenaagro.com/wp-content/uploads/2024/02/brend-5.png',
-    'https://adenaagro.com/wp-content/uploads/2024/02/brend-14.png',
-    'https://adenaagro.com/wp-content/uploads/2024/02/brend-9.png',
-    'https://adenaagro.com/wp-content/uploads/2024/02/brend-11.png',
-    'https://adenaagro.com/wp-content/uploads/2024/02/bez-nazvanyya_result-1.jpg',
-    'https://adenaagro.com/wp-content/uploads/2024/02/hassia-1.jpg',
-    'https://adenaagro.com/wp-content/uploads/2024/02/brend-13.png',
-    'https://adenaagro.com/wp-content/uploads/2024/02/62772f9ef5c467cd1376d4513dab3a71_result.jpg',
-    'https://adenaagro.com/wp-content/uploads/2024/02/brend-12-1.png',
-    'https://adenaagro.com/wp-content/uploads/2024/02/brend-21.png',
-    'https://adenaagro.com/wp-content/uploads/2024/02/brend-18.png',
-    'https://adenaagro.com/wp-content/uploads/2024/02/asalift_result-1.jpg',
-    'https://adenaagro.com/wp-content/uploads/2024/02/simon-logo_result-1300x681.jpg',
-    'https://adenaagro.com/wp-content/uploads/2024/02/brend-12.png',
-    'https://adenaagro.com/wp-content/uploads/2024/02/imac-potato-onion-harvester-800x339-1_result-1.jpg',
-    'https://adenaagro.com/wp-content/uploads/2024/02/brend-15-1.png',
-    'https://adenaagro.com/wp-content/uploads/2024/02/brend-21-1.png'
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVJ0BBMOMQFeQQNMTH4GVg8AHihdQBwFBQsHcFZHW2pSMQYAC1ghEUoDEUo.jpg',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQzAhwLf1dABAsf.png',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQzAhwLf1ZABAsf.png',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQzAhwLf1BABAsf.png',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQzAhwLf1RaWhUWSg.png',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQzAhwLf1xABAsf.png',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQzAhwLf1RfWhUWSg.png',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQkHV8BMx8YFQsBVCw6FgwSWCcRVBwcWkJR.jpg',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHV4gFAEGM0hfWg8ISg.jpg',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQzAhwLf1RdWhUWSg.png',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHQBzUEVdNFwLElAbGXtSBw1QHnxTHRkHAQFSIAVBDmVUMQYAC1ghEUoDEUo.jpg',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQzAhwLf1RcWVRWXSMC.png',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQzAhwLf1dfWhUWSg.png',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQzAhwLf1RWWhUWSg.png',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVcyBh4GNBExBgALWCERSVhPRzsC.jpg',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUUoCh0BfwkBEwonXygWEQUVAHpWSR1KBgoHbw0CCA.jpg',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQzAhwLf1RcWhUWSg.png',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHV8sBhFCIgoaFREXACILDQYPACMEC1tXQ0ZTM0pKX2IdXUdcVRwSFwEaFEE_SEgDWEBV.jpg',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQzAhwLf1RbWVRWXSMC.png',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQzAhwLf1dfWVRWXSMC.png'
   ];
 
   const specializationImages = [
-    'https://adenaagro.com/wp-content/uploads/2024/02/group-125-229x300.png',
-    'https://adenaagro.com/wp-content/uploads/2024/02/group-126-245x300.png',
-    'https://adenaagro.com/wp-content/uploads/2024/02/group-127-263x300.png',
-    'https://adenaagro.com/wp-content/uploads/2024/02/group-128-263x300.png',
-    'https://adenaagro.com/wp-content/uploads/2024/02/group-129-263x300.png',
-    'https://adenaagro.com/wp-content/uploads/2024/02/group-130-263x300.png'
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEzCAcff1RcQUhKH3QdV1lRAzsLHg.png',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEzCAcff1RcQkhKGXgdV1lRAzsLHg.png',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEzCAcff1RcQ0hKG34dV1lRAzsLHg.png',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEzCAcff1RcTEhKG34dV1lRAzsLHg.png',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEzCAcff1RcTUhKG34dV1lRAzsLHg.png',
+    '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEzCAcff1RdREhKG34dV1lRAzsLHg.png'
   ];
 
   return (
@@ -125,7 +125,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
       <section style={{
         position: 'relative',
         backgroundColor: '#161616',
-        backgroundImage: 'linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)), url(https://adenaagro.com/wp-content/uploads/2024/02/zamjna-.png)',
+        backgroundImage: 'linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)), url(/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUwgChgBM0hABAsfBA.png',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         padding: '80px 0 90px 0',
@@ -201,7 +201,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
             {/* Left Image */}
             <div>
               <img
-                src="https://adenaagro.com/wp-content/uploads/2024/02/remont.png"
+                src="/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQkCh0BJkseGgI.png"
                 alt="Ремонт транспортерів AGRO RENTEX"
                 style={{ width: '100%', height: 'auto', borderRadius: '4px', boxShadow: '0 8px 24px rgba(0,0,0,0.08)' }}
               />
@@ -300,7 +300,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
                 Техніка для збирання цибулі
               </h3>
               <img
-                src="https://adenaagro.com/wp-content/uploads/2024/02/luk.png"
+                src="/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVo0DFwfPAI.png"
                 alt="Техніка для збирання цибулі"
                 style={{ width: '100%', height: 'auto', maxHeight: '240px', objectFit: 'contain' }}
               />
@@ -312,7 +312,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
                 Техніка для збирання картоплі
               </h3>
               <img
-                src="https://adenaagro.com/wp-content/uploads/2024/02/kartoha.png"
+                src="/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHV0gFQYAOgRABAsf.png"
                 alt="Техніка для збирання картоплі"
                 style={{ width: '100%', height: 'auto', maxHeight: '240px', objectFit: 'contain' }}
               />
@@ -324,7 +324,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
                 Техніка для збирання Моркви
               </h3>
               <img
-                src="https://adenaagro.com/wp-content/uploads/2024/02/remont-1500-x-754-pyks.-1000-x-800-pyks.png"
+                src="/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQkCh0BJkhfQVVIADVIU1xVADscEl4cHQMGcVdfF39dXkRICFQmFkoZD0o.png"
                 alt="Техніка для збирання Моркви"
                 style={{ width: '100%', height: 'auto', maxHeight: '240px', objectFit: 'contain' }}
               />
@@ -525,7 +525,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
           }}>
             <div>
               <img
-                src="https://adenaagro.com/wp-content/uploads/2024/02/image-52.png"
+                src="/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHV8sBhUKf1BcWhUWSg.png"
                 alt="Транспортери та ролики"
                 style={{ width: '100%', height: 'auto', borderRadius: '4px' }}
               />
@@ -544,7 +544,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
           {/* Full-width Blueprint Graphic */}
           <div style={{ textAlign: 'center' }}>
             <img
-              src="https://adenaagro.com/wp-content/uploads/2024/02/rectangle-99.png"
+              src="/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQkBAYOPAICEUhBFGMVCg4.png"
               alt="Схема взаємодії роликів та транспортера"
               style={{ width: '100%', height: 'auto', borderRadius: '4px', border: '1px solid #eee' }}
             />
@@ -587,7 +587,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
           >
             {/* After Image (Background) */}
             <img
-              src="https://adenaagro.com/wp-content/uploads/2024/02/dsc_0094-2.png"
+              src="/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVIyBC1fYlxaWVdWXSMC.png"
               alt="Після ремонту"
               style={{
                 position: 'absolute',
@@ -623,7 +623,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
               overflow: 'hidden'
             }}>
               <img
-                src="https://adenaagro.com/wp-content/uploads/2024/02/bylo1-1.png"
+                src="/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQ4Cx1ef1RABAsf.png"
                 alt="До ремонту"
                 style={{
                   position: 'absolute',
@@ -730,7 +730,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
           
           <div style={{ textAlign: 'center', marginBottom: '40px' }}>
             <img
-              src="https://adenaagro.com/wp-content/uploads/2024/02/group-89.png"
+              src="/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEzCAcff11XWhUWSg.png"
               alt="Ремонт та реставрація транспортерів схема"
               style={{ width: '100%', height: 'auto', borderRadius: '4px' }}
             />
@@ -772,7 +772,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
           
           {/* Tractor Image */}
           <div style={{
-            backgroundImage: 'url(https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp)',
+            backgroundImage: 'url(/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMCHUIzBhkbPRdDQ1NAVXlWVkcWSCkVUA.webp',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             minHeight: '380px'

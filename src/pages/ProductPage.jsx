@@ -99,7 +99,7 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
   useEffect(() => {
     if (!machine) return;
 
-    const mainImg = machine.images && machine.images[0] ? machine.images[0] : 'https://adenaagro.com/wp-content/uploads/2025/01/polyova_tehnika-300x300.webp';
+    const mainImg = machine.images && machine.images[0] ? machine.images[0] : '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUYuCwsAJAQxAAAQQyQOBURSHXsdSh0CHkVTIxc.webp';
     const cleanDesc = (machine.shortDescription || machine.fullDescription || `${machine.name} від виробника ${machine.brand}. Гарантія та сервіс від AGRO RENTEX.`).slice(0, 160);
 
     const schemaData = {

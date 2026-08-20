@@ -100,12 +100,36 @@ app.post('/api/send-lead', (req, res) => {
   }
 });
 
-// Blueprint Requirement Б: Anti-CORS Media Streamer (/api/media/:encodedUrl)
+const SECRET_KEY = 'AgroRentex-Media-Key-2026';
+
+function decryptImageUrl(tokenWithExt) {
+  if (!tokenWithExt || typeof tokenWithExt !== 'string') return '';
+  try {
+    const token = tokenWithExt.replace(/^\/api\/media\//, '').replace(/\.(jpg|jpeg|png|webp|gif|svg)$/i, '');
+    const keyBytes = Buffer.from(SECRET_KEY, 'utf8');
+    const outBytes = Buffer.from(token, 'base64url');
+    const urlBytes = Buffer.alloc(outBytes.length);
+
+    for (let i = 0; i < outBytes.length; i++) {
+      urlBytes[i] = outBytes[i] ^ keyBytes[i % keyBytes.length];
+    }
+
+    return urlBytes.toString('utf8');
+  } catch (err) {
+    return '';
+  }
+}
+
+// Encrypted Media Streamer (/api/media/:encodedUrl)
 app.get('/api/media/:encodedUrl', (req, res) => {
   try {
-    const rawUrl = decodeURIComponent(req.params.encodedUrl);
-    const parsedUrl = new URL(rawUrl);
+    let rawUrl = decryptImageUrl(req.params.encodedUrl);
+    if (!rawUrl || !rawUrl.startsWith('http')) {
+      // Fallback: try raw decodeURIComponent
+      rawUrl = decodeURIComponent(req.params.encodedUrl);
+    }
 
+    const parsedUrl = new URL(rawUrl);
     const client = parsedUrl.protocol === 'https:' ? https : http;
 
     const requestOptions = {
@@ -117,14 +141,25 @@ app.get('/api/media/:encodedUrl', (req, res) => {
     };
 
     client.get(rawUrl, requestOptions, (externalRes) => {
+      if (externalRes.statusCode >= 300 && externalRes.statusCode < 400 && externalRes.headers.location) {
+        // Handle redirect
+        const redirectClient = externalRes.headers.location.startsWith('https') ? https : http;
+        redirectClient.get(externalRes.headers.location, requestOptions, (redirectRes) => {
+          const contentType = redirectRes.headers['content-type'] || 'image/jpeg';
+          res.setHeader('Content-Type', contentType);
+          res.setHeader('Cache-Control', 'public, max-age=2592000, immutable');
+          redirectRes.pipe(res);
+        }).on('error', () => res.status(500).send('Redirect stream error'));
+        return;
+      }
+
       if (externalRes.statusCode !== 200) {
         return res.status(externalRes.statusCode).send('Failed to fetch image');
       }
 
-      // Pass content type and cache headers
       const contentType = externalRes.headers['content-type'] || 'image/jpeg';
       res.setHeader('Content-Type', contentType);
-      res.setHeader('Cache-Control', 'public, max-age=86400'); // Cache for 24h
+      res.setHeader('Cache-Control', 'public, max-age=2592000, immutable'); // Cache for 30 days
 
       externalRes.pipe(res);
     }).on('error', (err) => {

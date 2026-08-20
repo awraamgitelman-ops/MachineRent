@@ -40,7 +40,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
       title: 'Про нас | AGRO RENTEX – Професійна с/г техніка для овочівництва',
       description: 'Дізнайтеся більше про AGRO RENTEX: наш досвід, місія, широкий вибір європейської польової і складської техніки, реставрація транспортерів та якісний сервіс.',
       canonicalUrl: 'https://agrorentex.com/about-us',
-      ogImage: 'https://adenaagro.com/wp-content/uploads/2025/01/farmer-adena-768x511.webp',
+      ogImage: '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHVAgFR8KIEgPEAAWTGBSUlEZGHpUV1pXUkI.webp',
       schemaData
     });
   }, []);
@@ -78,31 +78,31 @@ export default function AboutUsPage({ onOpenQuickLead }) {
       title: 'Польова техніка для овочів',
       desc: 'Агрегати для обробки ґрунту, посадки та збирання картоплі, моркви, буряку та цибулі.',
       link: '/product-category/field',
-      img: 'https://adenaagro.com/wp-content/uploads/2025/01/polyova_tehnika-300x300.webp'
+      img: '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUYuCwsAJAQxAAAQQyQOBURSHXsdSh0CHkVTIxc.webp'
     },
     {
       title: 'Складська та сортувальна техніка',
       desc: 'Приймальні бункери, сортувальні машини, щіткові столи, мийки, вагопакувальні станції.',
       link: '/product-category/skladska-tehnika',
-      img: 'https://adenaagro.com/wp-content/uploads/2025/01/skladska_tehnika-1-300x300.webp'
+      img: '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUUqCxMLIQ4PKxEdRSMMDwhMHGZWSR1KAwIGbxAXDSI.webp'
     },
     {
       title: 'Техніка Б/В з Європи',
       desc: 'Надійні комбайни та агрегати в ідеальному технічному стані з гарантією працездатності.',
       link: '/product-category/tehnika-b-v',
-      img: 'https://adenaagro.com/wp-content/uploads/2025/01/technika_bu-1-300x300.webp'
+      img: '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUIkBBoBOw4PKwcNAHxIV1lRVXhVSQNFVVBG.webp'
     },
     {
       title: 'Запасні частини та комплектуючі',
       desc: 'Ролики, зірочки, приводні паси, вали та ремені завжди в наявності на нашому складі.',
       link: '/product-category/zapchastyny',
-      img: 'https://adenaagro.com/wp-content/uploads/2025/01/zapchastunu-1-300x300.webp'
+      img: '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUwgFxEHMxYaAQsNAHxIV1lRVXhVSQNFVVBG.webp'
     },
     {
       title: 'Ремонт транспортерів',
       desc: 'Швидка реставрація та заміна гумово-пруткових стрічок будь-якого кроку. Економія до 50%.',
       link: '/remont-transporteriv',
-      img: 'https://adenaagro.com/wp-content/uploads/2025/01/remont-transporteriv-1-300x300.webp'
+      img: '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQkCh0BJkgaBgQWXj0KFh0EXyITVBwfAwIGOVRCX3wSCxYV.webp'
     }
   ];
 
@@ -191,7 +191,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
               backgroundColor: '#f8f8f8'
             }}>
               <img
-                src="https://adenaagro.com/wp-content/uploads/2025/01/farmer-adena-768x511.webp"
+                src="/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHVAgFR8KIEgPEAAWTGBSUlEZGHpUV1pXUkI.webp"
                 alt="AGRO RENTEX Техніка в полі"
                 style={{ width: '100%', height: 'auto', display: 'block', objectFit: 'cover' }}
               />

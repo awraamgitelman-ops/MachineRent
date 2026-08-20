@@ -39,7 +39,7 @@ export default function BlogPage({ onOpenQuickLead }) {
       title: 'Публікації та блог про с/г техніку | AGRO RENTEX',
       description: 'Корисні статті та агроаналітика 2026: налаштування картоплезбиральних комбайнів, зберігання в овочесховищах, фасувальні лінії Domasz та реставрація транспортерів.',
       canonicalUrl: 'https://agrorentex.com/blog',
-      ogImage: 'https://adenaagro.com/wp-content/uploads/2025/01/kartoplya-pole3.jpg',
+      ogImage: '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUckBgsNBk5dEB8bVkwUAgVYA15EWg.jpg',
       schemaData
     });
   }, []);

@@ -1,5 +1,4 @@
-// Exact data replicated from adenaagro.com homepage sections
-
+// Static dataset for AGRO RENTEX Home Page
 export const HOME_TOP_SEASON = [
   {
     "id": "pass-ds",
@@ -7,7 +6,7 @@ export const HOME_TOP_SEASON = [
     "slug": "pryvodnyj-pas-z-nyzkym-profilem-ta-zahysnymy-vystupamy-typ-ds",
     "brand": "AVR, DeWulf, Grimme, Keulmac",
     "priceUah": 2496,
-    "image": "https://adenaagro.com/wp-content/uploads/2026/05/pass-priv_3-768x768.jpg",
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIFHUYgFAFCIhcHAjpLAHpTXBFWG3NLE11V.jpg",
     "badge": "Хіт сезону"
   },
   {
@@ -16,7 +15,7 @@ export const HOME_TOP_SEASON = [
     "slug": "gychkovydalyayuchyj-transprter-200-40946-grimme-dr-1500",
     "brand": "Grimme",
     "priceUah": 197600,
-    "image": "https://adenaagro.com/wp-content/uploads/2025/01/802a4e77797eb259f8896526ce8e3225_big_800-768x768.jpg",
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQ5xVRNbN1JZQ1xPSC9XUVAHFXNcTxgABlFTeQJBXWBQMRYMH3J1VVREVhtzHU4bCh5YRiY.jpg",
     "badge": "Топ"
   },
   {
@@ -25,7 +24,7 @@ export const HOME_TOP_SEASON = [
     "slug": "transporter-gychkovidkydnyj-anna-2-h-ryadna",
     "brand": "Anna",
     "priceUah": 85800,
-    "image": "https://adenaagro.com/wp-content/uploads/2024/03/c43035ed375f7ecb348b35cd7e8afb1b_big-1_result_01-768x768.jpg",
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIDHVV1VEJcZwAKR1JNS3oABwtSGXMHShhRVAVTeQYUDWMHMRYMHwB8OhYMElgnESYdAx0FAHkfRVlqSwQEAg.jpg",
     "badge": "Новинка"
   }
 ];
@@ -37,7 +36,7 @@ export const HOME_GRID_CENTER = [
     "slug": "grimme-gl32e-kartoplesadzhalka",
     "brand": "Grimme",
     "priceUah": 380000,
-    "image": "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_7_result.jpg"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUUiFRcKPBYGGxEnGhIXARoUQT9LE11V.jpg"
   },
   {
     "id": "field-struik-flkb",
@@ -45,7 +44,7 @@ export const HOME_GRID_CENTER = [
     "slug": "struik-flkb",
     "brand": "Struik",
     "priceUah": 380000,
-    "image": "https://adenaagro.com/wp-content/uploads/2024/02/flkb_4lopg3oexjwt_biorotix-3000-ot.jpg"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVAtDBAwZgkBBAJLQigdDh4VcikMFl9dRFtObFRCX2JIAQBLEl0q.jpg"
   },
   {
     "id": "field-struik-glutton-podribnyuvach-badyllya",
@@ -53,7 +52,7 @@ export const HOME_GRID_CENTER = [
     "slug": "struik-glutton-podribnyuvach-badyllya",
     "brand": "Struik",
     "priceUah": 380000,
-    "image": "https://adenaagro.com/wp-content/uploads/2024/02/glutton_1yazglbqre5d_glutton-1.jpg"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxRRwZVyoJBhgTSH4BJkpeRUZCLglfXnwPHhM.jpg"
   },
   {
     "id": "field-row-fix-space-mizhryadnyj-rotornyj-kultyvator",
@@ -61,7 +60,7 @@ export const HOME_GRID_CENTER = [
     "slug": "row-fix-space-mizhryadnyj-rotornyj-kultyvator",
     "brand": "ZIBO",
     "priceUah": 380000,
-    "image": "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_no37wchkxeoz-1_glutton.jpg"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx1DBxUZTig6CgZSGjwGEUZKVV1MbFYtCD4QGgAKFgMnFQM.jpg"
   },
   {
     "id": "field-varix-3000-ot-rotornyj-kultyvator",
@@ -69,7 +68,7 @@ export const HOME_GRID_CENTER = [
     "slug": "varix-3000-ot-rotornyj-kultyvator",
     "brand": "Struik",
     "priceUah": 380000,
-    "image": "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_6fflam0urwsl_glutton.jpg"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwoYERcMQj0DFgwEXhRTH0teUV8GNBUFHD46CRgQDFkiC0oDEUo.jpg"
   },
   {
     "id": "field-aplikator-mikrogranulyator-zibo-gandy-elektropryvid",
@@ -77,7 +76,7 @@ export const HOME_GRID_CENTER = [
     "slug": "aplikator-mikrogranulyator-zibo-gandy-elektropryvid",
     "brand": "ZIBO",
     "priceUah": 380000,
-    "image": "https://adenaagro.com/wp-content/uploads/2025/01/87d1cc46a58d545cfcacce8ac5ba77de_big.jpg"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQ52A0MMMVFYFVBASXhRUQoHTioGGkgKUVEDIwZFWDYAMRYMHwMnFQM.jpg"
   }
 ];
 
@@ -88,7 +87,7 @@ export const HOME_GRID_RIGHT = [
     "slug": "domasz-so-900-2500-sortuvalna-mashyna-dlya-ovochiv",
     "brand": "Domasz",
     "priceUah": 846716,
-    "image": "https://adenaagro.com/wp-content/uploads/2026/07/so9002500_1-1-768x768.jpg"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUuXkJfYFBeRDpJAHxIU19ZVXxTQQNYQFU.jpg"
   },
   {
     "id": "domasz-cs110",
@@ -96,7 +95,7 @@ export const HOME_GRID_RIGHT = [
     "slug": "domasz-cs-110-shhitkova-mashyna-dlya-ochyshhennya",
     "brand": "Domasz",
     "priceUah": 266240,
-    "image": "https://adenaagro.com/wp-content/uploads/2026/07/cs-110_1-768x768.jpg"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVUySkNeYjpfWVJOFTVSUlFPRzsC.jpg"
   },
   {
     "id": "grimme-rh24-60",
@@ -104,7 +103,7 @@ export const HOME_GRID_RIGHT = [
     "slug": "pryjmalnyj-bunker-sortuvalka-grimme-rh-24-60-na-try-frakcziyi-2008-rik",
     "brand": "Grimme",
     "priceUah": 4420000,
-    "image": "https://adenaagro.com/wp-content/uploads/2025/01/rh2260_11-768x768.jpg"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQpVUBZYjpfRUhPG3UdU19ZAyEVHg.jpg"
   },
   {
     "id": "grimme-dl1500",
@@ -112,7 +111,7 @@ export const HOME_GRID_RIGHT = [
     "slug": "grimme-dl-1500-2h75-1999-rik",
     "brand": "Grimme",
     "priceUah": 1222000,
-    "image": "https://adenaagro.com/wp-content/uploads/2024/12/kadrat-768x768.jpeg"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgMCHV0gAwAOJkhZQl0AGntdSgMRSCw.jpeg"
   },
   {
     "id": "field-struik-wr-grebneutvoryuvach",
@@ -120,7 +119,7 @@ export const HOME_GRID_RIGHT = [
     "slug": "struik-wr-grebneutvoryuvach",
     "brand": "Struik",
     "priceUah": 380000,
-    "image": "https://adenaagro.com/wp-content/uploads/2024/02/wr_p4jgdqwmcrnp-1_glutton.jpg"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEzOAJbOAIKBRIVTj8LFERQciwJDFlGX1wYKxcV.jpg"
   },
   {
     "id": "field-varix-twinrotor-rotornyj-kultyvator-iz-dvoma-valamy-rotora",
@@ -128,7 +127,7 @@ export const HOME_GRID_RIGHT = [
     "slug": "varix-twinrotor-rotornyj-kultyvator-iz-dvoma-valamy-rotora",
     "brand": "Struik",
     "priceUah": 380000,
-    "image": "https://adenaagro.com/wp-content/uploads/2024/02/varix_whbob5vilz4a_glutton.jpg"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXDRIGFgoaGDsMCBNVTBQCFVhGRF1Ybw0CCA.jpg"
   }
 ];
 
@@ -137,37 +136,37 @@ export const HOME_CATEGORY_BOXES = [
     "id": "field",
     "title": "Польова техніка",
     "link": "/product-category/field",
-    "image": "https://adenaagro.com/wp-content/uploads/2025/01/polyova_tehnika-300x300.webp"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUYuCwsAJAQxAAAQQyQOBURSHXsdSh0CHkVTIxc.webp"
   },
   {
     "id": "zhatky",
     "title": "Жатки зернові",
     "link": "/product-category/zhatky-zernovi",
-    "image": "https://agrovektor.com/uploads/photo/2/132e282a16880d452ae5600c023d4b40.jpg"
+    "image": "/api/media/KRMGHyFfQVsEH18iEwECFUI5SxpCXx9HRi0IEwshSh4cCgxCYldLWFIfLldBH1MBBA55VxZbZ1cPEVBOHX0GVFtSSX8HTR0cWkJR.jpg"
   },
   {
     "id": "warehouse",
     "title": "Складська техніка",
     "link": "/product-category/skladska-tehnika",
-    "image": "https://adenaagro.com/wp-content/uploads/2025/01/skladska_tehnika-300x300.webp"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUUqCxMLIQ4PKxEdRSMMDwhMHntVAR4CABxBJAUC.webp"
   },
   {
     "id": "parts",
     "title": "Запасні частини",
     "link": "/product-category/zapchastyny",
-    "image": "https://adenaagro.com/wp-content/uploads/2025/01/zapchastunu-300x300.webp"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUwgFxEHMxYaAQsNAH5VVBFSHXtLDkhQQA.webp"
   },
   {
     "id": "repairs",
     "title": "Ремонт транспортерів",
     "link": "/remont-transporteriv",
-    "image": "https://adenaagro.com/wp-content/uploads/2025/01/remont-transporteriv-300x300.webp"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQkCh0BJkgaBgQWXj0KFh0EXyITVB4CAEoFcVdcGDcHHg.webp"
   },
   {
     "id": "used",
     "title": "Техніка Б/В",
     "link": "/product-category/tehnika-b-v",
-    "image": "https://adenaagro.com/wp-content/uploads/2025/01/technika_bu-300x300.webp"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUIkBBoBOw4PKwcNAH5VVBFSHXtLDkhQQA.webp"
   }
 ];
 
@@ -178,7 +177,7 @@ export const HOME_DISCOUNTS_PRODUCTS = [
     "slug": "zvazhuvalno-pakuvalna-mashyna-elektronna",
     "brand": "Domasz",
     "priceUah": 218400,
-    "image": "https://adenaagro.com/wp-content/uploads/2025/01/we30plus_02.jpg"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUEkVEIfPhAdK1VKAycVAw.jpg"
   },
   {
     "id": "field-struik-lkb-shift-1500",
@@ -186,7 +185,7 @@ export const HOME_DISCOUNTS_PRODUCTS = [
     "slug": "struik-lkb-shift-1500",
     "brand": "Struik",
     "priceUah": 380000,
-    "image": "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_y7nusch2ghy5_glutton.jpg"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVoqBV8cOgwIAEhJGH1VOxBWQz4WGkUAV1pPdDgVAycRGhsLVkc9Ag.jpg"
   },
   {
     "id": "field-weed-master",
@@ -194,7 +193,7 @@ export const HOME_DISCOUNTS_PRODUCTS = [
     "slug": "weed-master",
     "brand": "Struik",
     "priceUah": 380000,
-    "image": "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_o9kpdy1x7cz1_glutton.jpg"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEkAhZCPwQdAAAKciJcDxkFVHodTk5IAW1RLRIGGz0LQB4VHw.jpg"
   },
   {
     "id": "adena-perekydach",
@@ -202,6 +201,6 @@ export const HOME_DISCOUNTS_PRODUCTS = [
     "slug": "adena-agro-perekydach-kontejneriv-z-ovochamy",
     "brand": "AGRO RENTEX",
     "priceUah": 145600,
-    "image": "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMCHUIzBhkbPRdDQ1NAVXlWVkcWSCkV.webp"
   }
 ];

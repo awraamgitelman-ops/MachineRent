@@ -38,7 +38,7 @@ export default function HomePage({
       title: 'AGRO RENTEX | Сільськогосподарська техніка для овочівництва в Україні',
       description: 'Продаж та оренда якісної європейської польової і складської сільгосптехніки Grimme, Struik, Domasz. Запчастини та ремонт транспортерів по всій Україні.',
       canonicalUrl: 'https://agrorentex.com/',
-      ogImage: 'https://adenaagro.com/wp-content/uploads/2025/01/polyova_tehnika-300x300.webp'
+      ogImage: '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUYuCwsAJAQxAAAQQyQOBURSHXsdSh0CHkVTIxc.webp'
     });
   }, []);
 

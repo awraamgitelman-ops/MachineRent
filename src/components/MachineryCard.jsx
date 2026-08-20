@@ -32,7 +32,7 @@ export default function MachineryCard({
             objectFit: 'contain'
           }}
           onError={(e) => {
-            e.target.src = 'https://adenaagro.com/wp-content/uploads/2025/01/87d1cc46a58d545cfcacce8ac5ba77de_big-300x300.jpg';
+            e.target.src = '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUc2Bw0cDhJbEQgfAwwAUBsJEQcCGkF_Ukt_GkcaB1tB.jpg';
           }}
         />
       </div>
