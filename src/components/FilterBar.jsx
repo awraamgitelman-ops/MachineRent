@@ -9,8 +9,8 @@ export default function FilterBar({
   setSelectedBrand,
   selectedModel,
   setSelectedModel,
-  selectedStatus,
-  setSelectedStatus,
+  selectedServiceType,
+  setSelectedServiceType,
   sortBy,
   setSortBy,
   totalFilteredCount,
@@ -70,17 +70,18 @@ export default function FilterBar({
     { id: 'Leeb PT', name: 'Leeb 8.300 PT (1)' },
   ];
 
-  const statuses = [
-    { id: 'all', name: 'Статус / Оренда' },
-    { id: 'available', name: 'Готові до виїзду (Вільні)' },
-    { id: 'rented', name: 'В оренді (Попереднє бронювання)' },
+  const serviceTypes = [
+    { id: 'all', name: 'Тип запчастини / Послуги' },
+    { id: 'operator', name: 'З екіпажем операторів' },
+    { id: 'trall', name: 'З доставкою тралом' },
+    { id: 'parts', name: 'Робочі органи & комплектуючі' },
   ];
 
   const isFiltered = activityType !== 'all' || 
                      machineryType !== 'all' || 
                      selectedBrand !== 'all' || 
                      selectedModel !== 'all' || 
-                     selectedStatus !== 'all';
+                     (selectedServiceType && selectedServiceType !== 'all');
 
   return (
     <div id="main-catalog" className="wpf-filters">
@@ -143,14 +144,14 @@ export default function FilterBar({
             </select>
           </div>
 
-          {/* 5. Status */}
+          {/* 5. Service / Parts */}
           <div>
             <select
-              value={selectedStatus}
-              onChange={(e) => setSelectedStatus(e.target.value)}
+              value={selectedServiceType}
+              onChange={(e) => setSelectedServiceType(e.target.value)}
               className="wpf-select"
             >
-              {statuses.map((s) => (
+              {serviceTypes.map((s) => (
                 <option key={s.id} value={s.id}>{s.name}</option>
               ))}
             </select>

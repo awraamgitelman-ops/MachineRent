@@ -20,7 +20,7 @@ export default function App() {
   const [machineryType, setMachineryType] = useState('all');
   const [selectedBrand, setSelectedBrand] = useState('all');
   const [selectedModel, setSelectedModel] = useState('all');
-  const [selectedStatus, setSelectedStatus] = useState('all');
+  const [selectedServiceType, setSelectedServiceType] = useState('all');
   const [sortBy, setSortBy] = useState('popular');
 
   // Modals
@@ -52,11 +52,8 @@ export default function App() {
         return false;
       }
 
-      // Status Filter
-      if (selectedStatus === 'available' && machine.isRented) {
-        return false;
-      }
-      if (selectedStatus === 'rented' && !machine.isRented) {
+      // Service Type Filter
+      if (selectedServiceType === 'operator' && !machine.specs.operatorIncluded) {
         return false;
       }
 
@@ -91,14 +88,14 @@ export default function App() {
       }
       return 0;
     });
-  }, [activityType, machineryType, selectedBrand, selectedModel, selectedStatus, searchTerm, sortBy]);
+  }, [activityType, machineryType, selectedBrand, selectedModel, selectedServiceType, searchTerm, sortBy]);
 
   const handleResetFilters = () => {
     setActivityType('all');
     setMachineryType('all');
     setSelectedBrand('all');
     setSelectedModel('all');
-    setSelectedStatus('all');
+    setSelectedServiceType('all');
     setSearchTerm('');
     setSortBy('popular');
   };
@@ -134,8 +131,8 @@ export default function App() {
         setSelectedBrand={setSelectedBrand}
         selectedModel={selectedModel}
         setSelectedModel={setSelectedModel}
-        selectedStatus={selectedStatus}
-        setSelectedStatus={setSelectedStatus}
+        selectedServiceType={selectedServiceType}
+        setSelectedServiceType={setSelectedServiceType}
         sortBy={sortBy}
         setSortBy={setSortBy}
         totalFilteredCount={filteredMachinery.length}

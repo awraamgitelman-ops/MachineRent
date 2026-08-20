@@ -14,19 +14,7 @@ export default function MachineryCard({
       onClick={() => onSelectMachine(machine)}
       style={{ cursor: 'pointer' }}
     >
-      {/* Rented Overlay Status */}
-      {machine.isRented && (
-        <div className="card-rented-overlay-light">
-          <div className="badge-rented-light">
-            В ОРЕНДІ
-          </div>
-          {machine.rentedUntil && (
-            <div style={{ fontSize: '11px', color: '#555', marginTop: '6px', fontWeight: 600 }}>
-              Звільнення: {new Date(machine.rentedUntil).toLocaleDateString('uk-UA', { day: 'numeric', month: 'long' })}
-            </div>
-          )}
-        </div>
-      )}
+
 
       {/* Top Image Container */}
       <div className="product-element-top">
@@ -114,7 +102,7 @@ export default function MachineryCard({
               }}
               className="btn-adena-primary"
             >
-              <span>{machine.isRented ? 'Читати далі' : 'Читати далі'}</span>
+              <span>Читати далі</span>
             </button>
 
             <button

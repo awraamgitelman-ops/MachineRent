@@ -529,11 +529,11 @@ export const MACHINERY_DATA = [
     model: 'SE-260',
     activityType: 'potato',
     machineryType: 'harvest',
-    badge: 'В ОРЕНДІ',
+    badge: null,
     discountPercent: 0,
-    status: 'rented',
-    isRented: true,
-    rentedUntil: '2026-09-15',
+    status: 'available',
+    isRented: false,
+    rentedUntil: null,
     pricing: {
       pricePerDayUah: 48000,
       pricePerHaUah: 3800,
@@ -555,8 +555,8 @@ export const MACHINERY_DATA = [
       gpsGuidance: true,
     },
     images: [
-      'https://images.unsplash.com/photo-1595246140625-573b715d11dc?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&w=800&q=80'
+      'https://adenaagro.com/wp-content/uploads/2024/02/screenshot_7_result-300x300.jpg',
+      'https://adenaagro.com/wp-content/uploads/2024/02/screenshot_7_result-800x800.jpg'
     ],
     hubId: 'hub-cherkasy',
     suitableFor: ['Картопля', 'Морква', 'Буряк'],
@@ -572,11 +572,11 @@ export const MACHINERY_DATA = [
     model: 'Dewulf',
     activityType: 'potato',
     machineryType: 'harvest',
-    badge: 'В ОРЕНДІ',
+    badge: null,
     discountPercent: 0,
-    status: 'rented',
-    isRented: true,
-    rentedUntil: '2026-09-28',
+    status: 'available',
+    isRented: false,
+    rentedUntil: null,
     pricing: {
       pricePerDayUah: 72000,
       pricePerHaUah: 5200,
@@ -598,7 +598,7 @@ export const MACHINERY_DATA = [
       gpsGuidance: true,
     },
     images: [
-      'https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&w=800&q=80'
+      'https://adenaagro.com/wp-content/uploads/2024/02/flkb_4lopg3oexjwt_biorotix-3000-ot-300x300.jpg'
     ],
     hubId: 'hub-kyiv',
     suitableFor: ['Картопля', 'Морква', 'Селера'],
