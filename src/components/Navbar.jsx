@@ -18,7 +18,6 @@ export default function Navbar({
   searchTerm, 
   setSearchTerm,
   onOpenQuickLead,
-  onOpenCalculator,
   cartCount = 0
 }) {
   const [currencyDropdownOpen, setCurrencyDropdownOpen] = useState(false);
@@ -204,9 +203,9 @@ export default function Navbar({
 
             {/* Cart / Orders Tool */}
             <button 
-              onClick={onOpenCalculator} 
+              onClick={() => onOpenQuickLead('Кошик та оформлення замовлення')} 
               className="header-tool-btn" 
-              title="Кошик / Калькулятор оренди"
+              title="Кошик"
             >
               <ShoppingCart size={18} />
               <span className="header-tool-badge">{cartCount}</span>

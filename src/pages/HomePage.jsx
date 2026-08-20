@@ -28,7 +28,6 @@ export default function HomePage({
   currency, 
   searchTerm, 
   setSearchTerm,
-  onOpenCalculator,
   onOpenQuickLead
 }) {
   const navigate = useNavigate();

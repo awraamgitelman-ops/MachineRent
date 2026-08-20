@@ -35,8 +35,7 @@ const CATEGORY_MAP = {
 export default function CatalogPage({ 
   currency, 
   searchTerm, 
-  setSearchTerm,
-  onOpenCalculator
+  setSearchTerm
 }) {
   const navigate = useNavigate();
   const { category } = useParams();

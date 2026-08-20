@@ -1,7 +1,7 @@
 import React from 'react';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 
-export default function Footer({ onOpenQuickLead, onOpenCalculator }) {
+export default function Footer({ onOpenQuickLead }) {
   return (
     <footer className="adena-footer">
       <div className="container">
@@ -20,7 +20,7 @@ export default function Footer({ onOpenQuickLead, onOpenCalculator }) {
               </div>
             </div>
             <p style={{ fontSize: '13px', lineHeight: 1.6, color: '#666', marginBottom: '14px' }}>
-              Adena Agro – ваш надійний партнер у світі оренди та обслуговування сільськогосподарської техніки для картоплі, моркви, цукрового буряку та цибулі.
+              Adena Agro – ваш надійний партнер у світі сільськогосподарської техніки та комплектуючих для картоплі, моркви, цукрового буряку та цибулі.
             </p>
           </div>
 
@@ -28,27 +28,22 @@ export default function Footer({ onOpenQuickLead, onOpenCalculator }) {
           <div>
             <h4>Каталог техніки</h4>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '13px' }}>
-              <li><a href="#main-catalog" style={{ color: '#555' }}>Польова техніка для овочів</a></li>
-              <li><a href="#main-catalog" style={{ color: '#555' }}>Підготовка ґрунту (фрези Struik)</a></li>
-              <li><a href="#main-catalog" style={{ color: '#555' }}>Картоплесаджалки Grimme</a></li>
-              <li><a href="#main-catalog" style={{ color: '#555' }}>Подрібнювачі бадилля GLUTTON</a></li>
-              <li><a href="#main-catalog" style={{ color: '#555' }}>Збиральні комбайни Grimme & Dewulf</a></li>
+              <li><a href="/product-category/field" style={{ color: '#555' }}>Польова техніка для овочів</a></li>
+              <li><a href="/product-category/skladska-tehnika" style={{ color: '#555' }}>Складська та сортувальна техніка</a></li>
+              <li><a href="/product-category/zapchastyny" style={{ color: '#555' }}>Запасні частини та ролики</a></li>
+              <li><a href="/remont-transporteriv" style={{ color: '#555' }}>Ремонт транспортерів</a></li>
+              <li><a href="/product-category/tehnika-b-v" style={{ color: '#555' }}>Техніка Б/В з Європи</a></li>
             </ul>
           </div>
 
           {/* Col 3: Services & Navigation */}
           <div>
-            <h4>Послуги & Оренда</h4>
+            <h4>Послуги та сервіс</h4>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '13px' }}>
-              <li>
-                <a href="#" onClick={(e) => { e.preventDefault(); onOpenCalculator(); }} style={{ color: '#555' }}>
-                  Калькулятор вартості робіт
-                </a>
-              </li>
-              <li><a href="#" onClick={(e) => { e.preventDefault(); onOpenQuickLead('Оренда з оператором'); }} style={{ color: '#555' }}>Оренда з екіпажем механізаторів</a></li>
-              <li><a href="#" onClick={(e) => { e.preventDefault(); onOpenQuickLead('Доставка тралом'); }} style={{ color: '#555' }}>Доставка низькорамним тралом</a></li>
-              <li><a href="#" onClick={(e) => { e.preventDefault(); onOpenQuickLead('Ремонт транспортерів'); }} style={{ color: '#555' }}>Ремонт транспортерів</a></li>
-              <li><a href="#" onClick={(e) => { e.preventDefault(); onOpenQuickLead('Сервісне ТО'); }} style={{ color: '#555' }}>Виїзний сервіс 24/7</a></li>
+              <li><a href="#" onClick={(e) => { e.preventDefault(); onOpenQuickLead('Підбір техніки'); }} style={{ color: '#555' }}>Індивідуальний підбір техніки</a></li>
+              <li><a href="#" onClick={(e) => { e.preventDefault(); onOpenQuickLead('Доставка тралом'); }} style={{ color: '#555' }}>Доставка по всій Україні</a></li>
+              <li><a href="/remont-transporteriv" style={{ color: '#555' }}>Реставрація гумово-пруткових стрічок</a></li>
+              <li><a href="#" onClick={(e) => { e.preventDefault(); onOpenQuickLead('Сервісне ТО'); }} style={{ color: '#555' }}>Виїзний сервіс та консультації</a></li>
             </ul>
           </div>
 
@@ -87,7 +82,7 @@ export default function Footer({ onOpenQuickLead, onOpenCalculator }) {
           </div>
           <div style={{ display: 'flex', gap: '16px' }}>
             <a href="#" style={{ color: '#888' }}>Політика конфіденційності</a>
-            <a href="#" style={{ color: '#888' }}>Договір оренди</a>
+            <a href="#" style={{ color: '#888' }}>Публічна оферта</a>
           </div>
         </div>
       </div>

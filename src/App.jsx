@@ -6,7 +6,6 @@ import HomePage from './pages/HomePage';
 import ProductPage from './pages/ProductPage';
 import CatalogPage from './pages/CatalogPage';
 import RemontPage from './pages/RemontPage';
-import RentCalculatorModal from './components/RentCalculatorModal';
 import QuickLeadModal from './components/QuickLeadModal';
 import { PhoneCall } from 'lucide-react';
 
@@ -14,8 +13,7 @@ export default function App() {
   const [currency, setCurrency] = useState('UAH');
   const [searchTerm, setSearchTerm] = useState('');
 
-  // Modals
-  const [isCalculatorModalOpen, setIsCalculatorModalOpen] = useState(false);
+  // Lead Modal
   const [isQuickLeadModalOpen, setIsQuickLeadModalOpen] = useState(false);
   const [quickLeadTopic, setQuickLeadTopic] = useState('');
 
@@ -35,7 +33,6 @@ export default function App() {
           searchTerm={searchTerm}
           setSearchTerm={setSearchTerm}
           onOpenQuickLead={() => handleOpenQuickLead('Консультація спеціаліста')}
-          onOpenCalculator={() => setIsCalculatorModalOpen(true)}
           cartCount={0}
         />
 
@@ -50,7 +47,6 @@ export default function App() {
                   currency={currency}
                   searchTerm={searchTerm}
                   setSearchTerm={setSearchTerm}
-                  onOpenCalculator={() => setIsCalculatorModalOpen(true)}
                   onOpenQuickLead={handleOpenQuickLead}
                 />
               } 
@@ -95,7 +91,6 @@ export default function App() {
                   currency={currency}
                   searchTerm={searchTerm}
                   setSearchTerm={setSearchTerm}
-                  onOpenCalculator={() => setIsCalculatorModalOpen(true)}
                 />
               } 
             />
@@ -106,7 +101,6 @@ export default function App() {
                   currency={currency}
                   searchTerm={searchTerm}
                   setSearchTerm={setSearchTerm}
-                  onOpenCalculator={() => setIsCalculatorModalOpen(true)}
                 />
               } 
             />
@@ -119,7 +113,6 @@ export default function App() {
                   currency={currency}
                   searchTerm={searchTerm}
                   setSearchTerm={setSearchTerm}
-                  onOpenCalculator={() => setIsCalculatorModalOpen(true)}
                   onOpenQuickLead={handleOpenQuickLead}
                 />
               } 
@@ -130,7 +123,6 @@ export default function App() {
         {/* Footer */}
         <Footer
           onOpenQuickLead={handleOpenQuickLead}
-          onOpenCalculator={() => setIsCalculatorModalOpen(true)}
         />
 
         {/* Floating Call Widget */}
@@ -142,15 +134,7 @@ export default function App() {
           <PhoneCall size={26} />
         </div>
 
-        {/* Global Modals */}
-        {isCalculatorModalOpen && (
-          <RentCalculatorModal
-            currency={currency}
-            onClose={() => setIsCalculatorModalOpen(false)}
-            onOpenQuickLead={handleOpenQuickLead}
-          />
-        )}
-
+        {/* Global Lead & Order Modal */}
         {isQuickLeadModalOpen && (
           <QuickLeadModal
             initialTopic={quickLeadTopic}
