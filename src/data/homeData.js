@@ -140,6 +140,12 @@ export const HOME_CATEGORY_BOXES = [
     "image": "https://adenaagro.com/wp-content/uploads/2025/01/polyova_tehnika-300x300.webp"
   },
   {
+    "id": "zhatky",
+    "title": "Жатки зернові",
+    "link": "/product-category/zhatky-zernovi",
+    "image": "https://agrovektor.com/uploads/photo/2/132e282a16880d452ae5600c023d4b40.jpg"
+  },
+  {
     "id": "warehouse",
     "title": "Складська техніка",
     "link": "/product-category/skladska-tehnika",

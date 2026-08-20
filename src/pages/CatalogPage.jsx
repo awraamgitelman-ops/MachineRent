@@ -30,6 +30,18 @@ const CATEGORY_MAP = {
     title: 'Сільськогосподарська техніка Б/В з Європи',
     subtitle: 'Перевірена вживана сільськогосподарська техніка з Європи за вигідними цінами з повною передпродажною підготовкою.',
     machineryType: 'used'
+  },
+  'zhatky-zernovi': {
+    id: 'zhatky-zernovi',
+    title: 'Жатки зернові та зернобобові (Оренда та продаж)',
+    subtitle: 'Широкий вибір зернових, соєвих та флекс-жаток John Deere, Case IH, CLAAS, New Holland, ЖУ-6, ЖЗБ для збирання зернових культур.',
+    machineryType: 'zhatky'
+  },
+  'zhatky': {
+    id: 'zhatky',
+    title: 'Жатки зернові та зернобобові (Оренда та продаж)',
+    subtitle: 'Широкий вибір зернових, соєвих та флекс-жаток John Deere, Case IH, CLAAS, New Holland, ЖУ-6, ЖЗБ для збирання зернових культур.',
+    machineryType: 'zhatky'
   }
 };
 

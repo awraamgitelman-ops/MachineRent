@@ -28,11 +28,12 @@ export default function Footer({ onOpenQuickLead }) {
           <div>
             <h4>Каталог техніки</h4>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '13px' }}>
-              <li><a href="/product-category/field" style={{ color: '#555' }}>Польова техніка для овочів</a></li>
-              <li><a href="/product-category/skladska-tehnika" style={{ color: '#555' }}>Складська та сортувальна техніка</a></li>
-              <li><a href="/product-category/zapchastyny" style={{ color: '#555' }}>Запасні частини та ролики</a></li>
-              <li><a href="/remont-transporteriv" style={{ color: '#555' }}>Ремонт транспортерів</a></li>
-              <li><a href="/product-category/tehnika-b-v" style={{ color: '#555' }}>Техніка Б/В з Європи</a></li>
+              <li><Link to="/product-category/field" style={{ color: '#555' }}>Польова техніка для овочів</Link></li>
+              <li><Link to="/product-category/zhatky-zernovi" style={{ color: '#555' }}>Жатки зернові та соєві</Link></li>
+              <li><Link to="/product-category/skladska-tehnika" style={{ color: '#555' }}>Складська та сортувальна техніка</Link></li>
+              <li><Link to="/product-category/zapchastyny" style={{ color: '#555' }}>Запасні частини та ролики</Link></li>
+              <li><Link to="/remont-transporteriv" style={{ color: '#555' }}>Ремонт транспортерів</Link></li>
+              <li><Link to="/product-category/tehnika-b-v" style={{ color: '#555' }}>Техніка Б/В з Європи</Link></li>
             </ul>
           </div>
 

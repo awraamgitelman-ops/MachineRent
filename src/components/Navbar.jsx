@@ -26,6 +26,7 @@ export default function Navbar({
 
   const navCategories = [
     { id: 'field', label: 'Польова техніка', path: '/product-category/field' },
+    { id: 'zhatky', label: 'Жатки зернові', path: '/product-category/zhatky-zernovi' },
     { id: 'warehouse', label: 'Складська техніка', path: '/product-category/skladska-tehnika' },
     { id: 'parts', label: 'Запасні частини', path: '/product-category/zapchastyny' },
     { id: 'repairs', label: 'Ремонт транспортерів', path: '/remont-transporteriv' },

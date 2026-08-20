@@ -20,6 +20,7 @@ console.log('Created public/robots.txt');
 const staticPages = [
   { url: '/', changefreq: 'daily', priority: '1.0' },
   { url: '/product-category/field', changefreq: 'daily', priority: '0.9' },
+  { url: '/product-category/zhatky-zernovi', changefreq: 'daily', priority: '0.9' },
   { url: '/product-category/skladska-tehnika', changefreq: 'daily', priority: '0.9' },
   { url: '/product-category/zapchastyny', changefreq: 'daily', priority: '0.9' },
   { url: '/product-category/tehnika-b-v', changefreq: 'weekly', priority: '0.8' },

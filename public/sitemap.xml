@@ -14,6 +14,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://agrorentex.com/product-category/zhatky-zernovi</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://agrorentex.com/product-category/skladska-tehnika</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>daily</changefreq>
@@ -1631,6 +1637,476 @@
     <image:image>
       <image:loc>https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp</image:loc>
       <image:title>AGRO RENTEX – Перекидач контейнерів з овочами</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-zernovaya-pryamogo-kombajnyrovanyya-zhu-6</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/2/132e282a16880d452ae5600c023d4b40.jpg</image:loc>
+      <image:title>Жатка зерновая прямого комбайнирования ЖУ 6</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-zernobobova-zhzb-4-2</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/6/e80df952ae038a024646dd4b6452ed5f.jpg</image:loc>
+      <image:title>Жатка зернобобова ЖЗБ-4,2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatky-dlya-kombajniv</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/2/f0345d66a3dba2b95193d2081760ef8d.jpg</image:loc>
+      <image:title>Жатки для комбайнів</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/prystavka-dlya-zbyrannya-soyi-ta-gorohu-flex-ettaro</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/541/458f37d0f58463a7eeddceacfbfcdade.jpg</image:loc>
+      <image:title>Приставка для збирання сої та гороху Flex Ettaro</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-claas-cat-maxflo-1050</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/420/d62fdc777d4049a5b81e7baa22d9774c.jpg</image:loc>
+      <image:title>Жатка CLAAS CAT MAXFLO 1050</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-dzhon-dyr-600r</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/2/31de28ba04ebd6623bd6c0d2daa2bfe8.jpeg</image:loc>
+      <image:title>Жатка Джон Дир 600R</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhnyvarka-zernobobova-john-deere-635f-hydraflex-10-7-m-2008-r-v-import-zi-ssha</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/676/7783abb6171abb18c2601b7a1b0fc918.jpeg</image:loc>
+      <image:title>Жниварка зернобобова John Deere 635F HydraFlex™ 10.7 м, 2008 р.в., імпорт зі США</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatky</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/2/b6a7cb29dd3f2c4aa218f94679aa6db2.jpg</image:loc>
+      <image:title>Жатки</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatky-grain-headers</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/2/37200198162d1d1451d7fd1fefd604c4.png</image:loc>
+      <image:title>Жатки Grain Headers</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-zernobobovaya-zhbv-4-2</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/6/83521264f3c0e14fe628004dd94de199.jpg</image:loc>
+      <image:title>Жатка зернобобовая ЖБВ-4,2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatky-zernobobovi</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/2/ba272d16b77bc28d78696280fa6b8e53.jpg</image:loc>
+      <image:title>Жатки зернобобові</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatky-dzhon-dyr-600f</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/2/5f2f819f11ab53486a9ea7e17d176b13.jpeg</image:loc>
+      <image:title>Жатки Джон Дир 600F</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhnyvarka-case-ih-1020-flex-shyrynoyu-6-1-metra</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/676/d2b5e6485b05148d8300bb764dd8a649.jpg</image:loc>
+      <image:title>Жниварка Case IH 1020 Flex шириною 6.1 метра</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhnyvarka-zernova-case-ih-1020-7-6-m-fleks-v-nayavnosti-zi-ssha</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/676/fac4c8abf44715811552f2e8f7197211.jpeg</image:loc>
+      <image:title>Жниварка зернова Case IH 1020 7,6 м флекс в наявності зі США</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-don-1500-6-m</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/2/7d61da9b1799a91b6a744893b3fc6d46.png</image:loc>
+      <image:title>Жатка Дон 1500 6 м</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-zernobobova-na-kombajny-nyva-sk-5a-skd-6-sk-5m-yenisej</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/6/9d09ae0de74f88edbd77d538e3cf2065.jpg</image:loc>
+      <image:title>Жатка зернобобова на комбайни Нива, СК-5А, СКД-6, СК-5М, Єнісей</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-zernobobova-zustrichno-potokova-zhbv-4-2</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/2/abef3edee7c093a96bbfed4413eb7e09.jpg</image:loc>
+      <image:title>Жатка зернобобова зустрічно-потокова ЖБВ-4,2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-john-deere-600d</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/2/f30af0e3d050867aff192ffcf8a88002.jpeg</image:loc>
+      <image:title>Жатка John Deere 600D</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhnyvarka-zernobobova-john-deere-625f-7-6-m-hydraflex-z-ssha-z-vizkom-min-napraczyuvannya</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/676/71e390e43ef6a959222c9410613915fc.jpeg</image:loc>
+      <image:title>Жниварка зернобобова John Deere 625F 7.6 м HydraFlex™ з США, з ВІЗКОМ, мін.напрацювання</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-nyva-5m</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/2/7a387af0694c4b1746cb70f8906413e5.jpg</image:loc>
+      <image:title>Жатка Нива 5м</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhnyvarka-valkova-zernobobova-do-kosarok-kps-kps-e-d</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/6/a144a1e9a87a3c4102001645e659b363.jpg</image:loc>
+      <image:title>Жниварка валкова зернобобова до косарок КПС, КПС, Е/Д</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-zernobobova-zhzb-4-2-22</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/2/09114d6f6c9d626859d33b78de35e01c.jpg</image:loc>
+      <image:title>Жатка зернобобова ЖЗБ-4,2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-john-deere-600c</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/2/147f584035cdff473ef2d139a91bc9bb.jpeg</image:loc>
+      <image:title>Жатка John Deere 600C</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zernobobova-zhatka-case-ih-1020-flex-shyrynoyu-7-6-metriv</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/676/894f0a0f4d9b64dc0df8e0c13af92df2.jpeg</image:loc>
+      <image:title>Зернобобова жатка case ih 1020 flex шириною 7.6 метрів</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhnyvarka-zernobobova-john-deere-630f-hydraflex-9-1-m-import-zi-ssha</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/676/246745b68c7e3211de4d5970199a0399.jpeg</image:loc>
+      <image:title>Жниварка зернобобова John Deere 630F HydraFlex™ 9.1 м імпорт зі США</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-zhn-4-dlya-kombajna-nyva</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/238/0395cdc2c027f4766a9b056619bc2fa4.jpg</image:loc>
+      <image:title>Жатка ЖН-4 для комбайна Нива</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-zernobobova-zhbv</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/6/fc11decae6bae42a5e62b37ea8a21df9.jpg</image:loc>
+      <image:title>Жатка зернобобова ЖБВ</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-case-ih-2020-flex-shyrynoyu-9-metriv</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/676/d8880f18a75cd420dbf2d852db888525.JPG</image:loc>
+      <image:title>Жатка Case IH 2020 Flex шириною 9 метрів</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-zhn-5-dlya-kombajna-nyva</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/238/9b3fcf3fcd6f021d05ed8d1aae9c4fa5.jpg</image:loc>
+      <image:title>Жатка ЖН-5 для комбайна Нива</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-navisna-zernobobova-zhbv</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/6/bf73cfba7f949d5fe44d4fc9a0a5fa5c.jpg</image:loc>
+      <image:title>Жатка навісна зернобобова ЖБВ</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-case-ih-2020-flex-shyrynoyu-9-1-metriv</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/676/fed68fcc3ee14951882a0aae6c215502.jpeg</image:loc>
+      <image:title>Жатка Case IH 2020 flex шириною 9.1 метрів</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-do-kombajnu-polissi-812-1218</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/238/8cf2ca8512764e5af9813d3bbcb37f5b.jpg</image:loc>
+      <image:title>Жатка до комбайну Поліссі 812, 1218</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-navisna-zernobobova-zhzb</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/6/9bdd527025bcdf7f9930fd731eacf729.jpg</image:loc>
+      <image:title>Жатка навісна зернобобова ЖЗБ</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-john-deere-630-hydraflex-shyrynoyu-9-metriv</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/676/fd4632b665ff08ff173167f8815e159a.jpeg</image:loc>
+      <image:title>Жатка John Deere 630 Hydraflex шириною 9 метрів</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhnyvarka-dlya-kombajna-new-holland-4-m</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/238/33cdcc24618954d268d41fcfa7069472.jpg</image:loc>
+      <image:title>Жниварка для комбайна New Holland 4 м</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhnyvarka-john-deere-630f-hydraflex-shyrynoyu-9-metriv</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/676/02e06df706f29e6def54280d24509ae0.jpg</image:loc>
+      <image:title>Жниварка John Deere 630F Hydraflex шириною 9 метрів</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-pryamogo-kombajnuvannya-dlya-kombajnu-don-1500</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/238/60498036f3dc01cbaab895124740aced.jpg</image:loc>
+      <image:title>Жатка прямого комбайнування для комбайну Дон-1500</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-pryamogo-kombajnuvannya-dlya-kombajna-akros-530</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/238/8830d8e053ccf966641485425ff570cd.jpg</image:loc>
+      <image:title>Жатка прямого комбайнування для комбайна Акрос-530</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-pryamogo-kombajnuvannya-dlya-kombajna-vektor</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/238/2ab5ed3f168922d5e3f619194f7bde47.png</image:loc>
+      <image:title>Жатка прямого комбайнування для комбайна Вектор</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-pryamogo-kombajnuvannya-zhn-6-7</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/238/5f39d33f5da52b55fe6882fe2532192a.png</image:loc>
+      <image:title>Жатка прямого комбайнування ЖН 6-7</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-nyva-don-mpn</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/238/aeb9e6bb180318e6f774b677b279e8a3.jpg</image:loc>
+      <image:title>Жатка Нива, Дон МПН</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-pryamogo-kombajnuvannya-yenisej-950</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/238/788eaf144ebc3b4e093648d18557eb51.jpg</image:loc>
+      <image:title>Жатка прямого комбайнування Єнісей-950</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-pryamogo-kombajnuvannya-don-1200</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/238/ceeb638042cb2477affa21a5578d6974.jpg</image:loc>
+      <image:title>Жатка прямого комбайнування Дон-1200</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-pryamogo-kombajnuvannya-5-m</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/238/85cd1e79f7fc8d84289363d94df94d74.jpg</image:loc>
+      <image:title>Жатка прямого комбайнування 5 м</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-pryamogo-kombajnuvannya-6-m</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/238/b76cc692f75ca714ee553b1e75dd6ec1.jpg</image:loc>
+      <image:title>Жатка прямого комбайнування 6 м</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-pryamogo-kombajnuvannya-7-m</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/238/9f1c8ffb72e7709e0508e0bc5e4a8682.jpg</image:loc>
+      <image:title>Жатка прямого комбайнування 7 м</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/product/zhatka-universalna-zhu-6-psm</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://agrovektor.com/uploads/photo/238/efc78a5aa2fe914ce95f28855e45788c.jpg</image:loc>
+      <image:title>Жатка універсальна ЖУ-6 ПСМ</image:title>
     </image:image>
   </url>
 </urlset>
