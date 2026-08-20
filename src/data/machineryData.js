@@ -1,7 +1,968 @@
 // Auto-generated comprehensive machinery and parts catalog from adenaagro.com
-// Total Products: 88
+// Total Products: 111
 
 export const MACHINERY_DATA = [
+  {
+    "id": "field-aplikator-mikrogranulyator-zibo-gandy-elektropryvid",
+    "slug": "aplikator-mikrogranulyator-zibo-gandy-elektropryvid",
+    "name": "ZIBO / Gandy – Аплікатор-мікрогранулятор 12 В",
+    "brand": "Grimme , Gruse",
+    "model": "ZIBO / Gandy",
+    "activityType": "planting",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2025/01/87d1cc46a58d545cfcacce8ac5ba77de_big.jpg",
+      "https://adenaagro.com/wp-content/uploads/2025/01/2c77dc981eb33ca2cd88f22b4aabeda4-1.jpeg",
+      "https://adenaagro.com/wp-content/uploads/2025/01/2c77dc981eb33ca2cd88f22b4aabeda4.jpeg",
+      "https://adenaagro.com/wp-content/uploads/2025/01/2b4305bcecbefde988d80ba7f8bbbb97.jpeg",
+      "https://adenaagro.com/wp-content/uploads/2025/01/a783dc32cd968e20c70a06998bc93e23.jpeg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "Grimme , Gruse",
+      "Модель": "ZIBO / Gandy",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "Мікрогранулятор Zibo Gandy для внесення інсектицидів і добрив. Бункер на 30 л, електропривід 12 В, універсальність і точність дозування.",
+    "fullDescription": "Мікрогранулятор Zibo Gandy призначений для точного внесення малих доз інсектицидів, таких як &#8220;Регент&#8221;, &#8220;Форс&#8221; та інші. Агрегатується з усіма видами картоплесаджалок, сівалок і машин для висаджування розсади, а також легко монтується на ґрунтообробну техніку. Основні характеристики : Бункер-накопичувач : обсяг 30 літрів. Привід : електропривід на 12 В для рівномірного розподілу матеріалів. Регулювання норми внесення : плавне налаштування для точного дозування. Універсальність : сумісність з різними типами сільськогосподарської техніки. Легка установка : швидкий монтаж на техніку для обробки ґрунту або посадки. Ідеально підходить для забезпечення високої ефективності внесення інсектицидів, добрив чи інших мікрогранульованих матеріалів.",
+    "aliases": [
+      "aplikator-mikrogranulyator-zibo-gandy-elektropryvid"
+    ]
+  },
+  {
+    "id": "field-grebneutvoryuvach",
+    "slug": "grebneutvoryuvach",
+    "name": "Дисковий гребенеутворювач 7х75 см",
+    "brand": "ZIBO",
+    "model": "Дисковий гребенеутворювач 7х75 см",
+    "activityType": "planting",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2025/01/436538278278.jpg",
+      "https://adenaagro.com/wp-content/uploads/2025/01/0536ba993ce9398881e68e82b9d18015.jpeg",
+      "https://adenaagro.com/wp-content/uploads/2025/01/b888266c8c2e864fa8ba229ba56f006e.jpeg",
+      "https://adenaagro.com/wp-content/uploads/2025/01/dd8ab31a34362f780ee88074827eac8b_big.jpeg",
+      "https://adenaagro.com/wp-content/uploads/2025/01/ebe3bce4eb4fc770581c25a87bfd9a99.jpeg",
+      "https://adenaagro.com/wp-content/uploads/2025/01/fbd864676313f91a0f66e68bcf9b0218.jpeg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "ZIBO",
+      "Модель": "Дисковий гребенеутворювач 7х75 см",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "Гребнеутворювач 4х 75см для формування рівних та високих гребенів на посівах картоплі, моркви та буряку. Надійність, ефективність, універсальність.",
+    "fullDescription": "Гребнеутворювач призначений для формування високих та рівномірних гребенів у процесі вирощування картоплі, моркви, буряка та інших коренеплодів. Його конструкція забезпечує оптимальну підготовку ґрунту для посадки, сприяючи покращенню росту культур і зменшенню ризику пошкодження коренеплодів. Основні характеристики : 4-х рядний 75 см Підходить для використання на різних типах ґрунту. Забезпечує утворення гребенів необхідної висоти та форми. Надійна конструкція, стійка до зношування. Може агрегатуватися з тракторами різної потужності. Плавне регулювання робочих параметрів для адаптації до різних умов. Гребнеутворювач стане незамінним інструментом для аграріїв, які прагнуть забезпечити високу якість посіву та максимальну врожайність.",
+    "aliases": [
+      "grebneutvoryuvach"
+    ]
+  },
+  {
+    "id": "field-grimme-gl32e-kartoplesadzhalka",
+    "slug": "grimme-gl32e-kartoplesadzhalka",
+    "name": "Grimme GL32E Картоплесаджалка",
+    "brand": "Grimme",
+    "model": "Grimme GL32E Картоплесаджалка",
+    "activityType": "planting",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_7_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_1_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/51c02ce3ec9efa9dfa2ad7d10f37355f50982fe3_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/3630fd54411e9c2fd86a298c21abfd5da8d28e0c_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/d532eb5ba096b2e8f96f3645a041c66cf8bc83ac_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/gl_32_e_6_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_4_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_5_result.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "Grimme",
+      "Модель": "Grimme GL32E Картоплесаджалка",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "Картоплесаджалка GL 32 E 2-рядна, навісна, компактна та маневренная Cтандартна комплектація із ШМ 75, 80 та 90 см.",
+    "fullDescription": "Картоплесаджалка Grimme GL 32 E відрізняється простотою в обслуговуванні та надійністю, що забезпечує високу продуктивність під час роботи в полі. Завдяки компактній та маневреній конструкції ця картоплесадильна машина оптимальна також для застосування з маленькими тракторами. Професійний висаджуючий апарат GRIMME – це правильний вибір для точної та рівномірної густини посадки в полі. Різні можливості регулювання машини разом з гарним калібруванням посадкового матеріалу забезпечують високу швидкість посадки. GL 32 E пропонується в стандартній комплектації із ШМ 75, 80 та 90 см.  ",
+    "aliases": [
+      "grimme-gl32e-kartoplesadzhalka"
+    ]
+  },
+  {
+    "id": "field-struik-flkb",
+    "slug": "struik-flkb",
+    "name": "Struik FLKB – Навісний подрібнювач бадилля",
+    "brand": "Struik",
+    "model": "Struik FLKB",
+    "activityType": "haulm_topping",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_4lopg3oexjwt_biorotix-3000-ot.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_8mlrubqqmmyn_biorotix-3000-ot.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_8veljgni1zvd_biorotix-3000-ot.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_cy57q7c1vol7_biorotix-3000-ot.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_d9m4rece12df_biorotix-3000-ot.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_f9nlkxspvaa7_biorotix-3000-ot.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_guv3ilv4k52m_biorotix-3000-ot.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_hwmaxarcgqhd_biorotix-3000-ot.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_yftlcuv3u96x_biorotix-3000-ot.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "Struik",
+      "Модель": "Struik FLKB",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "Подрібнювач бадилля Struik FLKB компактний фронтальний подрібнювач. Механічний привід стрічки для видалення бадилля. Горизонтальна стрічка має велику продуктивність і переміщає прибране бадилля у бік, на якому врожай вже зібраний.",
+    "fullDescription": "Подрібнювач бадилля FLKB – це компактний фронтальний подрібнювач з механічним приводом стрічки для видалення бадилля. Горизонтальна стрічка має велику продуктивність і переміщає прибране бадилля у бік, на якому врожай вже зібраний. Машина випускається у 2- або 4-рядному виконанні з розмірами від 2×75 до 4×90 см.   Переваги: Висока продуктивність розвантаження бадилля, що мінімізує засмічення Можливість встановлення розвантажувальної стрічки праворуч або ліворуч Загартовані молотила із пружинами натягу Висока сила втягування та молочення навіть у екстремальних умовах Низькі вимоги до потужності приводу Мала власна вага Висока ефективність",
+    "aliases": [
+      "struik-flkb"
+    ]
+  },
+  {
+    "id": "field-struik-lkb-shift-1500",
+    "slug": "struik-lkb-shift-1500",
+    "name": "Struik LKB-SHIFT 1500 подрібнювач бадилля",
+    "brand": "Struik",
+    "model": "Struik LKB",
+    "activityType": "haulm_topping",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_y7nusch2ghy5_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_0vstagho8ngs_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_pw1oahrwfni3_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_2aibuuaz4zoc_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_cdwizkej0ggr_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_e3bwn0dwtlyd_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_qr8okby8y1h9_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/lkb-shift-1500_yuusdsrb36xb_glutton.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "Struik",
+      "Модель": "Struik LKB",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "LKB-Shift 1500 подрібнювач бадилля для переднього навішування під час збирання врожаю.",
+    "fullDescription": "LKB-Shift 1500 – це ідеальний подрібнювач бадилля для використання в передній навішуванні під час збирання врожаю комбайном з боковою жниваркою. Таким чином, за один прохід можна прибирати бадилля і збирати крохмальні та інші сорти картоплі, значно збільшуючи продуктивність та заощаджуючи робочу силу. За допомогою гідравлічного бічного зміщення ботвоудалювача можна перемістити на 1,70 м вправо. При цьому машина прибирає бадилля з двох 75-сантиметрових гребенів, розташованих поряд із трактором під кутом. Завдяки продуманій конструкції зсуву для приводу ботвоудалителя потрібен лише один з'єднувальний вал з універсальною подвійною шарнірною муфтою. Молотильний вал обертається з ефективною швидкістю, що знижує необхідну потужність приводу.   Подрібнювач LKB-Shift 1500 оснащений стрічкою з гідравлічним приводом , яка прибирає бадилля в бік де врожай вже прибраний. Плоска горизонтальна стрічка має більшу розвантажувальну здатність. Плавне регулювання забезпечує швидкість руху стрічки до 12 км/год.   Поворотні ролики в передній частині машини розвантажують передню навішування та знижують тиск на передню вісь трактора. При транспортуванні дорогою ботвоудалитель зважується безпосередньо перед трактором, що забезпечує оптимальну безпеку руху. Переваги: Редуктор із вбудованою муфтою вільного ходу Швидкість обертання валу відвалу 1500 об/хв при вхідній швидкості обертання 750 об/хв Дуже висока потужність втягування Висока продуктивність видалення бадилля Загартовані молотила із пружинами натягу Компактність Поворотні ролики знижують тиск на передню навішення та передню вісь  ",
+    "aliases": [
+      "struik-lkb-shift-1500"
+    ]
+  },
+  {
+    "id": "field-struik-glutton-podribnyuvach-badyllya",
+    "slug": "struik-glutton-podribnyuvach-badyllya",
+    "name": "Struik GLUTTON подрібнювач бадилля",
+    "brand": "Struik",
+    "model": "Struik GLUTTON подрібнювач бадилля",
+    "activityType": "haulm_topping",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_1yazglbqre5d_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_bnjyia6n6yo6_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_gfwjw67s1szf_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_fp258gvnyolf_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_n6pfzvv7o8qm_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_3peflabyl4g8_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_a1cvetgdzliv_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_bpsg2xuyv6vv_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_br4h6sqqrbgz_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_brnsorxhqpj7_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_bumsilybf9w9_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_hda5aethdpck_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_iuby4gdyuh92_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_kretcfq0srco_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_l13yppvcjch8_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_nen0r8avw5jh_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_opjasu7tg6qd_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_smsfuflk82tn_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_tfri0pwuhxji_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_umawmlmqyiud_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_utrmb2rzxavz_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_waxkakei88cq_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_xh80mvpgh4zl_glutton-1.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "Struik",
+      "Модель": "Struik GLUTTON подрібнювач бадилля",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "Struik Glutton подрібнювач для знищення картопляного бадилля. Знищення бадилля допомагає запобігти інфекційним і вірусним захворюванням і скоротити використання хімікатів.",
+    "fullDescription": "Struik Glutton означає &#8220;ненажера&#8221;, і це слово точно описує даний подрібнювач бадилля ! Він був розроблений для знищення картопляного бадилля. Знищення бадилля допомагає запобігти інфекційним і вірусним захворюванням і скоротити використання хімікатів. Молотила спеціальної форми точно йдуть за контуром гребеня. У поєднанні зі складною формою Glutton вони забезпечують величезну силу втягування та покращене молочення. Очищення внутрішньої частини машини дуже просте завдяки системі Smart Clean. Великі люки на передній частині ботвоудалителя полегшують очищення. Ботвоудалитель Glutton випускається з жорсткою рамою від 2 × 75 см до 8 × 38 &#8220;. Моделі, починаючи з Glutton 4500, доступні як в жорсткій, так і в версії виконання.   Переваги: Сучасний дизайн Мала власна вага Система Smart Clean, включаючи великі оглядові люки для легкого очищення Знімна 3-точкова навішування для використання в передній навішуванні або за трактором (до 4 × 90 см) Загартовані молотила із пружинами натягу Дуже висока потужність втягування Ботприбиральні тунелі Smart Clean (опція) Машини моделі Glutton 3600 і далі оснащені двостороннім приводом із центральним підшипником. Перпендикулярний натягувач ременя для збільшення терміну служби клинових ременів Широкий спектр доступних опцій",
+    "aliases": [
+      "struik-glutton-podribnyuvach-badyllya"
+    ]
+  },
+  {
+    "id": "field-weed-master",
+    "slug": "weed-master",
+    "name": "Struik WEED-MASTER машина для механічного видалення бур'янів",
+    "brand": "Struik",
+    "model": "Struik WEED",
+    "activityType": "soil_prep",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_o9kpdy1x7cz1_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_mzpwkjjl9t5a_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_sewsg9ccgk9z_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_5rnywro7thh5_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_5f1wa0uiaenx_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_9omirwctjt7f_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_9ra6ykodqqtg_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_60chpgxaag8y_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_alf0jfq7pf50_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_aodixjz5hzmf_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_cba3ximqq6eo_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_hbo933vwx45t_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_lyftzgkjjstf_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_mvswm35rhk9i_glutton.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "Struik",
+      "Модель": "Struik WEED",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "Weed-Master спеціально розроблена для механічного видалення бур'янів при вирощуванні таких культур як цибуля, буряк, часник, броколі, цвітна капуста, брюссельська капуста і багато інших культур, що висаджуються в рядах або на грядках. Висока ефективність – видалення бур'янів на 3-12 рядках, швидкість до 7 км за годину",
+    "fullDescription": "Машина Weed-Master спеціально розроблена для механічного видалення бур'янів при вирощуванні таких культур як цибуля, буряк, часник, броколі, цвітна капуста, брюссельська капуста і багато інших культур, що висаджуються в рядах або на грядках. Частини рами оснащені спеціальною паралелограмною підвіскою, тому за будь-яких обставин машина ідеально йде за рівнем землі. Запатентовані зубці, що обертаються, працюють дуже близько до рослини або культури і виривають бур'яни разом з корінням. Обертання зубів уможливлює легке гребнеобразование. Пластини для захисту листя захищають культуру, що вирощується.   Переваги: Не потрібне використання хімікатів-пестицидів Дуже точне регулювання за допомогою коліс регулювання глибини Запатентовані тримачі зубів та зуби Загартовані зношуються наконечники Видалення бур'янів на 3-12 рядках Швидкість руху до 7 км на годину Висока ефективність Фронтальне або буксируване виконання Механічний чи гідравлічний привід Жорстка чи складана конструкція Доступні різні опції",
+    "aliases": [
+      "weed-master"
+    ]
+  },
+  {
+    "id": "field-struik-wr-grebneutvoryuvach",
+    "slug": "struik-wr-grebneutvoryuvach",
+    "name": "Struik WR Гребнеутворювач",
+    "brand": "Struik",
+    "model": "Struik WR Гребнеутворювач",
+    "activityType": "soil_prep",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2024/02/wr_p4jgdqwmcrnp-1_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/wr_97tdg0wm4i8c_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/wr_saylm3yfnj9e_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/wr_3nsinj4z98gd_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/wr_afh4akfbixso_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/wr_bpfmpdmkr2m1_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/wr_ejbzyrfwjiye_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/wr_vgilvua2zrxw_glutton.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "Struik",
+      "Модель": "Struik WR Гребнеутворювач",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "Гребнеутворювач WR розроблений для формування гребенів на легких та середніх типах ґрунтів з камінням або без них. Доступна у версіях з розміром від 2×75 до 8×90 см.",
+    "fullDescription": "Гребнеутворювач Struik WR розроблений для формування гребенів на легких та середніх типах ґрунтів з камінням або без них. Машина доступна у версіях виконання з розміром від 2×75 до 8×90 см . У стандартній комплектації гребнеутворювач оснащений зносостійкими віброзуб'ями та підгортачами, встановленими на вібропружині. Окучники формують перший невеликий гребінь, після чого гребнеутворюючий кожух завершує формування гребеня. Переваги: Міцна конструкція Просте регулювання Гребнеутворюючий кожух зі знімними захисними пластинами для гребнеутворення на посівах, що проростають Можливість встановлення грядоробника Доступна жорстка або складана рама Доступні різні опції",
+    "aliases": [
+      "struik-wr-grebneutvoryuvach"
+    ]
+  },
+  {
+    "id": "field-row-fix-space-mizhryadnyj-rotornyj-kultyvator",
+    "slug": "row-fix-space-mizhryadnyj-rotornyj-kultyvator",
+    "name": "Struik ROW-FIX SPACE міжрядний роторний культиватор",
+    "brand": "ZIBO",
+    "model": "Struik ROW",
+    "activityType": "planting",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_no37wchkxeoz-1_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_wfxvtwcn8oyo_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_3ad1sp0nlpt2-1_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_fun9bocqsm1p_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_gpvkysfcqlba_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_hca5lv7k0t5d_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_ilmlpsyu4zxp_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_j2li76zzhmcb_glutton.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "ZIBO",
+      "Модель": "Struik ROW",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "Row-FiX Space з збільшеним на 18 см кліренсом для високих культур. Ідеально підходить для роботи з квітами.",
+    "fullDescription": "Struik Row-FiX Space – це універсальний міжрядний роторний культиватор для всіх видів обробки гребенів. Карданна передача проходить вздовж верхньої частини, тому є достатній зазор для роботи з культурами з високим бадиллям. Культиватор Row-FiX Space ідеально підходить для обробки ґрунту (гребнеутворення) та механічної боротьби з бур'янами. Завдяки модульній конструкції редукторів та культиваторних вузлів, машина може мати від 2 до 8 рядів. При 6 і більше рядах Row-FiX Space поставляється з опціональною складною гідравлічною рамою.   Row-FiX Space – це та сама машина, що і Row-FiX, але з збільшеним на 18 см кліренсом для високих культур. Завдяки цьому культиватор Row-FiX Space ідеально підходить для роботи з вищими культурами, наприклад, з квітами.   Переваги: Може використовуватися від посадкового/посівного сезону до кінця вегетаційного періоду Ідеальна структура гребенів з регульованими гребенеутворюючими кожухами Фрезерна культивація при вирощуванні культур з високим бадиллям та/або квітів Боротьба з бур'янами у міжряддях та відновлення гребеня за один прохід Регульовані ґрунтообробні агрегати Редуктори потужністю від 100 до 250 л. с. елементи з 4 або 8 гаками Усі редуктори оснащені захисним зрізним болтом У стандартній комплектації культиватор комплектується сполучним валом, оснащеним кулачковою муфтою Поставляється з жорсткою рамою розміром від 2×75 до 4×90 см Постачається з складною гідравлічною рамою розміром від 6 × 75 до 8 × 75 см  ",
+    "aliases": [
+      "row-fix-space-mizhryadnyj-rotornyj-kultyvator"
+    ]
+  },
+  {
+    "id": "field-zf-mizhryadnyj-rotornyj-kultyvator",
+    "slug": "zf-mizhryadnyj-rotornyj-kultyvator",
+    "name": "Struik ZF міжрядний роторний культиватор",
+    "brand": "Struik",
+    "model": "Struik ZF міжрядний роторний культиватор",
+    "activityType": "planting",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2024/02/zf_kvtoqfdjsf3z-1_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/zf_9phcc6hsi3hm_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/zf_aqtrx14wbbbv_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/zf_eovxbrtdovoz_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/zf_wacpvq4somsy_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/zf_wt5nx5lllvhn_glutton.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "Struik",
+      "Модель": "Struik ZF міжрядний роторний культиватор",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "ZF – це міжрядний роторний культиватор для всіх видів обробки гребенів. Для обробки культур з високим бадиллям.",
+    "fullDescription": "Struik ZF – це міжрядний роторний культиватор для всіх видів обробки гребенів. Карданна передача проходить вздовж верхньої частини, тому є достатній зазор для роботи з культурами з високим бадиллям. Культиватор ZF ідеально підходить для обробки ґрунту (гребнеутворення) та механічної боротьби з бур'янами.   Переваги: Може використовуватися від посадкового/посівного сезону до кінця вегетаційного періоду Ідеальна структура гребенів з регульованими гребенеутворюючими кожухами Фрезерна культивація при вирощуванні культур з високим бадиллям та/або квітів Боротьба з бур'янами у міжряддях та відновлення гребеня за один прохід Регульовані ґрунтообробні агрегати Редуктори потужністю від 100 до 250 л. с. Елементи з 4 або 8 гаками Усі редуктори оснащені захисним зрізним болтом У стандартній комплектації культиватор комплектується сполучним валом, оснащеним кулачковою муфтою Доступні розміри від 6×75 до 8×90 см  ",
+    "aliases": [
+      "zf-mizhryadnyj-rotornyj-kultyvator"
+    ]
+  },
+  {
+    "id": "field-row-fix-mizhryadnyj-rotornyj-kultyvator",
+    "slug": "row-fix-mizhryadnyj-rotornyj-kultyvator",
+    "name": "Struik ROW-FIX міжрядний роторний культиватор",
+    "brand": "Struik",
+    "model": "Struik ROW",
+    "activityType": "planting",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_6zq2ovy3a7eh_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_dmyfedgyev5d_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_rdbuuha1akpw-1_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_wfxvtwcn8oyo_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_geb9rnuyk4bp_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix-space_no37wchkxeoz-1_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_7vfgefj4judb_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_3xq0gpaamitc_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_6sezgphce8mt_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_7nljfgyjni6g_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_bpfmk7ktm9wz_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_clzitolhsnj8_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_cnnwxeatkz2l_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_gwabtbkg1a3a_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_h5ksewnvpphg_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_hwlhv0cubim0_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_pvqpgnxcg5jd_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_wlmkuk7oual0_glutton.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "Struik",
+      "Модель": "Struik ROW",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "Row-FiX – це універсальний міжрядний роторний культиватор для всіх видів обробки гребенів.",
+    "fullDescription": "Row-FiX – це універсальний міжрядний роторний культиватор для всіх видів обробки гребенів. Карданна передача проходить вздовж верхньої частини, тому є достатній зазор для роботи з культурами з високим бадиллям. Культиватор Row-FiX ідеально підходить для обробки ґрунту (гребнеутворення) та механічної боротьби з бур'янами. Завдяки модульній конструкції редукторів та культиваторних вузлів, машина може мати від 2 до 8 рядів. При 6 і більше рядах Row-FiX опціонально поставляється з складною гідравлічною рамою.   Переваги: Може використовуватися від посадкового/посівного сезону до кінця вегетаційного періоду Ідеальна структура гребенів з регульованими гребенеутворюючими кожухами Ротаційна обробка при вирощуванні культур з високим бадиллям Боротьба з бур'янами у міжряддях та відновлення гребеня за один прохід Регульовані ґрунтообробні агрегати Редуктори потужністю від 100 до 250 л. с. Елементи з 4 або 8 гаками Усі редуктори оснащені захисним зрізним болтом У стандартній комплектації культиватор комплектується сполучним валом, оснащеним кулачковою муфтою Поставляється з жорсткою рамою розміром від 2×75 до 4×90 см Постачається з складною гідравлічною рамою розміром від 6 × 75 до 8 × 75 см  ",
+    "aliases": [
+      "row-fix-mizhryadnyj-rotornyj-kultyvator"
+    ]
+  },
+  {
+    "id": "field-biorotix-3000-ot-rotornyj-kultyvator",
+    "slug": "biorotix-3000-ot-rotornyj-kultyvator",
+    "name": "Struik BIOROTIX 3000-OT роторний культиватор",
+    "brand": "Struik",
+    "model": "Struik BIOROTIX 3000",
+    "activityType": "soil_prep",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_rdbuuha1akpw_biorotix-3000-ot.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/biorotix_sl2c6kbl9wqm_biorotix-3000-ot.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/biorotix_av5msqs9npxp_biorotix-3000-ot.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/biorotix_dtjvncboswsn_biorotix-3000-ot.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/biorotix_obso4kgrnvas_biorotix-3000-ot.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/biorotix_wjalylq5cxrb_biorotix-3000-ot.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "Struik",
+      "Модель": "Struik BIOROTIX 3000",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "Struik BIOROTIX 3000-OT роторний культиватор від бренду Struik. Професійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "       ",
+    "aliases": [
+      "biorotix-3000-ot-rotornyj-kultyvator"
+    ]
+  },
+  {
+    "id": "field-varix-3000-ot-rotornyj-kultyvator",
+    "slug": "varix-3000-ot-rotornyj-kultyvator",
+    "name": "Struik VARIX 3000-OT роторний культиватор",
+    "brand": "Struik",
+    "model": "Struik VARIX 3000",
+    "activityType": "soil_prep",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_6fflam0urwsl_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_em2no0mexey3_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_h3bzua3aysrv_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_hm4csr8o0uye_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_ieofr4qpzxnl_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_sxigbnqnthoj_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_urvyvrgorh7a_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_6uxq8kadeu3n_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_31hsyrzqsax4_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_h3bzua3aysrv_glutton-1.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_urvyvrgorh7a_glutton-1.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "Struik",
+      "Модель": "Struik VARIX 3000",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "Роторний культиватор VariX 3000-OT. Ротор що обертається проти напрямку руху. Піднімає ґрунт угору і відкидає його до задньої частини машини на зубчасту рейку із пружинної сталі.",
+    "fullDescription": "Ротор культиватора Struik VariX 3000-OT обертається проти напрямку руху. Ротор піднімає ґрунт угору і відкидає його до задньої частини машини на зубчасту рейку із пружинної сталі. Грудки та рослинні залишки падають прямо на нижню частину шару закладення насіння і покриваються шаром дрібного ґрунту. Так формується основа ідеального шару закладення насіння. Оскільки гаки встановлені на роторі у довільному порядку, ефект шнека відсутній, і ґрунт не переміщається до зовнішньої сторони машини. Бічні пластини, розташовані далеко ззаду, і плоска скребкова пластина особливої форми затримують ґрунт, внаслідок чого виходить якісна плоска насіннєва гряда. Переваги: У стандартній комплектації оснащений редуктором потужністю 280 л. с. Ланцюговий привід із загартованими зірочками У стандартній комплектації культиватор оснащується сполучним валом із кулачковою муфтою. Рамна пластина регулюється тиском пружини Точно регульована стійка з 6 пружинами із високоякісної пружинної сталі Триточкова навішування Кат. 3 Доступні численні опції",
+    "aliases": [
+      "varix-3000-ot-rotornyj-kultyvator"
+    ]
+  },
+  {
+    "id": "field-varix-twinrotor-rotornyj-kultyvator-iz-dvoma-valamy-rotora",
+    "slug": "varix-twinrotor-rotornyj-kultyvator-iz-dvoma-valamy-rotora",
+    "name": "Struik VARIX TWIN ROTOR роторний культиватор з двома валами",
+    "brand": "Struik",
+    "model": "Struik VARIX TWIN ROTOR роторний культиватор з двома валами",
+    "activityType": "soil_prep",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix_whbob5vilz4a_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix_rleupjvyuk7z_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix_1h4kijc9vwez_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix_6nhvtbswmxpr_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix_avphclnjatfz_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix_e0bfe3kf4xab_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix_fk1onmickv5o_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix_fumzfljubaub_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix_g2jf6fklgunn_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix_wzme45tnvwag_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix_xsqoehpwciwb_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix_zlb1rbinrx8r_glutton.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "Struik",
+      "Модель": "Struik VARIX TWIN ROTOR роторний культиватор з двома валами",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "VariX Twinrotor – це роторний культиватор з двома валами ротора, кожен з яких працює на різній глибині. Основний ротор обробляє ґрунт на максимальну глибину 25 см і створює досить пухкий ґрунт для формування грядок або гребенів.",
+    "fullDescription": "Struik VariX Twinrotor – це унікальний роторний культиватор з двома валами ротора, кожен з яких працює на різній глибині. Основний ротор обробляє ґрунт на максимальну глибину 25 см і створює досить пухкий ґрунт для формування грядок або гребенів. Спочатку гребнеутворювач формує гребінь, а за ним другий ротор обробляє верхній шар гребеня зі змінною глибиною обробки від 0,5 до 5 см. Потім на гребінь натискає увігнуту ковзанку або спеціальний гребнеутворювач Super-ridger. Таким чином, створюється ідеальний, дрібнокомкуватий шар загортання насіння.   Культиватор VariX Twinrotor формує ідеальні грядки та гребені для таких культур, як цикорій та морква.   Переваги: Унікальна дія з використанням двох валів ротора, кожен з яких має різну робочу глибину та напрямок обертання Робоча глибина здвоєного роторного валу регулюється гідравлічно Економія праці та палива за рахунок двох комбінованих операцій Підвищена продуктивність за рахунок вищої швидкості руху Дві операції за один прохід, покращена структура ґрунту Оптимальне дроблення ґрунту Менш інтенсивна обробка ґрунту Більш грубий грунт нижче в гребені, більше кисню і знижене залужування в шарі, що живе в корене. Більший урожай завдяки ідеальному шару закладення насіння Покращене керування водою, гребінь утримує більше вологи, потрібно менше поливу У стандартній комплектації культиватор комплектується сполучним валом, оснащеним кулачковою муфтою",
+    "aliases": [
+      "varix-twinrotor-rotornyj-kultyvator-iz-dvoma-valamy-rotora"
+    ]
+  },
+  {
+    "id": "field-varix-fx-modyfikovanyj-rotornyj-kultyvator",
+    "slug": "varix-fx-modyfikovanyj-rotornyj-kultyvator",
+    "name": "Struik VARIX FX роторний культиватор для полів з плоским рельєфом",
+    "brand": "Struik",
+    "model": "Struik VARIX FX роторний культиватор для полів з плоским рельєфом",
+    "activityType": "soil_prep",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_sc4ogsrinemz_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_egnuqcarkmwi_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_jddecwxad0hp_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_otpiknbzlyvl_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_5xjnczfham8z_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_pc3u14myjb4z_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_scwbq1w8bhig_glutton.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "Struik",
+      "Модель": "Struik VARIX FX роторний культиватор для полів з плоским рельєфом",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "VariX-XF – це модифікований роторний культиватор для полів з плоским рельєфом, який в основному використовується як фронтальний культиватор при посадці або посіві.",
+    "fullDescription": "Struik VariX-XF – це модифікований роторний культиватор для полів з плоским рельєфом, який в основному використовується як фронтальний культиватор при посадці або посіві. Одночасне виконання цих завдань за прохід створює значні переваги. Наприклад, не потрібно додатково проїжджати посівним полем, що економить паливо, працю і час. Фронтальний культиватор забезпечує ідеальне посівне поле з гарною дрібнозернистою структурою без грубих грудок.  ",
+    "aliases": [
+      "varix-fx-modyfikovanyj-rotornyj-kultyvator"
+    ]
+  },
+  {
+    "id": "field-varix-f-kultyvator-dlya-poliv-z-ploskym-relyefom",
+    "slug": "varix-f-kultyvator-dlya-poliv-z-ploskym-relyefom",
+    "name": "Struik VARIX F культиватор для полів з плоским рельєфом",
+    "brand": "ZIBO",
+    "model": "Struik VARIX F культиватор для полів з плоским рельєфом",
+    "activityType": "soil_prep",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_unxdc0h5oz0s-1_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_unxdc0h5oz0s_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_6estnczz8xn6_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_coc7tta289cm_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_dhwzkxns1m3i_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_fspa14cpw0yj_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_fvr1ttpsbqjz_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_i6kzvgttcmog_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_mxdrf8ijvcxb_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_n2ocgrf8l3ff_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_qigtwxugwbfp_glutton.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "ZIBO",
+      "Модель": "Struik VARIX F культиватор для полів з плоским рельєфом",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "VariX-F – роторний культиватор для полів з плоским рельєфом, який в основному використовується як фронтальний культиватор при посадці або посіві",
+    "fullDescription": "VariX-F – це культиватор для полів з плоским рельєфом, який в основному використовується як фронтальний культиватор при посадці або посіві. Одночасне виконання цих завдань за прохід створює значні переваги. Наприклад, не потрібно додатково проїжджати посівним полем, що економить паливо, працю і час. Фронтальний культиватор забезпечує ідеальне посівне поле з гарною дрібнозернистою структурою без грубих грудок.   Переваги: Мала власна вага Діаметр культиватора Ø 650 мм Стандартне оснащення гаками Widia 30RC Дуже міцна і тихо працююча прямокутна трансмісія з косозубим зачепленням Доступні редуктори потужністю від 220 до 300 л. с. Ланцюговий привід із загартованими зірочками Верхня кришка встановлена на пружинах Верхня кришка точно прилягає по радіусу зубів, зменшуючи налипання ґрунту Відсутність «мертвих» зон у корпусі Гідравлічний комплект для очищення верхньої кришки (опція) Приварені тримачі гаків на роторному валу Ідеальне подрібнення ґрунту при довільному порядку розташування системи гаків У стандартній комплектації культиватор оснащується сполучним валом із кулачковою муфтою Доступні розміри від 2×75 до 6×75 см з функцією складання Знімна триточкова навішування також уможливлює тягову версію виконання Широкий спектр доступних опцій  ",
+    "aliases": [
+      "varix-f-kultyvator-dlya-poliv-z-ploskym-relyefom"
+    ]
+  },
+  {
+    "id": "field-struik-rf-universalnyj-rotornyj-kultyvator",
+    "slug": "struik-rf-universalnyj-rotornyj-kultyvator",
+    "name": "Struik RF універсальний роторний культиватор",
+    "brand": "Struik",
+    "model": "Struik RF універсальний роторний культиватор",
+    "activityType": "soil_prep",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_rrydjxfhnqm2_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_4myexk1krhrh_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_yisirqlxr7ye_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_e46txksbap0b_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_0fqcscuhymti_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_0kqbjsnocggi_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_2k4or8smjszu_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_4qzwfykqvlcc_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_78qo18lgfhcn_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_541vogc3pe8x_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_avj0uvzw3hek_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_bhbhfnq3w6er_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_dinwwjbwzoik_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_fb46jszgeezq_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_fxunxhy5cduj_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_gda5ou5mrcpw_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_hyvrh1sikpyj_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_jdytg2fg0bq7_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_phcfcwyh0vth_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_qadlpwzpfamu_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_qnrurr1jrcut_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_imtpth6n9qba_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_ruajkhvjzrrb_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_seqpehjbesm0_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/combimaster_vmzr5mf4ae2n_result.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "Struik",
+      "Модель": "Struik RF універсальний роторний культиватор",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "Техніка Struik серії RF призначена для спеціалізованих рослинницьких господарств та ідеально підходить для всіх видів обробки ґрунту. Машина серії RF оснащена фіксованою верхньою кришкою.",
+    "fullDescription": "Struik RF – це універсальний роторний культиватор для всіх видів обробки ґрунту будь-якого типу. Машина випускається з розмірами від 2х75 до 8х90 см. Верхній кожух виготовлений зі сталі, але може також виготовлятися з гуми. Struik RF-HD це спеціальна версія для особливо важких умов експлуатації. Ці машини в стандартній комплектації оснащені двостороннім ланцюговим приводом, центральним підшипником та коробкою потужністю 300 л. с. Переваги: Підґрунтовий розпушувач у центрі машини для версії RF-HD Додаткові важкі елементи та гаки для кам'янистих умов (поставляються як опція) Гума у верхній кришці доступна як опція Доступна жорстка або складана рама Можливе виготовлення конструкції за специфікацією замовника Широкий спектр доступних опцій Привід потужністю від 300 до 540 л. с. (версія RF-HD) У стандартній комплектації культиватор оснащується сполучним валом із кулачковою муфтою. Триточкова навішування Кат. 3    ",
+    "aliases": [
+      "struik-rf-universalnyj-rotornyj-kultyvator"
+    ]
+  },
+  {
+    "id": "field-79612",
+    "slug": "79612",
+    "name": "Struik VariX універсальний роторний культиватор",
+    "brand": "Struik",
+    "model": "Struik VariX універсальний роторний культиватор",
+    "activityType": "planting",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2024/01/photo_2023-11-28_10-09-13_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/01/varix_fufoqns0pwzd_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/01/varix_san0uhcvpznj_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/01/varix_pwhhgnpmhh9i_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/01/screenshot_2_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/01/screenshot_4_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/01/screenshot_3_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/01/varix_5wy7m1itnz0v_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/01/varix_bon4snzpaypw_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/01/varix_1hjijbnq0drc_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/01/varix_c3e0o8vfwtn4_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/01/varix_cpejlz09bipo_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/01/varix_est3ra5aq2mw_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/01/varix_pqub0ffo0gza_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/01/varix_uvpzhss31mmf_glutton.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/01/varix_vnq8fignihzf_glutton.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "Struik",
+      "Модель": "Struik VariX універсальний роторний культиватор",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "Серія культиваторів VariX – це універсальний роторний культиватор, який ідеально підходить для всіх видів обробки ґрунту будь-якого типу.",
+    "fullDescription": "Серія культиваторів VariX є наступником серії RF. VariX – це універсальний роторний культиватор , який ідеально підходить для всіх видів обробки ґрунту будь-якого типу. Роторний культиватор VariX оснащений пружною верхньою кришкою. Це ідеальний культиватор-плоскоріз для передпосівного обробітку ґрунту під картоплю, формування гребенів під моркву, ендівій та цикорій, а також для формування посадкових або посівних грядок. VariX також може використовуватися як міжрядний ротаційний культиватор. Завдяки притискним вузлам з нержавіючої сталі в гребінцевому кожусі, культиватор VariX створює об'ємні, міцні та рівномірні гребені. Підпружинений верхній кожух над лапами культиватора немає «мертвих» зон, де може накопичуватися грунт. Машина пропонується в жорсткому виконанні розміром від 4×75 см до 8×38&#8243;. Якщо на машині встановлено 6 і більше рядів, вона також доступна з складною гідравлічною рамою.   Переваги: Діаметр роторного культиватора становить Ø 760 мм, що уможливлює більш глибоке обробіток ґрунту. Потужний та тихо працюючий спірально-конічний редуктор зі спіральними зубами Доступні редуктори потужністю від 220 до 540 л. с., можливі різні швидкості обертання Ротор з ланцюговим приводом та загартованими зірочками Верхня кришка встановлена на пружинах Верхня кришка точно прилягає по радіусу гаків, зменшуючи налипання ґрунту. Відсутність «мертвих» зон у корпусі Приварені тримачі гаків на роторному валу Ідеальне дроблення ґрунту завдяки системі гаків, розташованих у випадковому порядку У стандартній комплектації культиватор оснащується сполучним валом із кулачковою муфтою. Поставляється у виконанні для гребенів, грядок або плоских ділянок поля Доступний у жорсткому чи складаному виконанні Широкий спектр доступних опцій  ",
+    "aliases": [
+      "79612"
+    ]
+  },
+  {
+    "id": "field-transporter-dlya-zbyrannya-kapusty-ta-inshyh-ovochiv",
+    "slug": "transporter-dlya-zbyrannya-kapusty-ta-inshyh-ovochiv",
+    "name": "Транспортер для збирання капусти та інших овочів",
+    "brand": "Struik",
+    "model": "Транспортер для збирання капусти та інших овочів",
+    "activityType": "harvesting",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-4-kopyya_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-kopyya_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-5-kopyya_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-3-kopyya_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-2-kopyya_result.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/kapustnij-transporter-1-kopyya_result.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "Struik",
+      "Модель": "Транспортер для збирання капусти та інших овочів",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "Транспортер для збирання капусти та інших овочів від бренду Struik. Професійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Транспортер (конвеєр) для збирання капусти, новий Виробник ЄС. Транспортер використовується для збирання капусти з поля у причіп, у ящики на причіпі. Під час збирання врожаю при вокиристанні конвеєра можна залучити від двох до восьми осіб. Три-шість ріжуть капусту, укладаючи її на конвеєр, а один-два забирають її на причепі і кладуть у ящики/піддони. Вага: від 90 кг у стандартній версії. Оснащений гідравлічним приводом, з регулюванням швидкості. У комплект конвеєра входять гідравлічні шланги довжиною 10 м. Ширина стрічки: 30 см Елементи транспортера виготовлені з некорозійних елементів (алюміній, нержавіюча сталь, пластик). Конвеєр має посилені лопатки, які дозволяють забирати качани капусти більшої ваги. Конвеєр на похилій частині оснащений піднятими секціями для запобігання бокового падіння капусти. Конвеєр доступний в декількох варіантах довжини: Модель транспортера Робоча зона, метри Довжина загальна, метри Ціна з ПДВ, євро Стандартний 6,9 8,3 7300 Розкладний 9,6 11 11200",
+    "aliases": [
+      "transporter-dlya-zbyrannya-kapusty-ta-inshyh-ovochiv"
+    ]
+  },
+  {
+    "id": "field-ustanovka-dlya-protruyuvannya-bulb-kartopli-pid-prestyzh",
+    "slug": "ustanovka-dlya-protruyuvannya-bulb-kartopli-pid-prestyzh",
+    "name": "Установка для протруювання бульб картоплі під &#8220;Престиж&#8221;",
+    "brand": "Adena Agro",
+    "model": "Установка для протруювання бульб картоплі під &#8220;Престиж&#8221;",
+    "activityType": "soil_prep",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2023/01/adenaagrologo.png",
+      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
+      "https://adenaagro.com/wp-content/uploads/2024/02/logo.png",
+      "https://adenaagro.com/wp-content/uploads/2022/11/p17-2654982440-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/zibo_aanbouw_rugvormer6-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_1yazglbqre5d_glutton-1-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-fx_sc4ogsrinemz_glutton-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_7_result-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_4lopg3oexjwt_biorotix-3000-ot-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/wr_p4jgdqwmcrnp-1_glutton-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_6zq2ovy3a7eh_glutton-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/weed-master_o9kpdy1x7cz1_glutton-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp",
+      "https://adenaagro.com/wp-content/uploads/elementor/thumbs/adenaagrologo-rhw5n1zvdv150dtzqtjr73u8lzon712g60aote8sku.png"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "Adena Agro",
+      "Модель": "Установка для протруювання бульб картоплі під &#8220;Престиж&#8221;",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "Установка для протруювання бульб картоплі під &#8220;Престиж&#8221; від бренду Adena Agro. Професійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Кількість рядів – 4. Установка для обробки бульб картоплі інсектицидами типу &#8220;Престиж&#8221; в комплекті з насосом і форсунками. Об'єм бака – 248 л. Живлення насоса – 12 в. Кількість форсунок – 8 шт.",
+    "aliases": [
+      "ustanovka-dlya-protruyuvannya-bulb-kartopli-pid-prestyzh"
+    ]
+  },
+  {
+    "id": "field-pidgortach-grebneutvoryuvach-zibo-super",
+    "slug": "pidgortach-grebneutvoryuvach-zibo-super",
+    "name": "Підгортач-гребнеутворювач Zibo Super",
+    "brand": "Grimme",
+    "model": "Підгортач",
+    "activityType": "soil_prep",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/p17-2654982440.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/zibo_aanbouw_rugvormer6.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/p17-2676661445.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150910-1-1-scaled.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150840-1-1-scaled.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150613-1-1-scaled.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150603-1-1-scaled.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/20210423_150536-11-scaled.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/59.png"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "Grimme",
+      "Модель": "Підгортач",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "Підгортач-гребнеутворювач Zibo Super від бренду Grimme. Професійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Загальна характеристика:- збільшує розмір гребеня, менше зелених бульб;- ущільнює гребені, затримує вологу і гребінь залишається незмінним протягом весь сезон;- універсальність використання у різні періоди часу;- можна використовувати до змикання бадилля, гребінь швидше нагрівається і картопля розвивається швидше;- гребінь краще зберігає форму навіть під час сильного дощу;- сповільнюється підвищення температури в гребені в спекотні літні періоди, що покращує якість зберігання картоплі;- бур'яни можуть бути видалені за одну обробку, таким чином досягається економія при розпиленні гербіцидів. Моделі Zibo Super:- 4-рядний підгортач, тип &#8220;ZIBO Super&#8221;, вкл. 2 опорних колеса, глубокорозрихлювачі, рухливі пластини ПВХ і комплект обрізних плит- 8-рядний підгортач &#8220;ZIBO Super&#8221;, з гідравлічним втягуванням, вкл. 4 опорних колеса, глубокорозрихлювачі, рухливі пластини, комплект обрізних плит",
+    "aliases": [
+      "pidgortach-grebneutvoryuvach-zibo-super"
+    ]
+  },
+  {
+    "id": "field-gasytel-padinnya-dlya-ovochiv",
+    "slug": "gasytel-padinnya-dlya-ovochiv",
+    "name": "Гаситель падіння для овочів",
+    "brand": "Struik",
+    "model": "Гаситель падіння для овочів",
+    "activityType": "harvesting",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2022/11/stopshock-potato-union-fallbreaker-loading-sequence-5.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/stopshock-potato-union-fallbreaker-loading-sequence-1.jpg"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "Struik",
+      "Модель": "Гаситель падіння для овочів",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "Гаситель падіння для овочів від бренду Struik. Професійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Призначений для збирання і навантаження овочів (картоплі, цибулі і т.д.).Захищає продукт від пошкоджень і ударів. Швидко і просто монтується на будь-який самоскидний причіп. Комплектація: – Міцно укріплена по боковому краю причепа самоскида труба з 2-ма підвісними ланцюгами.- Незношувальне полівінілове полотно, натягнуте по обох бокових сторонах і по задньому краю на направляючі кабелі.- Два еластичних кручених каната, які при прийомі вантажу розтягуються так, що полотно з продуктом плавно опускається на дно причепа.- Укріплення з 4-ма отворами діаметром 13 мм. Параметри полотна:Model A: 180 cm (72 &#8221;) x 180 cm (72 &#8221;)Model B1: 180 cm (72 &#8221;) x 220 cm (88 &#8221;)Model B2: 180 cm (72 &#8221;) x 250 cm (100 &#8221;)Model B2C: 180 cm (72 &#8221;) x 250 cm (100 &#8221;)Model C: 250 cm (100 &#8221;) x 180 cm (72 &#8221;)",
+    "aliases": [
+      "gasytel-padinnya-dlya-ovochiv"
+    ]
+  },
+  {
+    "id": "field-gasyteli-padinnya-zibo",
+    "slug": "gasyteli-padinnya-zibo",
+    "name": "Гасителі падіння Zibo",
+    "brand": "Struik",
+    "model": "Гасителі падіння Zibo",
+    "activityType": "harvesting",
+    "machineryType": "field",
+    "categoryName": "Польова техніка",
+    "status": "available",
+    "badge": "В наявності",
+    "images": [
+      "https://adenaagro.com/wp-content/uploads/2023/01/adenaagrologo.png",
+      "https://adenaagro.com/wp-content/uploads/2022/11/adenaagro-1.png",
+      "https://adenaagro.com/wp-content/uploads/2024/02/logo.png",
+      "https://adenaagro.com/wp-content/uploads/2024/02/glutton_1yazglbqre5d_glutton-1-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2025/01/436538278278-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2025/01/0536ba993ce9398881e68e82b9d18015-300x300.jpeg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_6fflam0urwsl_glutton-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_unxdc0h5oz0s-1_glutton-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/varix-f_unxdc0h5oz0s_glutton-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_7_result-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/flkb_4lopg3oexjwt_biorotix-3000-ot-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2024/02/zf_kvtoqfdjsf3z-1_glutton-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/stopshock-potato-union-fallbreaker-loading-sequence-5-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/11/stopshock-potato-union-fallbreaker-loading-sequence-1-300x300.jpg",
+      "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp",
+      "https://adenaagro.com/wp-content/uploads/elementor/thumbs/adenaagrologo-rhw5n1zvdv150dtzqtjr73u8lzon712g60aote8sku.png"
+    ],
+    "pricing": {
+      "purchasePriceUah": 380000,
+      "pricePerShiftUah": 15200,
+      "pricePerHaUah": 1140
+    },
+    "specs": {
+      "Виробник": "Struik",
+      "Модель": "Гасителі падіння Zibo",
+      "Категорія": "Польова техніка",
+      "Необхідна потужність трактора": "від 90 к.с.",
+      "Робоча ширина / Кількість рядів": "2-4 ряди"
+    },
+    "shortDescription": "Гасителі падіння Zibo від бренду Struik. Професійна техніка для овочівництва з європейською гарантією.",
+    "fullDescription": "Гасителі падіння використовуються на причепах і бункерах збиральних комбайнів (Grimme, Dewulf, AVR, Wuhlmaus).Легко монтувати на комбайни. Можливе монтування декількох гасителів на самоскидний причіп. Також ідеально підходить для збору в контейнери.Гаситель падіння в бункер комбайна оснащений гідравлічним пристроєм нахилу, що дозволяє повністю заповнювати кузов.Гаситель падіння ZIBO легко монтується. Великою перевагою є те, що гаситель падіння знижує швидкість падіння під час вивантаження картоплі в самоскид.",
+    "aliases": [
+      "gasyteli-padinnya-zibo"
+    ]
+  },
   {
     "id": "adena-1",
     "slug": "domasz-c-line-avtomatyzovane-ochyshhennya-czybuli",
