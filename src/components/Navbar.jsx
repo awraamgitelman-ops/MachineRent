@@ -61,7 +61,7 @@ export default function Navbar({
             <Link to="/" style={{ fontSize: '13px' }}>Головна</Link>
             <a href="#" onClick={(e) => { e.preventDefault(); onOpenQuickLead('Публікації та новини'); }} style={{ fontSize: '13px' }}>Публікації</a>
             <Link to="/about-us" style={{ fontSize: '13px', fontWeight: location.pathname === '/about-us' ? 700 : 400, color: location.pathname === '/about-us' ? 'var(--wd-primary-color)' : 'inherit' }}>Про нас</Link>
-            <a href="tel:+380966610100" onClick={(e) => { e.preventDefault(); onOpenQuickLead('Контакти та консультація'); }} style={{ fontSize: '13px' }}>Контакти</a>
+            <Link to="/contact-us" style={{ fontSize: '13px', fontWeight: location.pathname === '/contact-us' ? 700 : 400, color: location.pathname === '/contact-us' ? 'var(--wd-primary-color)' : 'inherit' }}>Контакти</Link>
           </div>
 
           {/* Location Address */}

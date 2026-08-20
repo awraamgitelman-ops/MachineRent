@@ -7,6 +7,7 @@ import ProductPage from './pages/ProductPage';
 import CatalogPage from './pages/CatalogPage';
 import RemontPage from './pages/RemontPage';
 import AboutUsPage from './pages/AboutUsPage';
+import ContactPage from './pages/ContactPage';
 import QuickLeadModal from './components/QuickLeadModal';
 import { PhoneCall } from 'lucide-react';
 
@@ -102,7 +103,33 @@ export default function App() {
               } 
             />
 
-            {/* 5. Dedicated Category Archive Pages */}
+            {/* 5. Dedicated Contact Us Page */}
+            <Route 
+              path="/contact-us" 
+              element={
+                <ContactPage
+                  onOpenQuickLead={handleOpenQuickLead}
+                />
+              } 
+            />
+            <Route 
+              path="/contact-us/" 
+              element={
+                <ContactPage
+                  onOpenQuickLead={handleOpenQuickLead}
+                />
+              } 
+            />
+            <Route 
+              path="/contacts" 
+              element={
+                <ContactPage
+                  onOpenQuickLead={handleOpenQuickLead}
+                />
+              } 
+            />
+
+            {/* 6. Dedicated Category Archive Pages */}
             <Route 
               path="/product-category/:category" 
               element={

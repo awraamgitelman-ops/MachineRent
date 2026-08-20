@@ -23,7 +23,8 @@ const staticPages = [
   { url: '/product-category/zapchastyny', changefreq: 'daily', priority: '0.9' },
   { url: '/product-category/tehnika-b-v', changefreq: 'weekly', priority: '0.8' },
   { url: '/remont-transporteriv', changefreq: 'weekly', priority: '0.8' },
-  { url: '/about-us', changefreq: 'monthly', priority: '0.8' }
+  { url: '/about-us', changefreq: 'monthly', priority: '0.8' },
+  { url: '/contact-us', changefreq: 'monthly', priority: '0.8' }
 ];
 
 const today = new Date().toISOString().split('T')[0];
