@@ -483,16 +483,16 @@ export default function HomePage({
         </main>
       </div>
 
-      {/* 5. ABOUT & SEO SECTION (Exact match to Adena Agro text content) */}
+      {/* 5. ABOUT & SEO SECTION (Unique AGRO RENTEX Brand Content) */}
       <section style={{ backgroundColor: '#fafafa', borderTop: '1px solid #eaeaea', padding: '50px 0 60px 0' }}>
         <div className="container" style={{ maxWidth: '1100px' }}>
           
           <h2 style={{ fontSize: '26px', fontWeight: 600, color: '#111', marginBottom: '16px', textAlign: 'center' }}>
-            Продаж та оренда сільськогосподарської техніки для вирощування овочів
+            AGRO RENTEX — Комплексні технологічні рішення для овочівництва та польового агробізнесу
           </h2>
           
           <p style={{ fontSize: '15px', color: '#555', lineHeight: 1.7, textAlign: 'center', maxWidth: '900px', margin: '0 auto 36px auto' }}>
-            <strong>AGRO RENTEX</strong> – ваш надійний партнер у світі сільськогосподарської техніки для картоплі, моркви, цукрового буряку та цибулі. Обробка ґрунту, збирання, транспортування, зберігання та підготовка врожаю перед реалізацією – ми пропонуємо рішення для досягнення найкращих результатів. Обирайте перевірену європейську техніку!
+            <strong>AGRO RENTEX</strong> забезпечує українських агровиробників високоефективною спеціалізованою технікою для вирощування картоплі, моркви, столового буряку, цибулі та зернових культур. Наша мета — максимізувати врожайність вашого господарства, скоротити експлуатаційні витрати та гарантувати безперебійну роботу в кожен день сезону.
           </p>
 
           <div style={{
@@ -503,44 +503,44 @@ export default function HomePage({
             ...(window.innerWidth < 768 ? { gridTemplateColumns: '1fr' } : {})
           }}>
             
-            {/* Box 1: Ми пропонуємо */}
+            {/* Box 1: Напрямки діяльності */}
             <div style={{ backgroundColor: '#ffffff', border: '1px solid #e5e5e5', padding: '24px' }}>
               <h3 style={{ fontSize: '18px', fontWeight: 600, color: '#111', marginBottom: '16px', borderBottom: '2px solid var(--wd-primary-color)', paddingBottom: '6px' }}>
-                Ми пропонуємо:
+                Ключові напрямки постачання:
               </h3>
-              <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px', fontSize: '14px', lineHeight: 1.6 }}>
                 <li>
-                  <strong style={{ color: '#111' }}>Польова техніка:</strong> Техніка для обробки ґрунту, посадки та збирання овочевих культур: картоплі, моркви, цукрового буряку та цибулі.
+                  <strong style={{ color: '#111' }}>Спеціалізована польова техніка:</strong> Комплекси для глибокого обробітку, гребнеутворювачі, високоточні саджалки та картоплезбиральні комбайни.
                 </li>
                 <li>
-                  <strong style={{ color: '#111' }}>Складська техніка:</strong> Устаткування для транспортування, складання, сортування та підготовки овочів до продажу.
+                  <strong style={{ color: '#111' }}>Жатки та збиральні системи:</strong> Продуктивні зернові, соєві та соняшникові жатки John Deere, Case IH, CLAAS, New Holland та Бердянські жатки.
                 </li>
                 <li>
-                  <strong style={{ color: '#111' }}>Запчастини:</strong> Широкий асортимент запчастин для ремонту та обслуговування (Grimme, Struik, AVR, Dewulf).
+                  <strong style={{ color: '#111' }}>Автоматизовані овочесховища:</strong> Приймальні бункери, сортувальні столи, щіткові машини, мийки та вагопакувальні станції.
                 </li>
                 <li>
-                  <strong style={{ color: '#111' }}>Ремонт транспортерів:</strong> Заміна зубчастих стрічок та деталей транспортерів будь-якого кроку. Економія 50% від вартості нового.
+                  <strong style={{ color: '#111' }}>Відновлення транспортерів:</strong> Власна технологія реставрації гумово-пруткових стрічок будь-якого кроку з економією до 50% від вартості нових.
                 </li>
               </ul>
             </div>
 
-            {/* Box 2: Чому ми? */}
+            {/* Box 2: Чому AGRO RENTEX */}
             <div style={{ backgroundColor: '#ffffff', border: '1px solid #e5e5e5', padding: '24px' }}>
               <h3 style={{ fontSize: '18px', fontWeight: 600, color: '#111', marginBottom: '16px', borderBottom: '2px solid var(--wd-accent-yellow)', paddingBottom: '6px' }}>
-                Чому ми?
+                Переваги співпраці з AGRO RENTEX:
               </h3>
-              <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px', fontSize: '14px', lineHeight: 1.6 }}>
                 <li>
-                  <strong style={{ color: '#111' }}>Сервіс:</strong> Ролики та запчастини завжди в наявності. Ремонт та реставрація транспортерів. Швидка доставка по Україні.
+                  <strong style={{ color: '#111' }}>Практична агрономічна експертиза:</strong> Понад 30 років безпосереднього досвіду вирощування овочів на власних масивах.
                 </li>
                 <li>
-                  <strong style={{ color: '#111' }}>Якість:</strong> Продукція провідних європейських виробників. Лише перевірені часом інженерні рішення.
+                  <strong style={{ color: '#111' }}>Мобільний виїзний сервіс:</strong> Оперативна технічна допомога, налаштування в полі та введення в експлуатацію.
                 </li>
                 <li>
-                  <strong style={{ color: '#111' }}>Досвід:</strong> Більше 30-ти років у сфері вирощування овочів на власних фермерських угіддях.
+                  <strong style={{ color: '#111' }}>Склад запчастин в Україні:</strong> Постійна наявність роликів, пасів, зірочок та зношуваних деталей у Рівному.
                 </li>
                 <li>
-                  <strong style={{ color: '#111' }}>Підхід:</strong> Кваліфікований підбір агрегатів відповідно до потреб вашого господарства.
+                  <strong style={{ color: '#111' }}>Гнучкі умови фінансування:</strong> Вигідні тарифи подобової та сезонної оренди, прямий викуп та лізингові програми.
                 </li>
               </ul>
             </div>
