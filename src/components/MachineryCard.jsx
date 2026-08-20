@@ -81,26 +81,16 @@ export default function MachineryCard({
             </div>
           )}
 
-          {/* Action Buttons */}
+          {/* Action Button */}
           <div className="product-actions-bar">
             <Link
               to={`/product/${machine.slug}`}
               onClick={(e) => e.stopPropagation()}
               className="btn-adena-primary"
+              style={{ width: '100%', height: '40px', fontWeight: 600 }}
             >
-              <span>Читати далі</span>
+              <span>Замовити</span>
             </Link>
-
-            <button
-              onClick={(e) => {
-                e.stopPropagation();
-                navigate(`/product/${machine.slug}`);
-              }}
-              className="btn-adena-secondary"
-              title="Швидкий прорахунок"
-            >
-              Бронь
-            </button>
           </div>
         </div>
       </div>
