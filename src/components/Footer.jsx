@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 
 export default function Footer({ onOpenQuickLead }) {
@@ -37,11 +38,12 @@ export default function Footer({ onOpenQuickLead }) {
 
           {/* Col 3: Services & Navigation */}
           <div>
-            <h4>Послуги та сервіс</h4>
+            <h4>Послуги та компанія</h4>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '13px' }}>
+              <li><Link to="/about-us" style={{ color: 'var(--wd-primary-color)', fontWeight: 600 }}>Про нас / Про компанію</Link></li>
               <li><a href="#" onClick={(e) => { e.preventDefault(); onOpenQuickLead('Підбір техніки'); }} style={{ color: '#555' }}>Індивідуальний підбір техніки</a></li>
               <li><a href="#" onClick={(e) => { e.preventDefault(); onOpenQuickLead('Доставка тралом'); }} style={{ color: '#555' }}>Доставка по всій Україні</a></li>
-              <li><a href="/remont-transporteriv" style={{ color: '#555' }}>Реставрація гумово-пруткових стрічок</a></li>
+              <li><Link to="/remont-transporteriv" style={{ color: '#555' }}>Реставрація гумово-пруткових стрічок</Link></li>
               <li><a href="#" onClick={(e) => { e.preventDefault(); onOpenQuickLead('Сервісне ТО'); }} style={{ color: '#555' }}>Виїзний сервіс та консультації</a></li>
             </ul>
           </div>
