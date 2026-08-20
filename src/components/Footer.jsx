@@ -83,8 +83,8 @@ export default function Footer({ onOpenQuickLead }) {
             © 2026 AGRO RENTEX. Всі права захищено. Сільськогосподарська техніка для овочівництва.
           </div>
           <div style={{ display: 'flex', gap: '16px' }}>
-            <a href="#" style={{ color: '#888' }}>Політика конфіденційності</a>
-            <a href="#" style={{ color: '#888' }}>Публічна оферта</a>
+            <Link to="/privacy-policy" style={{ color: '#888', textDecoration: 'none' }}>Політика конфіденційності</Link>
+            <Link to="/public-offer" style={{ color: '#888', textDecoration: 'none' }}>Публічна оферта</Link>
           </div>
         </div>
       </div>

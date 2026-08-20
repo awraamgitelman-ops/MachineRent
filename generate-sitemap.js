@@ -27,7 +27,9 @@ const staticPages = [
   { url: '/remont-transporteriv', changefreq: 'weekly', priority: '0.8' },
   { url: '/about-us', changefreq: 'monthly', priority: '0.8' },
   { url: '/contact-us', changefreq: 'monthly', priority: '0.8' },
-  { url: '/blog', changefreq: 'daily', priority: '0.8' }
+  { url: '/blog', changefreq: 'daily', priority: '0.8' },
+  { url: '/privacy-policy', changefreq: 'monthly', priority: '0.5' },
+  { url: '/public-offer', changefreq: 'monthly', priority: '0.5' }
 ];
 
 const today = new Date().toISOString().split('T')[0];
