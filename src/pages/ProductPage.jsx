@@ -44,12 +44,46 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
     window.scrollTo(0, 0);
   }, [slug]);
 
-  // Find product by slug or id
+  // Find product by slug, id, alias, or fuzzy normalized match
   const machine = useMemo(() => {
     if (!slug) return MACHINERY_DATA[0];
-    return MACHINERY_DATA.find((m) => m.slug === slug || m.id === slug) ||
-           MACHINERY_DATA.find((m) => m.slug.includes(slug) || slug.includes(m.slug)) ||
-           MACHINERY_DATA[0];
+    const s = slug.toLowerCase().trim();
+    
+    // 1. Exact slug or id match
+    const exact = MACHINERY_DATA.find((m) => m.slug === s || m.id === s);
+    if (exact) return exact;
+
+    // 2. Check aliases array
+    const byAlias = MACHINERY_DATA.find((m) => m.aliases && m.aliases.some((a) => a.toLowerCase() === s));
+    if (byAlias) return byAlias;
+
+    // 3. Partial inclusion match
+    const partial = MACHINERY_DATA.find((m) => m.slug.includes(s) || s.includes(m.slug));
+    if (partial) return partial;
+
+    // 4. Token overlap match (e.g. domasz + we-30 + plus)
+    const slugTokens = s.split(/[-_/\s]+/).filter((t) => t.length > 2);
+    let bestMatch = null;
+    let maxOverlap = 0;
+
+    for (const item of MACHINERY_DATA) {
+      const itemTokens = `${item.slug} ${item.id} ${item.name} ${(item.aliases || []).join(' ')}`
+        .toLowerCase()
+        .split(/[-_/\s]+/)
+        .filter((t) => t.length > 2);
+      
+      const overlap = slugTokens.filter((t) => itemTokens.includes(t)).length;
+      if (overlap > maxOverlap) {
+        maxOverlap = overlap;
+        bestMatch = item;
+      }
+    }
+
+    if (maxOverlap >= 2 && bestMatch) {
+      return bestMatch;
+    }
+
+    return MACHINERY_DATA[0];
   }, [slug]);
 
   const [activePhotoIdx, setActivePhotoIdx] = useState(0);

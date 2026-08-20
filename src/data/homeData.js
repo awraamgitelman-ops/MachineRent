@@ -169,10 +169,10 @@ export const HOME_DISCOUNTS_PRODUCTS = [
   {
     "id": "domasz-we30",
     "name": "Domasz WE-30 PLUS – Зважувально-пакувальна машина",
-    "slug": "domasz-we-30-plus-elektronna-zvazhuvalna-mashyna-dlya-ovochiv",
+    "slug": "zvazhuvalno-pakuvalna-mashyna-elektronna",
     "brand": "Domasz",
-    "priceUah": 395200,
-    "image": "https://adenaagro.com/wp-content/uploads/2026/07/we30plus_1-768x768.jpg"
+    "priceUah": 218400,
+    "image": "https://adenaagro.com/wp-content/uploads/2025/01/we30plus_02.jpg"
   },
   {
     "id": "grimme-val-rh",
