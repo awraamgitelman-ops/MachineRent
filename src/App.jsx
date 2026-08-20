@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import CatalogPage from './pages/CatalogPage';
+import HomePage from './pages/HomePage';
 import ProductPage from './pages/ProductPage';
+import CatalogPage from './pages/CatalogPage';
 import RentCalculatorModal from './components/RentCalculatorModal';
 import QuickLeadModal from './components/QuickLeadModal';
 import { PhoneCall } from 'lucide-react';
@@ -46,13 +47,12 @@ export default function App() {
             <Route 
               path="/" 
               element={
-                <CatalogPage
+                <HomePage
                   currency={currency}
                   searchTerm={searchTerm}
                   setSearchTerm={setSearchTerm}
-                  activeCategory={activeCategory}
-                  setActiveCategory={setActiveCategory}
                   onOpenCalculator={() => setIsCalculatorModalOpen(true)}
+                  onOpenQuickLead={handleOpenQuickLead}
                 />
               } 
             />
@@ -84,13 +84,12 @@ export default function App() {
             <Route 
               path="*" 
               element={
-                <CatalogPage
+                <HomePage
                   currency={currency}
                   searchTerm={searchTerm}
                   setSearchTerm={setSearchTerm}
-                  activeCategory={activeCategory}
-                  setActiveCategory={setActiveCategory}
                   onOpenCalculator={() => setIsCalculatorModalOpen(true)}
+                  onOpenQuickLead={handleOpenQuickLead}
                 />
               } 
             />
