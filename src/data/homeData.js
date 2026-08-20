@@ -32,22 +32,6 @@ export const HOME_TOP_SEASON = [
 
 export const HOME_GRID_CENTER = [
   {
-    "id": "grimme-088-00361",
-    "name": "Grimme 088.00361 R – Ролик напрямний з бортиком 90 мм",
-    "slug": "rolyk-napryamnyj-z-bortykom-idler-roller-with-hoop-90-mm-dlya-kartoplezbyralnyh-kombajniv-grimme-088-00361-r",
-    "brand": "Grimme",
-    "priceUah": 1196,
-    "image": "https://adenaagro.com/wp-content/uploads/2022/11/rolyky-91_17-300x300.jpg"
-  },
-  {
-    "id": "karlik-z642",
-    "name": "Karlik Z642 – Ролик ведучого механізму бункера 564451096",
-    "slug": "rolyk-veduchogo-mehanizmu-bunkera-dlya-kombajna-karlik-z642-564451096",
-    "brand": "Karlik",
-    "priceUah": 728,
-    "image": "https://adenaagro.com/wp-content/uploads/2026/01/27_-kopyya_result_result-300x300.jpg"
-  },
-  {
     "id": "rolik-privod-006",
     "name": "Ролик приводу транспортера 006.00066 R",
     "slug": "rolyk-pryvodu-transportera-006-00066-r",
@@ -70,14 +54,6 @@ export const HOME_GRID_CENTER = [
     "brand": "Grimme",
     "priceUah": 2184,
     "image": "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort1-300x300.jpg"
-  },
-  {
-    "id": "grimme-076-02400",
-    "name": "Grimme 076.02400 R – Ролик приводний гумовий",
-    "slug": "rolyk-pryvodnyj-076-02400-r-grimme",
-    "brand": "Grimme",
-    "priceUah": 5460,
-    "image": "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort88_9-300x300.jpg"
   }
 ];
 
