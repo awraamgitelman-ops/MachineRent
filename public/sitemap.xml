@@ -50,6 +50,62 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://agrorentex.com/blog</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/blog/pidgotovka-do-sezonu-zbyrannya-kartopli-2026-nalashtuvannya-kombajniv-grimme</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://adenaagro.com/wp-content/uploads/2025/01/kartoplya-pole3.jpg</image:loc>
+      <image:title>Підготовка до сезону збирання картоплі 2026: як налаштувати комбайни Grimme та мінімізувати втрати врожаю</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/blog/kontejnerne-zberigannya-ovochiv-2026-zberezhennya-tovarnogo-vyglyadu</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://adenaagro.com/wp-content/uploads/2025/01/v-ukrayini-nabiraye-populyarnosti-kontejnerne-zberigannya-kartopli.jpg</image:loc>
+      <image:title>Контейнерне зберігання овочів 2026: як зберегти товарний вигляд картоплі та моркви до весни</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/blog/rynok-ovochivnycztva-ukrayiny-2026-rozshyrennya-ploshh-pid-ovochi</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://adenaagro.com/wp-content/uploads/2025/01/krohmal_chernigiv.webp</image:loc>
+      <image:title>Ринок овочівництва України 2026: розширення площ під цибулю та столовий буряк у західних та центральних областях</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/blog/restavracziya-transporteriv-yak-zaoshhadyty-do-50-bjudzhetu</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://adenaagro.com/wp-content/uploads/2025/01/remont-transporteriv-1-300x300.webp</image:loc>
+      <image:title>Реставрація гумово-пруткових транспортерів: як заощадити до 50% бюджету перед осіннім копанням</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/blog/avtomatyzacziya-peredprodazhnoyi-pidgotovky-domasz-we30-2026</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://adenaagro.com/wp-content/uploads/2025/01/we30plus_02.jpg</image:loc>
+      <image:title>Автоматизація передпродажної підготовки: вагопакувальні лінії Domasz WE-30 та сортувальні столи у 2026 році</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://agrorentex.com/product/aplikator-mikrogranulyator-zibo-gandy-elektropryvid</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>

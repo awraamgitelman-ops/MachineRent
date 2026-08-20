@@ -59,7 +59,7 @@ export default function Navbar({
           {/* Top Info Links (Desktop) */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '24px', ...(window.innerWidth < 960 ? { display: 'none' } : {}) }}>
             <Link to="/" style={{ fontSize: '13px' }}>Головна</Link>
-            <a href="#" onClick={(e) => { e.preventDefault(); onOpenQuickLead('Публікації та новини'); }} style={{ fontSize: '13px' }}>Публікації</a>
+            <Link to="/blog" style={{ fontSize: '13px', fontWeight: location.pathname.startsWith('/blog') ? 700 : 400, color: location.pathname.startsWith('/blog') ? 'var(--wd-primary-color)' : 'inherit' }}>Публікації</Link>
             <Link to="/about-us" style={{ fontSize: '13px', fontWeight: location.pathname === '/about-us' ? 700 : 400, color: location.pathname === '/about-us' ? 'var(--wd-primary-color)' : 'inherit' }}>Про нас</Link>
             <Link to="/contact-us" style={{ fontSize: '13px', fontWeight: location.pathname === '/contact-us' ? 700 : 400, color: location.pathname === '/contact-us' ? 'var(--wd-primary-color)' : 'inherit' }}>Контакти</Link>
           </div>

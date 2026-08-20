@@ -42,8 +42,8 @@ export default function Footer({ onOpenQuickLead }) {
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '13px' }}>
               <li><Link to="/about-us" style={{ color: 'var(--wd-primary-color)', fontWeight: 600 }}>Про компанію AGRO RENTEX</Link></li>
               <li><Link to="/contact-us" style={{ color: 'var(--wd-primary-color)', fontWeight: 600 }}>Контакти та схема проїзду</Link></li>
+              <li><Link to="/blog" style={{ color: 'var(--wd-primary-color)', fontWeight: 600 }}>Публікації та блог</Link></li>
               <li><a href="#" onClick={(e) => { e.preventDefault(); onOpenQuickLead('Підбір техніки'); }} style={{ color: '#555' }}>Індивідуальний підбір техніки</a></li>
-              <li><a href="#" onClick={(e) => { e.preventDefault(); onOpenQuickLead('Доставка тралом'); }} style={{ color: '#555' }}>Доставка по всій Україні</a></li>
               <li><Link to="/remont-transporteriv" style={{ color: '#555' }}>Реставрація гумово-пруткових стрічок</Link></li>
             </ul>
           </div>

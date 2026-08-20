@@ -1,5 +1,6 @@
 import fs from 'fs';
 import { MACHINERY_DATA } from './src/data/machineryData.js';
+import { BLOG_POSTS } from './src/data/blogData.js';
 
 const DOMAIN = 'https://agrorentex.com';
 
@@ -24,7 +25,8 @@ const staticPages = [
   { url: '/product-category/tehnika-b-v', changefreq: 'weekly', priority: '0.8' },
   { url: '/remont-transporteriv', changefreq: 'weekly', priority: '0.8' },
   { url: '/about-us', changefreq: 'monthly', priority: '0.8' },
-  { url: '/contact-us', changefreq: 'monthly', priority: '0.8' }
+  { url: '/contact-us', changefreq: 'monthly', priority: '0.8' },
+  { url: '/blog', changefreq: 'daily', priority: '0.8' }
 ];
 
 const today = new Date().toISOString().split('T')[0];
@@ -43,6 +45,21 @@ for (const page of staticPages) {
   </url>\n`;
 }
 
+// Blog Posts
+for (const post of BLOG_POSTS) {
+  sitemapXml += `  <url>
+    <loc>${DOMAIN}/blog/${post.slug}</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>${post.image.replace(/&/g, '&amp;')}</image:loc>
+      <image:title>${post.title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</image:title>
+    </image:image>
+  </url>\n`;
+}
+
+// Products
 for (const prod of MACHINERY_DATA) {
   sitemapXml += `  <url>
     <loc>${DOMAIN}/product/${prod.slug}</loc>
@@ -67,4 +84,4 @@ for (const prod of MACHINERY_DATA) {
 sitemapXml += `</urlset>\n`;
 
 fs.writeFileSync('./public/sitemap.xml', sitemapXml, 'utf-8');
-console.log(`Created public/sitemap.xml with ${staticPages.length + MACHINERY_DATA.length} URLs!`);
+console.log(`Created public/sitemap.xml with ${staticPages.length + BLOG_POSTS.length + MACHINERY_DATA.length} URLs!`);

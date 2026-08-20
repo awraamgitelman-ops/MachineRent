@@ -8,6 +8,8 @@ import CatalogPage from './pages/CatalogPage';
 import RemontPage from './pages/RemontPage';
 import AboutUsPage from './pages/AboutUsPage';
 import ContactPage from './pages/ContactPage';
+import BlogPage from './pages/BlogPage';
+import BlogPostPage from './pages/BlogPostPage';
 import QuickLeadModal from './components/QuickLeadModal';
 import { PhoneCall } from 'lucide-react';
 
@@ -129,7 +131,41 @@ export default function App() {
               } 
             />
 
-            {/* 6. Dedicated Category Archive Pages */}
+            {/* 6. Dedicated Blog & Articles Pages */}
+            <Route 
+              path="/blog" 
+              element={
+                <BlogPage
+                  onOpenQuickLead={handleOpenQuickLead}
+                />
+              } 
+            />
+            <Route 
+              path="/blog/" 
+              element={
+                <BlogPage
+                  onOpenQuickLead={handleOpenQuickLead}
+                />
+              } 
+            />
+            <Route 
+              path="/statti" 
+              element={
+                <BlogPage
+                  onOpenQuickLead={handleOpenQuickLead}
+                />
+              } 
+            />
+            <Route 
+              path="/blog/:slug" 
+              element={
+                <BlogPostPage
+                  onOpenQuickLead={handleOpenQuickLead}
+                />
+              } 
+            />
+
+            {/* 7. Dedicated Category Archive Pages */}
             <Route 
               path="/product-category/:category" 
               element={
