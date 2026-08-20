@@ -30,7 +30,56 @@ export const HOME_TOP_SEASON = [
   }
 ];
 
-export const HOME_GRID_CENTER = [];
+export const HOME_GRID_CENTER = [
+  {
+    "id": "field-grimme-gl32e-kartoplesadzhalka",
+    "name": "Grimme GL 32E – Картоплесаджалка",
+    "slug": "grimme-gl32e-kartoplesadzhalka",
+    "brand": "Grimme",
+    "priceUah": 380000,
+    "image": "https://adenaagro.com/wp-content/uploads/2024/02/screenshot_7_result.jpg"
+  },
+  {
+    "id": "field-struik-flkb",
+    "name": "Struik FLKB – Подрібнювач бадилля",
+    "slug": "struik-flkb",
+    "brand": "Struik",
+    "priceUah": 380000,
+    "image": "https://adenaagro.com/wp-content/uploads/2024/02/flkb_4lopg3oexjwt_biorotix-3000-ot.jpg"
+  },
+  {
+    "id": "field-struik-glutton-podribnyuvach-badyllya",
+    "name": "Struik GLUTTON – Подрібнювач бадилля",
+    "slug": "struik-glutton-podribnyuvach-badyllya",
+    "brand": "Struik",
+    "priceUah": 380000,
+    "image": "https://adenaagro.com/wp-content/uploads/2024/02/glutton_1yazglbqre5d_glutton-1.jpg"
+  },
+  {
+    "id": "field-row-fix-mizhryadnyj-rotornyj-kultyvator",
+    "name": "Struik ROW-FIX – Роторний культиватор",
+    "slug": "row-fix-mizhryadnyj-rotornyj-kultyvator",
+    "brand": "Struik",
+    "priceUah": 380000,
+    "image": "https://adenaagro.com/wp-content/uploads/2024/02/row-fix_6zq2ovy3a7eh_glutton.jpg"
+  },
+  {
+    "id": "field-varix-3000-ot-rotornyj-kultyvator",
+    "name": "Struik VARIX 3000-OT – Культиватор",
+    "slug": "varix-3000-ot-rotornyj-kultyvator",
+    "brand": "Struik",
+    "priceUah": 380000,
+    "image": "https://adenaagro.com/wp-content/uploads/2024/02/varix-overtopfrees_6fflam0urwsl_glutton.jpg"
+  },
+  {
+    "id": "field-aplikator-mikrogranulyator-zibo-gandy-elektropryvid",
+    "name": "ZIBO Gandy – Аплікатор-гранулятор",
+    "slug": "aplikator-mikrogranulyator-zibo-gandy-elektropryvid",
+    "brand": "ZIBO",
+    "priceUah": 380000,
+    "image": "https://adenaagro.com/wp-content/uploads/2025/01/87d1cc46a58d545cfcacce8ac5ba77de_big.jpg"
+  }
+];
 
 export const HOME_GRID_RIGHT = [
   {
@@ -143,9 +192,9 @@ export const HOME_DISCOUNTS_PRODUCTS = [
   },
   {
     "id": "adena-perekydach",
-    "name": "Adena-agro – Перекидач контейнерів з овочами",
+    "name": "AGRO RENTEX – Перекидач контейнерів з овочами",
     "slug": "adena-agro-perekydach-kontejneriv-z-ovochamy",
-    "brand": "Adena Agro",
+    "brand": "AGRO RENTEX",
     "priceUah": 145600,
     "image": "https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp"
   }
