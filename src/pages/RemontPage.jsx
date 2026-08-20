@@ -1,74 +1,90 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { 
-  Wrench, 
-  CheckCircle2, 
+  Phone, 
+  ChevronRight, 
+  Search, 
+  HelpCircle, 
+  DollarSign, 
   Clock, 
   ShieldCheck, 
-  Phone, 
-  DollarSign, 
-  ArrowRight, 
-  Sparkles,
-  ChevronRight,
-  Layers,
-  Settings,
-  HelpCircle,
-  Truck
+  Check, 
+  ArrowRight,
+  Sparkles
 } from 'lucide-react';
-import { MACHINERY_DATA } from '../data/machineryData';
-import MachineryCard from '../components/MachineryCard';
 
 export default function RemontPage({ currency, onOpenQuickLead }) {
-  // Calculator state for custom conveyor repair
-  const [pitchMm, setPitchMm] = useState('28');
-  const [lengthM, setLengthM] = useState('5.5');
-  const [widthMm, setWidthMm] = useState('750');
-  const [needsRods, setNeedsRods] = useState(true);
-  const [calcResult, setCalcResult] = useState(null);
+  // Before / After Slider state
+  const [sliderPosition, setSliderPosition] = useState(50);
+  const [isDragging, setIsDragging] = useState(false);
+  const sliderRef = useRef(null);
 
-  const calculateRepairCost = (e) => {
-    e.preventDefault();
-    const l = parseFloat(lengthM) || 5;
-    const w = parseFloat(widthMm) || 750;
-    const baseBelt = l * 2800;
-    const rodsCost = needsRods ? (l * 1000 / (parseInt(pitchMm) || 30)) * 95 : 0;
-    const workCost = 4500 + (l * 600);
-    const totalUah = Math.round(baseBelt + rodsCost + workCost);
-    const newEquivalentUah = Math.round(totalUah * 2.1);
-    const savingsUah = newEquivalentUah - totalUah;
+  // Form submission state
+  const [name, setName] = useState('');
+  const [phone, setPhone] = useState('');
+  const [submitted, setSubmitted] = useState(false);
 
-    setCalcResult({
-      totalUah,
-      newEquivalentUah,
-      savingsUah
-    });
+  const handleSliderMove = (clientX) => {
+    if (!sliderRef.current) return;
+    const rect = sliderRef.current.getBoundingClientRect();
+    const x = clientX - rect.left;
+    const pos = Math.max(0, Math.min(100, (x / rect.width) * 100));
+    setSliderPosition(pos);
   };
 
-  // Relevant spare parts & conveyors from catalog
-  const repairParts = MACHINERY_DATA.filter(m => 
-    m.machineryType === 'parts' || 
-    m.name.toLowerCase().includes('транспортер') ||
-    m.name.toLowerCase().includes('пас') ||
-    m.name.toLowerCase().includes('ролик')
-  ).slice(0, 4);
+  const handleTouchMove = (e) => {
+    if (e.touches[0]) handleSliderMove(e.touches[0].clientX);
+  };
 
-  const supportedBrands = [
-    { name: 'Grimme', logo: 'https://adenaagro.com/wp-content/uploads/2024/02/brend-2.png' },
-    { name: 'AVR', logo: 'https://adenaagro.com/wp-content/uploads/2024/02/brend-3.png' },
-    { name: 'Asa-Lift', logo: 'https://adenaagro.com/wp-content/uploads/2024/02/brend-5.png' },
-    { name: 'Dewulf', logo: 'https://adenaagro.com/wp-content/uploads/2024/02/brend-14.png' },
-    { name: 'Simon', logo: 'https://adenaagro.com/wp-content/uploads/2024/02/brend-9.png' },
-    { name: 'Hassia', logo: 'https://adenaagro.com/wp-content/uploads/2024/02/brend-11.png' },
-    { name: 'Wuhlmaus', logo: 'https://adenaagro.com/wp-content/uploads/2024/02/brend-13.png' },
-    { name: 'Ropa', logo: 'https://adenaagro.com/wp-content/uploads/2024/02/brend-12-1.png' },
-    { name: 'Holmer', logo: 'https://adenaagro.com/wp-content/uploads/2024/02/brend-21.png' },
-    { name: 'Guaresi', logo: 'https://adenaagro.com/wp-content/uploads/2024/02/brend-18.png' },
-    { name: 'Amac', logo: 'https://adenaagro.com/wp-content/uploads/2024/02/brend-12.png' },
-    { name: 'Pomac', logo: 'https://adenaagro.com/wp-content/uploads/2024/02/brend-15-1.png' },
+  const handleMouseMove = (e) => {
+    if (isDragging) handleSliderMove(e.clientX);
+  };
+
+  const handleSubmitConsultation = (e) => {
+    e.preventDefault();
+    if (!phone.trim()) return;
+    setSubmitted(true);
+    setTimeout(() => {
+      setName('');
+      setPhone('');
+      setSubmitted(false);
+    }, 4000);
+  };
+
+  const brandLogos = [
+    'https://adenaagro.com/wp-content/uploads/2024/02/d5caacd05f4a3c2fa3c8917591115487_result.jpg',
+    'https://adenaagro.com/wp-content/uploads/2024/02/brend-2.png',
+    'https://adenaagro.com/wp-content/uploads/2024/02/brend-3.png',
+    'https://adenaagro.com/wp-content/uploads/2024/02/brend-5.png',
+    'https://adenaagro.com/wp-content/uploads/2024/02/brend-14.png',
+    'https://adenaagro.com/wp-content/uploads/2024/02/brend-9.png',
+    'https://adenaagro.com/wp-content/uploads/2024/02/brend-11.png',
+    'https://adenaagro.com/wp-content/uploads/2024/02/bez-nazvanyya_result-1.jpg',
+    'https://adenaagro.com/wp-content/uploads/2024/02/hassia-1.jpg',
+    'https://adenaagro.com/wp-content/uploads/2024/02/brend-13.png',
+    'https://adenaagro.com/wp-content/uploads/2024/02/62772f9ef5c467cd1376d4513dab3a71_result.jpg',
+    'https://adenaagro.com/wp-content/uploads/2024/02/brend-12-1.png',
+    'https://adenaagro.com/wp-content/uploads/2024/02/brend-21.png',
+    'https://adenaagro.com/wp-content/uploads/2024/02/brend-18.png',
+    'https://adenaagro.com/wp-content/uploads/2024/02/asalift_result-1.jpg',
+    'https://adenaagro.com/wp-content/uploads/2024/02/simon-logo_result-1300x681.jpg',
+    'https://adenaagro.com/wp-content/uploads/2024/02/brend-12.png',
+    'https://adenaagro.com/wp-content/uploads/2024/02/imac-potato-onion-harvester-800x339-1_result-1.jpg',
+    'https://adenaagro.com/wp-content/uploads/2024/02/brend-15-1.png',
+    'https://adenaagro.com/wp-content/uploads/2024/02/brend-21-1.png'
+  ];
+
+  const specializationImages = [
+    'https://adenaagro.com/wp-content/uploads/2024/02/group-125-229x300.png',
+    'https://adenaagro.com/wp-content/uploads/2024/02/group-126-245x300.png',
+    'https://adenaagro.com/wp-content/uploads/2024/02/group-127-263x300.png',
+    'https://adenaagro.com/wp-content/uploads/2024/02/group-128-263x300.png',
+    'https://adenaagro.com/wp-content/uploads/2024/02/group-129-263x300.png',
+    'https://adenaagro.com/wp-content/uploads/2024/02/group-130-263x300.png'
   ];
 
   return (
-    <div style={{ backgroundColor: '#ffffff' }}>
+    <div style={{ backgroundColor: '#ffffff', color: '#000000', fontFamily: 'Ubuntu, Arial, sans-serif' }}>
       
       {/* 1. Breadcrumbs */}
       <div style={{ backgroundColor: '#f7f7f7', borderBottom: '1px solid #e5e5e5', padding: '14px 0' }}>
@@ -81,94 +97,366 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
         </div>
       </div>
 
-      {/* 2. Hero Section */}
+      {/* 2. Hero Section 1 (#xs_cta_style_2) */}
       <section style={{
+        position: 'relative',
         backgroundColor: '#161616',
-        color: '#ffffff',
-        padding: '60px 0 70px 0',
-        backgroundImage: 'linear-gradient(rgba(20, 20, 20, 0.88), rgba(20, 20, 20, 0.92)), url(https://adenaagro.com/wp-content/uploads/2024/02/remont-1500-x-754-pyks.-1000-x-800-pyks.png)',
+        backgroundImage: 'linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)), url(https://adenaagro.com/wp-content/uploads/2024/02/zamjna-.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
+        padding: '80px 0 90px 0',
+        color: '#ffffff',
         borderBottom: '4px solid var(--wd-primary-color)'
       }}>
-        <div className="container" style={{ maxWidth: '1000px', textAlign: 'center' }}>
-          
-          <div style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '8px',
-            backgroundColor: 'rgba(247, 206, 52, 0.15)',
-            border: '1px solid var(--wd-accent-yellow)',
-            color: 'var(--wd-accent-yellow)',
-            padding: '6px 16px',
-            fontSize: '13px',
-            fontWeight: 600,
-            textTransform: 'uppercase',
-            marginBottom: '20px'
-          }}>
-            <Sparkles size={16} />
-            <span>Унікальна послуга в Україні – Економія до 50%</span>
-          </div>
+        <div className="container" style={{ maxWidth: '1100px' }}>
+          <div style={{ maxWidth: '700px' }}>
+            
+            <h1 style={{
+              fontSize: '44px',
+              lineHeight: '1.2',
+              fontWeight: 700,
+              color: '#ffffff',
+              marginBottom: '16px',
+              textTransform: 'none'
+            }}>
+              Ремонт та реставрація <br />
+              гумово-пруткових <br />
+              транспортерів
+            </h1>
 
-          <h1 style={{
-            fontSize: '36px',
-            fontWeight: 700,
-            lineHeight: 1.25,
-            color: '#ffffff',
-            marginBottom: '16px',
-            textTransform: 'uppercase'
-          }}>
-            Ремонт та реставрація гумово-пруткових транспортерів
-          </h1>
+            <div style={{ fontSize: '20px', fontWeight: 500, color: 'var(--wd-accent-yellow)', marginBottom: '8px' }}>
+              Для овочезбиральної та картоплезбиральної техніки
+            </div>
 
-          <p style={{
-            fontSize: '18px',
-            color: '#e0e0e0',
-            maxWidth: '820px',
-            margin: '0 auto 32px auto',
-            lineHeight: 1.6
-          }}>
-            Професійне відновлення просіваючих, гичковидаляючих та завантажувальних транспортерів для картопле- та бурякозбиральних комбайнів <strong>Grimme, AVR, Dewulf, Asa-Lift, Holmer, Ropa, Simon</strong>.
-          </p>
-
-          <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', flexWrap: 'wrap' }}>
-            <a
-              href="#remont-calc"
-              className="btn-adena-primary"
-              style={{ height: '50px', padding: '0 30px', fontSize: '15px', fontWeight: 700 }}
-              onClick={(e) => {
-                const el = document.getElementById('remont-calc');
-                if (el) {
-                  e.preventDefault();
-                  el.scrollIntoView({ behavior: 'smooth' });
-                }
-              }}
-            >
-              Розрахувати вартість ремонту
-            </a>
+            <div style={{ fontSize: '16px', color: '#e5e5e5', marginBottom: '32px' }}>
+              Нова послуга на ринку України ➤ Реальна економія 50% від вартості нового
+            </div>
 
             <button
-              onClick={() => onOpenQuickLead('Заявка на ремонт транспортера')}
-              className="btn-adena-secondary"
-              style={{ height: '50px', padding: '0 26px', fontSize: '15px', fontWeight: 600, backgroundColor: 'rgba(255,255,255,0.15)', color: '#ffffff', border: '1px solid rgba(255,255,255,0.4)' }}
+              onClick={() => onOpenQuickLead('Замовлення ремонту транспортера (Hero)')}
+              style={{
+                backgroundColor: 'var(--wd-accent-yellow)',
+                color: '#111111',
+                border: 'none',
+                padding: '14px 44px',
+                fontSize: '16px',
+                fontWeight: 700,
+                cursor: 'pointer',
+                textTransform: 'uppercase',
+                transition: 'background-color 0.2s',
+                letterSpacing: '0.04em'
+              }}
+              onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'var(--wd-primary-color)'; e.currentTarget.style.color = '#ffffff'; }}
+              onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'var(--wd-accent-yellow)'; e.currentTarget.style.color = '#111111'; }}
             >
-              Замовити консультацію інженера
+              ЗАМОВИТИ
             </button>
+
+          </div>
+        </div>
+      </section>
+
+      {/* 3. Section «Чому є сенс замовити ремонт транспортерів?» */}
+      <section style={{ padding: '60px 0', backgroundColor: '#fcfcfc', borderBottom: '1px solid #eaeaea' }}>
+        <div className="container">
+          
+          <div style={{ textAlign: 'center', marginBottom: '40px' }}>
+            <h2 style={{ fontSize: '32px', fontWeight: 600, color: '#151515', margin: 0 }}>
+              Чому є сенс замовити ремонт транспортерів?
+            </h2>
+          </div>
+
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: '1fr 1.1fr',
+            gap: '40px',
+            alignItems: 'center',
+            ...(window.innerWidth < 960 ? { gridTemplateColumns: '1fr' } : {})
+          }}>
+            
+            {/* Left Image */}
+            <div>
+              <img
+                src="https://adenaagro.com/wp-content/uploads/2024/02/remont.png"
+                alt="Ремонт транспортерів Adena Agro"
+                style={{ width: '100%', height: 'auto', borderRadius: '4px', boxShadow: '0 8px 24px rgba(0,0,0,0.08)' }}
+              />
+            </div>
+
+            {/* Right List of Advantages */}
+            <div style={{
+              backgroundColor: '#ffffff',
+              border: '1px solid #e5e5e5',
+              padding: '36px 30px',
+              borderRadius: '2px'
+            }}>
+              <ul style={{
+                listStyle: 'none',
+                padding: 0,
+                margin: '0 0 28px 0',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '14px',
+                fontSize: '15px',
+                color: '#222222',
+                lineHeight: 1.5
+              }}>
+                <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                  <span style={{ color: 'var(--wd-primary-color)', marginTop: '2px' }}>✔</span>
+                  <span><strong>Прибирання у призначені технологією терміни</strong> без тривалого очікування запчастин</span>
+                </li>
+                <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                  <span style={{ color: 'var(--wd-primary-color)', marginTop: '2px' }}>✔</span>
+                  <span><strong>Зменшення травматизації продукту</strong>, що означає покращення його якості та товарної ціни</span>
+                </li>
+                <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                  <span style={{ color: 'var(--wd-primary-color)', marginTop: '2px' }}>✔</span>
+                  <span>Немає причин викидати старі «негідні» транспортери – ми даємо їм нове життя</span>
+                </li>
+                <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                  <span style={{ color: 'var(--wd-primary-color)', marginTop: '2px' }}>✔</span>
+                  <span style={{ color: 'var(--wd-price-red)', fontWeight: 700 }}>Реальна економія 50% від вартості нового транспортера</span>
+                </li>
+                <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                  <span style={{ color: 'var(--wd-primary-color)', marginTop: '2px' }}>✔</span>
+                  <span>Отримання відреставрованого транспортера, зібраного з <strong>європейських армованих стрічок</strong> та комплектуючих</span>
+                </li>
+                <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                  <span style={{ color: 'var(--wd-primary-color)', marginTop: '2px' }}>✔</span>
+                  <span>Швидке вирішення проблеми заміни деталей транспортера у полі (ремкомплект, замки)</span>
+                </li>
+                <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                  <span style={{ color: 'var(--wd-primary-color)', marginTop: '2px' }}>✔</span>
+                  <span>Створення замінного фонду із відреставрованих старих транспортерів</span>
+                </li>
+                <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                  <span style={{ color: 'var(--wd-primary-color)', marginTop: '2px' }}>✔</span>
+                  <span style={{ color: '#059669', fontWeight: 600 }}>Знижка 10% на опорні та приводні ролики при замовленні ремонту</span>
+                </li>
+              </ul>
+
+              <button
+                onClick={() => onOpenQuickLead('Замовлення ремонту транспортера (Чому є сенс)')}
+                style={{
+                  backgroundColor: 'var(--wd-accent-yellow)',
+                  color: '#111111',
+                  border: 'none',
+                  padding: '12px 36px',
+                  fontSize: '15px',
+                  fontWeight: 700,
+                  cursor: 'pointer',
+                  textTransform: 'uppercase'
+                }}
+                onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'var(--wd-primary-color)'; e.currentTarget.style.color = '#ffffff'; }}
+                onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'var(--wd-accent-yellow)'; e.currentTarget.style.color = '#111111'; }}
+              >
+                ЗАМОВИТИ
+              </button>
+            </div>
+
           </div>
 
         </div>
       </section>
 
-      {/* 3. Value Pillars («Чому є сенс замовити ремонт транспортерів?») */}
-      <section style={{ padding: '60px 0', backgroundColor: '#fcfcfc', borderBottom: '1px solid #eaeaea' }}>
+      {/* 4. 3 Product Application Cards (Цибуля / Картопля / Морква) */}
+      <section style={{ padding: '60px 0', backgroundColor: '#ffffff', borderBottom: '1px solid #eaeaea' }}>
+        <div className="container">
+          
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(3, 1fr)',
+            gap: '30px',
+            ...(window.innerWidth < 768 ? { gridTemplateColumns: '1fr' } : {})
+          }}>
+            
+            {/* Card 1: Цибуля */}
+            <div style={{ textAlign: 'center', border: '1px solid #e8e8e8', padding: '24px 18px', backgroundColor: '#fafafa' }}>
+              <h3 style={{ fontSize: '20px', fontWeight: 600, color: '#111', marginBottom: '16px' }}>
+                Техніка для збирання цибулі
+              </h3>
+              <img
+                src="https://adenaagro.com/wp-content/uploads/2024/02/luk.png"
+                alt="Техніка для збирання цибулі"
+                style={{ width: '100%', height: 'auto', maxHeight: '240px', objectFit: 'contain' }}
+              />
+            </div>
+
+            {/* Card 2: Картопля */}
+            <div style={{ textAlign: 'center', border: '1px solid #e8e8e8', padding: '24px 18px', backgroundColor: '#fafafa' }}>
+              <h3 style={{ fontSize: '20px', fontWeight: 600, color: '#111', marginBottom: '16px' }}>
+                Техніка для збирання картоплі
+              </h3>
+              <img
+                src="https://adenaagro.com/wp-content/uploads/2024/02/kartoha.png"
+                alt="Техніка для збирання картоплі"
+                style={{ width: '100%', height: 'auto', maxHeight: '240px', objectFit: 'contain' }}
+              />
+            </div>
+
+            {/* Card 3: Морква */}
+            <div style={{ textAlign: 'center', border: '1px solid #e8e8e8', padding: '24px 18px', backgroundColor: '#fafafa' }}>
+              <h3 style={{ fontSize: '20px', fontWeight: 600, color: '#111', marginBottom: '16px' }}>
+                Техніка для збирання Моркви
+              </h3>
+              <img
+                src="https://adenaagro.com/wp-content/uploads/2024/02/remont-1500-x-754-pyks.-1000-x-800-pyks.png"
+                alt="Техніка для збирання Моркви"
+                style={{ width: '100%', height: 'auto', maxHeight: '240px', objectFit: 'contain' }}
+              />
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      {/* 5. Brand Logos Grid */}
+      <section style={{ padding: '60px 0', backgroundColor: '#f9f9f9', borderBottom: '1px solid #eaeaea' }}>
+        <div className="container">
+          
+          <div style={{ textAlign: 'center', marginBottom: '32px' }}>
+            <h3 style={{ fontSize: '18px', fontWeight: 600, color: '#666', textTransform: 'uppercase', letterSpacing: '0.06em' }}>
+              Бренди техніки, для яких ми ремонтуємо транспортери
+            </h3>
+          </div>
+
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(4, 1fr)',
+            gap: '20px',
+            alignItems: 'center',
+            justifyItems: 'center',
+            ...(window.innerWidth < 960 ? { gridTemplateColumns: 'repeat(2, 1fr)' } : {})
+          }}>
+            {brandLogos.map((logoUrl, idx) => (
+              <div 
+                key={idx}
+                style={{
+                  backgroundColor: '#ffffff',
+                  border: '1px solid #e5e5e5',
+                  padding: '16px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  width: '100%',
+                  height: '110px'
+                }}
+              >
+                <img
+                  src={logoUrl}
+                  alt={`Виробник ${idx + 1}`}
+                  style={{ maxWidth: '85%', maxHeight: '70px', objectFit: 'contain' }}
+                />
+              </div>
+            ))}
+          </div>
+
+        </div>
+      </section>
+
+      {/* 6. Section «З якими труднощами Ви стикаєтесь при прийнятті рішення – купити транспортер» */}
+      <section style={{ padding: '70px 0', backgroundColor: '#ffffff', borderBottom: '1px solid #eaeaea' }}>
+        <div className="container">
+          
+          <div style={{ textAlign: 'center', marginBottom: '50px' }}>
+            <h2 style={{ fontSize: '30px', fontWeight: 600, color: '#111', maxWidth: '800px', margin: '0 auto' }}>
+              З якими труднощами Ви стикаєтесь при прийнятті рішення – купити транспортер
+            </h2>
+          </div>
+
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(4, 1fr)',
+            gap: '24px',
+            ...(window.innerWidth < 960 ? { gridTemplateColumns: 'repeat(2, 1fr)' } : {}),
+            ...(window.innerWidth < 640 ? { gridTemplateColumns: '1fr' } : {})
+          }}>
+            
+            {/* Box 1 */}
+            <div style={{
+              backgroundColor: '#fcfcfc',
+              border: '1px solid #e5e5e5',
+              padding: '30px 20px',
+              textAlign: 'center',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center'
+            }}>
+              <div style={{ width: '64px', height: '64px', backgroundColor: '#fff3ec', color: 'var(--wd-primary-color)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '18px' }}>
+                <Search size={28} />
+              </div>
+              <p style={{ fontSize: '14px', color: '#444', lineHeight: 1.6, margin: 0 }}>
+                Тривалий пошук надійного, гарного постачальника техніки та постійна проблема «Де придбати?»
+              </p>
+            </div>
+
+            {/* Box 2 */}
+            <div style={{
+              backgroundColor: '#fcfcfc',
+              border: '1px solid #e5e5e5',
+              padding: '30px 20px',
+              textAlign: 'center',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center'
+            }}>
+              <div style={{ width: '64px', height: '64px', backgroundColor: '#fffbe6', color: '#b28600', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '18px' }}>
+                <HelpCircle size={28} />
+              </div>
+              <p style={{ fontSize: '14px', color: '#444', lineHeight: 1.6, margin: 0 }}>
+                Не все зрозуміло з узгодженням необхідних параметрів транспортера при замовленні в Європі
+              </p>
+            </div>
+
+            {/* Box 3 */}
+            <div style={{
+              backgroundColor: '#fcfcfc',
+              border: '1px solid #e5e5e5',
+              padding: '30px 20px',
+              textAlign: 'center',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center'
+            }}>
+              <div style={{ width: '64px', height: '64px', backgroundColor: '#fee2e2', color: '#dc2626', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '18px' }}>
+                <DollarSign size={28} />
+              </div>
+              <p style={{ fontSize: '14px', color: '#444', lineHeight: 1.6, margin: 0 }}>
+                Дорога, та не завжди обгрунтована вартість техніки. Невідповідність за критерієм ціна - якість
+              </p>
+            </div>
+
+            {/* Box 4 */}
+            <div style={{
+              backgroundColor: '#fcfcfc',
+              border: '1px solid #e5e5e5',
+              padding: '30px 20px',
+              textAlign: 'center',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center'
+            }}>
+              <div style={{ width: '64px', height: '64px', backgroundColor: '#e0f2fe', color: '#0284c7', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '18px' }}>
+                <Clock size={28} />
+              </div>
+              <p style={{ fontSize: '14px', color: '#444', lineHeight: 1.6, margin: 0 }}>
+                Тривалий термін постачання. Невпевненість у тому, що приїде та сама техніка, що ви обрали
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      {/* 7. Section «Транспортери — наша спеціалізація» */}
+      <section style={{ padding: '70px 0', backgroundColor: '#fafafa', borderBottom: '1px solid #eaeaea' }}>
         <div className="container">
           
           <div style={{ textAlign: 'center', marginBottom: '44px' }}>
-            <span style={{ fontSize: '13px', color: 'var(--wd-primary-color)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.06em' }}>
-              Переваги реставрації
-            </span>
-            <h2 style={{ fontSize: '28px', fontWeight: 600, color: '#111', marginTop: '4px' }}>
-              Чому є сенс замовити ремонт транспортера у нас?
+            <h2 style={{ fontSize: '32px', fontWeight: 600, color: '#111', margin: 0 }}>
+              Транспортери — наша спеціалізація
             </h2>
           </div>
 
@@ -176,324 +464,377 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
             display: 'grid',
             gridTemplateColumns: 'repeat(3, 1fr)',
             gap: '24px',
-            ...(window.innerWidth < 960 ? { gridTemplateColumns: '1fr' } : {})
+            ...(window.innerWidth < 960 ? { gridTemplateColumns: 'repeat(2, 1fr)' } : {}),
+            ...(window.innerWidth < 640 ? { gridTemplateColumns: '1fr' } : {})
           }}>
-            
-            {/* Card 1 */}
-            <div style={{ backgroundColor: '#ffffff', border: '1px solid #e5e5e5', padding: '30px 24px' }}>
-              <div style={{ width: '50px', height: '50px', backgroundColor: '#fff6f0', color: 'var(--wd-primary-color)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '18px' }}>
-                <DollarSign size={26} />
-              </div>
-              <h3 style={{ fontSize: '18px', fontWeight: 600, color: '#111', marginBottom: '10px' }}>
-                Економія 50% бюджету
-              </h3>
-              <p style={{ fontSize: '14px', color: '#666', lineHeight: 1.6, margin: 0 }}>
-                Новий оригінальний європейський транспортер коштує від 120 000 до 350 000 грн. Якісна заміна стрічок та прутків коштує вдвічі дешевше при збереженні повного ресурсу.
-              </p>
-            </div>
-
-            {/* Card 2 */}
-            <div style={{ backgroundColor: '#ffffff', border: '1px solid #e5e5e5', padding: '30px 24px' }}>
-              <div style={{ width: '50px', height: '50px', backgroundColor: '#eefcf1', color: '#10b981', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '18px' }}>
-                <Clock size={26} />
-              </div>
-              <h3 style={{ fontSize: '18px', fontWeight: 600, color: '#111', marginBottom: '10px' }}>
-                Швидкість (3-5 днів)
-              </h3>
-              <p style={{ fontSize: '14px', color: '#666', lineHeight: 1.6, margin: 0 }}>
-                Доставка нового транспортера з Європи в розпал сезону займає 3-6 тижнів простою техніки. Ми відновлюємо транспортер за 3-5 робочих днів на власній виробничій базі в Рівному.
-              </p>
-            </div>
-
-            {/* Card 3 */}
-            <div style={{ backgroundColor: '#ffffff', border: '1px solid #e5e5e5', padding: '30px 24px' }}>
-              <div style={{ width: '50px', height: '50px', backgroundColor: '#fffdf0', color: '#b28600', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '18px' }}>
-                <ShieldCheck size={26} />
-              </div>
-              <h3 style={{ fontSize: '18px', fontWeight: 600, color: '#111', marginBottom: '10px' }}>
-                Гарантія якості та геометрії
-              </h3>
-              <p style={{ fontSize: '14px', color: '#666', lineHeight: 1.6, margin: 0 }}>
-                Використовуємо лише високоміцні армовані німецькі та голландські стрічки, оригінальні заклепки та сталеві прутки зі збереженням точного заводського кроку.
-              </p>
-            </div>
-
-          </div>
-
-        </div>
-      </section>
-
-      {/* 4. Supported Brands Row */}
-      <section style={{ padding: '44px 0', borderBottom: '1px solid #eaeaea' }}>
-        <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '24px' }}>
-            <h3 style={{ fontSize: '16px', fontWeight: 600, color: '#888', textTransform: 'uppercase', letterSpacing: '0.08em', margin: 0 }}>
-              Бренди техніки, транспортери яких ми відновлюємо
-            </h3>
-          </div>
-
-          <div style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            flexWrap: 'wrap',
-            gap: '24px'
-          }}>
-            {supportedBrands.map((b) => (
-              <div
-                key={b.name}
-                style={{
-                  padding: '12px 18px',
-                  backgroundColor: '#f8f8f8',
-                  border: '1px solid #e8e8e8',
-                  fontWeight: 600,
-                  fontSize: '14px',
-                  color: '#333'
-                }}
-              >
-                {b.name}
+            {specializationImages.map((imgUrl, idx) => (
+              <div key={idx} style={{ backgroundColor: '#ffffff', border: '1px solid #e0e0e0', padding: '16px', textAlign: 'center' }}>
+                <img
+                  src={imgUrl}
+                  alt={`Спеціалізація транспортерів ${idx + 1}`}
+                  style={{ width: '100%', height: 'auto', maxHeight: '280px', objectFit: 'contain' }}
+                />
               </div>
             ))}
           </div>
+
         </div>
       </section>
 
-      {/* 5. Before / After Comparison */}
-      <section style={{ padding: '60px 0', backgroundColor: '#ffffff', borderBottom: '1px solid #eaeaea' }}>
+      {/* 8. Section «Як подовжити ресурс транспортера ?» */}
+      <section style={{ padding: '70px 0', backgroundColor: '#ffffff', borderBottom: '1px solid #eaeaea' }}>
         <div className="container">
+          
           <div style={{ textAlign: 'center', marginBottom: '40px' }}>
-            <span style={{ fontSize: '13px', color: 'var(--wd-primary-color)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.06em' }}>
-              Результат роботи
-            </span>
-            <h2 style={{ fontSize: '28px', fontWeight: 600, color: '#111', marginTop: '4px' }}>
-              До ремонту / Після ремонту
+            <h2 style={{ fontSize: '32px', fontWeight: 600, color: '#111', margin: 0 }}>
+              Як подовжити ресурс транспортера ?
             </h2>
           </div>
 
           <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(2, 1fr)',
-            gap: '30px',
-            ...(window.innerWidth < 768 ? { gridTemplateColumns: '1fr' } : {})
+            gridTemplateColumns: '1fr 1.2fr',
+            gap: '40px',
+            alignItems: 'center',
+            marginBottom: '40px',
+            ...(window.innerWidth < 960 ? { gridTemplateColumns: '1fr' } : {})
           }}>
-            
-            {/* Box Before */}
-            <div style={{ border: '2px solid #ef4444', padding: '20px', backgroundColor: '#fffbfb' }}>
-              <div style={{ display: 'inline-block', backgroundColor: '#ef4444', color: '#fff', padding: '4px 12px', fontSize: '13px', fontWeight: 700, marginBottom: '12px', textTransform: 'uppercase' }}>
-                ❌ До ремонту
-              </div>
-              <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '14px', color: '#444' }}>
-                <li>• Розриви та стирання зубчастих гумових стрічок</li>
-                <li>• Погнуті, тріснуті або зношені сталеві прутки</li>
-                <li>• Люфт і зрив з'єднувальних замків</li>
-                <li>• Перекіс транспортера і пошкодження роликів комбайна</li>
-              </ul>
+            <div>
+              <img
+                src="https://adenaagro.com/wp-content/uploads/2024/02/image-52.png"
+                alt="Транспортери та ролики"
+                style={{ width: '100%', height: 'auto', borderRadius: '4px' }}
+              />
             </div>
 
-            {/* Box After */}
-            <div style={{ border: '2px solid #10b981', padding: '20px', backgroundColor: '#f6fdf9' }}>
-              <div style={{ display: 'inline-block', backgroundColor: '#10b981', color: '#fff', padding: '4px 12px', fontSize: '13px', fontWeight: 700, marginBottom: '12px', textTransform: 'uppercase' }}>
-                ✅ Після реставрації
-              </div>
-              <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '14px', color: '#444' }}>
-                <li>• Нові армовані стрічки з точним заводським кроком (28/32/35/40/45 мм)</li>
-                <li>• Рівні загартовані прутки з надійним клепанням</li>
-                <li>• Нові замки та захисні вулканізовані накладки</li>
-                <li>• 100% готовність до сезону з гарантією виробника</li>
-              </ul>
+            <div>
+              <h3 style={{ fontSize: '24px', fontWeight: 600, color: '#111', marginBottom: '16px' }}>
+                Транспортери та ролики – одна функціональна одиниця
+              </h3>
+              <p style={{ fontSize: '15px', color: '#444', lineHeight: 1.7, margin: 0 }}>
+                Своєчасна заміна роликів значно збільшує ресурс транспортера, так як не працюючий ролик (заклинили, або нерівномірно стертий або перекошений) не забезпечує точне ведення транспортерів і призводить як до бічних стирання країв транспортера, так і до стирання самої стрічки за рахунок тертя по ролику, що не обертається.
+              </p>
             </div>
-
           </div>
+
+          {/* Full-width Blueprint Graphic */}
+          <div style={{ textAlign: 'center' }}>
+            <img
+              src="https://adenaagro.com/wp-content/uploads/2024/02/rectangle-99.png"
+              alt="Схема взаємодії роликів та транспортера"
+              style={{ width: '100%', height: 'auto', borderRadius: '4px', border: '1px solid #eee' }}
+            />
+          </div>
+
         </div>
       </section>
 
-      {/* 6. Online Repair Cost Calculator */}
-      <section id="remont-calc" style={{ padding: '60px 0', backgroundColor: '#fafafa', borderBottom: '1px solid #eaeaea' }}>
-        <div className="container" style={{ maxWidth: '800px' }}>
+      {/* 9. Interactive Before / After Image Comparison Slider («До ремонту / Після ремонту») */}
+      <section style={{ padding: '70px 0', backgroundColor: '#fcfcfc', borderBottom: '1px solid #eaeaea' }}>
+        <div className="container" style={{ maxWidth: '1000px' }}>
           
           <div style={{ textAlign: 'center', marginBottom: '32px' }}>
-            <h2 style={{ fontSize: '26px', fontWeight: 600, color: '#111', margin: 0 }}>
-              Калькулятор прорахунку реставрації транспортера
+            <h2 style={{ fontSize: '32px', fontWeight: 600, color: '#111', margin: 0 }}>
+              До ремонту / Після ремонту
             </h2>
             <p style={{ fontSize: '14px', color: '#666', marginTop: '6px' }}>
-              Вкажіть параметри вашого транспортера для попереднього розрахунку вартості
+              Перетягніть повзунок, щоб порівняти стан зношеного транспортера та повністю відновленого
             </p>
           </div>
 
-          <form 
-            onSubmit={calculateRepairCost}
+          {/* Interactive Split View */}
+          <div
+            ref={sliderRef}
+            onMouseDown={() => setIsDragging(true)}
+            onMouseUp={() => setIsDragging(false)}
+            onMouseLeave={() => setIsDragging(false)}
+            onMouseMove={handleMouseMove}
+            onTouchMove={handleTouchMove}
             style={{
-              backgroundColor: '#ffffff',
-              border: '1px solid #e0e0e0',
-              padding: '28px',
-              boxShadow: '0 4px 12px rgba(0,0,0,0.04)'
+              position: 'relative',
+              width: '100%',
+              aspectRatio: '950 / 634',
+              overflow: 'hidden',
+              cursor: 'ew-resize',
+              userSelect: 'none',
+              borderRadius: '4px',
+              boxShadow: '0 8px 30px rgba(0,0,0,0.12)'
             }}
           >
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '16px' }}>
-              <div>
-                <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#333', marginBottom: '6px' }}>
-                  Крок прутків (мм):
-                </label>
-                <select
-                  value={pitchMm}
-                  onChange={(e) => setPitchMm(e.target.value)}
-                  style={{ width: '100%', height: '42px', border: '1px solid #ccc', padding: '0 12px', fontSize: '14px' }}
-                >
-                  <option value="28">28 мм</option>
-                  <option value="32">32 мм</option>
-                  <option value="35">35 мм</option>
-                  <option value="40">40 мм</option>
-                  <option value="45">45 мм</option>
-                  <option value="50">50 мм</option>
-                </select>
-              </div>
-
-              <div>
-                <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#333', marginBottom: '6px' }}>
-                  Ширина транспортера (мм):
-                </label>
-                <select
-                  value={widthMm}
-                  onChange={(e) => setWidthMm(e.target.value)}
-                  style={{ width: '100%', height: '42px', border: '1px solid #ccc', padding: '0 12px', fontSize: '14px' }}
-                >
-                  <option value="600">600 мм</option>
-                  <option value="650">650 мм</option>
-                  <option value="750">750 мм</option>
-                  <option value="800">800 мм</option>
-                  <option value="900">900 мм</option>
-                  <option value="1500">1500 мм</option>
-                </select>
-              </div>
+            {/* After Image (Background) */}
+            <img
+              src="https://adenaagro.com/wp-content/uploads/2024/02/dsc_0094-2.png"
+              alt="Після ремонту"
+              style={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover'
+              }}
+            />
+            <div style={{
+              position: 'absolute',
+              top: '16px',
+              right: '16px',
+              backgroundColor: '#10b981',
+              color: '#ffffff',
+              padding: '6px 14px',
+              fontSize: '13px',
+              fontWeight: 700,
+              borderRadius: '2px',
+              textTransform: 'uppercase'
+            }}>
+              Після ремонту
             </div>
 
-            <div style={{ marginBottom: '20px' }}>
-              <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#333', marginBottom: '6px' }}>
-                Довжина транспортера по колу (метрів):
-              </label>
-              <input
-                type="number"
-                step="0.1"
-                min="1"
-                max="25"
-                value={lengthM}
-                onChange={(e) => setLengthM(e.target.value)}
-                style={{ width: '100%', height: '42px', border: '1px solid #ccc', padding: '0 12px', fontSize: '14px' }}
+            {/* Before Image (Clipped Overlay) */}
+            <div style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: `${sliderPosition}%`,
+              height: '100%',
+              overflow: 'hidden'
+            }}>
+              <img
+                src="https://adenaagro.com/wp-content/uploads/2024/02/bylo1-1.png"
+                alt="До ремонту"
+                style={{
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  width: sliderRef.current ? `${sliderRef.current.clientWidth}px` : '100%',
+                  height: '100%',
+                  maxWidth: 'none',
+                  objectFit: 'cover'
+                }}
               />
-            </div>
-
-            <div style={{ marginBottom: '24px' }}>
-              <label style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer', fontSize: '14px' }}>
-                <input
-                  type="checkbox"
-                  checked={needsRods}
-                  onChange={(e) => setNeedsRods(e.target.checked)}
-                />
-                <span>Потрібна повна заміна сталевих прутків</span>
-              </label>
-            </div>
-
-            <button type="submit" className="btn-adena-primary" style={{ width: '100%', height: '46px', fontWeight: 700, fontSize: '15px' }}>
-              Розрахувати орієнтовну вартість
-            </button>
-
-            {calcResult && (
-              <div style={{ marginTop: '24px', padding: '18px', backgroundColor: '#f6fdf9', border: '1px solid #10b981' }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>
-                  <span style={{ fontSize: '14px', color: '#444' }}>Вартість реставрації транспортера:</span>
-                  <span style={{ fontSize: '18px', fontWeight: 700, color: '#10b981' }}>{calcResult.totalUah.toLocaleString()} грн</span>
-                </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>
-                  <span style={{ fontSize: '13px', color: '#777' }}>Вартість нового аналога з Європи:</span>
-                  <span style={{ fontSize: '14px', color: '#888', textDecoration: 'line-through' }}>{calcResult.newEquivalentUah.toLocaleString()} грн</span>
-                </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', borderTop: '1px solid #d1fae5', paddingTop: '8px' }}>
-                  <strong style={{ fontSize: '14px', color: '#111' }}>Ваша економія:</strong>
-                  <strong style={{ fontSize: '16px', color: 'var(--wd-price-red)' }}>~ {calcResult.savingsUah.toLocaleString()} грн (50%)</strong>
-                </div>
-                <button
-                  type="button"
-                  onClick={() => onOpenQuickLead(`Замовлення ремонту транспортера (${lengthM}м, крок ${pitchMm}мм)`)}
-                  className="btn-adena-secondary"
-                  style={{ width: '100%', marginTop: '14px', height: '42px', fontWeight: 600 }}
-                >
-                  Оформити заявку на ремонт за цією ціною
-                </button>
+              <div style={{
+                position: 'absolute',
+                top: '16px',
+                left: '16px',
+                backgroundColor: '#ef4444',
+                color: '#ffffff',
+                padding: '6px 14px',
+                fontSize: '13px',
+                fontWeight: 700,
+                borderRadius: '2px',
+                textTransform: 'uppercase'
+              }}>
+                До ремонту
               </div>
-            )}
-          </form>
+            </div>
+
+            {/* Divider Handle Line */}
+            <div style={{
+              position: 'absolute',
+              top: 0,
+              bottom: 0,
+              left: `${sliderPosition}%`,
+              width: '4px',
+              backgroundColor: '#ffffff',
+              transform: 'translateX(-50%)',
+              boxShadow: '0 0 10px rgba(0,0,0,0.5)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}>
+              <div style={{
+                width: '38px',
+                height: '38px',
+                borderRadius: '50%',
+                backgroundColor: '#ffffff',
+                boxShadow: '0 2px 8px rgba(0,0,0,0.3)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                color: '#111',
+                fontSize: '14px',
+                fontWeight: 700
+              }}>
+                ↔
+              </div>
+            </div>
+          </div>
 
         </div>
       </section>
 
-      {/* 7. Ready-made Components & Spare Parts */}
-      <section style={{ padding: '50px 0' }}>
-        <div className="container">
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
-            <h2 style={{ fontSize: '22px', fontWeight: 600, color: '#111', margin: 0 }}>
-              Комплектуючі та готові транспортери в наявності
-            </h2>
-            <Link to="/product-category/zapchastyny" style={{ fontSize: '13px', fontWeight: 600, color: 'var(--wd-primary-color)', display: 'flex', alignItems: 'center', gap: '4px' }}>
-              <span>Всі запчастини</span>
-              <ArrowRight size={14} />
-            </Link>
-          </div>
-
-          <div className="products-bordered-grid">
-            {repairParts.map((machine) => (
-              <MachineryCard
-                key={machine.id}
-                machine={machine}
-                currency={currency}
-                onSelectMachine={() => {}}
-                onQuickBook={() => {}}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 8. Callout Banner */}
+      {/* 10. Callout Box Banner */}
       <section style={{
         backgroundColor: '#1d1d1d',
         color: '#ffffff',
-        padding: '44px 0',
+        padding: '50px 0',
         borderTop: '3px solid var(--wd-accent-yellow)'
       }}>
-        <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '20px' }}>
-          <div>
-            <h3 style={{ fontSize: '22px', fontWeight: 600, color: '#ffffff', margin: '0 0 6px 0' }}>
-              Бажаєте відправити транспортер на дефектовку?
+        <div className="container" style={{ textAlign: 'center', maxWidth: '850px' }}>
+          <h2 style={{
+            fontSize: '24px',
+            lineHeight: 1.4,
+            fontWeight: 600,
+            color: '#ffffff',
+            marginBottom: '24px'
+          }}>
+            Замовите ремонт одного транспортера і ви знайдете для себе вирішення проблем, пов'язані із покупкою нових траспортерів
+          </h2>
+
+          <button
+            onClick={() => onOpenQuickLead('Замовлення ремонту транспортера (CTA блок)')}
+            style={{
+              backgroundColor: 'var(--wd-accent-yellow)',
+              color: '#111111',
+              border: 'none',
+              padding: '14px 44px',
+              fontSize: '16px',
+              fontWeight: 700,
+              cursor: 'pointer',
+              textTransform: 'uppercase'
+            }}
+            onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'var(--wd-primary-color)'; e.currentTarget.style.color = '#ffffff'; }}
+            onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'var(--wd-accent-yellow)'; e.currentTarget.style.color = '#111111'; }}
+          >
+            ЗАМОВИТИ
+          </button>
+        </div>
+      </section>
+
+      {/* 11. Large Infographic Banner & Contacts */}
+      <section style={{ padding: '60px 0', backgroundColor: '#ffffff', borderBottom: '1px solid #eaeaea' }}>
+        <div className="container">
+          
+          <div style={{ textAlign: 'center', marginBottom: '40px' }}>
+            <img
+              src="https://adenaagro.com/wp-content/uploads/2024/02/group-89.png"
+              alt="Ремонт та реставрація транспортерів схема"
+              style={{ width: '100%', height: 'auto', borderRadius: '4px' }}
+            />
+          </div>
+
+          {/* Contact Box */}
+          <div style={{
+            maxWidth: '650px',
+            margin: '0 auto',
+            textAlign: 'center',
+            backgroundColor: '#fafafa',
+            border: '1px solid #e0e0e0',
+            padding: '30px 24px'
+          }}>
+            <h3 style={{ fontSize: '18px', fontWeight: 600, color: '#111', marginBottom: '14px' }}>
+              35306, Україна, м.Рівне, с.Колоденка, вул. Свободи, буд. 26
             </h3>
-            <p style={{ fontSize: '14px', color: '#bbb', margin: 0 }}>
-              Приймаємо транспортери перевізниками (Нова Пошта, Делівері, САТ) з усіх областей України.
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '18px', fontWeight: 700 }}>
+              <a href="tel:+380678882222" style={{ color: 'var(--wd-primary-color)' }}>+38 (067) 888 22 22</a>
+              <a href="tel:+380966610100" style={{ color: 'var(--wd-primary-color)' }}>+38 (096) 661 01 00</a>
+              <a href="tel:+380950706877" style={{ color: 'var(--wd-primary-color)' }}>+38 (095) 070 68 77</a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      {/* 12. Prefooter Fluent Form («Потрібна допомога у підборі?») */}
+      <section style={{
+        backgroundColor: '#111111',
+        color: '#ffffff',
+        borderTop: '4px solid var(--wd-primary-color)'
+      }}>
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: '1fr 1fr',
+          ...(window.innerWidth < 860 ? { gridTemplateColumns: '1fr' } : {})
+        }}>
+          
+          {/* Tractor Image */}
+          <div style={{
+            backgroundImage: 'url(https://adenaagro.com/wp-content/uploads/2022/12/traktor-768x432.webp)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            minHeight: '380px'
+          }}></div>
+
+          {/* Form Content */}
+          <div style={{ padding: '50px 40px', maxWidth: '550px' }}>
+            <h3 style={{ fontSize: '28px', fontWeight: 600, color: '#ffffff', marginBottom: '8px' }}>
+              Потрібна допомога у підборі?
+            </h3>
+            <p style={{ fontSize: '15px', color: '#cccccc', marginBottom: '24px' }}>
+              Наші спеціалісти готові надати Вам професійну консультацію. Звертайтеся!
             </p>
+
+            {submitted ? (
+              <div style={{
+                backgroundColor: 'rgba(16, 185, 129, 0.2)',
+                border: '1px solid #10b981',
+                color: '#6ee7b7',
+                padding: '16px',
+                borderRadius: '4px',
+                fontSize: '15px'
+              }}>
+                ✅ Дякуємо! Ваша заявка прийнята. Інженер зателефонує вам протягом 10 хвилин.
+              </div>
+            ) : (
+              <form onSubmit={handleSubmitConsultation} style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
+                <div>
+                  <input
+                    type="text"
+                    placeholder="Ваше ім'я"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    style={{
+                      width: '100%',
+                      height: '46px',
+                      padding: '0 16px',
+                      backgroundColor: '#ffffff',
+                      border: 'none',
+                      fontSize: '14px',
+                      color: '#000'
+                    }}
+                  />
+                </div>
+
+                <div>
+                  <input
+                    type="tel"
+                    required
+                    placeholder="+38 099 999 99 99"
+                    value={phone}
+                    onChange={(e) => setPhone(e.target.value)}
+                    style={{
+                      width: '100%',
+                      height: '46px',
+                      padding: '0 16px',
+                      backgroundColor: '#ffffff',
+                      border: 'none',
+                      fontSize: '14px',
+                      color: '#000'
+                    }}
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  style={{
+                    height: '48px',
+                    backgroundColor: 'var(--wd-primary-color)',
+                    color: '#ffffff',
+                    border: 'none',
+                    fontSize: '15px',
+                    fontWeight: 700,
+                    cursor: 'pointer',
+                    textTransform: 'uppercase',
+                    letterSpacing: '0.04em',
+                    marginTop: '6px'
+                  }}
+                >
+                  Отримати консультацію
+                </button>
+              </form>
+            )}
+
           </div>
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: '18px', flexWrap: 'wrap' }}>
-            <a
-              href="tel:+380966610100"
-              style={{
-                color: 'var(--wd-accent-yellow)',
-                fontSize: '18px',
-                fontWeight: 700,
-                display: 'flex',
-                alignItems: 'center',
-                gap: '8px'
-              }}
-            >
-              <Phone size={20} />
-              <span>+38 (096) 66 10 100</span>
-            </a>
-
-            <button
-              onClick={() => onOpenQuickLead('Дефектовка транспортера')}
-              className="btn-adena-primary"
-              style={{ height: '44px', padding: '0 24px', fontWeight: 700 }}
-            >
-              Замовити дефектовку
-            </button>
-          </div>
         </div>
       </section>
 
