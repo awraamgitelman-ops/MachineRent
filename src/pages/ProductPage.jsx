@@ -267,12 +267,6 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
               overflow: 'hidden',
               marginBottom: '14px'
             }}>
-              {machine.badge && (
-                <div className="product-label-badge product-label-sale">
-                  {machine.badge}
-                </div>
-              )}
-
               <img
                 src={machine.images[activePhotoIdx] || machine.images[0]}
                 alt={machine.name}

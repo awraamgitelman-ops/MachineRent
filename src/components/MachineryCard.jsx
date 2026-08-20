@@ -22,12 +22,6 @@ export default function MachineryCard({
     >
       {/* Top Image Container */}
       <div className="product-element-top">
-        {machine.badge && (
-          <div className="product-label-badge product-label-sale">
-            {machine.badge}
-          </div>
-        )}
-
         <img
           src={machine.images[0]}
           alt={machine.name}
@@ -57,23 +51,8 @@ export default function MachineryCard({
           </h3>
 
           {/* Brand Link */}
-          <div className="wd-product-brands-links">
+          <div className="wd-product-brands-links" style={{ marginBottom: '14px' }}>
             <span>{machine.brand}</span>
-          </div>
-
-          {/* Key Specs Pills */}
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px', marginBottom: '12px' }}>
-            <span style={{ fontSize: '11px', background: '#f5f5f5', padding: '2px 6px', color: '#555' }}>
-              {machine.specs?.powerHp || 'від 90 к.с.'}
-            </span>
-            <span style={{ fontSize: '11px', background: '#f5f5f5', padding: '2px 6px', color: '#555' }}>
-              {machine.specs?.workingWidth || '2-4 ряди'}
-            </span>
-            {machine.specs?.operatorIncluded && (
-              <span style={{ fontSize: '11px', background: '#eefcf1', color: '#10b981', padding: '2px 6px', fontWeight: 600 }}>
-                З оператором
-              </span>
-            )}
           </div>
         </div>
 
