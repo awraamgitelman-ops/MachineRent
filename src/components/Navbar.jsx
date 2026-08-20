@@ -77,26 +77,22 @@ export default function Navbar({
       <div className="whb-general-header">
         <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '20px' }}>
           
-          {/* Adena Agro Logo */}
-          <Link to="/" className="adena-logo-text">
-            <div style={{
-              width: '42px',
-              height: '42px',
-              borderRadius: '50%',
-              backgroundColor: '#111111',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              color: '#f7ce34',
-              boxShadow: '0 2px 8px rgba(0,0,0,0.15)'
-            }}>
-              <span style={{ fontSize: '22px' }}>⚙️</span>
-            </div>
+          {/* AGRO RENTEX Logo */}
+          <Link to="/" className="adena-logo-text" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '12px' }}>
+            <img 
+              src="/logo.png" 
+              alt="AGRO RENTEX" 
+              style={{
+                height: '48px',
+                width: 'auto',
+                objectFit: 'contain'
+              }} 
+            />
             <div>
-              <div className="adena-logo-brand">
+              <div className="adena-logo-brand" style={{ fontSize: '20px', letterSpacing: '-0.02em', lineHeight: 1.1 }}>
                 AGRO<span>RENTEX</span>
               </div>
-              <div style={{ fontSize: '10px', color: '#888888', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
+              <div style={{ fontSize: '10px', color: '#888888', letterSpacing: '0.08em', textTransform: 'uppercase', marginTop: '2px' }}>
                 Польова та складська техніка
               </div>
             </div>

@@ -13,8 +13,16 @@ export default function Footer({ onOpenQuickLead }) {
           
           {/* Col 1: About & Logo */}
           <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '14px' }}>
-              <span style={{ fontSize: '24px' }}>⚙️</span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px' }}>
+              <img 
+                src="/logo.png" 
+                alt="AGRO RENTEX Logo" 
+                style={{
+                  height: '42px',
+                  width: 'auto',
+                  objectFit: 'contain'
+                }} 
+              />
               <div style={{ fontSize: '20px', fontWeight: 700, color: '#111' }}>
                 AGRO<span style={{ color: 'var(--wd-primary-color)' }}>RENTEX</span>
               </div>
