@@ -30,32 +30,7 @@ export const HOME_TOP_SEASON = [
   }
 ];
 
-export const HOME_GRID_CENTER = [
-  {
-    "id": "rolik-privod-006",
-    "name": "Ролик приводу транспортера 006.00066 R",
-    "slug": "rolyk-pryvodu-transportera-006-00066-r",
-    "brand": "Grimme",
-    "priceUah": 2340,
-    "image": "https://adenaagro.com/wp-content/uploads/2022/11/0_14_result-300x300.jpg"
-  },
-  {
-    "id": "grimme-300-34940",
-    "name": "Grimme 300.34940 – Транспортер завантажувальний",
-    "slug": "transporter-zavantazhuvalnyj-300-34940-grimme-se-75-30",
-    "brand": "Grimme",
-    "priceUah": 127400,
-    "image": "https://adenaagro.com/wp-content/uploads/2022/11/transporter-zavantazhuvalnyj-300.34940-grimme-se-75-30-300x300.jpg"
-  },
-  {
-    "id": "pidtrym-602-00052",
-    "name": "Підтримуючий ролик 602.00052 R Grimme",
-    "slug": "pidtrymuyuchyj-rolyk-602-00052-r-grimme",
-    "brand": "Grimme",
-    "priceUah": 2184,
-    "image": "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort1-300x300.jpg"
-  }
-];
+export const HOME_GRID_CENTER = [];
 
 export const HOME_GRID_RIGHT = [
   {

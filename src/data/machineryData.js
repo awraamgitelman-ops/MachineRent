@@ -1,5 +1,5 @@
 // Auto-generated comprehensive machinery and parts catalog from adenaagro.com
-// Total Products: 120
+// Total Products: 117
 
 export const MACHINERY_DATA = [
   {
@@ -3501,99 +3501,6 @@ export const MACHINERY_DATA = [
     "fullDescription": "Транспортер гичковідкидний для 2-х рядних комбайнів Анна Причепні картоплезбиральні комбайни Гумово-пруткові транспортери це одна з ключових складових у конструкції овочезбиральних комбайнів. Вони просіюють овочі від землі, рослинних залишків та передають в бункер (ємність) для збору товару.   Також наша компанія займається професійним ремонтом транспотерів для овочезбиральних комбайнів.      ",
     "aliases": [
       "transporter-gychkovidkydnyj-anna-2-h-ryadna"
-    ]
-  },
-  {
-    "id": "part-rolyk-pryvodu-transportera-006-00066-r",
-    "slug": "rolyk-pryvodu-transportera-006-00066-r",
-    "name": "Ролик приводу транспортера 006.00066 R",
-    "brand": "Holmer",
-    "model": "Ролик приводу транспортера 006.00066 R",
-    "activityType": "harvesting",
-    "machineryType": "used",
-    "categoryName": "Техніка Б/В",
-    "status": "available",
-    "badge": "В наявності",
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/0_14_result.jpg"
-    ],
-    "pricing": {
-      "purchasePriceUah": 5000,
-      "pricePerShiftUah": 250,
-      "pricePerHaUah": 25
-    },
-    "specs": {
-      "Виробник": "Holmer",
-      "Модель": "Ролик приводу транспортера 006.00066 R",
-      "Категорія": "Запасні частини"
-    },
-    "shortDescription": "Ролик приводу транспортера 006.00066 R. Оригінальна якість та гарантія AGRO RENTEX.",
-    "fullDescription": "Ролик металевий приводу транспортера &#8220;корона&#8221; на картоплезбиральний комбайн Grimme Зовнішній діаметр ролика по бортику – 140 мм Зовнішній діаметр ролика по зубах – 100 мм Кількість зубів – 10 шт. Ширина ролика – 50 мм Отвір під вал – 25 мм",
-    "aliases": [
-      "rolyk-pryvodu-transportera-006-00066-r"
-    ]
-  },
-  {
-    "id": "part-transporter-zavantazhuvalnyj-300-34940-grimme-se-75-30",
-    "slug": "transporter-zavantazhuvalnyj-300-34940-grimme-se-75-30",
-    "name": "Grimme 300.34940 – Транспортер завантажувальний",
-    "brand": "Grimme",
-    "model": "Grimme 300.34940",
-    "activityType": "harvesting",
-    "machineryType": "used",
-    "categoryName": "Техніка Б/В",
-    "status": "available",
-    "badge": "В наявності",
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/transporter-zavantazhuvalnyj-300.34940-grimme-se-75-30.jpg"
-    ],
-    "pricing": {
-      "purchasePriceUah": 5000,
-      "pricePerShiftUah": 250,
-      "pricePerHaUah": 25
-    },
-    "specs": {
-      "Виробник": "Grimme",
-      "Модель": "Grimme 300.34940",
-      "Категорія": "Запасні частини"
-    },
-    "shortDescription": "Транспортер завантажувальний гумово-прутковий Ширина – 423 мм, Кількість прутків – 220 шт., Крок – 35 мм Grimme SE 75-30 однорядний картоплезбиральний комбайн.",
-    "fullDescription": "Для картоплезбиральних комбайнів Grimme SE 75-30 Гумово-пруткові транспортери це одна з ключових складових у конструкції овочезбиральних комбайнів. Вони просіюють овочі від землі, рослинних залишків та передають в бункер (ємність) для збору товару. Ширина – 423 мм, Кількість прутків – 220 шт., Крок – 35 мм   Наша компанія займається професійним ремонтом транспотерів для овочезбиральних комбайнів    ",
-    "aliases": [
-      "transporter-zavantazhuvalnyj-300-34940-grimme-se-75-30"
-    ]
-  },
-  {
-    "id": "part-pidtrymuyuchyj-rolyk-602-00052-r-grimme",
-    "slug": "pidtrymuyuchyj-rolyk-602-00052-r-grimme",
-    "name": "Підтримуючий ролик 602.00052 R Grimme",
-    "brand": "Holmer",
-    "model": "Підтримуючий ролик 602.00052 R Grimme",
-    "activityType": "harvesting",
-    "machineryType": "used",
-    "categoryName": "Техніка Б/В",
-    "status": "available",
-    "badge": "В наявності",
-    "images": [
-      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/01-cz018__result-1_result-1.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort1_17.jpg",
-      "https://adenaagro.com/wp-content/uploads/2022/11/bez-bort1_11.jpg"
-    ],
-    "pricing": {
-      "purchasePriceUah": 5000,
-      "pricePerShiftUah": 250,
-      "pricePerHaUah": 25
-    },
-    "specs": {
-      "Виробник": "Holmer",
-      "Модель": "Підтримуючий ролик 602.00052 R Grimme",
-      "Категорія": "Запасні частини"
-    },
-    "shortDescription": "Підтримуючий ролик 602.00052 R Grimme. Оригінальна якість та гарантія AGRO RENTEX.",
-    "fullDescription": "Ролик підтримуючий прогумований на картоплезбиральний комбайн Grimme Зовнішній діаметр ролика – 95 мм Ширина ролика – 63 мм Діаметр отвору – 16 мм",
-    "aliases": [
-      "pidtrymuyuchyj-rolyk-602-00052-r-grimme"
     ]
   },
   {
