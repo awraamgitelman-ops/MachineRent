@@ -58,14 +58,12 @@ export default function Footer({ onOpenQuickLead }) {
                 <span>35306, Україна, м.Рівне, с.Колоденка, вул.Свободи 26</span>
               </div>
 
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <Phone size={15} color="var(--wd-primary-color)" />
-                <a href="tel:+380966610100" style={{ fontWeight: 600, color: '#111' }}>+38 (096) 66 10 100</a>
-              </div>
-
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <Phone size={15} color="var(--wd-primary-color)" />
-                <a href="tel:+380950706877" style={{ fontWeight: 600, color: '#111' }}>+38 (095) 07 06 877</a>
+              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
+                <Phone size={15} color="var(--wd-primary-color)" style={{ flexShrink: 0, marginTop: '2px' }} />
+                <div>
+                  <a href="tel:+380966610100" style={{ fontWeight: 600, color: '#111', textDecoration: 'none' }}>+38 (096) 66 10 100</a>
+                  <div style={{ fontSize: '11px', color: '#777' }}>Відділ продажу та оренди</div>
+                </div>
               </div>
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>

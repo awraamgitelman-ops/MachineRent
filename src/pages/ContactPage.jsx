@@ -54,8 +54,8 @@ export default function ContactPage({ onOpenQuickLead }) {
     };
 
     setPageSeo({
-      title: 'Контакти | AGRO RENTEX – Телефони, адреса та схема проїзду',
-      description: 'Зв\'яжіться з AGRO RENTEX: +38 (096) 66 10 100, +38 (095) 07 06 877. Адреса: м. Рівне, с. Колоденка, вул. Свободи 26. Консультації та продаж агротехніки.',
+      title: 'Контакти | AGRO RENTEX – Телефон, адреса та схема проїзду',
+      description: 'Зв\'яжіться з AGRO RENTEX: +38 (096) 66 10 100, info@agrorentex.com. Адреса: м. Рівне, с. Колоденка, вул. Свободи 26. Продаж та оренда с/г техніки.',
       canonicalUrl: 'https://agrorentex.com/contact-us',
       schemaData
     });
@@ -148,7 +148,7 @@ export default function ContactPage({ onOpenQuickLead }) {
               </div>
             </div>
 
-            {/* Card 2: Phone Numbers by Department */}
+            {/* Card 2: Phone Number */}
             <div style={{
               backgroundColor: '#fafafa',
               border: '1px solid #e5e5e5',
@@ -158,60 +158,34 @@ export default function ContactPage({ onOpenQuickLead }) {
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px' }}>
                 <Phone size={22} color="var(--wd-primary-color)" />
                 <h3 style={{ fontSize: '18px', fontWeight: 600, color: '#111', margin: 0 }}>
-                  Відділи та телефонні лінії
+                  Відділ продажу та оренди
                 </h3>
               </div>
 
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '16px' }}>
-                
-                {/* Sales */}
-                <div style={{ backgroundColor: '#ffffff', border: '1px solid #eaeaea', padding: '14px', borderRadius: '4px' }}>
-                  <div style={{ fontSize: '12px', color: '#888', textTransform: 'uppercase', fontWeight: 600, marginBottom: '4px' }}>
-                    Відділ продажу техніки
-                  </div>
-                  <a href="tel:+380966610100" style={{ fontSize: '16px', fontWeight: 700, color: 'var(--wd-primary-color)', textDecoration: 'none', display: 'block', marginBottom: '4px' }}>
-                    +38 (096) 66 10 100
-                  </a>
-                  <div style={{ fontSize: '12px', color: '#555' }}>Підбір комбайнів, фрез та ліній</div>
+              <div style={{ backgroundColor: '#ffffff', border: '1px solid #eaeaea', padding: '18px 20px', borderRadius: '6px' }}>
+                <div style={{ fontSize: '12px', color: '#888', textTransform: 'uppercase', fontWeight: 600, marginBottom: '6px' }}>
+                  Прямий контактний номер:
                 </div>
-
-                {/* Parts & Service */}
-                <div style={{ backgroundColor: '#ffffff', border: '1px solid #eaeaea', padding: '14px', borderRadius: '4px' }}>
-                  <div style={{ fontSize: '12px', color: '#888', textTransform: 'uppercase', fontWeight: 600, marginBottom: '4px' }}>
-                    Запчастини та ремонт
-                  </div>
-                  <a href="tel:+380950706877" style={{ fontSize: '16px', fontWeight: 700, color: 'var(--wd-primary-color)', textDecoration: 'none', display: 'block', marginBottom: '4px' }}>
-                    +38 (095) 07 06 877
-                  </a>
-                  <div style={{ fontSize: '12px', color: '#555' }}>Стрічки, ролики, реставрація</div>
+                <a 
+                  href="tel:+380966610100" 
+                  style={{ 
+                    fontSize: '22px', 
+                    fontWeight: 800, 
+                    color: 'var(--wd-primary-color)', 
+                    textDecoration: 'none', 
+                    display: 'block', 
+                    marginBottom: '6px' 
+                  }}
+                >
+                  +38 (096) 66 10 100
+                </a>
+                <div style={{ fontSize: '13px', color: '#555' }}>
+                  Підбір с/г техніки, прорахунок оренди, замовлення запчастин та виїзд сервісу
                 </div>
-
-                {/* Hot line */}
-                <div style={{ backgroundColor: '#ffffff', border: '1px solid #eaeaea', padding: '14px', borderRadius: '4px' }}>
-                  <div style={{ fontSize: '12px', color: '#888', textTransform: 'uppercase', fontWeight: 600, marginBottom: '4px' }}>
-                    Гаряча лінія
-                  </div>
-                  <a href="tel:+380678882222" style={{ fontSize: '16px', fontWeight: 700, color: 'var(--wd-primary-color)', textDecoration: 'none', display: 'block', marginBottom: '4px' }}>
-                    +38 (067) 888 22 22
-                  </a>
-                  <div style={{ fontSize: '12px', color: '#555' }}>Швидкі консультації</div>
-                </div>
-
-                {/* Stationary Office */}
-                <div style={{ backgroundColor: '#ffffff', border: '1px solid #eaeaea', padding: '14px', borderRadius: '4px' }}>
-                  <div style={{ fontSize: '12px', color: '#888', textTransform: 'uppercase', fontWeight: 600, marginBottom: '4px' }}>
-                    Стаціонарний зв'язок
-                  </div>
-                  <a href="tel:+380362460571" style={{ fontSize: '16px', fontWeight: 700, color: '#333', textDecoration: 'none', display: 'block', marginBottom: '4px' }}>
-                    +380 (362) 46 05 71
-                  </a>
-                  <div style={{ fontSize: '12px', color: '#555' }}>Бухгалтерія та документообіг</div>
-                </div>
-
               </div>
             </div>
 
-            {/* Card 3: Emails */}
+            {/* Card 3: Email */}
             <div style={{
               backgroundColor: '#fafafa',
               border: '1px solid #e5e5e5',
@@ -227,12 +201,9 @@ export default function ContactPage({ onOpenQuickLead }) {
                 <Mail size={20} color="var(--wd-primary-color)" />
                 <span style={{ fontSize: '14px', fontWeight: 600, color: '#111' }}>Електронна пошта:</span>
               </div>
-              <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-                <a href="mailto:info@agrorentex.com" style={{ fontSize: '14px', fontWeight: 600, color: 'var(--wd-primary-color)' }}>
+              <div>
+                <a href="mailto:info@agrorentex.com" style={{ fontSize: '15px', fontWeight: 700, color: 'var(--wd-primary-color)', textDecoration: 'none' }}>
                   info@agrorentex.com
-                </a>
-                <a href="mailto:agrorentex@ukr.net" style={{ fontSize: '14px', color: '#666' }}>
-                  agrorentex@ukr.net
                 </a>
               </div>
             </div>

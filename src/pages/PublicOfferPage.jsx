@@ -181,7 +181,7 @@ export default function PublicOfferPage() {
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Phone size={16} color="var(--wd-primary-color)" />
-                <span>+38 (096) 66 10 100 | +38 (095) 07 06 877</span>
+                <span>+38 (096) 66 10 100</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Mail size={16} color="var(--wd-primary-color)" />

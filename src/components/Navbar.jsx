@@ -46,15 +46,13 @@ export default function Navbar({
       <div className="whb-top-bar">
         <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           
-          {/* Phone Numbers */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '18px' }}>
-            <a href="tel:+380950706877" style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: 500 }}>
+          {/* Phone Number */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <a href="tel:+380966610100" style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: 600, color: 'var(--wd-primary-color)' }}>
               <Phone size={14} color="var(--wd-primary-color)" />
-              <span>+38 (095) 07 06 877</span>
-            </a>
-            <a href="tel:+380966610100" style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: 500 }}>
               <span>+38 (096) 66 10 100</span>
             </a>
+            <span style={{ fontSize: '12px', color: '#666' }}>— Відділ продажу та оренди</span>
           </div>
 
           {/* Top Info Links (Desktop) */}
