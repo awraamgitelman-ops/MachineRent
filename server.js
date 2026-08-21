@@ -39,23 +39,16 @@ app.get('/api/telegram-status', (req, res) => {
 // Lead Pipeline Endpoint (/api/send-lead)
 app.post('/api/send-lead', async (req, res) => {
   try {
-    const {
-      leadId = `AGRO-${Date.now().toString().slice(-6)}`,
-      machineName,
-      fullName,
-      phone,
-      companyName,
-      rentType,
-      quantity,
-      withOperator,
-      withTrallDelivery,
-      selectedDate,
-      timeSlot,
-      totalEstimateUah,
-      notes,
-      topic,
-      source
-    } = req.body;
+    const raw = req.body || {};
+    const leadId = raw.leadId || `AGRO-${Date.now().toString().slice(-6)}`;
+    const fullName = (raw.fullName || raw.name || 'Клієнт').trim();
+    const phone = (raw.phone || raw.tel || '').trim();
+    const companyName = (raw.companyName || raw.company || raw.enterprise || raw.farm || '').trim();
+    const topic = (raw.topic || raw.machineName || raw.subject || 'Консультація').trim();
+    const notes = (raw.notes || raw.message || raw.comment || '').trim();
+    const source = (raw.source || 'Форма на сайті AGRORENTEX').trim();
+    const rentType = (raw.rentType || '').trim();
+    const totalEstimateUah = raw.totalEstimateUah ? `${raw.totalEstimateUah.toLocaleString('uk-UA')} ₴` : '';
 
     if (!phone) {
       return res.status(400).json({ success: false, error: 'Номер телефону обов\'язковий' });
@@ -63,20 +56,20 @@ app.post('/api/send-lead', async (req, res) => {
 
     const newLead = {
       leadId,
-      machineName: machineName || topic || 'Консультація / Підбір техніки',
-      fullName: fullName || 'Клієнт',
+      machineName: topic,
+      fullName,
       phone,
-      companyName: companyName || '',
-      rentType: rentType || '',
-      quantity,
-      withOperator: withOperator ? 'Так (+екіпаж)' : 'Ні (холодна оренда)',
-      withTrallDelivery: withTrallDelivery ? 'Так (подача тралом)' : 'Самовивіз',
-      selectedDate: selectedDate || 'Найближчий час',
-      timeSlot: timeSlot || 'Денна зміна',
-      totalEstimateUah: totalEstimateUah ? `${totalEstimateUah.toLocaleString('uk-UA')} ₴` : '',
-      notes: notes || '',
-      topic: topic || machineName || 'Консультація',
-      source: source || 'Форма на сайті AGRORENTEX',
+      companyName,
+      rentType,
+      quantity: raw.quantity,
+      withOperator: raw.withOperator ? 'Так (+екіпаж)' : 'Ні (холодна оренда)',
+      withTrallDelivery: raw.withTrallDelivery ? 'Так (подача тралом)' : 'Самовивіз',
+      selectedDate: raw.selectedDate || 'Найближчий час',
+      timeSlot: raw.timeSlot || 'Денна зміна',
+      totalEstimateUah,
+      notes,
+      topic,
+      source,
       receivedAt: new Date().toISOString()
     };
 

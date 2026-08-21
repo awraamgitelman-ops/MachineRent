@@ -163,7 +163,7 @@ export async function broadcastLeadNotification(leadData) {
   const topic = leadData.topic || leadData.machineName || 'Консультація / Підбір техніки';
   const fullName = leadData.fullName || 'Клієнт';
   const phone = leadData.phone || 'Не вказано';
-  const company = leadData.companyName || leadData.company || '';
+  const company = (leadData.companyName || leadData.company || leadData.enterprise || leadData.farm || '').trim();
   const notes = leadData.notes || leadData.message || '';
   const source = leadData.source || 'Форма на сайті AGRORENTEX';
   const rentType = leadData.rentType || '';

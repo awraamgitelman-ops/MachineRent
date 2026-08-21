@@ -83,10 +83,12 @@ export default function QuickLeadModal({
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          fullName,
-          phone,
-          company,
+          fullName: fullName.trim(),
+          phone: phone.trim(),
+          company: company.trim(),
+          companyName: company.trim(),
           topic: finalTopic,
+          source: 'Модальне вікно консультації',
           timestamp: new Date().toISOString()
         })
       }).catch(() => null);
@@ -136,27 +138,14 @@ export default function QuickLeadModal({
         </div>
 
         {isSuccess ? (
-          <div style={{ textAlign: 'center', padding: '20px 0' }}>
-            <div style={{
-              width: '60px',
-              height: '60px',
-              borderRadius: '50%',
-              backgroundColor: '#eefcf1',
-              color: '#10b981',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              margin: '0 auto 16px auto'
-            }}>
-              <CheckCircle2 size={36} />
-            </div>
-            <h4 style={{ fontSize: '18px', fontWeight: 600, color: '#111', marginBottom: '6px' }}>
+          <div style={{ textAlign: 'center', padding: '24px 0 10px 0' }}>
+            <h4 style={{ fontSize: '20px', fontWeight: 700, color: '#111', marginBottom: '8px' }}>
               Дякуємо за звернення!
             </h4>
-            <p style={{ fontSize: '13px', color: '#666', marginBottom: '20px' }}>
+            <p style={{ fontSize: '14px', color: '#555', marginBottom: '24px', lineHeight: 1.6 }}>
               Менеджер AGRORENTEX зателефонує вам за номером <strong>{phone}</strong> протягом 10 хвилин.
             </p>
-            <button onClick={onClose} className="btn-adena-primary" style={{ width: '100%', padding: '10px' }}>
+            <button onClick={onClose} className="btn-adena-primary" style={{ width: '100%', padding: '12px', fontSize: '14px', fontWeight: 700 }}>
               Зрозуміло
             </button>
           </div>
