@@ -3,7 +3,6 @@ import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { 
   Phone, 
   Search, 
-  ShoppingCart, 
   MapPin, 
   Menu, 
   X,
@@ -176,16 +175,6 @@ export default function Navbar({
                 </div>
               )}
             </div>
-
-            {/* Cart / Orders Tool */}
-            <button 
-              onClick={() => onOpenQuickLead('Кошик та оформлення замовлення')} 
-              className="header-tool-btn" 
-              title="Кошик"
-            >
-              <ShoppingCart size={18} />
-              <span className="header-tool-badge">{cartCount}</span>
-            </button>
 
             {/* Mobile Menu Toggle */}
             <button
