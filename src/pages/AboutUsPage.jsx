@@ -6,14 +6,17 @@ import {
   MapPin, 
   ShieldCheck, 
   CheckCircle2, 
-  Award, 
-  Users, 
   Truck, 
   Wrench, 
   Layers, 
-  Cpu, 
   ArrowRight,
-  Sparkles
+  Sparkles,
+  PackageCheck,
+  Wheat,
+  Warehouse,
+  Cog,
+  Clock,
+  Flame
 } from 'lucide-react';
 import { setPageSeo } from '../utils/seo';
 
@@ -28,7 +31,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
       "@type": "AboutPage",
       "name": "Про компанію AGRO RENTEX",
       "url": "https://agrorentex.com/about-us",
-      "description": "AGRO RENTEX – провідний постачальник спеціалізованої європейської сільськогосподарської та складської техніки для овочівництва в Україні.",
+      "description": "AGRO RENTEX – спеціалізована компанія з оренди, продажу та сервісу техніки для овочівництва, зернових жаток, складських ліній та ремонту транспортерів в Україні.",
       "publisher": {
         "@type": "Organization",
         "name": "AGRO RENTEX",
@@ -37,73 +40,94 @@ export default function AboutUsPage({ onOpenQuickLead }) {
     };
 
     setPageSeo({
-      title: 'Про нас | AGRO RENTEX – Професійна с/г техніка для овочівництва',
-      description: 'Дізнайтеся більше про AGRO RENTEX: наш досвід, місія, широкий вибір європейської польової і складської техніки, реставрація транспортерів та якісний сервіс.',
+      title: 'Про компанію AGRO RENTEX | Спеціалізація, оренда та продаж с/г техніки',
+      description: 'AGRO RENTEX: оренда та продаж техніки для овочівництва, картоплярства, зернових жаток, ліній фасування Domasz, склад запчастин та реставрація транспортерів.',
       canonicalUrl: 'https://agrorentex.com/about-us',
       ogImage: '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHVAgFR8KIEgPEAAWTGBSUlEZGHpUV1pXUkI.webp',
       schemaData
     });
   }, []);
 
-  const advantages = [
+  // 5 Main Core Specializations
+  const specializations = [
     {
-      icon: <Layers size={28} color="var(--wd-primary-color)" />,
-      title: 'Широкий асортимент',
-      desc: 'Повний спектр техніки для обробки ґрунту, гребнеутворення, посадки, міжрядного обробітку, збирання врожаю та складського зберігання.'
+      id: 'field',
+      icon: <Layers size={30} color="var(--wd-primary-color)" />,
+      badge: 'Повний цикл',
+      title: 'Техніка для овочівництва та картоплярства',
+      desc: 'Повний комплекс машин від підготовки ґрунту до збирання врожаю без пошкоджень.',
+      bullets: [
+        'Посадка та фрезерування: саджалки, гребнеутворювачі Grimme, Struik, Cramer, Hassia',
+        'Збирання: комбайни картопляні та бурякові Grimme, Ropa, Holmer, Bolko, Wuhlmaus',
+        'Бадилляподрібнювачі 2-х та 4-рядні для підготовки поля до копання'
+      ],
+      link: '/product-category/field',
+      linkText: 'Переглянути польову техніку'
     },
     {
-      icon: <Cpu size={28} color="var(--wd-primary-color)" />,
-      title: 'Якісні запчастини',
-      desc: 'Постійна наявність на складі оригінальних та якісних аналогових комплектуючих для комбайнів Grimme, Struik, AVR, Dewulf, Anna, Karlik.'
+      id: 'zhatky',
+      icon: <Wheat size={30} color="#eab308" />,
+      badge: 'Оренда та продаж',
+      title: 'Жатки для зернових та зернобобових культур',
+      desc: 'Оригінальні широкозахватні та флекс-жатки для збирання зернових, сої, ріпаку та гороху.',
+      bullets: [
+        'Флекс-жатки: John Deere HydraFlex (635F, 630F, 625F), Case IH Flex (1020, 2020)',
+        'Стрічкові полотняні жатки (Draper) та стрічкові системи CLAAS MAXFLO',
+        'Спеціальні приставки для збирання сої та гороху Flex Ettaro та жатки ЖУ-6, ЖЗБ'
+      ],
+      link: '/product-category/zhatky-zernovi',
+      linkText: 'Каталог зернових жаток'
     },
     {
-      icon: <Truck size={28} color="var(--wd-primary-color)" />,
-      title: 'Техніка з Європи (Б/В)',
-      desc: 'Ретельно перевірені та підготовлені до роботи машини з Європи за доступними цінами з можливістю демонстрації та запуску в полі.'
+      id: 'warehouse',
+      icon: <Warehouse size={30} color="#3b82f6" />,
+      badge: 'Для овочесховищ',
+      title: 'Складське та пакувальне обладнання',
+      desc: 'Автоматизовані лінії післязбиральної доробки, інспекції, очищення та фасування овочів.',
+      bullets: [
+        'Приймальні бункери та розвантажувачі контейнерів (Grimme RH, Domasz)',
+        'Системи сухої чистки, калібрувальні радіальні та роликові столи, щітки, мийки',
+        'Вагопакувальні машини та станції зашивання в сітку та мішки (Domasz, Sormac)'
+      ],
+      link: '/product-category/skladska-tehnika',
+      linkText: 'Складське обладнання'
     },
     {
-      icon: <Users size={28} color="var(--wd-primary-color)" />,
-      title: 'Професійна підтримка',
-      desc: 'Кваліфіковані консультації інженерів з 30-річним практичним досвідом вирощування овочів для точного вибору під ваші ґрунти.'
+      id: 'parts',
+      icon: <Cog size={30} color="#10b981" />,
+      badge: 'Власний склад',
+      title: 'Оригінальні запчастини та комплектуючі',
+      desc: 'Постійна наявність швидкозношуваних деталей для європейських машин на складі у Рівному.',
+      bullets: [
+        'Пруткові транспортери для всіх типів комбайнів Grimme, Bolko, Anna, Karlik',
+        'Опорні та підтримуючі ролики, приводні зірочки, замки стрічок, шківи та вали',
+        'Швидка відправка в день замовлення по всій Україні'
+      ],
+      link: '/product-category/zapchastyny',
+      linkText: 'Каталог запчастин'
     },
     {
-      icon: <Wrench size={28} color="var(--wd-primary-color)" />,
-      title: 'Власне виробництво та сервіс',
-      desc: 'Складське обладнання, перекидачі контейнерів, фасувальні лінії, а також професійне виготовлення та реставрація транспортерів.'
+      id: 'remont',
+      icon: <Wrench size={30} color="#f97316" />,
+      badge: 'Сертифікований сервіс',
+      title: 'Реставрація транспортерів та польовий сервіс',
+      desc: 'Власний виробничий цех з відновлення гумово-пруткових транспортерних стрічок.',
+      bullets: [
+        'Ремонт та реставрація транспортерів будь-якого кроку за 24–48 годин (економія до 50%)',
+        'Виїзні мобільні сервісні бригади для діагностики та налаштування техніки в полі',
+        'Доставка великогабаритних машин власними низькорамними тралами'
+      ],
+      link: '/remont-transporteriv',
+      linkText: 'Послуги ремонту транспортерів'
     }
   ];
 
-  const offers = [
-    {
-      title: 'Польова техніка для овочів',
-      desc: 'Агрегати для обробки ґрунту, посадки та збирання картоплі, моркви, буряку та цибулі.',
-      link: '/product-category/field',
-      img: '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUYuCwsAJAQxAAAQQyQOBURSHXsdSh0CHkVTIxc.webp'
-    },
-    {
-      title: 'Складська та сортувальна техніка',
-      desc: 'Приймальні бункери, сортувальні машини, щіткові столи, мийки, вагопакувальні станції.',
-      link: '/product-category/skladska-tehnika',
-      img: '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUUqCxMLIQ4PKxEdRSMMDwhMHGZWSR1KAwIGbxAXDSI.webp'
-    },
-    {
-      title: 'Техніка Б/В з Європи',
-      desc: 'Надійні комбайни та агрегати в ідеальному технічному стані з гарантією працездатності.',
-      link: '/product-category/tehnika-b-v',
-      img: '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUIkBBoBOw4PKwcNAHxIV1lRVXhVSQNFVVBG.webp'
-    },
-    {
-      title: 'Запасні частини та комплектуючі',
-      desc: 'Ролики, зірочки, приводні паси, вали та ремені завжди в наявності на нашому складі.',
-      link: '/product-category/zapchastyny',
-      img: '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUwgFxEHMxYaAQsNAHxIV1lRVXhVSQNFVVBG.webp'
-    },
-    {
-      title: 'Ремонт транспортерів',
-      desc: 'Швидка реставрація та заміна гумово-пруткових стрічок будь-якого кроку. Економія до 50%.',
-      link: '/remont-transporteriv',
-      img: '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQkCh0BJkgaBgQWXj0KFh0EXyITVBwfAwIGOVRCX3wSCxYV.webp'
-    }
+  // Specific facts & stats
+  const companyStats = [
+    { value: '150+', label: 'Одиниць техніки та обладнання в каталозі' },
+    { value: '24–48 год', label: 'Термін реставрації транспортерних стрічок' },
+    { value: '10–12 год', label: 'Робоча зміна при оренді техніки' },
+    { value: '100%', label: 'Передпродажна дефектовка та тест у полі' }
   ];
 
   return (
@@ -114,18 +138,18 @@ export default function AboutUsPage({ onOpenQuickLead }) {
         <div className="container" style={{ display: 'flex', alignItems: 'center', fontSize: '13px', color: '#777', gap: '6px' }}>
           <Link to="/" style={{ color: '#333', fontWeight: 500 }}>Головна</Link>
           <ChevronRight size={14} color="#aaa" />
-          <span style={{ color: 'var(--wd-primary-color)', fontWeight: 600 }}>Про нас</span>
+          <span style={{ color: 'var(--wd-primary-color)', fontWeight: 600 }}>Про компанію</span>
         </div>
       </div>
 
-      {/* 2. Hero Section */}
-      <section className="container" style={{ paddingTop: '40px', paddingBottom: '40px' }}>
+      {/* 2. Hero Section: Exact What We Do */}
+      <section className="container" style={{ paddingTop: '44px', paddingBottom: '40px' }}>
         <div style={{
           display: 'grid',
-          gridTemplateColumns: '1.2fr 1fr',
-          gap: '48px',
+          gridTemplateColumns: '1.15fr 1fr',
+          gap: '44px',
           alignItems: 'center',
-          ...(window.innerWidth < 860 ? { gridTemplateColumns: '1fr', gap: '30px' } : {})
+          ...(window.innerWidth < 880 ? { gridTemplateColumns: '1fr', gap: '30px' } : {})
         }}>
           <div>
             <div style={{
@@ -134,47 +158,49 @@ export default function AboutUsPage({ onOpenQuickLead }) {
               gap: '6px',
               backgroundColor: '#fff4eb',
               color: 'var(--wd-primary-color)',
-              padding: '4px 12px',
+              padding: '5px 14px',
               fontSize: '12px',
               fontWeight: 700,
               textTransform: 'uppercase',
-              letterSpacing: '0.08em',
-              marginBottom: '14px',
+              letterSpacing: '0.06em',
+              marginBottom: '16px',
               borderLeft: '3px solid var(--wd-primary-color)'
             }}>
-              <span>Про компанію AGRO RENTEX</span>
+              <Sparkles size={14} />
+              <span>Оренда • Продаж • Сервіс сільгосптехніки</span>
             </div>
 
             <h1 style={{
-              fontSize: '34px',
-              fontWeight: 700,
+              fontSize: '32px',
+              fontWeight: 800,
               lineHeight: 1.25,
               color: '#111111',
-              marginBottom: '20px'
+              marginBottom: '18px'
             }}>
-              Ваш надійний партнер у сфері овочівництва та агротехніки
+              Чим займається компанія AGRO RENTEX
             </h1>
 
-            <p style={{ fontSize: '16px', lineHeight: 1.7, color: '#444', marginBottom: '16px' }}>
-              Ласкаво просимо до <strong>AGRO RENTEX</strong>! Ми – злагоджена команда професіоналів, яка спеціалізується на забезпеченні сучасних аграріїв високоефективною європейською технікою, оригінальними запчастинами та сервісним обладнанням.
+            <p style={{ fontSize: '16px', lineHeight: 1.7, color: '#333', marginBottom: '14px', fontWeight: 500 }}>
+              <strong>AGRO RENTEX</strong> — це спеціалізована українська платформа з <strong>оренди, продажу та сервісного обслуговування</strong> професійної сільськогосподарської та складської техніки.
             </p>
 
-            <p style={{ fontSize: '15px', lineHeight: 1.7, color: '#666', marginBottom: '24px' }}>
-              Ми допомагаємо оптимізувати всі виробничі цикли: від первинної підготовки ґрунту та посадки до безтравматичного збирання, інспекції, калібрування, сортування, мийки та пакування овочевих культур.
+            <p style={{ fontSize: '15px', lineHeight: 1.7, color: '#555', marginBottom: '24px' }}>
+              Ми забезпечуємо агропідприємства та фермерські господарства України надійними машинами для повного циклу вирощування овочів і зернових: від посадки та збирання комбайнами до післязбиральної доробки, фасування у сховищах та відновлення зношених вузлів.
             </p>
 
-            <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+            {/* Quick Action Buttons */}
+            <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap' }}>
               <button
                 onClick={() => onOpenQuickLead('Підбір техніки для овочівництва')}
                 className="btn-adena-primary"
-                style={{ height: '48px', padding: '0 24px', fontWeight: 600, fontSize: '14px' }}
+                style={{ height: '48px', padding: '0 24px', fontWeight: 700, fontSize: '14px' }}
               >
-                <span>Отримати консультацію</span>
+                <span>Замовити консультацію</span>
               </button>
               <a
                 href="tel:+380966610100"
                 className="btn-adena-secondary"
-                style={{ height: '48px', padding: '0 20px', fontWeight: 600, fontSize: '14px', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+                style={{ height: '48px', padding: '0 20px', fontWeight: 700, fontSize: '14px', display: 'inline-flex', alignItems: 'center', gap: '8px', textDecoration: 'none' }}
               >
                 <Phone size={16} color="var(--wd-primary-color)" />
                 <span>+38 (096) 66 10 100</span>
@@ -182,17 +208,18 @@ export default function AboutUsPage({ onOpenQuickLead }) {
             </div>
           </div>
 
+          {/* Right Image */}
           <div style={{ position: 'relative' }}>
             <div style={{
               borderRadius: '8px',
               overflow: 'hidden',
-              boxShadow: '0 12px 30px rgba(0,0,0,0.12)',
+              boxShadow: '0 12px 30px rgba(0,0,0,0.1)',
               border: '1px solid #e0e0e0',
               backgroundColor: '#f8f8f8'
             }}>
               <img
                 src="/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHVAgFR8KIEgPEAAWTGBSUlEZGHpUV1pXUkI.webp"
-                alt="AGRO RENTEX Техніка в полі"
+                alt="AGRO RENTEX Сільськогосподарська техніка"
                 style={{ width: '100%', height: 'auto', display: 'block', objectFit: 'cover' }}
               />
             </div>
@@ -200,131 +227,22 @@ export default function AboutUsPage({ onOpenQuickLead }) {
         </div>
       </section>
 
-      {/* 3. Mission Box */}
-      <section style={{ backgroundColor: '#f9f9f9', borderTop: '1px solid #eaeaea', borderBottom: '1px solid #eaeaea', padding: '48px 0' }}>
-        <div className="container" style={{ maxWidth: '960px', textAlign: 'center' }}>
-          <h2 style={{ fontSize: '26px', fontWeight: 700, color: '#111', marginBottom: '16px' }}>
-            Наша місія
-          </h2>
-          <p style={{ fontSize: '16px', lineHeight: 1.8, color: '#444', margin: '0 auto' }}>
-            Ми прагнемо допомогти кожному українському фермеру оптимізувати технологічні процеси, мінімізувати втрати врожаю, скоротити собівартість та отримати максимальний прибуток. Завдяки надійним інженерним рішенням, сучасному обладнанню та професійному сервісу ми підтримуємо вас на кожному етапі агровиробництва.
-          </p>
-        </div>
-      </section>
-
-      {/* 4. Why Choose Us (5 Grid Cards) */}
-      <section className="container" style={{ paddingTop: '56px', paddingBottom: '48px' }}>
-        <div style={{ textAlign: 'center', marginBottom: '36px' }}>
-          <h2 style={{ fontSize: '28px', fontWeight: 700, color: '#111', marginBottom: '10px' }}>
-            Чому обирають саме AGRO RENTEX?
-          </h2>
-          <p style={{ fontSize: '15px', color: '#666', maxWidth: '680px', margin: '0 auto' }}>
-            Комплексний підхід, європейські стандарти надійності та щоденна турбота про ваш результат.
-          </p>
-        </div>
-
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-          gap: '24px'
-        }}>
-          {advantages.map((adv, idx) => (
-            <div
-              key={idx}
-              style={{
-                backgroundColor: '#ffffff',
-                border: '1px solid #e8e8e8',
-                padding: '28px 24px',
-                borderRadius: '6px',
-                boxShadow: '0 2px 8px rgba(0,0,0,0.03)',
-                transition: 'all 0.2s ease'
-              }}
-            >
-              <div style={{ marginBottom: '16px' }}>{adv.icon}</div>
-              <h3 style={{ fontSize: '18px', fontWeight: 600, color: '#111', marginBottom: '10px' }}>
-                {adv.title}
-              </h3>
-              <p style={{ fontSize: '14px', lineHeight: 1.6, color: '#555', margin: 0 }}>
-                {adv.desc}
-              </p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* 5. What We Offer (Category Cards Grid) */}
-      <section style={{ backgroundColor: '#fafafa', borderTop: '1px solid #eaeaea', borderBottom: '1px solid #eaeaea', padding: '56px 0' }}>
+      {/* 3. Numbers & Facts Bar */}
+      <section style={{ backgroundColor: '#1d1d1d', color: '#ffffff', padding: '36px 0', borderTop: '4px solid var(--wd-primary-color)' }}>
         <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '36px' }}>
-            <h2 style={{ fontSize: '28px', fontWeight: 700, color: '#111', marginBottom: '10px' }}>
-              Що ми пропонуємо
-            </h2>
-            <p style={{ fontSize: '15px', color: '#666' }}>
-              Повний спектр техніки, обладнання та послуг для успішного агробізнесу
-            </p>
-          </div>
-
           <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))',
-            gap: '20px'
+            gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+            gap: '24px',
+            textAlign: 'center'
           }}>
-            {offers.map((off, idx) => (
-              <div
-                key={idx}
-                onClick={() => navigate(off.link)}
-                style={{
-                  backgroundColor: '#ffffff',
-                  border: '1px solid #e2e2e2',
-                  padding: '20px 16px',
-                  textAlign: 'center',
-                  cursor: 'pointer',
-                  borderRadius: '6px',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  justifyContent: 'space-between',
-                  transition: 'all 0.2s ease'
-                }}
-                onMouseEnter={(e) => e.currentTarget.style.borderColor = 'var(--wd-primary-color)'}
-                onMouseLeave={(e) => e.currentTarget.style.borderColor = '#e2e2e2'}
-              >
-                <div>
-                  <div style={{
-                    width: '110px',
-                    height: '110px',
-                    margin: '0 auto 16px auto',
-                    borderRadius: '50%',
-                    overflow: 'hidden',
-                    backgroundColor: '#f6f6f6',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}>
-                    <img
-                      src={off.img}
-                      alt={off.title}
-                      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                    />
-                  </div>
-                  <h3 style={{ fontSize: '16px', fontWeight: 600, color: '#111', marginBottom: '8px', lineHeight: 1.3 }}>
-                    {off.title}
-                  </h3>
-                  <p style={{ fontSize: '13px', color: '#666', lineHeight: 1.5, marginBottom: '16px' }}>
-                    {off.desc}
-                  </p>
+            {companyStats.map((st, idx) => (
+              <div key={idx} style={{ padding: '8px 12px' }}>
+                <div style={{ fontSize: '32px', fontWeight: 800, color: 'var(--wd-accent-yellow)', marginBottom: '4px' }}>
+                  {st.value}
                 </div>
-
-                <div style={{
-                  color: 'var(--wd-primary-color)',
-                  fontSize: '13px',
-                  fontWeight: 600,
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  gap: '4px'
-                }}>
-                  <span>Переглянути</span>
-                  <ArrowRight size={14} />
+                <div style={{ fontSize: '13px', color: '#ccc', lineHeight: 1.4 }}>
+                  {st.label}
                 </div>
               </div>
             ))}
@@ -332,75 +250,208 @@ export default function AboutUsPage({ onOpenQuickLead }) {
         </div>
       </section>
 
-      {/* 6. Our Approach */}
-      <section className="container" style={{ padding: '56px 15px' }}>
-        <div style={{
-          backgroundColor: '#1d1d1d',
-          color: '#ffffff',
-          padding: '44px 36px',
-          borderRadius: '8px',
-          display: 'grid',
-          gridTemplateColumns: '1.2fr 1fr',
-          gap: '36px',
-          alignItems: 'center',
-          ...(window.innerWidth < 800 ? { gridTemplateColumns: '1fr' } : {})
-        }}>
-          <div>
-            <h2 style={{ fontSize: '26px', fontWeight: 700, color: '#ffffff', marginBottom: '14px' }}>
-              Наш підхід до кожного клієнта
-            </h2>
-            <p style={{ fontSize: '15px', lineHeight: 1.7, color: '#ccc', marginBottom: '20px' }}>
-              Ми цінуємо довіру кожного агровиробника і завжди прагнемо запропонувати найкращі та економічно обґрунтовані рішення для вашого господарства. Ваш успіх – це і наш успіх!
-            </p>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '14px', color: '#eee' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                <CheckCircle2 size={18} color="var(--wd-accent-yellow)" />
-                <span>Індивідуальний розрахунок продуктивності під ваші площі</span>
-              </div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                <CheckCircle2 size={18} color="var(--wd-accent-yellow)" />
-                <span>Передпродажна діагностика та пусконалагодження в полі</span>
-              </div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                <CheckCircle2 size={18} color="var(--wd-accent-yellow)" />
-                <span>Офіційна гарантія та оперативна доставка запчастин</span>
-              </div>
-            </div>
+      {/* 4. Core 5 Specializations (Concrete Breakdown) */}
+      <section className="container" style={{ paddingTop: '56px', paddingBottom: '48px' }}>
+        <div style={{ textAlign: 'center', marginBottom: '40px' }}>
+          <div style={{ fontSize: '12px', fontWeight: 700, color: 'var(--wd-primary-color)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '6px' }}>
+            Напрямки діяльності
           </div>
+          <h2 style={{ fontSize: '28px', fontWeight: 800, color: '#111', marginBottom: '10px' }}>
+            5 ключових спеціалізацій AGRO RENTEX
+          </h2>
+          <p style={{ fontSize: '15px', color: '#666', maxWidth: '720px', margin: '0 auto' }}>
+            Конкретний перелік категорій техніки, брендів та інженерних послуг, які ми надаємо аграріям України:
+          </p>
+        </div>
 
-          <div style={{
-            backgroundColor: '#262626',
-            border: '1px solid #383838',
-            padding: '24px',
-            borderRadius: '6px',
-            textAlign: 'center'
-          }}>
-            <h3 style={{ fontSize: '18px', fontWeight: 600, color: '#ffffff', marginBottom: '8px' }}>
-              Потрібна допомога у підборі?
-            </h3>
-            <p style={{ fontSize: '13px', color: '#aaa', marginBottom: '18px' }}>
-              Зв'яжіться з нашими експертами для отримання професійної консультації.
-            </p>
-            <a
-              href="tel:+380966610100"
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+          {specializations.map((spec, idx) => (
+            <div
+              key={idx}
               style={{
-                display: 'block',
-                fontSize: '20px',
-                fontWeight: 700,
-                color: 'var(--wd-accent-yellow)',
-                marginBottom: '14px',
-                textDecoration: 'none'
+                backgroundColor: '#ffffff',
+                border: '1px solid #e5e5e5',
+                borderRadius: '8px',
+                padding: '28px',
+                boxShadow: '0 2px 10px rgba(0,0,0,0.03)',
+                display: 'grid',
+                gridTemplateColumns: '80px 1.5fr 1fr',
+                gap: '24px',
+                alignItems: 'center',
+                transition: 'all 0.2s ease',
+                ...(window.innerWidth < 900 ? { gridTemplateColumns: '1fr', gap: '16px' } : {})
               }}
             >
-              +38 (096) 66 10 100
-            </a>
-            <button
-              onClick={() => onOpenQuickLead('Підбір техніки для овочівництва')}
-              className="btn-adena-primary"
-              style={{ width: '100%', height: '44px', fontWeight: 600, fontSize: '14px' }}
-            >
-              Замовити консультацію
-            </button>
+              {/* Icon & Badge */}
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '8px' }}>
+                <div style={{
+                  width: '60px',
+                  height: '60px',
+                  borderRadius: '10px',
+                  backgroundColor: '#fff4eb',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center'
+                }}>
+                  {spec.icon}
+                </div>
+                <span style={{ fontSize: '11px', fontWeight: 700, color: '#777', backgroundColor: '#f0f0f0', padding: '2px 8px', borderRadius: '4px' }}>
+                  #{idx + 1}
+                </span>
+              </div>
+
+              {/* Description & Title */}
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '6px' }}>
+                  <span style={{
+                    fontSize: '11px',
+                    fontWeight: 700,
+                    color: 'var(--wd-primary-color)',
+                    backgroundColor: '#fff4eb',
+                    padding: '2px 8px',
+                    borderRadius: '4px',
+                    textTransform: 'uppercase'
+                  }}>
+                    {spec.badge}
+                  </span>
+                </div>
+                <h3 style={{ fontSize: '20px', fontWeight: 700, color: '#111', marginBottom: '8px' }}>
+                  {spec.title}
+                </h3>
+                <p style={{ fontSize: '14px', color: '#666', lineHeight: 1.6, marginBottom: '12px' }}>
+                  {spec.desc}
+                </p>
+
+                {/* Specific Bullets */}
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                  {spec.bullets.map((b, bIdx) => (
+                    <div key={bIdx} style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', fontSize: '13px', color: '#333' }}>
+                      <CheckCircle2 size={16} color="var(--wd-primary-color)" style={{ flexShrink: 0, marginTop: '2px' }} />
+                      <span>{b}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Action Column */}
+              <div style={{
+                borderLeft: '1px solid #f0f0f0',
+                paddingLeft: '24px',
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
+                gap: '12px',
+                ...(window.innerWidth < 900 ? { borderLeft: 'none', paddingLeft: 0, borderTop: '1px solid #f0f0f0', paddingTop: '16px' } : {})
+              }}>
+                <button
+                  onClick={() => onOpenQuickLead(`Консультація: ${spec.title}`)}
+                  className="btn-adena-primary"
+                  style={{ width: '100%', height: '42px', fontSize: '13px', fontWeight: 700 }}
+                >
+                  Замовити прорахунок
+                </button>
+                <Link
+                  to={spec.link}
+                  style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '6px',
+                    fontSize: '13px',
+                    fontWeight: 600,
+                    color: 'var(--wd-primary-color)',
+                    textDecoration: 'none',
+                    padding: '6px 0'
+                  }}
+                >
+                  <span>{spec.linkText}</span>
+                  <ArrowRight size={14} />
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* 5. Base & Logistics */}
+      <section style={{ backgroundColor: '#fafafa', borderTop: '1px solid #eaeaea', borderBottom: '1px solid #eaeaea', padding: '48px 0' }}>
+        <div className="container">
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: '1.2fr 1fr',
+            gap: '36px',
+            alignItems: 'center',
+            ...(window.innerWidth < 800 ? { gridTemplateColumns: '1fr' } : {})
+          }}>
+            <div>
+              <h2 style={{ fontSize: '24px', fontWeight: 700, color: '#111', marginBottom: '14px' }}>
+                Майданчик, склад та логістика
+              </h2>
+              <p style={{ fontSize: '15px', lineHeight: 1.7, color: '#555', marginBottom: '16px' }}>
+                Виставковий майданчик, склад запасних частин та сервісний цех реставрації транспортерів AGRO RENTEX розташовані за адресою:
+              </p>
+              <div style={{
+                backgroundColor: '#ffffff',
+                border: '1px solid #e0e0e0',
+                padding: '16px 20px',
+                borderRadius: '6px',
+                display: 'flex',
+                alignItems: 'flex-start',
+                gap: '12px',
+                marginBottom: '16px'
+              }}>
+                <MapPin size={22} color="var(--wd-primary-color)" style={{ flexShrink: 0, marginTop: '2px' }} />
+                <div>
+                  <strong style={{ fontSize: '15px', color: '#111', display: 'block', marginBottom: '2px' }}>
+                    35306, Україна, Рівненська обл., м. Рівне, с. Колоденка, вул. Свободи 26
+                  </strong>
+                  <span style={{ fontSize: '13px', color: '#666' }}>
+                    Графік роботи: Пн-Сб 08:00 — 19:00
+                  </span>
+                </div>
+              </div>
+
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '14px', color: '#444' }}>
+                <Truck size={18} color="var(--wd-primary-color)" />
+                <span>Доставка великогабаритної техніки низькорамними тралами у господарство по всій Україні</span>
+              </div>
+            </div>
+
+            {/* Direct Contact Box */}
+            <div style={{
+              backgroundColor: '#1d1d1d',
+              color: '#ffffff',
+              padding: '30px',
+              borderRadius: '8px',
+              textAlign: 'center'
+            }}>
+              <div style={{ fontSize: '12px', fontWeight: 700, color: 'var(--wd-accent-yellow)', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: '6px' }}>
+                Прямий зв'язок з відділом продажу та оренди
+              </div>
+              <h3 style={{ fontSize: '18px', fontWeight: 700, color: '#ffffff', marginBottom: '12px' }}>
+                Потрібен точний підбір під ваше поле?
+              </h3>
+              <a
+                href="tel:+380966610100"
+                style={{
+                  display: 'block',
+                  fontSize: '22px',
+                  fontWeight: 800,
+                  color: 'var(--wd-accent-yellow)',
+                  marginBottom: '16px',
+                  textDecoration: 'none'
+                }}
+              >
+                +38 (096) 66 10 100
+              </a>
+              <button
+                onClick={() => onOpenQuickLead('Підбір техніки для овочівництва')}
+                className="btn-adena-primary"
+                style={{ width: '100%', height: '46px', fontWeight: 700, fontSize: '14px' }}
+              >
+                Замовити консультацію
+              </button>
+            </div>
           </div>
         </div>
       </section>
