@@ -159,10 +159,6 @@ export default function BlogPostPage({ onOpenQuickLead }) {
           }}>
             {post.title}
           </h1>
-
-          <div style={{ fontSize: '14px', color: '#666', fontStyle: 'italic', borderLeft: '3px solid var(--wd-primary-color)', paddingLeft: '14px' }}>
-            Автор: <strong>{post.author}</strong>
-          </div>
         </div>
 
         {/* 3. Main Article Image */}

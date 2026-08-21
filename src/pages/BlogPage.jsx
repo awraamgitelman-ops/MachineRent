@@ -288,7 +288,7 @@ export default function BlogPage({ onOpenQuickLead }) {
                     alignItems: 'center',
                     justifyContent: 'space-between'
                   }}>
-                    <span style={{ fontSize: '12px', color: '#888' }}>{post.author}</span>
+                    <span style={{ fontSize: '12px', color: '#888' }}>Час читання: {post.readTime}</span>
                     <div style={{
                       display: 'inline-flex',
                       alignItems: 'center',
