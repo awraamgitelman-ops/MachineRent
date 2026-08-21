@@ -152,24 +152,6 @@ export default function AboutUsPage({ onOpenQuickLead }) {
           ...(window.innerWidth < 880 ? { gridTemplateColumns: '1fr', gap: '30px' } : {})
         }}>
           <div>
-            <div style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: '6px',
-              backgroundColor: '#fff4eb',
-              color: 'var(--wd-primary-color)',
-              padding: '5px 14px',
-              fontSize: '12px',
-              fontWeight: 700,
-              textTransform: 'uppercase',
-              letterSpacing: '0.06em',
-              marginBottom: '16px',
-              borderLeft: '3px solid var(--wd-primary-color)'
-            }}>
-              <Sparkles size={14} />
-              <span>Оренда • Продаж • Сервіс сільгосптехніки</span>
-            </div>
-
             <h1 style={{
               fontSize: '32px',
               fontWeight: 800,
