@@ -38,7 +38,7 @@ export default function App() {
           setCurrency={setCurrency}
           searchTerm={searchTerm}
           setSearchTerm={setSearchTerm}
-          onOpenQuickLead={() => handleOpenQuickLead('Консультація спеціаліста')}
+          onOpenQuickLead={() => handleOpenQuickLead('Підбір техніки для овочівництва')}
           cartCount={0}
         />
 
@@ -238,7 +238,7 @@ export default function App() {
         {/* Floating Call Widget */}
         <div 
           className="floating-call-btn"
-          onClick={() => handleOpenQuickLead('Терміновий дзвінок клієнту')}
+          onClick={() => handleOpenQuickLead('Терміновий дзвінок / консультація')}
           title="Замовити швидкий дзвінок"
         >
           <PhoneCall size={26} />

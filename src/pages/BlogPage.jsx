@@ -342,7 +342,7 @@ export default function BlogPage({ onOpenQuickLead }) {
               <span>+38 (096) 66 10 100</span>
             </a>
             <button
-              onClick={() => onOpenQuickLead('Консультація з блогу')}
+              onClick={() => onOpenQuickLead('Підбір техніки для овочівництва')}
               className="btn-adena-primary"
               style={{ height: '42px', padding: '0 20px', fontWeight: 600, fontSize: '13px' }}
             >

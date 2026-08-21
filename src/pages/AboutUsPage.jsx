@@ -165,7 +165,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
 
             <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
               <button
-                onClick={() => onOpenQuickLead('Консультація про компанію')}
+                onClick={() => onOpenQuickLead('Підбір техніки для овочівництва')}
                 className="btn-adena-primary"
                 style={{ height: '48px', padding: '0 24px', fontWeight: 600, fontSize: '14px' }}
               >
@@ -395,7 +395,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
               +38 (096) 66 10 100
             </a>
             <button
-              onClick={() => onOpenQuickLead('Підбір техніки (сторінка Про нас)')}
+              onClick={() => onOpenQuickLead('Підбір техніки для овочівництва')}
               className="btn-adena-primary"
               style={{ width: '100%', height: '44px', fontWeight: 600, fontSize: '14px' }}
             >

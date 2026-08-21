@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { X, CheckCircle2, Phone, ChevronDown, Edit3 } from 'lucide-react';
 import { formatPhoneNumber, isValidUkrainianPhone } from '../utils/phoneFormatter';
 
@@ -23,14 +23,27 @@ export default function QuickLeadModal({
   const [phone, setPhone] = useState('+380 ');
   const [company, setCompany] = useState('');
   
-  // Topic handling
-  const isInitialInPresets = TOPIC_PRESETS.includes(initialTopic);
+  // Build dynamic topic options: if button passes a specific product/service, put it at the very top
+  const topicOptions = useMemo(() => {
+    if (!initialTopic) return TOPIC_PRESETS;
+    if (TOPIC_PRESETS.includes(initialTopic)) return TOPIC_PRESETS;
+    return [initialTopic, ...TOPIC_PRESETS.filter(t => t !== 'Своя пропозиція / Інше'), 'Своя пропозиція / Інше'];
+  }, [initialTopic]);
+
   const [selectedTopic, setSelectedTopic] = useState(
-    initialTopic ? (isInitialInPresets ? initialTopic : 'Своя пропозиція / Інше') : 'Підбір техніки для овочівництва'
+    initialTopic || 'Підбір техніки для овочівництва'
   );
-  const [customTopic, setCustomTopic] = useState(
-    initialTopic && !isInitialInPresets ? initialTopic : ''
-  );
+  const [customTopic, setCustomTopic] = useState('');
+
+  // Automatically update selected topic whenever a user clicks a button that opens the modal
+  useEffect(() => {
+    if (initialTopic) {
+      setSelectedTopic(initialTopic);
+      if (!TOPIC_PRESETS.includes(initialTopic) && initialTopic !== 'Своя пропозиція / Інше') {
+        // It's in topicOptions at the top as an exact matched choice
+      }
+    }
+  }, [initialTopic]);
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
@@ -172,7 +185,7 @@ export default function QuickLeadModal({
                     outline: 'none'
                   }}
                 >
-                  {TOPIC_PRESETS.map((t, idx) => (
+                  {topicOptions.map((t, idx) => (
                     <option key={idx} value={t}>
                       {t}
                     </option>
