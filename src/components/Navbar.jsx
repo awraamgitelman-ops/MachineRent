@@ -15,8 +15,7 @@ export default function Navbar({
   setCurrency, 
   searchTerm, 
   setSearchTerm,
-  onOpenQuickLead,
-  cartCount = 0
+  onOpenQuickLead
 }) {
   const [currencyDropdownOpen, setCurrencyDropdownOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

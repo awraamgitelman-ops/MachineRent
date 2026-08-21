@@ -1,7 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { 
-  ShoppingCart, 
   Phone, 
   Check, 
   ChevronLeft, 
@@ -185,7 +184,7 @@ export default function HomePage({
                   className="btn-adena-primary"
                   style={{ width: '100%', height: '40px', fontSize: '13px', fontWeight: 600 }}
                 >
-                  <span>Додати в кошик / Замовити</span>
+                  <span>Замовити товар</span>
                 </button>
               </div>
             </div>

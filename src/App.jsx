@@ -39,7 +39,6 @@ export default function App() {
           searchTerm={searchTerm}
           setSearchTerm={setSearchTerm}
           onOpenQuickLead={() => handleOpenQuickLead('Підбір техніки для овочівництва')}
-          cartCount={0}
         />
 
         {/* Clean URL Routes (without #) */}
