@@ -20,7 +20,7 @@ export default function Footer({ onOpenQuickLead }) {
               </div>
             </div>
             <p style={{ fontSize: '13px', lineHeight: 1.6, color: '#666', marginBottom: '14px' }}>
-              AGRORENTEX – ваш надійний партнер у світі спеціалізованої сільськогосподарської техніки та комплектуючих для картоплі, моркви, цукрового буряку та цибулі.
+              AGRORENTEX: ваш надійний партнер у світі спеціалізованої сільськогосподарської техніки та комплектуючих для картоплі, моркви, цукрового буряку та цибулі.
             </p>
           </div>
 
@@ -68,7 +68,7 @@ export default function Footer({ onOpenQuickLead }) {
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Clock size={15} color="#888" />
-                <span>Пн-Сб: 08:00 — 19:00</span>
+                <span>Пн-Сб: 08:00 - 19:00</span>
               </div>
             </div>
           </div>

@@ -55,7 +55,7 @@ export default function ContactPage({ onOpenQuickLead }) {
     };
 
     setPageSeo({
-      title: 'Контакти | AGRORENTEX – Телефон, адреса та схема проїзду',
+      title: 'Контакти | AGRORENTEX: Телефон, адреса та схема проїзду',
       description: 'Зв\'яжіться з AGRORENTEX: +38 (096) 66 10 100, info@agrorentex.com. Адреса: м. Рівне, с. Колоденка, вул. Свободи 26. Продаж та оренда с/г техніки.',
       canonicalUrl: 'https://agrorentex.com/contact-us',
       schemaData
@@ -175,7 +175,7 @@ export default function ContactPage({ onOpenQuickLead }) {
               </p>
               <div style={{ fontSize: '13px', color: '#777', display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Clock size={16} color="#888" />
-                <span><strong>Графік роботи:</strong> Пн-Сб: 08:00 – 19:00, Неділя: за домовленістю</span>
+                <span><strong>Графік роботи:</strong> Пн-Сб: 08:00 - 19:00, Неділя: за домовленістю</span>
               </div>
             </div>
 

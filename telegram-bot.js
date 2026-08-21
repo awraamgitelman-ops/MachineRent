@@ -257,9 +257,9 @@ async function handleTelegramUpdate(update) {
         `🤖 <b>Вітаємо в AGRORENTEX Alert Bot!</b>\n\n` +
         `Цей чат <b>(ID: <code>${chat.id}</code>)</b> успішно зареєстровано для отримання сповіщень.\n\n` +
         `📋 <b>Доступні команди:</b>\n` +
-        `• <code>/status</code> — Перевірити статус підключення\n` +
-        `• <code>/test</code> — Надіслати тестове сповіщення\n` +
-        `• <code>/id</code> — Показати ID цього чату`
+        `• <code>/status</code>: Перевірити статус підключення\n` +
+        `• <code>/test</code>: Надіслати тестове сповіщення\n` +
+        `• <code>/id</code>: Показати ID цього чату`
       );
     } else if (text === '/test' || text.startsWith('/test')) {
       await sendTelegramMessage(

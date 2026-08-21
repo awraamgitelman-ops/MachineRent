@@ -71,7 +71,7 @@ export default function Hero({
             fontWeight: 700
           }}>
             <Sparkles size={16} />
-            <span>ПАРК СУЧАСНОЇ ЄВРОПЕЙСЬКОЇ ТА АМЕРИКАНСЬКОЇ ТЕХНІКИ 2023–2024</span>
+            <span>ПАРК СУЧАСНОЇ ЄВРОПЕЙСЬКОЇ ТА АМЕРИКАНСЬКОЇ ТЕХНІКИ 2023-2024</span>
           </div>
 
           {/* Main Title */}

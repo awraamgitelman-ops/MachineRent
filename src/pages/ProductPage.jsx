@@ -131,7 +131,7 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
     };
 
     setPageSeo({
-      title: `${machine.name} – Купити в Україні | AGRORENTEX`,
+      title: `${machine.name}: Купити в Україні | AGRORENTEX`,
       description: cleanDesc,
       canonicalUrl: `https://agrorentex.com/product/${machine.slug}`,
       ogImage: mainImg,
@@ -551,7 +551,7 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
                 AGRORENTEX здійснює оперативну доставку техніки та запчастин по всій Україні зручними транспортними компаніями (Нова Пошта, Делівері, САТ) та спеціалізованими тралами.
               </p>
               <ul style={{ paddingLeft: '24px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                <li><strong>Терміни:</strong> відправка запасних частин у день замовлення, великогабаритної техніки — за узгодженим графіком.</li>
+                <li><strong>Терміни:</strong> відправка запасних частин у день замовлення, великогабаритної техніки: за узгодженим графіком.</li>
                 <li><strong>Оплата:</strong> безготівковий розрахунок із реєстрацією податкової накладної (ПДВ), готівка, лізинг.</li>
                 <li><strong>Супровід:</strong> кваліфіковані інженери проводять запуск агрегатів у полі та гарантійне обслуговування.</li>
               </ul>

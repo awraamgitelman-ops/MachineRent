@@ -183,7 +183,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
             </div>
 
             <div style={{ fontSize: '16px', color: '#e5e5e5', marginBottom: '32px' }}>
-              Нова послуга на ринку України — Реальна економія 50% від вартості нового
+              Нова послуга на ринку України: Реальна економія 50% від вартості нового
             </div>
 
             <button
@@ -265,7 +265,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
                 </li>
                 <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
                   <CheckCircle2 size={16} color="var(--wd-primary-color)" style={{ flexShrink: 0, marginTop: '2px' }} />
-                  <span>Немає причин викидати старі «негідні» транспортери – ми даємо їм нове життя</span>
+                  <span>Немає причин викидати старі «негідні» транспортери: ми даємо їм нове життя</span>
                 </li>
                 <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
                   <CheckCircle2 size={16} color="var(--wd-primary-color)" style={{ flexShrink: 0, marginTop: '2px' }} />
@@ -409,13 +409,13 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
         </div>
       </section>
 
-      {/* 6. Section «З якими труднощами Ви стикаєтесь при прийнятті рішення – купити транспортер» */}
+      {/* 6. Section «З якими труднощами Ви стикаєтесь при прийнятті рішення: купити транспортер» */}
       <section style={{ padding: '70px 0', backgroundColor: '#ffffff', borderBottom: '1px solid #eaeaea' }}>
         <div className="container">
           
           <div style={{ textAlign: 'center', marginBottom: '50px' }}>
             <h2 style={{ fontSize: '30px', fontWeight: 600, color: '#111', maxWidth: '800px', margin: '0 auto' }}>
-              З якими труднощами Ви стикаєтесь при прийнятті рішення – купити транспортер
+              З якими труднощами Ви стикаєтесь при прийнятті рішення: купити транспортер
             </h2>
           </div>
 
@@ -504,13 +504,13 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
         </div>
       </section>
 
-      {/* 7. Section «Транспортери — наша спеціалізація» */}
+      {/* 7. Section «Транспортери: наша спеціалізація» */}
       <section style={{ padding: '70px 0', backgroundColor: '#fafafa', borderBottom: '1px solid #eaeaea' }}>
         <div className="container">
           
           <div style={{ textAlign: 'center', marginBottom: '44px' }}>
             <h2 style={{ fontSize: '32px', fontWeight: 600, color: '#111', margin: 0 }}>
-              Транспортери — наша спеціалізація
+              Транспортери: наша спеціалізація
             </h2>
           </div>
 
@@ -563,7 +563,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
 
             <div>
               <h3 style={{ fontSize: '24px', fontWeight: 600, color: '#111', marginBottom: '16px' }}>
-                Транспортери та ролики – одна функціональна одиниця
+                Транспортери та ролики: одна функціональна одиниця
               </h3>
               <p style={{ fontSize: '15px', color: '#444', lineHeight: 1.7, margin: 0 }}>
                 Своєчасна заміна роликів значно збільшує ресурс транспортера, так як не працюючий ролик (заклинили, або нерівномірно стертий або перекошений) не забезпечує точне ведення транспортерів і призводить як до бічних стирання країв транспортера, так і до стирання самої стрічки за рахунок тертя по ролику, що не обертається.

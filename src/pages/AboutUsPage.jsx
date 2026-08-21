@@ -31,7 +31,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
       "@type": "AboutPage",
       "name": "Про компанію AGRORENTEX",
       "url": "https://agrorentex.com/about-us",
-      "description": "AGRORENTEX – спеціалізована компанія з оренди, продажу та сервісу техніки для овочівництва, зернових жаток, складських ліній та ремонту транспортерів в Україні.",
+      "description": "AGRORENTEX: спеціалізована компанія з оренди, продажу та сервісу техніки для овочівництва, зернових жаток, складських ліній та ремонту транспортерів в Україні.",
       "publisher": {
         "@type": "Organization",
         "name": "AGRORENTEX",
@@ -163,7 +163,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
             </h1>
 
             <p style={{ fontSize: '16px', lineHeight: 1.7, color: '#333', marginBottom: '14px', fontWeight: 500 }}>
-              <strong>AGRORENTEX</strong> — це спеціалізована українська платформа з <strong>оренди, продажу та сервісного обслуговування</strong> професійної сільськогосподарської та складської техніки.
+              <strong>AGRORENTEX</strong>: це спеціалізована українська платформа з <strong>оренди, продажу та сервісного обслуговування</strong> професійної сільськогосподарської та складської техніки.
             </p>
 
             <p style={{ fontSize: '15px', lineHeight: 1.7, color: '#555', marginBottom: '24px' }}>
@@ -388,7 +388,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
                     35306, Україна, Рівненська обл., м. Рівне, с. Колоденка, вул. Свободи 26
                   </strong>
                   <span style={{ fontSize: '13px', color: '#666' }}>
-                    Графік роботи: Пн-Сб 08:00 — 19:00
+                    Графік роботи: Пн-Сб 08:00 - 19:00
                   </span>
                 </div>
               </div>

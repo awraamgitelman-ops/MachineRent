@@ -88,7 +88,7 @@ export default function CatalogPage({
       };
 
       setPageSeo({
-        title: `${currentCategoryInfo.title} – Купити або орендувати в Україні | AGRORENTEX`,
+        title: `${currentCategoryInfo.title}: Купити або орендувати в Україні | AGRORENTEX`,
         description: currentCategoryInfo.subtitle,
         canonicalUrl: `https://agrorentex.com/product-category/${category}`,
         schemaData
