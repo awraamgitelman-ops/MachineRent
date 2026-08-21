@@ -149,7 +149,7 @@ export default function QuickLeadModal({
               Дякуємо за звернення!
             </h4>
             <p style={{ fontSize: '13px', color: '#666', marginBottom: '20px' }}>
-              Менеджер AGRO RENTEX зателефонує вам за номером <strong>{phone}</strong> протягом 10 хвилин.
+              Менеджер AGRORENTEX зателефонує вам за номером <strong>{phone}</strong> протягом 10 хвилин.
             </p>
             <button onClick={onClose} className="btn-adena-primary" style={{ width: '100%', padding: '10px' }}>
               Зрозуміло

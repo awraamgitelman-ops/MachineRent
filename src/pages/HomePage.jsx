@@ -35,7 +35,7 @@ export default function HomePage({
 
   useEffect(() => {
     setPageSeo({
-      title: 'AGRO RENTEX | Сільськогосподарська техніка для овочівництва в Україні',
+      title: 'AGRORENTEX | Сільськогосподарська техніка для овочівництва в Україні',
       description: 'Продаж та оренда якісної європейської польової і складської сільгосптехніки Grimme, Struik, Domasz. Запчастини та ремонт транспортерів по всій Україні.',
       canonicalUrl: 'https://agrorentex.com/',
       ogImage: '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUYuCwsAJAQxAAAQQyQOBURSHXsdSh0CHkVTIxc.webp'
@@ -483,16 +483,16 @@ export default function HomePage({
         </main>
       </div>
 
-      {/* 5. ABOUT & SEO SECTION (Unique AGRO RENTEX Brand Content) */}
+      {/* 5. ABOUT & SEO SECTION (Unique AGRORENTEX Brand Content) */}
       <section style={{ backgroundColor: '#fafafa', borderTop: '1px solid #eaeaea', padding: '50px 0 60px 0' }}>
         <div className="container" style={{ maxWidth: '1100px' }}>
           
           <h2 style={{ fontSize: '26px', fontWeight: 600, color: '#111', marginBottom: '16px', textAlign: 'center' }}>
-            AGRO RENTEX — Комплексні технологічні рішення для овочівництва та польового агробізнесу
+            AGRORENTEX — Комплексні технологічні рішення для овочівництва та польового агробізнесу
           </h2>
           
           <p style={{ fontSize: '15px', color: '#555', lineHeight: 1.7, textAlign: 'center', maxWidth: '900px', margin: '0 auto 36px auto' }}>
-            <strong>AGRO RENTEX</strong> забезпечує українських агровиробників високоефективною спеціалізованою технікою для вирощування картоплі, моркви, столового буряку, цибулі та зернових культур. Наша мета — максимізувати врожайність вашого господарства, скоротити експлуатаційні витрати та гарантувати безперебійну роботу в кожен день сезону.
+            <strong>AGRORENTEX</strong> забезпечує українських агровиробників високоефективною спеціалізованою технікою для вирощування картоплі, моркви, столового буряку, цибулі та зернових культур. Наша мета — максимізувати врожайність вашого господарства, скоротити експлуатаційні витрати та гарантувати безперебійну роботу в кожен день сезону.
           </p>
 
           <div style={{
@@ -524,10 +524,10 @@ export default function HomePage({
               </ul>
             </div>
 
-            {/* Box 2: Чому AGRO RENTEX */}
+            {/* Box 2: Чому AGRORENTEX */}
             <div style={{ backgroundColor: '#ffffff', border: '1px solid #e5e5e5', padding: '24px' }}>
               <h3 style={{ fontSize: '18px', fontWeight: 600, color: '#111', marginBottom: '16px', borderBottom: '2px solid var(--wd-accent-yellow)', paddingBottom: '6px' }}>
-                Переваги співпраці з AGRO RENTEX:
+                Переваги співпраці з AGRORENTEX:
               </h3>
               <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px', fontSize: '14px', lineHeight: 1.6 }}>
                 <li>

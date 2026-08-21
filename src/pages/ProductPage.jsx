@@ -100,7 +100,7 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
     if (!machine) return;
 
     const mainImg = machine.images && machine.images[0] ? machine.images[0] : '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUYuCwsAJAQxAAAQQyQOBURSHXsdSh0CHkVTIxc.webp';
-    const cleanDesc = (machine.shortDescription || machine.fullDescription || `${machine.name} від виробника ${machine.brand}. Гарантія та сервіс від AGRO RENTEX.`).slice(0, 160);
+    const cleanDesc = (machine.shortDescription || machine.fullDescription || `${machine.name} від виробника ${machine.brand}. Гарантія та сервіс від AGRORENTEX.`).slice(0, 160);
 
     const schemaData = {
       "@context": "https://schema.org/",
@@ -112,7 +112,7 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
       "mpn": machine.model || machine.slug,
       "brand": {
         "@type": "Brand",
-        "name": machine.brand || "AGRO RENTEX"
+        "name": machine.brand || "AGRORENTEX"
       },
       "offers": {
         "@type": "Offer",
@@ -124,14 +124,14 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
         "availability": "https://schema.org/InStock",
         "seller": {
           "@type": "Organization",
-          "name": "AGRO RENTEX",
+          "name": "AGRORENTEX",
           "url": "https://agrorentex.com"
         }
       }
     };
 
     setPageSeo({
-      title: `${machine.name} – Купити в Україні | AGRO RENTEX`,
+      title: `${machine.name} – Купити в Україні | AGRORENTEX`,
       description: cleanDesc,
       canonicalUrl: `https://agrorentex.com/product/${machine.slug}`,
       ogImage: mainImg,
@@ -169,7 +169,7 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
   // Prepared specifications rows
   const specRows = useMemo(() => {
     const rows = [
-      { label: 'Виробник / Бренд', val: machine.brand || 'AGRO RENTEX' },
+      { label: 'Виробник / Бренд', val: machine.brand || 'AGRORENTEX' },
       { label: 'Модель техніки', val: machine.model || machine.name },
       { label: 'Категорія', val: machine.categoryName || 'Сільгосптехніка' }
     ];
@@ -435,7 +435,7 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
                 <strong>Ширина / Ряди:</strong> {machine.specs?.['Робоча ширина / Кількість рядів'] || machine.specs?.['Робоча ширина'] || '2-4 ряди'}
               </div>
               <div style={{ background: '#f6f6f6', padding: '10px 12px', borderLeft: '3px solid var(--wd-accent-yellow)' }}>
-                <strong>Виробник:</strong> {machine.brand || 'AGRO RENTEX'}
+                <strong>Виробник:</strong> {machine.brand || 'AGRORENTEX'}
               </div>
               <div style={{ background: '#f6f6f6', padding: '10px 12px', borderLeft: '3px solid var(--wd-accent-yellow)' }}>
                 <strong>Стан:</strong> {machine.badge || 'В наявності'}
@@ -520,7 +520,7 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
                 <li><strong>Висока точність роботи:</strong> якісна підготовка та збирання без втрат і травмування продукції.</li>
                 <li><strong>Оригінальні робочі органи:</strong> застосування зносостійких матеріалів для максимального ресурсу.</li>
                 <li><strong>Мінімальне навантаження на техніку:</strong> збалансовані вузли та оптимізована геометрія зменшують витрати пального.</li>
-                <li><strong>Передпродажна підготовка:</strong> кожен агрегат проходить перевірку та налаштування інженерами AGRO RENTEX.</li>
+                <li><strong>Передпродажна підготовка:</strong> кожен агрегат проходить перевірку та налаштування інженерами AGRORENTEX.</li>
               </ul>
             </div>
           )}
@@ -548,7 +548,7 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
                 Логістика та розрахунки:
               </h3>
               <p style={{ marginBottom: '12px' }}>
-                AGRO RENTEX здійснює оперативну доставку техніки та запчастин по всій Україні зручними транспортними компаніями (Нова Пошта, Делівері, САТ) та спеціалізованими тралами.
+                AGRORENTEX здійснює оперативну доставку техніки та запчастин по всій Україні зручними транспортними компаніями (Нова Пошта, Делівері, САТ) та спеціалізованими тралами.
               </p>
               <ul style={{ paddingLeft: '24px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
                 <li><strong>Терміни:</strong> відправка запасних частин у день замовлення, великогабаритної техніки — за узгодженим графіком.</li>

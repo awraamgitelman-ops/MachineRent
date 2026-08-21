@@ -30,12 +30,12 @@ export default function ContactPage({ onOpenQuickLead }) {
     const schemaData = {
       "@context": "https://schema.org",
       "@type": "ContactPage",
-      "name": "Контакти компанії AGRO RENTEX",
+      "name": "Контакти компанії AGRORENTEX",
       "url": "https://agrorentex.com/contact-us",
-      "description": "Контактна інформація AGRO RENTEX: телефони, адреса бази в Рівному, графік роботи, електронна пошта та форма зворотного зв'язку.",
+      "description": "Контактна інформація AGRORENTEX: телефони, адреса бази в Рівному, графік роботи, електронна пошта та форма зворотного зв'язку.",
       "mainEntity": {
         "@type": "LocalBusiness",
-        "name": "AGRO RENTEX",
+        "name": "AGRORENTEX",
         "telephone": "+380966610100",
         "email": "info@agrorentex.com",
         "address": {
@@ -54,8 +54,8 @@ export default function ContactPage({ onOpenQuickLead }) {
     };
 
     setPageSeo({
-      title: 'Контакти | AGRO RENTEX – Телефон, адреса та схема проїзду',
-      description: 'Зв\'яжіться з AGRO RENTEX: +38 (096) 66 10 100, info@agrorentex.com. Адреса: м. Рівне, с. Колоденка, вул. Свободи 26. Продаж та оренда с/г техніки.',
+      title: 'Контакти | AGRORENTEX – Телефон, адреса та схема проїзду',
+      description: 'Зв\'яжіться з AGRORENTEX: +38 (096) 66 10 100, info@agrorentex.com. Адреса: м. Рівне, с. Колоденка, вул. Свободи 26. Продаж та оренда с/г техніки.',
       canonicalUrl: 'https://agrorentex.com/contact-us',
       schemaData
     });
@@ -107,7 +107,7 @@ export default function ContactPage({ onOpenQuickLead }) {
           </div>
 
           <h1 style={{ fontSize: '32px', fontWeight: 700, color: '#111111', margin: '0 0 10px 0' }}>
-            Контактна інформація AGRO RENTEX
+            Контактна інформація AGRORENTEX
           </h1>
           <p style={{ fontSize: '15px', color: '#666', margin: 0, maxWidth: '750px' }}>
             Наші фахівці готові надати кваліфіковану консультацію, допомогти з підбором техніки або оформленням замовлення на запчастини та ремонт.
@@ -241,7 +241,7 @@ export default function ContactPage({ onOpenQuickLead }) {
                   Дякуємо! Ваше повідомлення надіслано
                 </h4>
                 <p style={{ fontSize: '14px', color: '#166534', margin: '0 0 16px 0' }}>
-                  Менеджер AGRO RENTEX уже обробляє запит і зателефонує вам найближчим часом.
+                  Менеджер AGRORENTEX уже обробляє запит і зателефонує вам найближчим часом.
                 </p>
                 <button
                   onClick={() => setSubmitted(false)}
@@ -390,7 +390,7 @@ export default function ContactPage({ onOpenQuickLead }) {
             position: 'relative'
           }}>
             <iframe
-              title="AGRO RENTEX Карта проїзду"
+              title="AGRORENTEX Карта проїзду"
               width="100%"
               height="100%"
               style={{ border: 0 }}

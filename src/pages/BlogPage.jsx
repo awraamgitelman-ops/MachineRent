@@ -25,18 +25,18 @@ export default function BlogPage({ onOpenQuickLead }) {
     const schemaData = {
       "@context": "https://schema.org",
       "@type": "Blog",
-      "name": "Блог та корисні статті AGRO RENTEX",
+      "name": "Блог та корисні статті AGRORENTEX",
       "url": "https://agrorentex.com/blog",
       "description": "Актуальні статті про технології вирощування овочів, огляди сільгосптехніки Grimme, Struik, Domasz, практичні поради щодо налаштування та ремонту комбайнів в Україні.",
       "publisher": {
         "@type": "Organization",
-        "name": "AGRO RENTEX",
+        "name": "AGRORENTEX",
         "url": "https://agrorentex.com"
       }
     };
 
     setPageSeo({
-      title: 'Публікації та блог про с/г техніку | AGRO RENTEX',
+      title: 'Публікації та блог про с/г техніку | AGRORENTEX',
       description: 'Корисні статті та агроаналітика 2026: налаштування картоплезбиральних комбайнів, зберігання в овочесховищах, фасувальні лінії Domasz та реставрація транспортерів.',
       canonicalUrl: 'https://agrorentex.com/blog',
       ogImage: '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUckBgsNBk5dEB8bVkwUAgVYA15EWg.jpg',
@@ -100,7 +100,7 @@ export default function BlogPage({ onOpenQuickLead }) {
             Корисні публікації та новини агроринку
           </h1>
           <p style={{ fontSize: '15px', color: '#666', margin: 0, maxWidth: '750px' }}>
-            Практичні рекомендації інженерів AGRO RENTEX, аналітика ринку овочівництва України 2026, секрети налаштування техніки та сучасні методи збереження врожаю.
+            Практичні рекомендації інженерів AGRORENTEX, аналітика ринку овочівництва України 2026, секрети налаштування техніки та сучасні методи збереження врожаю.
           </p>
         </div>
 

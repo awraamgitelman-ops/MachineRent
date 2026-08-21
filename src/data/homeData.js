@@ -1,4 +1,4 @@
-// Static dataset for AGRO RENTEX Home Page
+// Static dataset for AGRORENTEX Home Page
 export const HOME_TOP_SEASON = [
   {
     "id": "pass-ds",
@@ -197,9 +197,9 @@ export const HOME_DISCOUNTS_PRODUCTS = [
   },
   {
     "id": "adena-perekydach",
-    "name": "AGRO RENTEX – Перекидач контейнерів з овочами",
+    "name": "AGRORENTEX – Перекидач контейнерів з овочами",
     "slug": "adena-agro-perekydach-kontejneriv-z-ovochamy",
-    "brand": "AGRO RENTEX",
+    "brand": "AGRORENTEX",
     "priceUah": 145600,
     "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMCHUIzBhkbPRdDQ1NAVXlWVkcWSCkV.webp"
   }

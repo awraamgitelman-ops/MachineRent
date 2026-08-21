@@ -22,7 +22,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
       "serviceType": "Ремонт та реставрація транспортерів сільськогосподарської техніки",
       "provider": {
         "@type": "Organization",
-        "name": "AGRO RENTEX",
+        "name": "AGRORENTEX",
         "url": "https://agrorentex.com"
       },
       "areaServed": "UA",
@@ -30,7 +30,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
     };
 
     setPageSeo({
-      title: 'Ремонт та реставрація транспортерів сільгосптехніки | AGRO RENTEX',
+      title: 'Ремонт та реставрація транспортерів сільгосптехніки | AGRORENTEX',
       description: 'Якісний ремонт, заміна стрічок та відновлення гумово-пруткових транспортерів Grimme, Anna, Bolko, AVR, Dewulf. Гарантія 1 рік. Доставка по Україні.',
       canonicalUrl: 'https://agrorentex.com/remont-transporteriv',
       ogImage: '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQkCh0BJkgaBgQWXj0KFh0EXyITVB4CAEoFcVdcGDcHHg.webp',
@@ -202,7 +202,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
             <div>
               <img
                 src="/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQkCh0BJkseGgI.png"
-                alt="Ремонт транспортерів AGRO RENTEX"
+                alt="Ремонт транспортерів AGRORENTEX"
                 style={{ width: '100%', height: 'auto', borderRadius: '4px', boxShadow: '0 8px 24px rgba(0,0,0,0.08)' }}
               />
             </div>

@@ -29,19 +29,19 @@ export default function AboutUsPage({ onOpenQuickLead }) {
     const schemaData = {
       "@context": "https://schema.org",
       "@type": "AboutPage",
-      "name": "Про компанію AGRO RENTEX",
+      "name": "Про компанію AGRORENTEX",
       "url": "https://agrorentex.com/about-us",
-      "description": "AGRO RENTEX – спеціалізована компанія з оренди, продажу та сервісу техніки для овочівництва, зернових жаток, складських ліній та ремонту транспортерів в Україні.",
+      "description": "AGRORENTEX – спеціалізована компанія з оренди, продажу та сервісу техніки для овочівництва, зернових жаток, складських ліній та ремонту транспортерів в Україні.",
       "publisher": {
         "@type": "Organization",
-        "name": "AGRO RENTEX",
+        "name": "AGRORENTEX",
         "url": "https://agrorentex.com"
       }
     };
 
     setPageSeo({
-      title: 'Про компанію AGRO RENTEX | Спеціалізація, оренда та продаж с/г техніки',
-      description: 'AGRO RENTEX: оренда та продаж техніки для овочівництва, картоплярства, зернових жаток, ліній фасування Domasz, склад запчастин та реставрація транспортерів.',
+      title: 'Про компанію AGRORENTEX | Спеціалізація, оренда та продаж с/г техніки',
+      description: 'AGRORENTEX: оренда та продаж техніки для овочівництва, картоплярства, зернових жаток, ліній фасування Domasz, склад запчастин та реставрація транспортерів.',
       canonicalUrl: 'https://agrorentex.com/about-us',
       ogImage: '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHVAgFR8KIEgPEAAWTGBSUlEZGHpUV1pXUkI.webp',
       schemaData
@@ -177,11 +177,11 @@ export default function AboutUsPage({ onOpenQuickLead }) {
               color: '#111111',
               marginBottom: '18px'
             }}>
-              Чим займається компанія AGRO RENTEX
+              Чим займається компанія AGRORENTEX
             </h1>
 
             <p style={{ fontSize: '16px', lineHeight: 1.7, color: '#333', marginBottom: '14px', fontWeight: 500 }}>
-              <strong>AGRO RENTEX</strong> — це спеціалізована українська платформа з <strong>оренди, продажу та сервісного обслуговування</strong> професійної сільськогосподарської та складської техніки.
+              <strong>AGRORENTEX</strong> — це спеціалізована українська платформа з <strong>оренди, продажу та сервісного обслуговування</strong> професійної сільськогосподарської та складської техніки.
             </p>
 
             <p style={{ fontSize: '15px', lineHeight: 1.7, color: '#555', marginBottom: '24px' }}>
@@ -219,7 +219,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
             }}>
               <img
                 src="/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHVAgFR8KIEgPEAAWTGBSUlEZGHpUV1pXUkI.webp"
-                alt="AGRO RENTEX Сільськогосподарська техніка"
+                alt="AGRORENTEX Сільськогосподарська техніка"
                 style={{ width: '100%', height: 'auto', display: 'block', objectFit: 'cover' }}
               />
             </div>
@@ -257,7 +257,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
             Напрямки діяльності
           </div>
           <h2 style={{ fontSize: '28px', fontWeight: 800, color: '#111', marginBottom: '10px' }}>
-            5 ключових спеціалізацій AGRO RENTEX
+            5 ключових спеціалізацій AGRORENTEX
           </h2>
           <p style={{ fontSize: '15px', color: '#666', maxWidth: '720px', margin: '0 auto' }}>
             Конкретний перелік категорій техніки, брендів та інженерних послуг, які ми надаємо аграріям України:
@@ -388,7 +388,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
                 Майданчик, склад та логістика
               </h2>
               <p style={{ fontSize: '15px', lineHeight: 1.7, color: '#555', marginBottom: '16px' }}>
-                Виставковий майданчик, склад запасних частин та сервісний цех реставрації транспортерів AGRO RENTEX розташовані за адресою:
+                Виставковий майданчик, склад запасних частин та сервісний цех реставрації транспортерів AGRORENTEX розташовані за адресою:
               </p>
               <div style={{
                 backgroundColor: '#ffffff',

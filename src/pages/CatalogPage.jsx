@@ -88,7 +88,7 @@ export default function CatalogPage({
       };
 
       setPageSeo({
-        title: `${currentCategoryInfo.title} – Купити або орендувати в Україні | AGRO RENTEX`,
+        title: `${currentCategoryInfo.title} – Купити або орендувати в Україні | AGRORENTEX`,
         description: currentCategoryInfo.subtitle,
         canonicalUrl: `https://agrorentex.com/product-category/${category}`,
         schemaData
@@ -96,8 +96,8 @@ export default function CatalogPage({
     } else {
       setMachineryType('all');
       setPageSeo({
-        title: 'Каталог сільськогосподарської техніки | AGRO RENTEX',
-        description: 'Повний каталог польової, складської техніки, обладнання для збирання та сортування овочів і запчастин AGRO RENTEX.',
+        title: 'Каталог сільськогосподарської техніки | AGRORENTEX',
+        description: 'Повний каталог польової, складської техніки, обладнання для збирання та сортування овочів і запчастин AGRORENTEX.',
         canonicalUrl: 'https://agrorentex.com/product-category/field'
       });
     }

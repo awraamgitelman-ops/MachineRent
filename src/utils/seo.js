@@ -10,7 +10,7 @@ export function setPageSeo({
   schemaData = null
 }) {
   const DOMAIN = 'https://agrorentex.com';
-  const fullTitle = title.includes('AGRO RENTEX') ? title : `${title} | AGRO RENTEX`;
+  const fullTitle = title.includes('AGRORENTEX') ? title : `${title} | AGRORENTEX`;
   document.title = fullTitle;
 
   // Meta description

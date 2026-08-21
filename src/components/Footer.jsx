@@ -20,7 +20,7 @@ export default function Footer({ onOpenQuickLead }) {
               </div>
             </div>
             <p style={{ fontSize: '13px', lineHeight: 1.6, color: '#666', marginBottom: '14px' }}>
-              AGRO RENTEX – ваш надійний партнер у світі спеціалізованої сільськогосподарської техніки та комплектуючих для картоплі, моркви, цукрового буряку та цибулі.
+              AGRORENTEX – ваш надійний партнер у світі спеціалізованої сільськогосподарської техніки та комплектуючих для картоплі, моркви, цукрового буряку та цибулі.
             </p>
           </div>
 
@@ -41,7 +41,7 @@ export default function Footer({ onOpenQuickLead }) {
           <div>
             <h4>Послуги та компанія</h4>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '13px' }}>
-              <li><Link to="/about-us" style={{ color: 'var(--wd-primary-color)', fontWeight: 600 }}>Про компанію AGRO RENTEX</Link></li>
+              <li><Link to="/about-us" style={{ color: 'var(--wd-primary-color)', fontWeight: 600 }}>Про компанію AGRORENTEX</Link></li>
               <li><Link to="/contact-us" style={{ color: 'var(--wd-primary-color)', fontWeight: 600 }}>Контакти та схема проїзду</Link></li>
               <li><Link to="/blog" style={{ color: 'var(--wd-primary-color)', fontWeight: 600 }}>Публікації та блог</Link></li>
               <li><a href="#" onClick={(e) => { e.preventDefault(); onOpenQuickLead('Підбір техніки'); }} style={{ color: '#555' }}>Індивідуальний підбір техніки</a></li>
@@ -78,7 +78,7 @@ export default function Footer({ onOpenQuickLead }) {
         {/* Footer Bottom */}
         <div className="adena-footer-bottom">
           <div>
-            © 2026 AGRO RENTEX. Всі права захищено. Сільськогосподарська техніка для овочівництва.
+            © 2026 AGRORENTEX. Всі права захищено. Сільськогосподарська техніка для овочівництва.
           </div>
           <div style={{ display: 'flex', gap: '16px' }}>
             <Link to="/privacy-policy" style={{ color: '#888', textDecoration: 'none' }}>Політика конфіденційності</Link>

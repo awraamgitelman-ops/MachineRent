@@ -23,7 +23,7 @@ export default function App() {
   const [isQuickLeadModalOpen, setIsQuickLeadModalOpen] = useState(false);
   const [quickLeadTopic, setQuickLeadTopic] = useState('');
 
-  const handleOpenQuickLead = (topic = 'Підбір техніки AGRO RENTEX') => {
+  const handleOpenQuickLead = (topic = 'Підбір техніки AGRORENTEX') => {
     setQuickLeadTopic(topic);
     setIsQuickLeadModalOpen(true);
   };

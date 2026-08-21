@@ -1,7 +1,7 @@
 const SECRET_KEY = 'AgroRentex-Media-Key-2026';
 
 /**
- * Encrypts an external image URL into a disguised AGRO RENTEX media token
+ * Encrypts an external image URL into a disguised AGRORENTEX media token
  * e.g. https://adenaagro.com/uploads/... -> /api/media/KRMGHyFfQVs...jpg
  */
 export function encryptImageUrl(url) {

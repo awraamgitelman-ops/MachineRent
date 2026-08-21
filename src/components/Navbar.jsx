@@ -76,7 +76,7 @@ export default function Navbar({
       <div className="whb-general-header">
         <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '20px' }}>
           
-          {/* AGRO RENTEX Logo Text */}
+          {/* AGRORENTEX Logo Text */}
           <Link to="/" className="adena-logo-text" style={{ textDecoration: 'none' }}>
             <div>
               <div className="adena-logo-brand" style={{ fontSize: '24px', letterSpacing: '-0.02em', lineHeight: 1.1 }}>

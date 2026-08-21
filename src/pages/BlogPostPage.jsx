@@ -40,7 +40,7 @@ export default function BlogPostPage({ onOpenQuickLead }) {
         },
         "publisher": {
           "@type": "Organization",
-          "name": "AGRO RENTEX",
+          "name": "AGRORENTEX",
           "logo": {
             "@type": "ImageObject",
             "url": "https://agrorentex.com/favicon.svg"
@@ -54,7 +54,7 @@ export default function BlogPostPage({ onOpenQuickLead }) {
       };
 
       setPageSeo({
-        title: `${post.title} | Блог AGRO RENTEX`,
+        title: `${post.title} | Блог AGRORENTEX`,
         description: post.excerpt,
         canonicalUrl: `https://agrorentex.com/blog/${post.slug}`,
         ogImage: post.image,
