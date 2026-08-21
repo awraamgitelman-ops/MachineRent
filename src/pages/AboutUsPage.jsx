@@ -6,16 +6,8 @@ import {
   MapPin, 
   ShieldCheck, 
   Truck, 
-  Wrench, 
-  Layers, 
   ArrowRight,
-  Sparkles,
-  PackageCheck,
-  Wheat,
-  Warehouse,
-  Cog,
-  Clock,
-  Flame
+  Clock
 } from 'lucide-react';
 import { setPageSeo } from '../utils/seo';
 
@@ -51,7 +43,6 @@ export default function AboutUsPage({ onOpenQuickLead }) {
   const specializations = [
     {
       id: 'field',
-      icon: <Layers size={30} color="var(--wd-primary-color)" />,
       badge: 'Повний цикл',
       title: 'Техніка для овочівництва та картоплярства',
       desc: 'Повний комплекс машин від підготовки ґрунту до збирання врожаю без пошкоджень.',
@@ -65,7 +56,6 @@ export default function AboutUsPage({ onOpenQuickLead }) {
     },
     {
       id: 'zhatky',
-      icon: <Wheat size={30} color="#eab308" />,
       badge: 'Оренда та продаж',
       title: 'Жатки для зернових та зернобобових культур',
       desc: 'Оригінальні широкозахватні та флекс-жатки для збирання зернових, сої, ріпаку та гороху.',
@@ -79,7 +69,6 @@ export default function AboutUsPage({ onOpenQuickLead }) {
     },
     {
       id: 'warehouse',
-      icon: <Warehouse size={30} color="#3b82f6" />,
       badge: 'Для овочесховищ',
       title: 'Складське та пакувальне обладнання',
       desc: 'Автоматизовані лінії післязбиральної доробки, інспекції, очищення та фасування овочів.',
@@ -93,7 +82,6 @@ export default function AboutUsPage({ onOpenQuickLead }) {
     },
     {
       id: 'parts',
-      icon: <Cog size={30} color="#10b981" />,
       badge: 'Власний склад',
       title: 'Оригінальні запчастини та комплектуючі',
       desc: 'Постійна наявність швидкозношуваних деталей для європейських машин на складі у Рівному.',
@@ -107,7 +95,6 @@ export default function AboutUsPage({ onOpenQuickLead }) {
     },
     {
       id: 'remont',
-      icon: <Wrench size={30} color="#f97316" />,
       badge: 'Сертифікований сервіс',
       title: 'Реставрація транспортерів та польовий сервіс',
       desc: 'Власний виробничий цех з відновлення гумово-пруткових транспортерних стрічок.',
@@ -256,50 +243,33 @@ export default function AboutUsPage({ onOpenQuickLead }) {
                 padding: '28px',
                 boxShadow: '0 2px 10px rgba(0,0,0,0.03)',
                 display: 'grid',
-                gridTemplateColumns: '80px 1.5fr 1fr',
-                gap: '24px',
+                gridTemplateColumns: '1.8fr 1fr',
+                gap: '28px',
                 alignItems: 'center',
                 transition: 'all 0.2s ease',
                 ...(window.innerWidth < 900 ? { gridTemplateColumns: '1fr', gap: '16px' } : {})
               }}
             >
-              {/* Icon & Badge */}
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '8px' }}>
-                <div style={{
-                  width: '60px',
-                  height: '60px',
-                  borderRadius: '0px',
-                  backgroundColor: '#fff4eb',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center'
-                }}>
-                  {spec.icon}
-                </div>
-                <span style={{ fontSize: '11px', fontWeight: 700, color: '#777', backgroundColor: '#f0f0f0', padding: '2px 8px', borderRadius: '0px' }}>
-                  #{idx + 1}
-                </span>
-              </div>
-
               {/* Description & Title */}
               <div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '6px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '8px' }}>
                   <span style={{
                     fontSize: '11px',
                     fontWeight: 700,
                     color: 'var(--wd-primary-color)',
                     backgroundColor: '#fff4eb',
-                    padding: '2px 8px',
+                    padding: '3px 10px',
                     borderRadius: '0px',
-                    textTransform: 'uppercase'
+                    textTransform: 'uppercase',
+                    letterSpacing: '0.04em'
                   }}>
-                    {spec.badge}
+                    #{idx + 1} • {spec.badge}
                   </span>
                 </div>
-                <h3 style={{ fontSize: '20px', fontWeight: 700, color: '#111', marginBottom: '8px' }}>
+                <h3 style={{ fontSize: '21px', fontWeight: 700, color: '#111', marginBottom: '8px' }}>
                   {spec.title}
                 </h3>
-                <p style={{ fontSize: '14px', color: '#666', lineHeight: 1.6, marginBottom: '12px' }}>
+                <p style={{ fontSize: '14px', color: '#666', lineHeight: 1.6, marginBottom: '14px' }}>
                   {spec.desc}
                 </p>
 
@@ -317,7 +287,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
               {/* Action Column */}
               <div style={{
                 borderLeft: '1px solid #f0f0f0',
-                paddingLeft: '24px',
+                paddingLeft: '28px',
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'center',
