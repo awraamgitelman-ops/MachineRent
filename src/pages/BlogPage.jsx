@@ -346,7 +346,7 @@ export default function BlogPage({ onOpenQuickLead }) {
               className="btn-adena-primary"
               style={{ height: '42px', padding: '0 20px', fontWeight: 600, fontSize: '13px' }}
             >
-              Замовити дзвінок
+              Замовити консультацію
             </button>
           </div>
         </div>

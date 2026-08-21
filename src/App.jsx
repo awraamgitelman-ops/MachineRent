@@ -238,8 +238,8 @@ export default function App() {
         {/* Floating Call Widget */}
         <div 
           className="floating-call-btn"
-          onClick={() => handleOpenQuickLead('Терміновий дзвінок / консультація')}
-          title="Замовити швидкий дзвінок"
+          onClick={() => handleOpenQuickLead('Консультація')}
+          title="Замовити консультацію"
         >
           <PhoneCall size={26} />
         </div>

@@ -313,6 +313,7 @@ export default function ContactPage({ onOpenQuickLead }) {
                       borderRadius: '4px'
                     }}
                   >
+                    <option value="Консультація">Консультація</option>
                     <option value="Підбір техніки для овочівництва">Підбір техніки для овочівництва</option>
                     <option value="Оренда польової техніки (позмінно / на сезон)">Оренда польової техніки (позмінно / на сезон)</option>
                     <option value="Купівля нової с/г техніки">Купівля нової с/г техніки</option>

@@ -399,7 +399,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
               className="btn-adena-primary"
               style={{ width: '100%', height: '44px', fontWeight: 600, fontSize: '14px' }}
             >
-              Замовити дзвінок
+              Замовити консультацію
             </button>
           </div>
         </div>

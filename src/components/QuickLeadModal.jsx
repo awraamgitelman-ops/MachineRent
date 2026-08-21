@@ -3,6 +3,7 @@ import { X, CheckCircle2, Phone, ChevronDown, Edit3 } from 'lucide-react';
 import { formatPhoneNumber, isValidUkrainianPhone } from '../utils/phoneFormatter';
 
 const TOPIC_PRESETS = [
+  'Консультація',
   'Підбір техніки для овочівництва',
   'Оренда польової техніки (позмінно / на сезон)',
   'Купівля нової с/г техніки',
