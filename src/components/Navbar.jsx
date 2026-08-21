@@ -50,7 +50,7 @@ export default function Navbar({
               <Phone size={14} color="var(--wd-primary-color)" />
               <span>+38 (096) 66 10 100</span>
             </a>
-            <span style={{ fontSize: '12px', color: '#666' }}>(Відділ продажу та оренди)</span>
+            <span style={{ fontSize: '12px', color: '#666' }}>Відділ продажу та оренди</span>
           </div>
 
           {/* Top Info Links (Desktop) */}
