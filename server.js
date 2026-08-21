@@ -4,6 +4,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import https from 'https';
 import http from 'http';
+import { initTelegramBot, broadcastLeadNotification, getBotStatus } from './telegram-bot.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -15,7 +16,7 @@ const PORT = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
 
-// In-Memory Leads Log (Ready to connect with Telegram Bot API when configured)
+// In-Memory Leads Log
 const leadsQueue = [];
 
 // Health Check API
@@ -23,14 +24,20 @@ app.get('/api/health', (req, res) => {
   res.json({
     status: 'healthy',
     timestamp: new Date().toISOString(),
-    service: 'Agro Machinery Rental Backend',
+    service: 'AGRORENTEX Backend & Telegram Bot',
     version: '1.0.0',
-    totalLeadsProcessed: leadsQueue.length
+    totalLeadsProcessed: leadsQueue.length,
+    telegram: getBotStatus()
   });
 });
 
-// Blueprint Requirement В: Lead Pipeline Endpoint (/api/send-lead)
-app.post('/api/send-lead', (req, res) => {
+// Telegram Bot Status API
+app.get('/api/telegram-status', (req, res) => {
+  res.json(getBotStatus());
+});
+
+// Lead Pipeline Endpoint (/api/send-lead)
+app.post('/api/send-lead', async (req, res) => {
   try {
     const {
       leadId = `AGRO-${Date.now().toString().slice(-6)}`,
@@ -46,53 +53,54 @@ app.post('/api/send-lead', (req, res) => {
       timeSlot,
       totalEstimateUah,
       notes,
-      topic
+      topic,
+      source
     } = req.body;
 
     if (!phone) {
-      return res.status(400).json({ success: false, error: 'Phone number is required' });
+      return res.status(400).json({ success: false, error: 'Номер телефону обов\'язковий' });
     }
 
     const newLead = {
       leadId,
-      machineName: machineName || topic || 'Загальний підбір техніки',
-      fullName: fullName || 'Агро-клієнт',
+      machineName: machineName || topic || 'Консультація / Підбір техніки',
+      fullName: fullName || 'Клієнт',
       phone,
-      companyName: companyName || 'Не вказано',
-      rentType,
+      companyName: companyName || '',
+      rentType: rentType || '',
       quantity,
       withOperator: withOperator ? 'Так (+екіпаж)' : 'Ні (холодна оренда)',
       withTrallDelivery: withTrallDelivery ? 'Так (подача тралом)' : 'Самовивіз',
       selectedDate: selectedDate || 'Найближчий час',
       timeSlot: timeSlot || 'Денна зміна',
-      totalEstimateUah: totalEstimateUah ? `${totalEstimateUah.toLocaleString('uk-UA')} ₴` : 'За домовленістю',
+      totalEstimateUah: totalEstimateUah ? `${totalEstimateUah.toLocaleString('uk-UA')} ₴` : '',
       notes: notes || '',
+      topic: topic || machineName || 'Консультація',
+      source: source || 'Форма на сайті AGRORENTEX',
       receivedAt: new Date().toISOString()
     };
 
     leadsQueue.push(newLead);
 
-    // Formatted Telegram Lead log output
+    // Formatted Console Lead log output
     console.log('\n========================================');
-    console.log('🌾 [НОВА ЗАЯВКА НА ОРЕНДУ АГРОТЕХНІКИ]');
+    console.log('🌾 [НОВА ЗАЯВКА НА ОРЕНДУ / КУПІВЛЮ АГРОТЕХНІКИ]');
     console.log(`🆔 Номер: #${newLead.leadId}`);
-    console.log(`🚜 Техніка: ${newLead.machineName}`);
-    console.log(`👤 Клієнт: ${newLead.fullName} (${newLead.companyName})`);
+    console.log(`📌 Тема: ${newLead.topic}`);
+    console.log(`👤 Клієнт: ${newLead.fullName} ${newLead.companyName ? `(${newLead.companyName})` : ''}`);
     console.log(`📞 Телефон: ${newLead.phone}`);
-    console.log(`📅 Дата/Зміна: ${newLead.selectedDate} | ${newLead.timeSlot}`);
-    console.log(`💰 Сума: ${newLead.totalEstimateUah}`);
-    console.log(`🚚 Трал / Екіпаж: ${newLead.withTrallDelivery} | ${newLead.withOperator}`);
+    if (newLead.notes) console.log(`💬 Повідомлення: ${newLead.notes}`);
     console.log('========================================\n');
 
-    // Future Telegram Bot Forwarder:
-    // If TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID exist in env, send HTTP POST to Telegram Bot API.
-    // For now, return instant successful JSON response.
+    // Broadcast instant lead notification to Telegram Bot Admin Chats
+    const telegramResult = await broadcastLeadNotification(newLead);
 
     return res.status(200).json({
       success: true,
       leadId: newLead.leadId,
-      message: 'Заявку успішно прийнято в чергу диспетчера',
-      leadSummary: newLead
+      message: 'Заявку успішно прийнято та передано диспетчеру в Telegram',
+      leadSummary: newLead,
+      telegram: telegramResult
     });
   } catch (error) {
     console.error('Lead processing error:', error);
@@ -178,12 +186,14 @@ app.use(express.static(distPath));
 app.get('*', (req, res) => {
   res.sendFile(path.join(distPath, 'index.html'), (err) => {
     if (err) {
-      res.send('Agro Machinery Rental API is running. Build front-end with `npm run build` to serve SPA.');
+      res.send('AGRORENTEX API is running. Build front-end with `npm run build` to serve SPA.');
     }
   });
 });
 
-// Start Server
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`🚜 Agro Machinery Rental Server running on port ${PORT}`);
+// Start Server and Telegram Bot
+app.listen(PORT, '0.0.0.0', async () => {
+  console.log(`🚜 AGRORENTEX Server running on port ${PORT}`);
+  console.log(`🤖 Initializing Telegram Bot integration...`);
+  await initTelegramBot();
 });

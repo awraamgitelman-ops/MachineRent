@@ -66,7 +66,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
 
   const [consultErrors, setConsultErrors] = useState({});
 
-  const handleSubmitConsultation = (e) => {
+  const handleSubmitConsultation = async (e) => {
     e.preventDefault();
     const newErrors = {};
     if (!name.trim()) {
@@ -82,6 +82,22 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
     }
     setConsultErrors({});
     setSubmitted(true);
+
+    try {
+      await fetch('/api/send-lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          fullName: name.trim(),
+          phone: phone.trim(),
+          topic: 'Ремонт та реставрація транспортерів (консультація інженера)',
+          source: 'Сторінка Ремонт транспортерів'
+        })
+      });
+    } catch (err) {
+      console.error('Failed to submit remont lead:', err);
+    }
+
     setTimeout(() => {
       setName('');
       setPhone('');

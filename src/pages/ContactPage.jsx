@@ -62,7 +62,7 @@ export default function ContactPage({ onOpenQuickLead }) {
     });
   }, []);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const newErrors = {};
 
@@ -82,11 +82,26 @@ export default function ContactPage({ onOpenQuickLead }) {
 
     setFormErrors({});
     setLoading(true);
-    setTimeout(() => {
+
+    try {
+      await fetch('/api/send-lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          fullName: formData.name.trim(),
+          phone: formData.phone.trim(),
+          topic: formData.topic,
+          notes: formData.message.trim(),
+          source: 'Сторінка контактів'
+        })
+      });
+    } catch (err) {
+      console.error('Failed to submit contact lead:', err);
+    } finally {
       setLoading(false);
       setSubmitted(true);
       setFormData({ name: '', phone: '', topic: 'Консультація', message: '' });
-    }, 600);
+    }
   };
 
   return (
