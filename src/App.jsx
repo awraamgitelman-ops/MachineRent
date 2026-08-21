@@ -240,6 +240,7 @@ export default function App() {
           className="floating-call-btn"
           onClick={() => handleOpenQuickLead('Консультація')}
           title="Замовити консультацію"
+          style={{ borderRadius: '50%' }}
         >
           <PhoneCall size={26} />
         </div>

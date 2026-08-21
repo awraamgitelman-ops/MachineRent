@@ -42,12 +42,18 @@
 }
 
 /* Universal Square Border Radius across the site */
-div, section, article, aside, main, header, footer,
+div:not(.floating-call-btn), section, article, aside, main, header, footer,
 .btn-adena-primary, .btn-adena-secondary, button:not(.floating-call-btn):not(.header-tool-btn),
 input, select, textarea,
 .modal-content-box, .product-grid-item, .whb-top-bar,
 .adena-search-wrap, .wpf-select, .product-label-badge {
   border-radius: 0 !important;
+}
+
+.floating-call-btn,
+div.floating-call-btn,
+button.floating-call-btn {
+  border-radius: 50% !important;
 }
 
 html, body {
