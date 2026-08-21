@@ -1,6 +1,19 @@
 import React, { useState } from 'react';
-import { X, CheckCircle2, Phone } from 'lucide-react';
+import { X, CheckCircle2, Phone, ChevronDown, Edit3 } from 'lucide-react';
 import { formatPhoneNumber, isValidUkrainianPhone } from '../utils/phoneFormatter';
+
+const TOPIC_PRESETS = [
+  'Підбір техніки для овочівництва',
+  'Оренда польової техніки (позмінно / на сезон)',
+  'Купівля нової с/г техніки',
+  'Підбір та купівля техніки Б/В з Європи',
+  'Жатки зернові та соєві (купівля / оренда)',
+  'Складське обладнання, сортування та фасування',
+  'Замовлення запчастин, роликів та пасів',
+  'Ремонт та реставрація транспортерів',
+  'Виїзна консультація інженера-сервісанта',
+  'Своя пропозиція / Інше'
+];
 
 export default function QuickLeadModal({ 
   initialTopic = '', 
@@ -9,10 +22,21 @@ export default function QuickLeadModal({
   const [fullName, setFullName] = useState('');
   const [phone, setPhone] = useState('+380 ');
   const [company, setCompany] = useState('');
-  const [topic, setTopic] = useState(initialTopic || 'Консультація по оренді техніки');
+  
+  // Topic handling
+  const isInitialInPresets = TOPIC_PRESETS.includes(initialTopic);
+  const [selectedTopic, setSelectedTopic] = useState(
+    initialTopic ? (isInitialInPresets ? initialTopic : 'Своя пропозиція / Інше') : 'Підбір техніки для овочівництва'
+  );
+  const [customTopic, setCustomTopic] = useState(
+    initialTopic && !isInitialInPresets ? initialTopic : ''
+  );
+
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
+
+  const isCustom = selectedTopic === 'Своя пропозиція / Інше';
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -26,8 +50,14 @@ export default function QuickLeadModal({
       setErrorMsg("Вкажіть ваше ім'я");
       return;
     }
+    if (isCustom && !customTopic.trim()) {
+      setErrorMsg("Будь ласка, опишіть вашу пропозицію або тему");
+      return;
+    }
 
     setIsSubmitting(true);
+
+    const finalTopic = isCustom ? customTopic.trim() : selectedTopic;
 
     try {
       await fetch('/api/send-lead', {
@@ -37,7 +67,7 @@ export default function QuickLeadModal({
           fullName,
           phone,
           company,
-          topic,
+          topic: finalTopic,
           timestamp: new Date().toISOString()
         })
       }).catch(() => null);
@@ -55,14 +85,14 @@ export default function QuickLeadModal({
       <div 
         className="modal-content-box"
         onClick={(e) => e.stopPropagation()}
-        style={{ maxWidth: '500px', padding: '28px' }}
+        style={{ maxWidth: '520px', padding: '28px', borderRadius: '8px' }}
       >
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '18px' }}>
           <div>
-            <span style={{ fontSize: '11px', color: 'var(--wd-primary-color)', fontWeight: 700, textTransform: 'uppercase' }}>
+            <span style={{ fontSize: '11px', color: 'var(--wd-primary-color)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
               Зворотний зв'язок
             </span>
-            <h3 style={{ fontSize: '18px', fontWeight: 600, color: '#111', margin: 0 }}>
+            <h3 style={{ fontSize: '19px', fontWeight: 700, color: '#111', margin: '2px 0 0 0' }}>
               Замовити консультацію
             </h3>
           </div>
@@ -70,14 +100,16 @@ export default function QuickLeadModal({
           <button
             onClick={onClose}
             style={{
-              background: '#fff',
+              background: '#f5f5f5',
               border: '1px solid #ddd',
-              width: '30px',
-              height: '30px',
+              width: '32px',
+              height: '32px',
+              borderRadius: '4px',
               cursor: 'pointer',
               display: 'flex',
               alignItems: 'center',
-              justifyContent: 'center'
+              justifyContent: 'center',
+              transition: 'background 0.2s'
             }}
           >
             <X size={16} />
@@ -110,56 +142,147 @@ export default function QuickLeadModal({
             </button>
           </div>
         ) : (
-          <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+          <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
             {errorMsg && (
-              <div style={{ padding: '8px 12px', background: '#ffebee', color: '#c62828', fontSize: '12px' }}>
+              <div style={{ padding: '8px 12px', background: '#ffebee', color: '#c62828', fontSize: '12px', borderRadius: '4px' }}>
                 {errorMsg}
               </div>
             )}
 
+            {/* Topic Select */}
             <div>
-              <label style={{ display: 'block', fontSize: '12px', color: '#666', marginBottom: '3px' }}>Тема:</label>
-              <input
-                type="text"
-                className="wpf-select"
-                value={topic}
-                onChange={(e) => setTopic(e.target.value)}
-                required
-              />
+              <label style={{ display: 'block', fontSize: '12px', fontWeight: 600, color: '#444', marginBottom: '4px' }}>
+                Тема звернення:
+              </label>
+              <div style={{ position: 'relative' }}>
+                <select
+                  value={selectedTopic}
+                  onChange={(e) => setSelectedTopic(e.target.value)}
+                  style={{
+                    width: '100%',
+                    height: '42px',
+                    padding: '0 32px 0 12px',
+                    border: '1px solid #d2d2d2',
+                    borderRadius: '4px',
+                    fontSize: '13px',
+                    backgroundColor: '#ffffff',
+                    color: '#222',
+                    appearance: 'none',
+                    cursor: 'pointer',
+                    outline: 'none'
+                  }}
+                >
+                  {TOPIC_PRESETS.map((t, idx) => (
+                    <option key={idx} value={t}>
+                      {t}
+                    </option>
+                  ))}
+                </select>
+                <ChevronDown 
+                  size={16} 
+                  color="#666" 
+                  style={{ position: 'absolute', right: '10px', top: '50%', transform: 'translateY(-50%)', pointerEvents: 'none' }} 
+                />
+              </div>
             </div>
 
+            {/* Custom Topic Input (Revealed when "Своя пропозиція / Інше" is chosen) */}
+            {isCustom && (
+              <div style={{
+                backgroundColor: '#fffdf9',
+                border: '1px solid #f6d8a7',
+                padding: '10px 12px',
+                borderRadius: '4px'
+              }}>
+                <label style={{ display: 'flex', alignItems: 'center', gap: '5px', fontSize: '12px', fontWeight: 600, color: 'var(--wd-primary-color)', marginBottom: '4px' }}>
+                  <Edit3 size={13} />
+                  <span>Вкажіть вашу пропозицію або тему *:</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="Наприклад: пропозиція щодо співпраці, індивідуальна комплектація..."
+                  value={customTopic}
+                  onChange={(e) => setCustomTopic(e.target.value)}
+                  required={isCustom}
+                  style={{
+                    width: '100%',
+                    height: '38px',
+                    padding: '0 10px',
+                    border: '1px solid #d2d2d2',
+                    borderRadius: '4px',
+                    fontSize: '13px',
+                    backgroundColor: '#ffffff',
+                    outline: 'none'
+                  }}
+                />
+              </div>
+            )}
+
+            {/* Name */}
             <div>
-              <label style={{ display: 'block', fontSize: '12px', color: '#666', marginBottom: '3px' }}>Ваше ім'я *</label>
+              <label style={{ display: 'block', fontSize: '12px', fontWeight: 600, color: '#444', marginBottom: '4px' }}>
+                Ваше ім'я *
+              </label>
               <input
                 type="text"
-                className="wpf-select"
                 placeholder="Іван"
                 value={fullName}
                 onChange={(e) => setFullName(e.target.value)}
                 required
+                style={{
+                  width: '100%',
+                  height: '42px',
+                  padding: '0 12px',
+                  border: '1px solid #d2d2d2',
+                  borderRadius: '4px',
+                  fontSize: '13px',
+                  outline: 'none'
+                }}
               />
             </div>
 
+            {/* Phone */}
             <div>
-              <label style={{ display: 'block', fontSize: '12px', color: '#666', marginBottom: '3px' }}>Номер телефону *</label>
+              <label style={{ display: 'block', fontSize: '12px', fontWeight: 600, color: '#444', marginBottom: '4px' }}>
+                Номер телефону *
+              </label>
               <input
                 type="tel"
-                className="wpf-select"
                 placeholder="+380 (96) 000-00-00"
                 value={phone}
                 onChange={(e) => setPhone(formatPhoneNumber(e.target.value))}
                 required
+                style={{
+                  width: '100%',
+                  height: '42px',
+                  padding: '0 12px',
+                  border: '1px solid #d2d2d2',
+                  borderRadius: '4px',
+                  fontSize: '13px',
+                  outline: 'none'
+                }}
               />
             </div>
 
+            {/* Company / Farm */}
             <div>
-              <label style={{ display: 'block', fontSize: '12px', color: '#666', marginBottom: '3px' }}>Господарство (необов'язково)</label>
+              <label style={{ display: 'block', fontSize: '12px', fontWeight: 600, color: '#444', marginBottom: '4px' }}>
+                Господарство / Підприємство (необов'язково)
+              </label>
               <input
                 type="text"
-                className="wpf-select"
-                placeholder="СФГ / ТОВ"
+                placeholder="СФГ / ФГ / ТОВ"
                 value={company}
                 onChange={(e) => setCompany(e.target.value)}
+                style={{
+                  width: '100%',
+                  height: '42px',
+                  padding: '0 12px',
+                  border: '1px solid #d2d2d2',
+                  borderRadius: '4px',
+                  fontSize: '13px',
+                  outline: 'none'
+                }}
               />
             </div>
 
@@ -167,7 +290,7 @@ export default function QuickLeadModal({
               type="submit"
               disabled={isSubmitting}
               className="btn-adena-primary"
-              style={{ height: '44px', fontWeight: 600, marginTop: '6px' }}
+              style={{ height: '46px', fontWeight: 600, marginTop: '6px', fontSize: '14px' }}
             >
               {isSubmitting ? 'Відправка...' : 'Отримати консультацію'}
             </button>
