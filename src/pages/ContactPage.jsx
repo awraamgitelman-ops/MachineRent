@@ -120,23 +120,6 @@ export default function ContactPage({ onOpenQuickLead }) {
         
         {/* Header Title */}
         <div style={{ marginBottom: '36px' }}>
-          <div style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '6px',
-            backgroundColor: '#fff4eb',
-            color: 'var(--wd-primary-color)',
-            padding: '4px 12px',
-            fontSize: '12px',
-            fontWeight: 700,
-            textTransform: 'uppercase',
-            letterSpacing: '0.08em',
-            marginBottom: '10px',
-            borderLeft: '3px solid var(--wd-primary-color)'
-          }}>
-            <span>Зв'яжіться з нами</span>
-          </div>
-
           <h1 style={{ fontSize: '32px', fontWeight: 700, color: '#111111', margin: '0 0 10px 0' }}>
             Контактна інформація AGRORENTEX
           </h1>
@@ -162,7 +145,7 @@ export default function ContactPage({ onOpenQuickLead }) {
               backgroundColor: '#fafafa',
               border: '1px solid #e5e5e5',
               padding: '24px',
-              borderRadius: '6px'
+              borderRadius: '0px'
             }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px' }}>
                 <MapPin size={22} color="var(--wd-primary-color)" />
@@ -184,7 +167,7 @@ export default function ContactPage({ onOpenQuickLead }) {
               backgroundColor: '#fafafa',
               border: '1px solid #e5e5e5',
               padding: '24px',
-              borderRadius: '6px'
+              borderRadius: '0px'
             }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px' }}>
                 <Phone size={22} color="var(--wd-primary-color)" />
@@ -193,7 +176,7 @@ export default function ContactPage({ onOpenQuickLead }) {
                 </h3>
               </div>
 
-              <div style={{ backgroundColor: '#ffffff', border: '1px solid #eaeaea', padding: '18px 20px', borderRadius: '6px' }}>
+              <div style={{ backgroundColor: '#ffffff', border: '1px solid #eaeaea', padding: '18px 20px', borderRadius: '0px' }}>
                 <div style={{ fontSize: '12px', color: '#888', textTransform: 'uppercase', fontWeight: 600, marginBottom: '6px' }}>
                   Прямий контактний номер:
                 </div>
@@ -221,7 +204,7 @@ export default function ContactPage({ onOpenQuickLead }) {
               backgroundColor: '#fafafa',
               border: '1px solid #e5e5e5',
               padding: '20px 24px',
-              borderRadius: '6px',
+              borderRadius: '0px',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'space-between',
@@ -246,8 +229,8 @@ export default function ContactPage({ onOpenQuickLead }) {
             backgroundColor: '#ffffff',
             border: '1px solid #e0e0e0',
             padding: '32px 28px',
-            borderRadius: '8px',
-            boxShadow: '0 4px 16px rgba(0,0,0,0.04)',
+            borderRadius: '0px',
+            boxShadow: '0 2px 10px rgba(0,0,0,0.03)',
             height: 'fit-content'
           }}>
             <div style={{ marginBottom: '20px' }}>
@@ -264,7 +247,7 @@ export default function ContactPage({ onOpenQuickLead }) {
                 backgroundColor: '#f0fdf4',
                 border: '1px solid #bbf7d0',
                 padding: '24px',
-                borderRadius: '6px',
+                borderRadius: '0px',
                 textAlign: 'center'
               }}>
                 <CheckCircle2 size={40} color="#16a34a" style={{ margin: '0 auto 12px auto' }} />
@@ -277,7 +260,7 @@ export default function ContactPage({ onOpenQuickLead }) {
                 <button
                   onClick={() => setSubmitted(false)}
                   className="btn-adena-secondary"
-                  style={{ fontSize: '13px', padding: '8px 16px' }}
+                  style={{ fontSize: '13px', padding: '8px 16px', borderRadius: '0px' }}
                 >
                   Надіслати ще одне повідомлення
                 </button>
@@ -303,7 +286,7 @@ export default function ContactPage({ onOpenQuickLead }) {
                       padding: '0 14px',
                       border: formErrors.name ? '1px solid #ef4444' : '1px solid #d2d2d2',
                       fontSize: '14px',
-                      borderRadius: '4px',
+                      borderRadius: '0px',
                       outline: 'none'
                     }}
                   />
@@ -332,7 +315,7 @@ export default function ContactPage({ onOpenQuickLead }) {
                       padding: '0 14px',
                       border: formErrors.phone ? '1px solid #ef4444' : '1px solid #d2d2d2',
                       fontSize: '14px',
-                      borderRadius: '4px',
+                      borderRadius: '0px',
                       outline: 'none'
                     }}
                   />
@@ -357,7 +340,7 @@ export default function ContactPage({ onOpenQuickLead }) {
                       border: '1px solid #d2d2d2',
                       fontSize: '14px',
                       backgroundColor: '#ffffff',
-                      borderRadius: '4px'
+                      borderRadius: '0px'
                     }}
                   >
                     <option value="Консультація">Консультація</option>
@@ -389,7 +372,7 @@ export default function ContactPage({ onOpenQuickLead }) {
                       border: '1px solid #d2d2d2',
                       fontSize: '14px',
                       fontFamily: 'inherit',
-                      borderRadius: '4px',
+                      borderRadius: '0px',
                       resize: 'none',
                       outline: 'none',
                       minHeight: '84px'
@@ -407,7 +390,8 @@ export default function ContactPage({ onOpenQuickLead }) {
                     fontWeight: 600,
                     width: '100%',
                     justifyContent: 'center',
-                    marginTop: '4px'
+                    marginTop: '4px',
+                    borderRadius: '0px'
                   }}
                 >
                   <span>{loading ? 'Надсилання...' : 'Отримати консультацію'}</span>
@@ -433,9 +417,9 @@ export default function ContactPage({ onOpenQuickLead }) {
 
           <div style={{
             border: '1px solid #e0e0e0',
-            borderRadius: '8px',
+            borderRadius: '0px',
             overflow: 'hidden',
-            boxShadow: '0 4px 16px rgba(0,0,0,0.06)',
+            boxShadow: '0 2px 10px rgba(0,0,0,0.03)',
             height: '400px',
             position: 'relative'
           }}>
