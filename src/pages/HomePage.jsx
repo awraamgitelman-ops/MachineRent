@@ -293,21 +293,25 @@ export default function HomePage({
         </div>
       </section>
 
-      {/* 2. 5-COLUMN CATEGORY ICON BOXES (Exact match to elementor-element-f8c873e) */}
+      {/* 2. 6-COLUMN CATEGORY ICON BOXES */}
       <section className="container" style={{ padding: '24px 15px 32px 15px' }}>
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(5, 1fr)',
+          gridTemplateColumns: 'repeat(6, 1fr)',
           gap: '16px',
-          ...(window.innerWidth < 960 ? { gridTemplateColumns: 'repeat(3, 1fr)' } : {}),
+          ...(window.innerWidth < 1100 ? { gridTemplateColumns: 'repeat(3, 1fr)' } : {}),
           ...(window.innerWidth < 560 ? { gridTemplateColumns: 'repeat(2, 1fr)' } : {})
         }}>
           {HOME_CATEGORY_BOXES.map((cat) => (
             <div
               key={cat.id}
               onClick={() => {
-                const el = document.getElementById('main-catalog');
-                if (el) el.scrollIntoView({ behavior: 'smooth' });
+                if (cat.link) {
+                  navigate(cat.link);
+                } else {
+                  const el = document.getElementById('main-catalog');
+                  if (el) el.scrollIntoView({ behavior: 'smooth' });
+                }
               }}
               style={{
                 textAlign: 'center',
@@ -319,25 +323,28 @@ export default function HomePage({
               onMouseEnter={(e) => e.currentTarget.style.borderColor = '#e0e0e0'}
               onMouseLeave={(e) => e.currentTarget.style.borderColor = 'transparent'}
             >
-              <div style={{
-                width: '130px',
-                height: '130px',
-                margin: '0 auto 12px auto',
-                borderRadius: '50%',
-                overflow: 'hidden',
-                backgroundColor: '#f9f9f9',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                boxShadow: '0 2px 8px rgba(0,0,0,0.06)'
-              }}>
+              <div 
+                className="category-circle-box"
+                style={{
+                  width: '130px',
+                  height: '130px',
+                  margin: '0 auto 12px auto',
+                  borderRadius: '50%',
+                  overflow: 'hidden',
+                  backgroundColor: '#f9f9f9',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  boxShadow: '0 2px 8px rgba(0,0,0,0.06)'
+                }}
+              >
                 <img
                   src={cat.image}
                   alt={cat.title}
-                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }}
                 />
               </div>
-              <h3 style={{ fontSize: '16px', fontWeight: 600, color: '#111', margin: 0 }}>
+              <h3 style={{ fontSize: '15px', fontWeight: 700, color: '#111', margin: 0 }}>
                 {cat.title}
               </h3>
             </div>

@@ -42,7 +42,7 @@
 }
 
 /* Universal Square Border Radius across the site */
-div:not(.floating-call-btn), section, article, aside, main, header, footer,
+div:not(.floating-call-btn):not(.category-circle-box), section, article, aside, main, header, footer,
 .btn-adena-primary, .btn-adena-secondary, button:not(.floating-call-btn):not(.header-tool-btn),
 input, select, textarea,
 .modal-content-box, .product-grid-item, .whb-top-bar,
@@ -53,6 +53,12 @@ input, select, textarea,
 .floating-call-btn,
 div.floating-call-btn,
 button.floating-call-btn {
+  border-radius: 50% !important;
+}
+
+.category-circle-box,
+div.category-circle-box,
+.category-circle-box img {
   border-radius: 50% !important;
 }
 
