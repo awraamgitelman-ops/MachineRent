@@ -18,9 +18,10 @@ export default function ContactPage({ onOpenQuickLead }) {
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
-    topic: 'Підбір техніки',
+    topic: 'Консультація',
     message: ''
   });
+  const [formErrors, setFormErrors] = useState({});
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
@@ -63,13 +64,28 @@ export default function ContactPage({ onOpenQuickLead }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!formData.phone.trim()) return;
+    const newErrors = {};
 
+    if (!formData.name.trim()) {
+      newErrors.name = "Вкажіть ваше ім'я";
+    }
+
+    const digitsOnly = formData.phone.replace(/\D/g, '');
+    if (!formData.phone.trim() || digitsOnly.length < 9) {
+      newErrors.phone = "Введіть номер телефону (+380...)";
+    }
+
+    if (Object.keys(newErrors).length > 0) {
+      setFormErrors(newErrors);
+      return;
+    }
+
+    setFormErrors({});
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
       setSubmitted(true);
-      setFormData({ name: '', phone: '', topic: 'Підбір техніки', message: '' });
+      setFormData({ name: '', phone: '', topic: 'Консультація', message: '' });
     }, 600);
   };
 
@@ -252,7 +268,7 @@ export default function ContactPage({ onOpenQuickLead }) {
                 </button>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+              <form noValidate onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
                 
                 <div>
                   <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#333', marginBottom: '6px' }}>
@@ -260,19 +276,27 @@ export default function ContactPage({ onOpenQuickLead }) {
                   </label>
                   <input
                     type="text"
-                    required
                     placeholder="Наприклад: Олександр"
                     value={formData.name}
-                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                    onChange={(e) => {
+                      setFormData({ ...formData, name: e.target.value });
+                      if (formErrors.name) setFormErrors({ ...formErrors, name: '' });
+                    }}
                     style={{
                       width: '100%',
                       height: '44px',
                       padding: '0 14px',
-                      border: '1px solid #d2d2d2',
+                      border: formErrors.name ? '1px solid #ef4444' : '1px solid #d2d2d2',
                       fontSize: '14px',
-                      borderRadius: '4px'
+                      borderRadius: '4px',
+                      outline: 'none'
                     }}
                   />
+                  {formErrors.name && (
+                    <div style={{ color: '#ef4444', fontSize: '12px', marginTop: '4px' }}>
+                      {formErrors.name}
+                    </div>
+                  )}
                 </div>
 
                 <div>
@@ -281,19 +305,27 @@ export default function ContactPage({ onOpenQuickLead }) {
                   </label>
                   <input
                     type="tel"
-                    required
                     placeholder="+38 (0__) ___ __ __"
                     value={formData.phone}
-                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                    onChange={(e) => {
+                      setFormData({ ...formData, phone: e.target.value });
+                      if (formErrors.phone) setFormErrors({ ...formErrors, phone: '' });
+                    }}
                     style={{
                       width: '100%',
                       height: '44px',
                       padding: '0 14px',
-                      border: '1px solid #d2d2d2',
+                      border: formErrors.phone ? '1px solid #ef4444' : '1px solid #d2d2d2',
                       fontSize: '14px',
-                      borderRadius: '4px'
+                      borderRadius: '4px',
+                      outline: 'none'
                     }}
                   />
+                  {formErrors.phone && (
+                    <div style={{ color: '#ef4444', fontSize: '12px', marginTop: '4px' }}>
+                      {formErrors.phone}
+                    </div>
+                  )}
                 </div>
 
                 <div>

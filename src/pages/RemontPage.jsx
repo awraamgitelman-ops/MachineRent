@@ -64,9 +64,23 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
     if (isDragging) handleSliderMove(e.clientX);
   };
 
+  const [consultErrors, setConsultErrors] = useState({});
+
   const handleSubmitConsultation = (e) => {
     e.preventDefault();
-    if (!phone.trim()) return;
+    const newErrors = {};
+    if (!name.trim()) {
+      newErrors.name = "Вкажіть ваше ім'я";
+    }
+    const digits = phone.replace(/\D/g, '');
+    if (!phone.trim() || digits.length < 9) {
+      newErrors.phone = "Введіть номер телефону (+380...)";
+    }
+    if (Object.keys(newErrors).length > 0) {
+      setConsultErrors(newErrors);
+      return;
+    }
+    setConsultErrors({});
     setSubmitted(true);
     setTimeout(() => {
       setName('');
@@ -798,42 +812,61 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
                 Дякуємо! Ваша заявка прийнята. Інженер зателефонує вам протягом 10 хвилин.
               </div>
             ) : (
-              <form onSubmit={handleSubmitConsultation} style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
+              <form noValidate onSubmit={handleSubmitConsultation} style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
                 <div>
                   <input
                     type="text"
                     placeholder="Ваше ім'я"
                     value={name}
-                    onChange={(e) => setName(e.target.value)}
+                    onChange={(e) => {
+                      setName(e.target.value);
+                      if (consultErrors.name) setConsultErrors({ ...consultErrors, name: '' });
+                    }}
                     style={{
                       width: '100%',
                       height: '46px',
                       padding: '0 16px',
                       backgroundColor: '#ffffff',
-                      border: 'none',
+                      border: consultErrors.name ? '2px solid #ef4444' : 'none',
+                      borderRadius: '4px',
                       fontSize: '14px',
-                      color: '#000'
+                      color: '#000',
+                      outline: 'none'
                     }}
                   />
+                  {consultErrors.name && (
+                    <div style={{ color: '#fca5a5', fontSize: '12px', marginTop: '4px', textAlign: 'left' }}>
+                      {consultErrors.name}
+                    </div>
+                  )}
                 </div>
 
                 <div>
                   <input
                     type="tel"
-                    required
                     placeholder="+38 099 999 99 99"
                     value={phone}
-                    onChange={(e) => setPhone(e.target.value)}
+                    onChange={(e) => {
+                      setPhone(e.target.value);
+                      if (consultErrors.phone) setConsultErrors({ ...consultErrors, phone: '' });
+                    }}
                     style={{
                       width: '100%',
                       height: '46px',
                       padding: '0 16px',
                       backgroundColor: '#ffffff',
-                      border: 'none',
+                      border: consultErrors.phone ? '2px solid #ef4444' : 'none',
+                      borderRadius: '4px',
                       fontSize: '14px',
-                      color: '#000'
+                      color: '#000',
+                      outline: 'none'
                     }}
                   />
+                  {consultErrors.phone && (
+                    <div style={{ color: '#fca5a5', fontSize: '12px', marginTop: '4px', textAlign: 'left' }}>
+                      {consultErrors.phone}
+                    </div>
+                  )}
                 </div>
 
                 <button

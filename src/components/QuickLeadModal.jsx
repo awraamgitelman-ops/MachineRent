@@ -48,27 +48,32 @@ export default function QuickLeadModal({
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
-  const [errorMsg, setErrorMsg] = useState('');
+  const [errors, setErrors] = useState({});
 
   const isCustom = selectedTopic === 'Своя пропозиція / Інше';
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setErrorMsg('');
+    const newErrors = {};
+
+    if (!fullName.trim()) {
+      newErrors.fullName = "Вкажіть ваше ім'я";
+    }
 
     if (!isValidUkrainianPhone(phone)) {
-      setErrorMsg('Введіть коректний номер телефону (+380 XX XXX XX XX)');
-      return;
+      newErrors.phone = 'Введіть коректний номер телефону (+380 XX XXX XX XX)';
     }
-    if (!fullName.trim()) {
-      setErrorMsg("Вкажіть ваше ім'я");
-      return;
-    }
+
     if (isCustom && !customTopic.trim()) {
-      setErrorMsg("Будь ласка, опишіть вашу пропозицію або тему");
+      newErrors.customTopic = 'Опишіть вашу пропозицію або тему';
+    }
+
+    if (Object.keys(newErrors).length > 0) {
+      setErrors(newErrors);
       return;
     }
 
+    setErrors({});
     setIsSubmitting(true);
 
     const finalTopic = isCustom ? customTopic.trim() : selectedTopic;
@@ -156,12 +161,7 @@ export default function QuickLeadModal({
             </button>
           </div>
         ) : (
-          <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
-            {errorMsg && (
-              <div style={{ padding: '8px 12px', background: '#ffebee', color: '#c62828', fontSize: '12px', borderRadius: '4px' }}>
-                {errorMsg}
-              </div>
-            )}
+          <form noValidate onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
 
             {/* Topic Select */}
             <div>
@@ -204,7 +204,7 @@ export default function QuickLeadModal({
             {isCustom && (
               <div style={{
                 backgroundColor: '#fffdf9',
-                border: '1px solid #f6d8a7',
+                border: errors.customTopic ? '1px solid #ef4444' : '1px solid #f6d8a7',
                 padding: '10px 12px',
                 borderRadius: '4px'
               }}>
@@ -216,19 +216,26 @@ export default function QuickLeadModal({
                   type="text"
                   placeholder="Наприклад: пропозиція щодо співпраці, індивідуальна комплектація..."
                   value={customTopic}
-                  onChange={(e) => setCustomTopic(e.target.value)}
-                  required={isCustom}
+                  onChange={(e) => {
+                    setCustomTopic(e.target.value);
+                    if (errors.customTopic) setErrors({ ...errors, customTopic: '' });
+                  }}
                   style={{
                     width: '100%',
                     height: '38px',
                     padding: '0 10px',
-                    border: '1px solid #d2d2d2',
+                    border: errors.customTopic ? '1px solid #ef4444' : '1px solid #d2d2d2',
                     borderRadius: '4px',
                     fontSize: '13px',
                     backgroundColor: '#ffffff',
                     outline: 'none'
                   }}
                 />
+                {errors.customTopic && (
+                  <div style={{ color: '#ef4444', fontSize: '11px', marginTop: '4px' }}>
+                    {errors.customTopic}
+                  </div>
+                )}
               </div>
             )}
 
@@ -241,18 +248,25 @@ export default function QuickLeadModal({
                 type="text"
                 placeholder="Іван"
                 value={fullName}
-                onChange={(e) => setFullName(e.target.value)}
-                required
+                onChange={(e) => {
+                  setFullName(e.target.value);
+                  if (errors.fullName) setErrors({ ...errors, fullName: '' });
+                }}
                 style={{
                   width: '100%',
                   height: '42px',
                   padding: '0 12px',
-                  border: '1px solid #d2d2d2',
+                  border: errors.fullName ? '1px solid #ef4444' : '1px solid #d2d2d2',
                   borderRadius: '4px',
                   fontSize: '13px',
                   outline: 'none'
                 }}
               />
+              {errors.fullName && (
+                <div style={{ color: '#ef4444', fontSize: '11px', marginTop: '4px' }}>
+                  {errors.fullName}
+                </div>
+              )}
             </div>
 
             {/* Phone */}
@@ -264,18 +278,25 @@ export default function QuickLeadModal({
                 type="tel"
                 placeholder="+380 (96) 000-00-00"
                 value={phone}
-                onChange={(e) => setPhone(formatPhoneNumber(e.target.value))}
-                required
+                onChange={(e) => {
+                  setPhone(formatPhoneNumber(e.target.value));
+                  if (errors.phone) setErrors({ ...errors, phone: '' });
+                }}
                 style={{
                   width: '100%',
                   height: '42px',
                   padding: '0 12px',
-                  border: '1px solid #d2d2d2',
+                  border: errors.phone ? '1px solid #ef4444' : '1px solid #d2d2d2',
                   borderRadius: '4px',
                   fontSize: '13px',
                   outline: 'none'
                 }}
               />
+              {errors.phone && (
+                <div style={{ color: '#ef4444', fontSize: '11px', marginTop: '4px' }}>
+                  {errors.phone}
+                </div>
+              )}
             </div>
 
             {/* Company / Farm */}
