@@ -341,8 +341,11 @@ export default function ContactPage({ onOpenQuickLead }) {
                       padding: '10px 14px',
                       border: '1px solid #d2d2d2',
                       fontSize: '14px',
+                      fontFamily: 'inherit',
                       borderRadius: '4px',
-                      resize: 'vertical'
+                      resize: 'none',
+                      outline: 'none',
+                      minHeight: '84px'
                     }}
                   />
                 </div>
