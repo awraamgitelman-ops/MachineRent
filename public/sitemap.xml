@@ -74,33 +74,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://agrorentex.com/blog/pidgotovka-do-sezonu-zbyrannya-kartopli-2026-nalashtuvannya-kombajniv-grimme</loc>
+    <loc>https://agrorentex.com/blog/avtomatyzacziya-peredprodazhnoyi-pidgotovky-domasz-we30</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHV0gFQYAIgkXFUgIQiEAV0cLXSw.jpg</image:loc>
-      <image:title>Підготовка до сезону збирання картоплі 2026: як налаштувати комбайни Grimme та мінімізувати втрати врожаю</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://agrorentex.com/blog/kontejnerne-zberigannya-ovochiv-2026-zberezhennya-tovarnogo-vyglyadu</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUBsEhkdMxwHGgxVQywHDRsAVC5ICUJCRV5PIBUcACERB1kOF0M5AA4HBF8lAFRXUFVAXyYGHAErBEMfBApZIhUIAE9HOwI.jpg</image:loc>
-      <image:title>Контейнерне зберігання овочів 2026: як зберегти товарний вигляд картоплі та моркви до весни</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://agrorentex.com/blog/rynok-ovochivnycztva-ukrayiny-2026-rozshyrennya-ploshh-pid-ovochi</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHV0zCBoCMwkxFw0dXyMMAwAXAzwAG10.webp</image:loc>
-      <image:title>Ринок овочівництва України 2026: розширення площ під цибулю та столовий буряк у західних та центральних областях</image:title>
+      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUEkVEIfPhAdK1VKAycVAw.jpg</image:loc>
+      <image:title>Автоматизація передпродажної підготовки: вагопакувальні лінії Domasz WE-30 та сортувальні столи</image:title>
     </image:image>
   </url>
   <url>
@@ -114,13 +94,33 @@
     </image:image>
   </url>
   <url>
-    <loc>https://agrorentex.com/blog/avtomatyzacziya-peredprodazhnoyi-pidgotovky-domasz-we30-2026</loc>
+    <loc>https://agrorentex.com/blog/rynok-ovochivnycztva-ukrayiny-rozshyrennya-ploshh-pid-ovochi</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUEkVEIfPhAdK1VKAycVAw.jpg</image:loc>
-      <image:title>Автоматизація передпродажної підготовки: вагопакувальні лінії Domasz WE-30 та сортувальні столи у 2026 році</image:title>
+      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHV0zCBoCMwkxFw0dXyMMAwAXAzwAG10.webp</image:loc>
+      <image:title>Ринок овочівництва України: розширення площ під цибулю та столовий буряк у західних та центральних областях</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/blog/kontejnerne-zberigannya-ovochiv-zberezhennya-tovarnogo-vyglyadu</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUBsEhkdMxwHGgxVQywHDRsAVC5ICUJCRV5PIBUcACERB1kOF0M5AA4HBF8lAFRXUFVAXyYGHAErBEMfBApZIhUIAE9HOwI.jpg</image:loc>
+      <image:title>Контейнерне зберігання овочів: як зберегти товарний вигляд картоплі та моркви до весни</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agrorentex.com/blog/pidgotovka-do-sezonu-zbyrannya-kartopli-nalashtuvannya-kombajniv-grimme</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHV0gFQYAIgkXFUgIQiEAV0cLXSw.jpg</image:loc>
+      <image:title>Підготовка до сезону збирання картоплі: як налаштувати комбайни Grimme та мінімізувати втрати врожаю</image:title>
     </image:image>
   </url>
   <url>
