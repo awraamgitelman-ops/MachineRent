@@ -153,7 +153,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
             </div>
 
             <div style={{ fontSize: '16px', color: '#e5e5e5', marginBottom: '32px' }}>
-              Нова послуга на ринку України ➤ Реальна економія 50% від вартості нового
+              Нова послуга на ринку України — Реальна економія 50% від вартості нового
             </div>
 
             <button
@@ -226,35 +226,35 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
                 lineHeight: 1.5
               }}>
                 <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
-                  <span style={{ color: 'var(--wd-primary-color)', marginTop: '2px' }}>✔</span>
+                  <CheckCircle2 size={16} color="var(--wd-primary-color)" style={{ flexShrink: 0, marginTop: '2px' }} />
                   <span><strong>Прибирання у призначені технологією терміни</strong> без тривалого очікування запчастин</span>
                 </li>
                 <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
-                  <span style={{ color: 'var(--wd-primary-color)', marginTop: '2px' }}>✔</span>
+                  <CheckCircle2 size={16} color="var(--wd-primary-color)" style={{ flexShrink: 0, marginTop: '2px' }} />
                   <span><strong>Зменшення травматизації продукту</strong>, що означає покращення його якості та товарної ціни</span>
                 </li>
                 <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
-                  <span style={{ color: 'var(--wd-primary-color)', marginTop: '2px' }}>✔</span>
+                  <CheckCircle2 size={16} color="var(--wd-primary-color)" style={{ flexShrink: 0, marginTop: '2px' }} />
                   <span>Немає причин викидати старі «негідні» транспортери – ми даємо їм нове життя</span>
                 </li>
                 <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
-                  <span style={{ color: 'var(--wd-primary-color)', marginTop: '2px' }}>✔</span>
+                  <CheckCircle2 size={16} color="var(--wd-primary-color)" style={{ flexShrink: 0, marginTop: '2px' }} />
                   <span style={{ color: 'var(--wd-price-red)', fontWeight: 700 }}>Реальна економія 50% від вартості нового транспортера</span>
                 </li>
                 <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
-                  <span style={{ color: 'var(--wd-primary-color)', marginTop: '2px' }}>✔</span>
+                  <CheckCircle2 size={16} color="var(--wd-primary-color)" style={{ flexShrink: 0, marginTop: '2px' }} />
                   <span>Отримання відреставрованого транспортера, зібраного з <strong>європейських армованих стрічок</strong> та комплектуючих</span>
                 </li>
                 <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
-                  <span style={{ color: 'var(--wd-primary-color)', marginTop: '2px' }}>✔</span>
+                  <CheckCircle2 size={16} color="var(--wd-primary-color)" style={{ flexShrink: 0, marginTop: '2px' }} />
                   <span>Швидке вирішення проблеми заміни деталей транспортера у полі (ремкомплект, замки)</span>
                 </li>
                 <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
-                  <span style={{ color: 'var(--wd-primary-color)', marginTop: '2px' }}>✔</span>
+                  <CheckCircle2 size={16} color="var(--wd-primary-color)" style={{ flexShrink: 0, marginTop: '2px' }} />
                   <span>Створення замінного фонду із відреставрованих старих транспортерів</span>
                 </li>
                 <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
-                  <span style={{ color: 'var(--wd-primary-color)', marginTop: '2px' }}>✔</span>
+                  <CheckCircle2 size={16} color="var(--wd-primary-color)" style={{ flexShrink: 0, marginTop: '2px' }} />
                   <span style={{ color: '#059669', fontWeight: 600 }}>Знижка 10% на опорні та приводні ролики при замовленні ремонту</span>
                 </li>
               </ul>
@@ -795,7 +795,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
                 borderRadius: '4px',
                 fontSize: '15px'
               }}>
-                ✅ Дякуємо! Ваша заявка прийнята. Інженер зателефонує вам протягом 10 хвилин.
+                Дякуємо! Ваша заявка прийнята. Інженер зателефонує вам протягом 10 хвилин.
               </div>
             ) : (
               <form onSubmit={handleSubmitConsultation} style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>

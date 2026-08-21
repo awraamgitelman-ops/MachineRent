@@ -1,25 +1,38 @@
 import fs from 'fs';
 import path from 'path';
 
-const emojiRegex = /[\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/u;
-
-function checkDir(dir) {
+function getAllFiles(dir, fileList = []) {
+  if (!fs.existsSync(dir)) return fileList;
   const files = fs.readdirSync(dir);
   for (const file of files) {
-    const fullPath = path.join(dir, file);
-    const stat = fs.statSync(fullPath);
-    if (stat.isDirectory()) {
-      checkDir(fullPath);
-    } else if (file.endsWith('.jsx') || file.endsWith('.js')) {
-      const content = fs.readFileSync(fullPath, 'utf-8');
-      const lines = content.split('\n');
-      lines.forEach((line, idx) => {
-        if (emojiRegex.test(line)) {
-          console.log(`${fullPath}:${idx + 1}: ${line.trim()}`);
-        }
-      });
+    const filePath = path.join(dir, file);
+    if (fs.statSync(filePath).isDirectory()) {
+      getAllFiles(filePath, fileList);
+    } else {
+      if (filePath.endsWith('.js') || filePath.endsWith('.jsx') || filePath.endsWith('.html')) {
+        fileList.push(filePath);
+      }
     }
+  }
+  return fileList;
+}
+
+// Regex matching common emojis
+const emojiRegex = /[\u{1F300}-\u{1F6FF}\u{1F900}-\u{1F9FF}\u{1F1E0}-\u{1F1FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{1F680}-\u{1F6FF}\u{1F7E0}-\u{1F7EB}\u{1F170}-\u{1F251}]/gu;
+
+const files = getAllFiles('./src');
+files.push('./index.html');
+
+let totalEmojiCount = 0;
+
+for (const file of files) {
+  const content = fs.readFileSync(file, 'utf-8');
+  const matches = content.match(emojiRegex);
+  if (matches && matches.length > 0) {
+    console.log(`\nFound ${matches.length} emojis in [${file}]:`);
+    console.log(matches.slice(0, 10).join(' '));
+    totalEmojiCount += matches.length;
   }
 }
 
-checkDir('./src');
+console.log(`\nTotal emojis found in code: ${totalEmojiCount}`);

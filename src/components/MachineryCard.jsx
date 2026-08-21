@@ -87,7 +87,7 @@ export default function MachineryCard({
                 </span>
               </div>
               <div className="product-price-sub">
-                Оренда: зміна (10-12 год) або {formatPrice(machine.pricing?.pricePerHaUah || 1400, currency)} / га
+                Оренда: за зміну або {formatPrice(machine.pricing?.pricePerHaUah || 1400, currency)} / га
               </div>
             </div>
           )}

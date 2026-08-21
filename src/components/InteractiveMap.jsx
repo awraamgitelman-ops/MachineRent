@@ -216,7 +216,7 @@ export default function InteractiveMap({
                           cursor: 'pointer'
                         }}
                       >
-                        Показати техніку цього хабу ➔
+                        Показати техніку цього хабу
                       </button>
                     </div>
                   </Popup>

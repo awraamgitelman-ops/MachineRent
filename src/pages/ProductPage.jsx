@@ -390,7 +390,7 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
                         Умови та тарифи оренди:
                       </div>
                       <div>
-                        • <strong>{formatPrice(machine.pricing?.pricePerShiftUah || 15200, currency)}</strong> / робоча зміна (10–12 годин)
+                        • <strong>{formatPrice(machine.pricing?.pricePerShiftUah || 15200, currency)}</strong> / робоча зміна
                       </div>
                       {machine.pricing?.pricePerHaUah && (
                         <div>
