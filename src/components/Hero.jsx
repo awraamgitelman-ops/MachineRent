@@ -63,7 +63,7 @@ export default function Hero({
             gap: '8px',
             background: 'rgba(16, 185, 129, 0.12)',
             border: '1px solid rgba(16, 185, 129, 0.3)',
-            borderRadius: 'var(--radius-full)',
+            borderRadius: '0px',
             padding: '6px 16px',
             marginBottom: '20px',
             color: '#34d399',
@@ -113,7 +113,7 @@ export default function Hero({
             className="glass-panel"
             style={{
               padding: '20px',
-              borderRadius: 'var(--radius-xl)',
+              borderRadius: '0px',
               boxShadow: 'var(--shadow-lg)',
               display: 'grid',
               gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr)) auto',
@@ -208,7 +208,7 @@ export default function Hero({
             <div style={{
               background: 'rgba(255, 255, 255, 0.03)',
               border: '1px solid var(--border-light)',
-              borderRadius: 'var(--radius-md)',
+              borderRadius: '0px',
               padding: '14px 16px',
               display: 'flex',
               alignItems: 'center',
@@ -226,7 +226,7 @@ export default function Hero({
             <div style={{
               background: 'rgba(255, 255, 255, 0.03)',
               border: '1px solid var(--border-light)',
-              borderRadius: 'var(--radius-md)',
+              borderRadius: '0px',
               padding: '14px 16px',
               display: 'flex',
               alignItems: 'center',
@@ -244,7 +244,7 @@ export default function Hero({
             <div style={{
               background: 'rgba(255, 255, 255, 0.03)',
               border: '1px solid var(--border-light)',
-              borderRadius: 'var(--radius-md)',
+              borderRadius: '0px',
               padding: '14px 16px',
               display: 'flex',
               alignItems: 'center',
@@ -262,7 +262,7 @@ export default function Hero({
             <div style={{
               background: 'rgba(255, 255, 255, 0.03)',
               border: '1px solid var(--border-light)',
-              borderRadius: 'var(--radius-md)',
+              borderRadius: '0px',
               padding: '14px 16px',
               display: 'flex',
               alignItems: 'center',

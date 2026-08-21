@@ -233,7 +233,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
               <img
                 src="/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQkCh0BJkseGgI.png"
                 alt="Ремонт транспортерів AGRORENTEX"
-                style={{ width: '100%', height: 'auto', borderRadius: '4px', boxShadow: '0 8px 24px rgba(0,0,0,0.08)' }}
+                style={{ width: '100%', height: 'auto', borderRadius: '0px', boxShadow: '0 8px 24px rgba(0,0,0,0.08)' }}
               />
             </div>
 
@@ -242,7 +242,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
               backgroundColor: '#ffffff',
               border: '1px solid #e5e5e5',
               padding: '36px 30px',
-              borderRadius: '2px'
+              borderRadius: '0px'
             }}>
               <ul style={{
                 listStyle: 'none',
@@ -557,7 +557,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
               <img
                 src="/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHV8sBhUKf1BcWhUWSg.png"
                 alt="Транспортери та ролики"
-                style={{ width: '100%', height: 'auto', borderRadius: '4px' }}
+                style={{ width: '100%', height: 'auto', borderRadius: '0px' }}
               />
             </div>
 
@@ -576,7 +576,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
             <img
               src="/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQkBAYOPAICEUhBFGMVCg4.png"
               alt="Схема взаємодії роликів та транспортера"
-              style={{ width: '100%', height: 'auto', borderRadius: '4px', border: '1px solid #eee' }}
+              style={{ width: '100%', height: 'auto', borderRadius: '0px', border: '1px solid #eee' }}
             />
           </div>
 
@@ -611,7 +611,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
               overflow: 'hidden',
               cursor: 'ew-resize',
               userSelect: 'none',
-              borderRadius: '4px',
+              borderRadius: '0px',
               boxShadow: '0 8px 30px rgba(0,0,0,0.12)'
             }}
           >
@@ -637,7 +637,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
               padding: '6px 14px',
               fontSize: '13px',
               fontWeight: 700,
-              borderRadius: '2px',
+              borderRadius: '0px',
               textTransform: 'uppercase'
             }}>
               Після ремонту
@@ -674,7 +674,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
                 padding: '6px 14px',
                 fontSize: '13px',
                 fontWeight: 700,
-                borderRadius: '2px',
+                borderRadius: '0px',
                 textTransform: 'uppercase'
               }}>
                 До ремонту
@@ -762,7 +762,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
             <img
               src="/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEzCAcff11XWhUWSg.png"
               alt="Ремонт та реставрація транспортерів схема"
-              style={{ width: '100%', height: 'auto', borderRadius: '4px' }}
+              style={{ width: '100%', height: 'auto', borderRadius: '0px' }}
             />
           </div>
 
@@ -822,7 +822,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
                 border: '1px solid #10b981',
                 color: '#6ee7b7',
                 padding: '16px',
-                borderRadius: '4px',
+                borderRadius: '0px',
                 fontSize: '15px'
               }}>
                 Дякуємо! Ваша заявка прийнята. Інженер зателефонує вам протягом 10 хвилин.
@@ -844,7 +844,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
                       padding: '0 16px',
                       backgroundColor: '#ffffff',
                       border: consultErrors.name ? '2px solid #ef4444' : 'none',
-                      borderRadius: '4px',
+                      borderRadius: '0px',
                       fontSize: '14px',
                       color: '#000',
                       outline: 'none'
@@ -872,7 +872,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
                       padding: '0 16px',
                       backgroundColor: '#ffffff',
                       border: consultErrors.phone ? '2px solid #ef4444' : 'none',
-                      borderRadius: '4px',
+                      borderRadius: '0px',
                       fontSize: '14px',
                       color: '#000',
                       outline: 'none'

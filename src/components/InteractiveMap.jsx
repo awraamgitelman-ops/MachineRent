@@ -119,7 +119,7 @@ export default function InteractiveMap({
                   onClick={() => handleMarkerClick(hub)}
                   style={{
                     padding: '14px 16px',
-                    borderRadius: 'var(--radius-md)',
+                    borderRadius: '0px',
                     border: isSelected ? '1px solid #10b981' : '1px solid var(--border-light)',
                     background: isSelected 
                       ? 'linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(5, 150, 105, 0.15) 100%)' 
@@ -160,7 +160,7 @@ export default function InteractiveMap({
             minHeight: '480px',
             height: '100%',
             overflow: 'hidden',
-            borderRadius: 'var(--radius-lg)',
+            borderRadius: '0px',
             border: '1px solid rgba(16, 185, 129, 0.3)',
             position: 'relative'
           }}>
@@ -210,7 +210,7 @@ export default function InteractiveMap({
                           background: '#10b981',
                           color: '#ffffff',
                           border: 'none',
-                          borderRadius: '6px',
+                          borderRadius: '0px',
                           fontSize: '12px',
                           fontWeight: 700,
                           cursor: 'pointer'
@@ -233,7 +233,7 @@ export default function InteractiveMap({
               background: 'rgba(8, 13, 11, 0.9)',
               backdropFilter: 'blur(8px)',
               padding: '8px 14px',
-              borderRadius: 'var(--radius-md)',
+              borderRadius: '0px',
               border: '1px solid var(--border-light)',
               fontSize: '12px',
               color: 'var(--text-main)',

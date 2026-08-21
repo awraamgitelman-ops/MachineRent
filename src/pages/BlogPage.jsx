@@ -114,7 +114,7 @@ export default function BlogPage({ onOpenQuickLead }) {
           backgroundColor: '#fafafa',
           border: '1px solid #eaeaea',
           padding: '14px 18px',
-          borderRadius: '6px',
+          borderRadius: '0px',
           marginBottom: '36px'
         }}>
           
@@ -126,7 +126,7 @@ export default function BlogPage({ onOpenQuickLead }) {
                 onClick={() => setSelectedCategory(cat)}
                 style={{
                   padding: '6px 14px',
-                  borderRadius: '20px',
+                  borderRadius: '0px',
                   border: selectedCategory === cat ? '1px solid var(--wd-primary-color)' : '1px solid #dcdcdc',
                   backgroundColor: selectedCategory === cat ? 'var(--wd-primary-color)' : '#ffffff',
                   color: selectedCategory === cat ? '#ffffff' : '#333333',
@@ -153,7 +153,7 @@ export default function BlogPage({ onOpenQuickLead }) {
                 height: '38px',
                 padding: '0 34px 0 12px',
                 border: '1px solid #d2d2d2',
-                borderRadius: '4px',
+                borderRadius: '0px',
                 fontSize: '13px'
               }}
             />
@@ -190,7 +190,7 @@ export default function BlogPage({ onOpenQuickLead }) {
                 style={{
                   backgroundColor: '#ffffff',
                   border: '1px solid #eaeaea',
-                  borderRadius: '6px',
+                  borderRadius: '0px',
                   overflow: 'hidden',
                   cursor: 'pointer',
                   display: 'flex',
@@ -231,7 +231,7 @@ export default function BlogPage({ onOpenQuickLead }) {
                     fontWeight: 700,
                     textTransform: 'uppercase',
                     letterSpacing: '0.05em',
-                    borderRadius: '3px'
+                    borderRadius: '0px'
                   }}>
                     {post.category}
                   </div>
@@ -317,7 +317,7 @@ export default function BlogPage({ onOpenQuickLead }) {
           backgroundColor: '#1d1d1d',
           color: '#ffffff',
           padding: '36px 32px',
-          borderRadius: '8px',
+          borderRadius: '0px',
           display: 'flex',
           justifyContent: 'space-between',
           alignItems: 'center',

@@ -106,7 +106,7 @@ export default function QuickLeadModal({
       <div 
         className="modal-content-box"
         onClick={(e) => e.stopPropagation()}
-        style={{ maxWidth: '520px', padding: '28px', borderRadius: '8px' }}
+        style={{ maxWidth: '520px', padding: '28px', borderRadius: '0px' }}
       >
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '18px' }}>
           <div>
@@ -125,7 +125,7 @@ export default function QuickLeadModal({
               border: '1px solid #ddd',
               width: '32px',
               height: '32px',
-              borderRadius: '4px',
+              borderRadius: '0px',
               cursor: 'pointer',
               display: 'flex',
               alignItems: 'center',
@@ -166,7 +166,7 @@ export default function QuickLeadModal({
                     height: '42px',
                     padding: '0 32px 0 12px',
                     border: '1px solid #d2d2d2',
-                    borderRadius: '4px',
+                    borderRadius: '0px',
                     fontSize: '13px',
                     backgroundColor: '#ffffff',
                     color: '#222',
@@ -195,7 +195,7 @@ export default function QuickLeadModal({
                 backgroundColor: '#fffdf9',
                 border: errors.customTopic ? '1px solid #ef4444' : '1px solid #f6d8a7',
                 padding: '10px 12px',
-                borderRadius: '4px'
+                borderRadius: '0px'
               }}>
                 <label style={{ display: 'flex', alignItems: 'center', gap: '5px', fontSize: '12px', fontWeight: 600, color: 'var(--wd-primary-color)', marginBottom: '4px' }}>
                   <Edit3 size={13} />
@@ -214,7 +214,7 @@ export default function QuickLeadModal({
                     height: '38px',
                     padding: '0 10px',
                     border: errors.customTopic ? '1px solid #ef4444' : '1px solid #d2d2d2',
-                    borderRadius: '4px',
+                    borderRadius: '0px',
                     fontSize: '13px',
                     backgroundColor: '#ffffff',
                     outline: 'none'
@@ -246,7 +246,7 @@ export default function QuickLeadModal({
                   height: '42px',
                   padding: '0 12px',
                   border: errors.fullName ? '1px solid #ef4444' : '1px solid #d2d2d2',
-                  borderRadius: '4px',
+                  borderRadius: '0px',
                   fontSize: '13px',
                   outline: 'none'
                 }}
@@ -276,7 +276,7 @@ export default function QuickLeadModal({
                   height: '42px',
                   padding: '0 12px',
                   border: errors.phone ? '1px solid #ef4444' : '1px solid #d2d2d2',
-                  borderRadius: '4px',
+                  borderRadius: '0px',
                   fontSize: '13px',
                   outline: 'none'
                 }}
@@ -303,7 +303,7 @@ export default function QuickLeadModal({
                   height: '42px',
                   padding: '0 12px',
                   border: '1px solid #d2d2d2',
-                  borderRadius: '4px',
+                  borderRadius: '0px',
                   fontSize: '13px',
                   outline: 'none'
                 }}

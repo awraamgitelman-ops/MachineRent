@@ -19,10 +19,16 @@
   --text-muted: #666666;
   --text-light-muted: #888888;
   
-  /* Borders */
+  /* Borders & Radius */
   --border-color: #e5e5e5;
   --border-light: #f0f0f0;
   --border-dark: #333333;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-full: 0px;
+  --radius-pill: 0px;
 
   /* Typography */
   --font-main: 'Ubuntu', Arial, Helvetica, sans-serif;
@@ -33,6 +39,15 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+/* Universal Square Border Radius across the site */
+div, section, article, aside, main, header, footer,
+.btn-adena-primary, .btn-adena-secondary, button:not(.floating-call-btn):not(.header-tool-btn),
+input, select, textarea,
+.modal-content-box, .product-grid-item, .whb-top-bar,
+.adena-search-wrap, .wpf-select, .product-label-badge {
+  border-radius: 0 !important;
 }
 
 html, body {

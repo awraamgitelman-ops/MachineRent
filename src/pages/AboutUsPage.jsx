@@ -193,7 +193,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
           {/* Right Image */}
           <div style={{ position: 'relative' }}>
             <div style={{
-              borderRadius: '8px',
+              borderRadius: '0px',
               overflow: 'hidden',
               boxShadow: '0 12px 30px rgba(0,0,0,0.1)',
               border: '1px solid #e0e0e0',
@@ -253,7 +253,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
               style={{
                 backgroundColor: '#ffffff',
                 border: '1px solid #e5e5e5',
-                borderRadius: '8px',
+                borderRadius: '0px',
                 padding: '28px',
                 boxShadow: '0 2px 10px rgba(0,0,0,0.03)',
                 display: 'grid',
@@ -269,7 +269,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
                 <div style={{
                   width: '60px',
                   height: '60px',
-                  borderRadius: '10px',
+                  borderRadius: '0px',
                   backgroundColor: '#fff4eb',
                   display: 'flex',
                   alignItems: 'center',
@@ -277,7 +277,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
                 }}>
                   {spec.icon}
                 </div>
-                <span style={{ fontSize: '11px', fontWeight: 700, color: '#777', backgroundColor: '#f0f0f0', padding: '2px 8px', borderRadius: '4px' }}>
+                <span style={{ fontSize: '11px', fontWeight: 700, color: '#777', backgroundColor: '#f0f0f0', padding: '2px 8px', borderRadius: '0px' }}>
                   #{idx + 1}
                 </span>
               </div>
@@ -291,7 +291,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
                     color: 'var(--wd-primary-color)',
                     backgroundColor: '#fff4eb',
                     padding: '2px 8px',
-                    borderRadius: '4px',
+                    borderRadius: '0px',
                     textTransform: 'uppercase'
                   }}>
                     {spec.badge}
@@ -376,7 +376,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
                 backgroundColor: '#ffffff',
                 border: '1px solid #e0e0e0',
                 padding: '16px 20px',
-                borderRadius: '6px',
+                borderRadius: '0px',
                 display: 'flex',
                 alignItems: 'flex-start',
                 gap: '12px',
@@ -404,7 +404,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
               backgroundColor: '#1d1d1d',
               color: '#ffffff',
               padding: '30px',
-              borderRadius: '8px',
+              borderRadius: '0px',
               textAlign: 'center'
             }}>
               <div style={{ fontSize: '12px', fontWeight: 700, color: 'var(--wd-accent-yellow)', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: '6px' }}>

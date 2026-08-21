@@ -110,7 +110,7 @@ export default function AgroServices({ onOpenQuickLead }) {
               className="glass-panel"
               style={{
                 padding: '24px',
-                borderRadius: 'var(--radius-lg)',
+                borderRadius: '0px',
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'space-between',
@@ -131,7 +131,7 @@ export default function AgroServices({ onOpenQuickLead }) {
                   <div style={{
                     width: '56px',
                     height: '56px',
-                    borderRadius: 'var(--radius-md)',
+                    borderRadius: '0px',
                     background: 'rgba(255, 255, 255, 0.04)',
                     display: 'flex',
                     alignItems: 'center',
@@ -192,7 +192,7 @@ export default function AgroServices({ onOpenQuickLead }) {
         {/* Agro Hotline Callout */}
         <div className="glass-panel" style={{
           padding: '24px 32px',
-          borderRadius: 'var(--radius-xl)',
+          borderRadius: '0px',
           background: 'linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(245, 158, 11, 0.15) 100%)',
           border: '1px solid rgba(16, 185, 129, 0.3)',
           display: 'flex',

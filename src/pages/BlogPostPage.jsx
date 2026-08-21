@@ -134,7 +134,7 @@ export default function BlogPostPage({ onOpenQuickLead }) {
               padding: '4px 12px',
               fontSize: '12px',
               fontWeight: 700,
-              borderRadius: '4px',
+              borderRadius: '0px',
               textTransform: 'uppercase',
               letterSpacing: '0.05em'
             }}>
@@ -169,7 +169,7 @@ export default function BlogPostPage({ onOpenQuickLead }) {
         <div style={{
           maxWidth: '880px',
           margin: '0 auto 36px auto',
-          borderRadius: '8px',
+          borderRadius: '0px',
           overflow: 'hidden',
           boxShadow: '0 8px 24px rgba(0,0,0,0.08)',
           backgroundColor: '#f6f6f6'
@@ -201,7 +201,7 @@ export default function BlogPostPage({ onOpenQuickLead }) {
           backgroundColor: '#fffaf5',
           border: '1px solid #fed7aa',
           padding: '28px',
-          borderRadius: '8px',
+          borderRadius: '0px',
           display: 'flex',
           justifyContent: 'space-between',
           alignItems: 'center',
@@ -255,7 +255,7 @@ export default function BlogPostPage({ onOpenQuickLead }) {
                   style={{
                     backgroundColor: '#ffffff',
                     border: '1px solid #eaeaea',
-                    borderRadius: '6px',
+                    borderRadius: '0px',
                     overflow: 'hidden',
                     cursor: 'pointer',
                     display: 'flex',

@@ -169,7 +169,7 @@ export default function PublicOfferPage() {
           </section>
 
           {/* Section 7 */}
-          <section style={{ backgroundColor: '#fafafa', border: '1px solid #e5e5e5', padding: '24px', borderRadius: '6px' }}>
+          <section style={{ backgroundColor: '#fafafa', border: '1px solid #e5e5e5', padding: '24px', borderRadius: '0px' }}>
             <h2 style={{ fontSize: '18px', fontWeight: 600, color: '#111', marginBottom: '12px' }}>
               7. Реквізити та контакти Виконавця
             </h2>
