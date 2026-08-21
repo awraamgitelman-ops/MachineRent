@@ -5,7 +5,6 @@ import {
   Phone, 
   MapPin, 
   ShieldCheck, 
-  CheckCircle2, 
   Truck, 
   Wrench, 
   Layers, 
@@ -307,8 +306,8 @@ export default function AboutUsPage({ onOpenQuickLead }) {
                 {/* Specific Bullets */}
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
                   {spec.bullets.map((b, bIdx) => (
-                    <div key={bIdx} style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', fontSize: '13px', color: '#333' }}>
-                      <CheckCircle2 size={16} color="var(--wd-primary-color)" style={{ flexShrink: 0, marginTop: '2px' }} />
+                    <div key={bIdx} style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', fontSize: '13px', color: '#444' }}>
+                      <span style={{ color: 'var(--wd-primary-color)', fontWeight: 700, fontSize: '14px', lineHeight: '18px' }}>•</span>
                       <span>{b}</span>
                     </div>
                   ))}
