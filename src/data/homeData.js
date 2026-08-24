@@ -196,11 +196,11 @@ export const HOME_DISCOUNTS_PRODUCTS = [
     "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEkAhZCPwQdAAAKciJcDxkFVHodTk5IAW1RLRIGGz0LQB4VHw.jpg"
   },
   {
-    "id": "adena-perekydach",
-    "name": "AGRORENTEX: Перекидач контейнерів з овочами",
-    "slug": "adena-agro-perekydach-kontejneriv-z-ovochamy",
-    "brand": "AGRORENTEX",
-    "priceUah": 145600,
-    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMCHUIzBhkbPRdDQ1NAVXlWVkcWSCkV.webp"
+    "id": "domasz-ws-1600",
+    "name": "Domasz WS-1600/1000: Перекидач контейнерів з овочами",
+    "slug": "samoskyd-kontejneriv-seriya-ws-1600-1000-perekydach-kontejneriv-z-ovochamy",
+    "brand": "Domasz",
+    "priceUah": 286720,
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUsgAhdfPwkdK1VKAycVAw.jpg"
   }
 ];

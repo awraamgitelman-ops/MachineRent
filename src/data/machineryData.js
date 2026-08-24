@@ -3204,41 +3204,6 @@ export const MACHINERY_DATA = [
     ]
   },
   {
-    "id": "warehouse-adena-agro-perekydach-kontejneriv-z-ovochamy",
-    "slug": "adena-agro-perekydach-kontejneriv-z-ovochamy",
-    "name": "AGRORENTEX: Перекидач контейнерів з овочами",
-    "brand": "AGRORENTEX",
-    "model": "ПК-1200",
-    "activityType": "sorting",
-    "machineryType": "warehouse",
-    "categoryName": "Складська техніка",
-    "status": "available",
-    "badge": "В наявності",
-    "images": [
-      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMCHUIzBhkbPRdDQ1NAVXlWVkcWSCkV.webp"
-    ],
-    "pricing": {
-      "purchasePriceUah": 145600,
-      "pricePerShiftUah": 7280,
-      "pricePerHaUah": 728
-    },
-    "specs": {
-      "Виробник": "AGRORENTEX",
-      "Модель": "ПК-1200",
-      "Категорія": "Складська техніка",
-      "Вантажопідйомність": "до 1200 кг",
-      "Кут перекидання": "до 135°",
-      "Привід": "Гідравлічний / Електричний"
-    },
-    "shortDescription": "Професійне складське обладнання AGRORENTEX: Перекидач контейнерів з овочами. Автоматизація ліній прийому, сортування, делікатного очищення та пакування овочевої продукції для довготривалого зберігання та продажу в торговельні мережі.",
-    "fullDescription": "Складська лінія AGRORENTEX: Перекидач контейнерів з овочами забезпечує дбайливу та швидку післязбиральну доробку картоплі, моркви, столового буряку та цибулі. Конструкція машини мінімізує будь-які механічні пошкодження коренеплодів завдяки використанню прогумованих поверхонь, регульованих зазорів та плавному регулюванню швидкостей потоку. Обладнання легко інтегрується в існуючі комплекси зберігання та фасування. Фахівці AGRORENTEX виконують проектування лінії під параметри вашого овочесховища, монтаж, пусконалагодження та навчання персоналу. Надається офіційна гарантія та оперативна сервісна підтримка.",
-    "aliases": [
-      "adena-agro-perekydach-kontejneriv-z-ovochamy",
-      "adena-perekydach",
-      "perekydach-kontejneriv"
-    ]
-  },
-  {
     "id": "zhatka-zhatka-zernovaya-pryamogo-kombajnyrovanyya-zhu-6",
     "name": "Жатка зерновая прямого комбайнирования ЖУ 6",
     "slug": "zhatka-zernovaya-pryamogo-kombajnyrovanyya-zhu-6",
