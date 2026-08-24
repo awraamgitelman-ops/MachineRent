@@ -326,26 +326,25 @@ export default function ContactPage({ onOpenQuickLead }) {
       <section style={{
         backgroundColor: '#1d1d1d',
         color: '#ffffff',
-        position: 'relative',
-        overflow: 'hidden'
+        marginTop: '48px'
       }}>
-        <div className="container" style={{ padding: '0 15px' }}>
+        <div className="container" style={{ padding: 0, maxWidth: '1280px' }}>
           <div style={{
             display: 'grid',
-            gridTemplateColumns: '1fr 1.1fr',
-            minHeight: '360px',
-            alignItems: 'center',
+            gridTemplateColumns: '1.05fr 1fr',
+            alignItems: 'stretch',
+            backgroundColor: '#262626',
+            boxShadow: '0 4px 24px rgba(0,0,0,0.15)',
             ...(window.innerWidth < 860 ? { gridTemplateColumns: '1fr' } : {})
           }}>
             
-            {/* Left Col: Tractor Machine Image (7e4d7fb) */}
+            {/* Left Col: Tractor Machine Image (Full-bleed cover) */}
             <div style={{
-              height: '100%',
-              minHeight: '280px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              padding: '20px 24px 20px 0',
+              position: 'relative',
+              width: '100%',
+              minHeight: '100%',
+              overflow: 'hidden',
+              backgroundColor: '#1d1d1d',
               ...(window.innerWidth < 860 ? { display: 'none' } : {})
             }}>
               <img
@@ -353,10 +352,11 @@ export default function ContactPage({ onOpenQuickLead }) {
                 alt="AGRORENTEX сільськогосподарська техніка"
                 style={{
                   width: '100%',
-                  maxHeight: '340px',
+                  height: '100%',
+                  minHeight: '380px',
                   objectFit: 'cover',
-                  borderRadius: '0px',
-                  boxShadow: '0 4px 20px rgba(0,0,0,0.4)'
+                  objectPosition: 'center',
+                  display: 'block'
                 }}
                 onError={(e) => {
                   e.target.src = '/assets/products/zhatky-dlya-kombajniv.webp';
@@ -366,9 +366,11 @@ export default function ContactPage({ onOpenQuickLead }) {
 
             {/* Right Col: Consultation Form (e51758c / ddb6626) */}
             <div style={{
-              padding: '40px 32px',
+              padding: '48px 40px',
               backgroundColor: '#262626',
-              borderLeft: '1px solid #333333'
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center'
             }}>
               <div style={{ marginBottom: '20px' }}>
                 <h3 style={{ fontSize: '24px', fontWeight: 700, color: '#ffffff', marginBottom: '8px' }}>
