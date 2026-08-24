@@ -341,21 +341,22 @@ export default function ContactPage({ onOpenQuickLead }) {
             {/* Left Col: Tractor Machine Image (7e4d7fb) */}
             <div style={{
               height: '100%',
-              minHeight: '260px',
+              minHeight: '280px',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              padding: '24px 0',
+              padding: '20px 24px 20px 0',
               ...(window.innerWidth < 860 ? { display: 'none' } : {})
             }}>
               <img
-                src="/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUYuCwsAJAQxAAAQQyQOBURSHXsdSh0CHkVTIxc.webp"
+                src="https://m-mts.ru/images/en655ujtat1i0j08fkqvhgj923e96479.jpg"
                 alt="AGRORENTEX сільськогосподарська техніка"
                 style={{
-                  maxWidth: '100%',
-                  maxHeight: '320px',
-                  objectFit: 'contain',
-                  filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.5))'
+                  width: '100%',
+                  maxHeight: '340px',
+                  objectFit: 'cover',
+                  borderRadius: '0px',
+                  boxShadow: '0 4px 20px rgba(0,0,0,0.4)'
                 }}
                 onError={(e) => {
                   e.target.src = '/assets/products/zhatky-dlya-kombajniv.webp';
