@@ -6,11 +6,7 @@ import {
   MapPin, 
   Clock, 
   ChevronRight, 
-  CheckCircle2, 
-  ShieldCheck, 
-  Truck, 
-  Wrench,
-  MessageSquare
+  Send
 } from 'lucide-react';
 import { setPageSeo } from '../utils/seo';
 
@@ -18,8 +14,7 @@ export default function ContactPage({ onOpenQuickLead }) {
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
-    topic: 'Консультація',
-    message: ''
+    company: ''
   });
   const [formErrors, setFormErrors] = useState({});
   const [submitted, setSubmitted] = useState(false);
@@ -30,34 +25,66 @@ export default function ContactPage({ onOpenQuickLead }) {
 
     const schemaData = {
       "@context": "https://schema.org",
-      "@type": "ContactPage",
-      "name": "Контакти компанії AGRORENTEX",
-      "url": "https://agrorentex.com/contact-us",
-      "description": "Контактна інформація AGRORENTEX: телефони, адреса бази в Рівному, графік роботи, електронна пошта та форма зворотного зв'язку.",
-      "mainEntity": {
-        "@type": "LocalBusiness",
-        "name": "AGRORENTEX",
-        "telephone": "+380966610100",
-        "email": "info@agrorentex.com",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "вул. Свободи 26",
-          "addressLocality": "с. Колоденка, м. Рівне",
-          "postalCode": "35306",
-          "addressCountry": "UA"
+      "@graph": [
+        {
+          "@type": "ContactPage",
+          "@id": "https://agrorentex.com/contact-us/#webpage",
+          "url": "https://agrorentex.com/contact-us",
+          "name": "Контакти компанії AGRORENTEX",
+          "description": "Наші спеціалісти готові надати Вам професійну консультацію ᐉ Звертайтеся – і ми допоможемо знайти оптимальне рішення для вашого агробізнесу!",
+          "isPartOf": {
+            "@id": "https://agrorentex.com/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://agrorentex.com/contact-us/#breadcrumb"
+          },
+          "inLanguage": "uk"
         },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 50.5843,
-          "longitude": 26.3142
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://agrorentex.com/contact-us/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Головна",
+              "item": "https://agrorentex.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Контакти"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://agrorentex.com/#organization",
+          "name": "AGRORENTEX",
+          "url": "https://agrorentex.com/",
+          "telephone": "+380966610100",
+          "email": "info@agrorentex.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "вул. Свободи 26",
+            "addressLocality": "с. Колоденка, м. Рівне",
+            "postalCode": "35306",
+            "addressCountry": "UA"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 50.5843,
+            "longitude": 26.3142
+          }
         }
-      }
+      ]
     };
 
     setPageSeo({
-      title: 'Контакти | AGRORENTEX: Телефон, адреса та схема проїзду',
-      description: 'Зв\'яжіться з AGRORENTEX: +38 (096) 66 10 100, info@agrorentex.com. Адреса: м. Рівне, с. Колоденка, вул. Свободи 26. Продаж та оренда с/г техніки.',
+      title: 'Контакти компанії AGRORENTEX',
+      description: 'Наші спеціалісти готові надати Вам професійну консультацію ᐉ Звертайтеся – і ми допоможемо знайти оптимальне рішення для вашого агробізнесу!',
       canonicalUrl: 'https://agrorentex.com/contact-us',
+      ogImage: '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUYuCwsAJAQxAAAQQyQOBURSHXsdSh0CHkVTIxc.webp',
       schemaData
     });
   }, []);
@@ -72,7 +99,7 @@ export default function ContactPage({ onOpenQuickLead }) {
 
     const digitsOnly = formData.phone.replace(/\D/g, '');
     if (!formData.phone.trim() || digitsOnly.length < 9) {
-      newErrors.phone = "Введіть номер телефону (+380...)";
+      newErrors.phone = "Це поле є обов'язковим";
     }
 
     if (Object.keys(newErrors).length > 0) {
@@ -90,8 +117,8 @@ export default function ContactPage({ onOpenQuickLead }) {
         body: JSON.stringify({
           fullName: formData.name.trim(),
           phone: formData.phone.trim(),
-          topic: formData.topic,
-          notes: formData.message.trim(),
+          company: formData.company.trim(),
+          topic: 'Потрібна допомога у підборі (передфутер)',
           source: 'Сторінка контактів'
         })
       });
@@ -100,342 +127,387 @@ export default function ContactPage({ onOpenQuickLead }) {
     } finally {
       setLoading(false);
       setSubmitted(true);
-      setFormData({ name: '', phone: '', topic: 'Консультація', message: '' });
+      setFormData({ name: '', phone: '', company: '' });
     }
   };
 
   return (
-    <div style={{ backgroundColor: '#ffffff', minHeight: '80vh', paddingBottom: '60px' }}>
+    <div style={{ backgroundColor: '#ffffff', minHeight: '80vh' }}>
       
       {/* 1. Breadcrumbs Header */}
       <div style={{ backgroundColor: '#f8f8f8', borderBottom: '1px solid #eaeaea', padding: '14px 0' }}>
-        <div className="container" style={{ display: 'flex', alignItems: 'center', fontSize: '13px', color: '#777', gap: '6px' }}>
-          <Link to="/" style={{ color: '#333', fontWeight: 500 }}>Головна</Link>
-          <ChevronRight size={14} color="#aaa" />
+        <div className="container" style={{ display: 'flex', alignItems: 'center', fontSize: '13px', color: '#777777', gap: '6px' }}>
+          <Link to="/" style={{ color: '#333333', fontWeight: 500 }}>Головна</Link>
+          <ChevronRight size={14} color="#aaaaaa" />
           <span style={{ color: 'var(--wd-primary-color)', fontWeight: 600 }}>Контакти</span>
         </div>
       </div>
 
-      <div className="container" style={{ paddingTop: '40px' }}>
-        
-        {/* Header Title */}
-        <div style={{ marginBottom: '36px' }}>
-          <h1 style={{ fontSize: '32px', fontWeight: 700, color: '#111111', margin: '0 0 10px 0' }}>
-            Контактна інформація AGRORENTEX
-          </h1>
-          <p style={{ fontSize: '15px', color: '#666', margin: 0, maxWidth: '750px' }}>
-            Наші фахівці готові надати кваліфіковану консультацію, допомогти з підбором техніки або оформленням замовлення на запчастини та ремонт.
-          </p>
-        </div>
-
-        {/* 2. Main Contact Grid (Cards & Form) */}
+      {/* 2. Main 2-Column Section (Exact structure matching Elementor f23fa09) */}
+      <section className="container" style={{ paddingTop: '40px', paddingBottom: '48px' }}>
         <div style={{
           display: 'grid',
-          gridTemplateColumns: '1.2fr 1fr',
+          gridTemplateColumns: '1fr 1fr',
           gap: '40px',
-          marginBottom: '56px',
-          ...(window.innerWidth < 860 ? { gridTemplateColumns: '1fr' } : {})
+          ...(window.innerWidth < 860 ? { gridTemplateColumns: '1fr', gap: '32px' } : {})
         }}>
           
-          {/* Left Column: Department & Contact Cards */}
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+          {/* Left Column: Контактна інформація (f33df43) */}
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '28px' }}>
             
-            {/* Card 1: Main Office & Address */}
-            <div style={{
-              backgroundColor: '#fafafa',
-              border: '1px solid #e5e5e5',
-              padding: '24px',
-              borderRadius: '0px'
-            }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px' }}>
-                <MapPin size={22} color="var(--wd-primary-color)" />
-                <h3 style={{ fontSize: '18px', fontWeight: 600, color: '#111', margin: 0 }}>
-                  Головний офіс та виставковий майданчик
-                </h3>
-              </div>
-              <p style={{ fontSize: '15px', color: '#444', lineHeight: 1.6, marginBottom: '12px' }}>
-                <strong>Адреса:</strong> 35306, Україна, Рівненська обл., м. Рівне, с. Колоденка, вул. Свободи 26
-              </p>
-              <div style={{ fontSize: '13px', color: '#777', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <Clock size={16} color="#888" />
-                <span><strong>Графік роботи:</strong> Пн-Сб: 08:00 - 19:00, Неділя: за домовленістю</span>
-              </div>
-            </div>
-
-            {/* Card 2: Phone Number */}
-            <div style={{
-              backgroundColor: '#fafafa',
-              border: '1px solid #e5e5e5',
-              padding: '24px',
-              borderRadius: '0px'
-            }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px' }}>
-                <Phone size={22} color="var(--wd-primary-color)" />
-                <h3 style={{ fontSize: '18px', fontWeight: 600, color: '#111', margin: 0 }}>
-                  Відділ продажу та оренди
-                </h3>
-              </div>
-
-              <div style={{ backgroundColor: '#ffffff', border: '1px solid #eaeaea', padding: '18px 20px', borderRadius: '0px' }}>
-                <div style={{ fontSize: '12px', color: '#888', textTransform: 'uppercase', fontWeight: 600, marginBottom: '6px' }}>
-                  Прямий контактний номер:
-                </div>
-                <a 
-                  href="tel:+380966610100" 
-                  style={{ 
-                    fontSize: '22px', 
-                    fontWeight: 800, 
-                    color: 'var(--wd-primary-color)', 
-                    textDecoration: 'none', 
-                    display: 'block', 
-                    marginBottom: '6px' 
-                  }}
-                >
-                  +38 (096) 66 10 100
-                </a>
-                <div style={{ fontSize: '13px', color: '#555' }}>
-                  Підбір с/г техніки, прорахунок оренди, замовлення запчастин та виїзд сервісу
-                </div>
-              </div>
-            </div>
-
-            {/* Card 3: Email */}
-            <div style={{
-              backgroundColor: '#fafafa',
-              border: '1px solid #e5e5e5',
-              padding: '20px 24px',
-              borderRadius: '0px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              flexWrap: 'wrap',
-              gap: '12px'
-            }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                <Mail size={20} color="var(--wd-primary-color)" />
-                <span style={{ fontSize: '14px', fontWeight: 600, color: '#111' }}>Електронна пошта:</span>
-              </div>
-              <div>
-                <a href="mailto:info@agrorentex.com" style={{ fontSize: '15px', fontWeight: 700, color: 'var(--wd-primary-color)', textDecoration: 'none' }}>
-                  info@agrorentex.com
-                </a>
-              </div>
-            </div>
-
-          </div>
-
-          {/* Right Column: Contact Form */}
-          <div style={{
-            backgroundColor: '#ffffff',
-            border: '1px solid #e0e0e0',
-            padding: '32px 28px',
-            borderRadius: '0px',
-            boxShadow: '0 2px 10px rgba(0,0,0,0.03)',
-            height: 'fit-content'
-          }}>
-            <div style={{ marginBottom: '20px' }}>
-              <h3 style={{ fontSize: '20px', fontWeight: 700, color: '#111', margin: '0 0 6px 0' }}>
-                Надіслати повідомлення
-              </h3>
-              <p style={{ fontSize: '13px', color: '#666', margin: 0 }}>
-                Заповніть форму, і наш спеціаліст зв'яжеться з Вами протягом 15 хвилин.
-              </p>
-            </div>
-
-            {submitted ? (
-              <div style={{
-                backgroundColor: '#f0fdf4',
-                border: '1px solid #bbf7d0',
-                padding: '24px',
-                borderRadius: '0px',
-                textAlign: 'center'
+            <div>
+              <h2 style={{
+                fontSize: '26px',
+                fontWeight: 700,
+                color: '#111111',
+                marginBottom: '20px',
+                borderBottom: '2px solid var(--wd-primary-color)',
+                paddingBottom: '8px',
+                display: 'inline-block'
               }}>
-                <CheckCircle2 size={40} color="#16a34a" style={{ margin: '0 auto 12px auto' }} />
-                <h4 style={{ fontSize: '18px', fontWeight: 700, color: '#15803d', marginBottom: '8px' }}>
-                  Дякуємо! Ваше повідомлення надіслано
-                </h4>
-                <p style={{ fontSize: '14px', color: '#166534', margin: '0 0 16px 0' }}>
-                  Менеджер AGRORENTEX уже обробляє запит і зателефонує вам найближчим часом.
-                </p>
+                Контактна інформація
+              </h2>
+            </div>
+
+            {/* Block 1: Головний офіс (1983187 / f0a2c02) */}
+            <div style={{
+              backgroundColor: '#fafafa',
+              border: '1px solid #e5e5e5',
+              padding: '24px',
+              borderRadius: '0px'
+            }}>
+              <h3 style={{ fontSize: '18px', fontWeight: 700, color: '#111111', marginBottom: '10px' }}>
+                Головний офіс
+              </h3>
+              <p style={{ fontSize: '14px', lineHeight: 1.6, color: '#444444', marginBottom: '16px' }}>
+                35306, Україна, м. Рівне<br />с. Колоденка, вул. Свободи 26
+              </p>
+
+              <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                <li style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                  <div style={{
+                    width: '32px',
+                    height: '32px',
+                    backgroundColor: '#fff4eb',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    borderRadius: '0px'
+                  }}>
+                    <Phone size={16} color="var(--wd-primary-color)" />
+                  </div>
+                  <a href="tel:+380966610100" style={{ fontSize: '15px', fontWeight: 700, color: '#111111', textDecoration: 'none' }}>
+                    +38 (096) 66 10 100
+                  </a>
+                </li>
+                <li style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                  <div style={{
+                    width: '32px',
+                    height: '32px',
+                    backgroundColor: '#fff4eb',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    borderRadius: '0px'
+                  }}>
+                    <Mail size={16} color="var(--wd-primary-color)" />
+                  </div>
+                  <a href="mailto:info@agrorentex.com" style={{ fontSize: '14px', fontWeight: 600, color: 'var(--wd-primary-color)', textDecoration: 'none' }}>
+                    info@agrorentex.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Block 2: Відділ продажів (f3bb01c / e269137) */}
+            <div style={{
+              backgroundColor: '#fafafa',
+              border: '1px solid #e5e5e5',
+              padding: '24px',
+              borderRadius: '0px'
+            }}>
+              <h3 style={{ fontSize: '18px', fontWeight: 700, color: '#111111', marginBottom: '12px' }}>
+                Відділ продажів та оренди:
+              </h3>
+              
+              <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                <li style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                  <div style={{
+                    width: '32px',
+                    height: '32px',
+                    backgroundColor: '#fff4eb',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    borderRadius: '0px'
+                  }}>
+                    <Phone size={16} color="var(--wd-primary-color)" />
+                  </div>
+                  <div>
+                    <a href="tel:+380966610100" style={{ fontSize: '16px', fontWeight: 700, color: 'var(--wd-primary-color)', textDecoration: 'none' }}>
+                      +38 (096) 66 10 100
+                    </a>
+                    <div style={{ fontSize: '12px', color: '#666666' }}>
+                      Підбір техніки, прорахунок оренди та запчастини
+                    </div>
+                  </div>
+                </li>
+
+                <li style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                  <div style={{
+                    width: '32px',
+                    height: '32px',
+                    backgroundColor: '#f5f5f5',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    borderRadius: '0px'
+                  }}>
+                    <Clock size={16} color="#666666" />
+                  </div>
+                  <div style={{ fontSize: '13px', color: '#555555' }}>
+                    <strong>Графік роботи:</strong> Пн-Сб: 08:00 - 19:00, Неділя: за домовленістю
+                  </div>
+                </li>
+              </ul>
+
+              <div style={{ marginTop: '18px' }}>
                 <button
-                  onClick={() => setSubmitted(false)}
-                  className="btn-adena-secondary"
-                  style={{ fontSize: '13px', padding: '8px 16px', borderRadius: '0px' }}
+                  onClick={() => onOpenQuickLead('Консультація зі сторінки контактів')}
+                  className="btn-adena-primary"
+                  style={{ width: '100%', height: '42px', fontSize: '14px', fontWeight: 700, borderRadius: '0px' }}
                 >
-                  Надіслати ще одне повідомлення
+                  Замовити швидку консультацію
                 </button>
               </div>
-            ) : (
-              <form noValidate onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-                
-                <div>
-                  <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#333', marginBottom: '6px' }}>
-                    Ваше ім'я *
-                  </label>
-                  <input
-                    type="text"
-                    placeholder="Наприклад: Олександр"
-                    value={formData.name}
-                    onChange={(e) => {
-                      setFormData({ ...formData, name: e.target.value });
-                      if (formErrors.name) setFormErrors({ ...formErrors, name: '' });
-                    }}
-                    style={{
-                      width: '100%',
-                      height: '44px',
-                      padding: '0 14px',
-                      border: formErrors.name ? '1px solid #ef4444' : '1px solid #d2d2d2',
-                      fontSize: '14px',
-                      borderRadius: '0px',
-                      outline: 'none'
-                    }}
-                  />
-                  {formErrors.name && (
-                    <div style={{ color: '#ef4444', fontSize: '12px', marginTop: '4px' }}>
-                      {formErrors.name}
-                    </div>
-                  )}
-                </div>
-
-                <div>
-                  <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#333', marginBottom: '6px' }}>
-                    Номер телефону *
-                  </label>
-                  <input
-                    type="tel"
-                    placeholder="+38 (0__) ___ __ __"
-                    value={formData.phone}
-                    onChange={(e) => {
-                      setFormData({ ...formData, phone: e.target.value });
-                      if (formErrors.phone) setFormErrors({ ...formErrors, phone: '' });
-                    }}
-                    style={{
-                      width: '100%',
-                      height: '44px',
-                      padding: '0 14px',
-                      border: formErrors.phone ? '1px solid #ef4444' : '1px solid #d2d2d2',
-                      fontSize: '14px',
-                      borderRadius: '0px',
-                      outline: 'none'
-                    }}
-                  />
-                  {formErrors.phone && (
-                    <div style={{ color: '#ef4444', fontSize: '12px', marginTop: '4px' }}>
-                      {formErrors.phone}
-                    </div>
-                  )}
-                </div>
-
-                <div>
-                  <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#333', marginBottom: '6px' }}>
-                    Тема звернення
-                  </label>
-                  <select
-                    value={formData.topic}
-                    onChange={(e) => setFormData({ ...formData, topic: e.target.value })}
-                    style={{
-                      width: '100%',
-                      height: '44px',
-                      padding: '0 14px',
-                      border: '1px solid #d2d2d2',
-                      fontSize: '14px',
-                      backgroundColor: '#ffffff',
-                      borderRadius: '0px'
-                    }}
-                  >
-                    <option value="Консультація">Консультація</option>
-                    <option value="Підбір техніки для овочівництва">Підбір техніки для овочівництва</option>
-                    <option value="Оренда польової техніки (позмінно / на сезон)">Оренда польової техніки (позмінно / на сезон)</option>
-                    <option value="Купівля нової с/г техніки">Купівля нової с/г техніки</option>
-                    <option value="Підбір та купівля техніки Б/В з Європи">Підбір та купівля техніки Б/В з Європи</option>
-                    <option value="Жатки зернові та соєві (купівля / оренда)">Жатки зернові та соєві (купівля / оренда)</option>
-                    <option value="Складське обладнання, сортування та фасування">Складське обладнання, сортування та фасування</option>
-                    <option value="Замовлення запчастин, роликів та пасів">Замовлення запчастин, роликів та пасів</option>
-                    <option value="Ремонт та реставрація транспортерів">Ремонт та реставрація транспортерів</option>
-                    <option value="Виїзна консультація інженера-сервісанта">Виїзна консультація інженера-сервісанта</option>
-                    <option value="Своя пропозиція / Інше">Своя пропозиція / Інше</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#333', marginBottom: '6px' }}>
-                    Коментар або запитання
-                  </label>
-                  <textarea
-                    rows={3}
-                    placeholder="Вкажіть модель техніки, необхідні параметри або площу..."
-                    value={formData.message}
-                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    style={{
-                      width: '100%',
-                      padding: '10px 14px',
-                      border: '1px solid #d2d2d2',
-                      fontSize: '14px',
-                      fontFamily: 'inherit',
-                      borderRadius: '0px',
-                      resize: 'none',
-                      outline: 'none',
-                      minHeight: '84px'
-                    }}
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  disabled={loading}
-                  className="btn-adena-primary"
-                  style={{
-                    height: '48px',
-                    fontSize: '15px',
-                    fontWeight: 600,
-                    width: '100%',
-                    justifyContent: 'center',
-                    marginTop: '4px',
-                    borderRadius: '0px'
-                  }}
-                >
-                  <span>{loading ? 'Надсилання...' : 'Отримати консультацію'}</span>
-                </button>
-
-              </form>
-            )}
+            </div>
 
           </div>
 
-        </div>
-
-        {/* 3. Interactive Map & Driving Directions */}
-        <div style={{ marginBottom: '40px' }}>
-          <div style={{ marginBottom: '16px' }}>
-            <h2 style={{ fontSize: '22px', fontWeight: 700, color: '#111', margin: '0 0 6px 0' }}>
+          {/* Right Column: Як до нас проїхати? (84d384d / 0887dfe) */}
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <h2 style={{
+              fontSize: '26px',
+              fontWeight: 700,
+              color: '#111111',
+              marginBottom: '20px',
+              borderBottom: '2px solid var(--wd-primary-color)',
+              paddingBottom: '8px',
+              display: 'inline-block'
+            }}>
               Як до нас проїхати?
             </h2>
-            <p style={{ fontSize: '14px', color: '#666', margin: 0 }}>
-              Наша база розташована на трасі Київ-Чоп біля Рівного (с. Колоденка, вул. Свободи 26). Зручний заїзд для вантажного транспорту та тралів.
-            </p>
+
+            <div style={{
+              border: '1px solid #e0e0e0',
+              borderRadius: '0px',
+              overflow: 'hidden',
+              boxShadow: '0 2px 10px rgba(0,0,0,0.03)',
+              flex: 1,
+              minHeight: '400px',
+              backgroundColor: '#f9f9f9'
+            }}>
+              <iframe
+                title="35306, Україна, м.Рівне с.Колоденка, вул.Свободи 26"
+                aria-label="35306, Україна, м.Рівне с.Колоденка, вул.Свободи 26"
+                width="100%"
+                height="100%"
+                style={{ border: 0, minHeight: '420px', display: 'block' }}
+                loading="lazy"
+                src="https://maps.google.com/maps?q=35306%2C%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0%2C%20%D0%BC.%D0%A0%D1%96%D0%B2%D0%BD%D0%B5%20%D1%81.%D0%9A%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%D0%BA%D0%B0%2C%20%D0%B2%D1%83%D0%BB.%D0%A1%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%B8%2026&t=m&z=15&output=embed&iwloc=near"
+              />
+            </div>
           </div>
 
+        </div>
+      </section>
+
+      {/* 3. Pre-footer Consultation Banner (Exact structure from Elementor faf244e / 72413) */}
+      <section style={{
+        backgroundColor: '#1d1d1d',
+        color: '#ffffff',
+        position: 'relative',
+        overflow: 'hidden'
+      }}>
+        <div className="container" style={{ padding: '0 15px' }}>
           <div style={{
-            border: '1px solid #e0e0e0',
-            borderRadius: '0px',
-            overflow: 'hidden',
-            boxShadow: '0 2px 10px rgba(0,0,0,0.03)',
-            height: '400px',
-            position: 'relative'
+            display: 'grid',
+            gridTemplateColumns: '1fr 1.1fr',
+            minHeight: '360px',
+            alignItems: 'center',
+            ...(window.innerWidth < 860 ? { gridTemplateColumns: '1fr' } : {})
           }}>
-            <iframe
-              title="AGRORENTEX Карта проїзду"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              loading="lazy"
-              allowFullScreen
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.1068832049257!2d26.31162531573357!3d50.58430097949399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472f137e0e7a83d7%3A0xb5e73e9e1c258d4a!2z0YPQuy4g0KHQstC-0LHQvtC00YssIDI2LCDQmtC-0LvQvtC00LXQvdC60LAsINCg0L7QstC10L3RgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgMzUzMDY!5e0!3m2!1suk!2sua!4v1679000000000!5m2!1suk!2sua"
-            />
+            
+            {/* Left Col: Tractor Machine Image (7e4d7fb) */}
+            <div style={{
+              height: '100%',
+              minHeight: '260px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              padding: '24px 0',
+              ...(window.innerWidth < 860 ? { display: 'none' } : {})
+            }}>
+              <img
+                src="/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUYuCwsAJAQxAAAQQyQOBURSHXsdSh0CHkVTIxc.webp"
+                alt="AGRORENTEX сільськогосподарська техніка"
+                style={{
+                  maxWidth: '100%',
+                  maxHeight: '320px',
+                  objectFit: 'contain',
+                  filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.5))'
+                }}
+                onError={(e) => {
+                  e.target.src = '/assets/products/zhatky-dlya-kombajniv.webp';
+                }}
+              />
+            </div>
+
+            {/* Right Col: Consultation Form (e51758c / ddb6626) */}
+            <div style={{
+              padding: '40px 32px',
+              backgroundColor: '#262626',
+              borderLeft: '1px solid #333333'
+            }}>
+              <div style={{ marginBottom: '20px' }}>
+                <h3 style={{ fontSize: '24px', fontWeight: 700, color: '#ffffff', marginBottom: '8px' }}>
+                  Потрібна допомога у підборі?
+                </h3>
+                <p style={{ fontSize: '14px', color: '#cccccc', margin: 0, lineHeight: 1.5 }}>
+                  Наші спеціалісти готові надати Вам професійну консультацію. Звертайтеся!
+                </p>
+              </div>
+
+              {submitted ? (
+                <div style={{
+                  backgroundColor: '#1f2937',
+                  border: '1px solid var(--wd-primary-color)',
+                  padding: '24px',
+                  borderRadius: '0px',
+                  textAlign: 'center'
+                }}>
+                  <h4 style={{ fontSize: '18px', fontWeight: 700, color: '#ffffff', marginBottom: '8px' }}>
+                    Дякуємо! Ваша заявка прийнята
+                  </h4>
+                  <p style={{ fontSize: '14px', color: '#d1d5db', margin: '0 0 16px 0' }}>
+                    Менеджер зв'яжеться з Вами найближчим часом для надання повної консультації.
+                  </p>
+                  <button
+                    onClick={() => setSubmitted(false)}
+                    className="btn-adena-primary"
+                    style={{ fontSize: '13px', padding: '8px 20px', borderRadius: '0px' }}
+                  >
+                    Надіслати ще раз
+                  </button>
+                </div>
+              ) : (
+                <form noValidate onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
+                  
+                  <div>
+                    <input
+                      type="text"
+                      placeholder="Ваше ім'я"
+                      value={formData.name}
+                      onChange={(e) => {
+                        setFormData({ ...formData, name: e.target.value });
+                        if (formErrors.name) setFormErrors({ ...formErrors, name: '' });
+                      }}
+                      style={{
+                        width: '100%',
+                        height: '46px',
+                        padding: '0 16px',
+                        backgroundColor: '#ffffff',
+                        border: formErrors.name ? '2px solid #ef4444' : '1px solid #ffffff',
+                        color: '#111111',
+                        fontSize: '14px',
+                        borderRadius: '0px',
+                        outline: 'none'
+                      }}
+                    />
+                    {formErrors.name && (
+                      <div style={{ color: '#fca5a5', fontSize: '12px', marginTop: '4px' }}>
+                        {formErrors.name}
+                      </div>
+                    )}
+                  </div>
+
+                  <div>
+                    <input
+                      type="tel"
+                      placeholder="+38 (096) 66 10 100"
+                      value={formData.phone}
+                      onChange={(e) => {
+                        setFormData({ ...formData, phone: e.target.value });
+                        if (formErrors.phone) setFormErrors({ ...formErrors, phone: '' });
+                      }}
+                      style={{
+                        width: '100%',
+                        height: '46px',
+                        padding: '0 16px',
+                        backgroundColor: '#ffffff',
+                        border: formErrors.phone ? '2px solid #ef4444' : '1px solid #ffffff',
+                        color: '#111111',
+                        fontSize: '14px',
+                        borderRadius: '0px',
+                        outline: 'none'
+                      }}
+                    />
+                    {formErrors.phone && (
+                      <div style={{ color: '#fca5a5', fontSize: '12px', marginTop: '4px' }}>
+                        {formErrors.phone}
+                      </div>
+                    )}
+                  </div>
+
+                  <div>
+                    <input
+                      type="text"
+                      placeholder="Господарство / Підприємство (необов'язково)"
+                      value={formData.company}
+                      onChange={(e) => setFormData({ ...formData, company: e.target.value })}
+                      style={{
+                        width: '100%',
+                        height: '46px',
+                        padding: '0 16px',
+                        backgroundColor: '#ffffff',
+                        border: '1px solid #ffffff',
+                        color: '#111111',
+                        fontSize: '14px',
+                        borderRadius: '0px',
+                        outline: 'none'
+                      }}
+                    />
+                  </div>
+
+                  <button
+                    type="submit"
+                    disabled={loading}
+                    className="btn-adena-primary"
+                    style={{
+                      height: '48px',
+                      fontSize: '15px',
+                      fontWeight: 700,
+                      width: '100%',
+                      justifyContent: 'center',
+                      borderRadius: '0px',
+                      backgroundColor: 'var(--wd-primary-color)',
+                      color: '#ffffff',
+                      border: 'none',
+                      cursor: 'pointer',
+                      marginTop: '4px'
+                    }}
+                  >
+                    <span>{loading ? 'Надсилання...' : 'Отримати консультацію'}</span>
+                  </button>
+
+                </form>
+              )}
+
+            </div>
+
           </div>
         </div>
-
-      </div>
+      </section>
 
     </div>
   );
