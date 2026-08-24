@@ -322,58 +322,65 @@ export default function ContactPage({ onOpenQuickLead }) {
         </div>
       </section>
 
-      {/* 3. Pre-footer Consultation Banner (Exact structure from Elementor faf244e / 72413) */}
+      {/* 3. Pre-footer Consultation Banner (100% Full-Bleed 50/50 Split) */}
       <section style={{
-        backgroundColor: '#1d1d1d',
+        backgroundColor: '#262626',
         color: '#ffffff',
-        marginTop: '48px'
+        width: '100%',
+        marginTop: '56px',
+        overflow: 'hidden'
       }}>
-        <div className="container" style={{ padding: 0, maxWidth: '1280px' }}>
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: '1fr 1fr',
+          minHeight: '440px',
+          alignItems: 'stretch',
+          width: '100%',
+          margin: 0,
+          padding: 0,
+          ...(window.innerWidth < 900 ? { gridTemplateColumns: '1fr' } : {})
+        }}>
+          
+          {/* Left 50%: Full-bleed photo from screen edge to center */}
           <div style={{
-            display: 'grid',
-            gridTemplateColumns: '1.05fr 1fr',
-            alignItems: 'stretch',
-            backgroundColor: '#262626',
-            boxShadow: '0 4px 24px rgba(0,0,0,0.15)',
-            ...(window.innerWidth < 860 ? { gridTemplateColumns: '1fr' } : {})
+            position: 'relative',
+            width: '100%',
+            height: '100%',
+            minHeight: '320px',
+            overflow: 'hidden',
+            backgroundColor: '#1d1d1d'
           }}>
-            
-            {/* Left Col: Tractor Machine Image (Full-bleed cover) */}
-            <div style={{
-              position: 'relative',
-              width: '100%',
-              minHeight: '100%',
-              overflow: 'hidden',
-              backgroundColor: '#1d1d1d',
-              ...(window.innerWidth < 860 ? { display: 'none' } : {})
-            }}>
-              <img
-                src="https://m-mts.ru/images/en655ujtat1i0j08fkqvhgj923e96479.jpg"
-                alt="AGRORENTEX сільськогосподарська техніка"
-                style={{
-                  width: '100%',
-                  height: '100%',
-                  minHeight: '380px',
-                  objectFit: 'cover',
-                  objectPosition: 'center',
-                  display: 'block'
-                }}
-                onError={(e) => {
-                  e.target.src = '/assets/products/zhatky-dlya-kombajniv.webp';
-                }}
-              />
-            </div>
+            <img
+              src="https://m-mts.ru/images/en655ujtat1i0j08fkqvhgj923e96479.jpg"
+              alt="AGRORENTEX сільськогосподарська техніка"
+              style={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                objectPosition: 'center',
+                display: 'block'
+              }}
+              onError={(e) => {
+                e.target.src = '/assets/products/zhatky-dlya-kombajniv.webp';
+              }}
+            />
+          </div>
 
-            {/* Right Col: Consultation Form (e51758c / ddb6626) */}
-            <div style={{
-              padding: '48px 40px',
-              backgroundColor: '#262626',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'center'
-            }}>
-              <div style={{ marginBottom: '20px' }}>
-                <h3 style={{ fontSize: '24px', fontWeight: 700, color: '#ffffff', marginBottom: '8px' }}>
+          {/* Right 50%: Form with centered content box */}
+          <div style={{
+            padding: '56px 48px',
+            backgroundColor: '#262626',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'flex-start',
+            ...(window.innerWidth < 640 ? { padding: '36px 20px' } : {})
+          }}>
+            <div style={{ width: '100%', maxWidth: '480px' }}>
+              <div style={{ marginBottom: '22px' }}>
+                <h3 style={{ fontSize: '26px', fontWeight: 700, color: '#ffffff', marginBottom: '8px', lineHeight: 1.25 }}>
                   Потрібна допомога у підборі?
                 </h3>
                 <p style={{ fontSize: '14px', color: '#cccccc', margin: 0, lineHeight: 1.5 }}>
