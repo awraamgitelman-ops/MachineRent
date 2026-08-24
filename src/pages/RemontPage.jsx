@@ -9,6 +9,7 @@ import {
   Clock, 
   ShieldCheck, 
   Check, 
+  CheckCircle2,
   ArrowRight,
   Sparkles
 } from 'lucide-react';
