@@ -304,6 +304,9 @@ export default function ContactPage({ onOpenQuickLead }) {
               <div style={{ marginBottom: '4px' }}>
                 <strong style={{ color: '#222' }}>Платник ПДВ:</strong> ІПН 435846304627
               </div>
+              <div style={{ marginBottom: '4px' }}>
+                <strong style={{ color: '#222' }}>Юридична адреса:</strong> 49000, м. Дніпро, вул. Калинова, буд. 49, кв. 189
+              </div>
               <div>
                 <strong style={{ color: '#222' }}>Основний КВЕД:</strong> 77.31 (Оренда с/г машин та устатковання)
               </div>

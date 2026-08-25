@@ -153,7 +153,7 @@ export default function TermsPage() {
               <div><strong>Оператор платформи:</strong> ТОВ «КОМБАЙН АГРО» (код ЄДРПОУ 43584638)</div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <MapPin size={16} color="var(--wd-primary-color)" />
-                <span>49051, Україна, м. Дніпро, вул. Курсантська, 3</span>
+                <span>Юр. адреса: 49000, м. Дніпро, вул. Калинова, 49, кв. 189 | Майданчик: 49051, м. Дніпро, вул. Курсантська, 3</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Phone size={16} color="var(--wd-primary-color)" />

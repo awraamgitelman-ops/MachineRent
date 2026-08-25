@@ -189,7 +189,7 @@ export default function PublicOfferPage() {
 
               <div>
                 <div style={{ color: '#777', fontSize: '12px', textTransform: 'uppercase', fontWeight: 600, marginBottom: '2px' }}>Юридична адреса:</div>
-                <div style={{ color: '#444' }}>49000, Україна, Дніпропетровська обл., місто Дніпро</div>
+                <div style={{ color: '#444' }}>49000, Україна, Дніпропетровська обл., м. Дніпро, вул. Калинова, буд. 49, кв. 189</div>
               </div>
 
               <div>
