@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { 
   Phone, 
   Check, 
@@ -32,6 +32,7 @@ import {
 } from '../data/homeData';
 import { formatPrice } from '../utils/currency';
 import { setPageSeo } from '../utils/seo';
+import { filterMachinery } from '../utils/searchHelper';
 
 export default function HomePage({ 
   currency, 
@@ -40,6 +41,15 @@ export default function HomePage({
   onOpenQuickLead
 }) {
   const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  // Read URL search params on mount or param change
+  useEffect(() => {
+    const query = searchParams.get('s') || searchParams.get('search');
+    if (query !== null && query !== undefined && query !== searchTerm) {
+      setSearchTerm(query);
+    }
+  }, [searchParams]);
 
   useEffect(() => {
     setPageSeo({
@@ -63,40 +73,14 @@ export default function HomePage({
 
   // Filtering Logic for Main Catalog
   const filteredMachinery = useMemo(() => {
-    return MACHINERY_DATA.filter((machine) => {
-      if (activityType !== 'all' && machine.activityType !== activityType) return false;
-      if (machineryType !== 'all' && machine.machineryType !== machineryType) return false;
-      if (selectedBrand !== 'all' && machine.brand !== selectedBrand) return false;
-      if (selectedModel !== 'all' && machine.model !== selectedModel) return false;
-      if (selectedServiceType === 'operator' && !machine.specs?.operatorIncluded) return false;
-
-      if (searchTerm.trim()) {
-        const q = searchTerm.toLowerCase();
-        const matchName = machine.name.toLowerCase().includes(q);
-        const matchBrand = machine.brand.toLowerCase().includes(q);
-        const matchModel = (machine.model || '').toLowerCase().includes(q);
-        const matchDesc = (machine.shortDescription || '').toLowerCase().includes(q);
-        if (!matchName && !matchBrand && !matchModel && !matchDesc) return false;
-      }
-
-      return true;
-    }).sort((a, b) => {
-      if (sortBy === 'price_asc') {
-        const priceA = a.pricing?.purchasePriceUah || a.pricing?.pricePerShiftUah || 0;
-        const priceB = b.pricing?.purchasePriceUah || b.pricing?.pricePerShiftUah || 0;
-        return priceA - priceB;
-      }
-      if (sortBy === 'price_desc') {
-        const priceA = a.pricing?.purchasePriceUah || a.pricing?.pricePerShiftUah || 0;
-        const priceB = b.pricing?.purchasePriceUah || b.pricing?.pricePerShiftUah || 0;
-        return priceB - priceA;
-      }
-      if (sortBy === 'power') {
-        const powerA = parseInt((a.specs?.powerHp || '').replace(/\D/g, '')) || 0;
-        const powerB = parseInt((b.specs?.powerHp || '').replace(/\D/g, '')) || 0;
-        return powerB - powerA;
-      }
-      return 0;
+    return filterMachinery(MACHINERY_DATA, {
+      activityType,
+      machineryType,
+      selectedBrand,
+      selectedModel,
+      selectedServiceType,
+      searchTerm,
+      sortBy
     });
   }, [activityType, machineryType, selectedBrand, selectedModel, selectedServiceType, searchTerm, sortBy]);
 
@@ -108,6 +92,9 @@ export default function HomePage({
     setSelectedServiceType('all');
     setSearchTerm('');
     setSortBy('popular');
+    if (searchParams.get('s') || searchParams.get('search')) {
+      setSearchParams({});
+    }
   };
 
   const currentSeasonItem = HOME_TOP_SEASON[seasonIndex % HOME_TOP_SEASON.length];
@@ -461,6 +448,8 @@ export default function HomePage({
           setSortBy={setSortBy}
           totalFilteredCount={filteredMachinery.length}
           onResetFilters={handleResetFilters}
+          searchTerm={searchTerm}
+          setSearchTerm={setSearchTerm}
         />
 
         <main className="container" style={{ paddingBottom: '40px' }}>

@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useMemo } from 'react';
+import { MACHINERY_DATA } from '../data/machineryData';
 
 export default function FilterBar({
   activityType,
@@ -14,98 +15,100 @@ export default function FilterBar({
   sortBy,
   setSortBy,
   totalFilteredCount,
-  onResetFilters
+  onResetFilters,
+  searchTerm,
+  setSearchTerm
 }) {
+  // Pre-calculate real available counts from catalog
+  const counts = useMemo(() => {
+    const res = {
+      types: {},
+      activities: {},
+      brands: {}
+    };
+
+    MACHINERY_DATA.forEach((p) => {
+      // Types
+      if (p.machineryType) {
+        res.types[p.machineryType] = (res.types[p.machineryType] || 0) + 1;
+      }
+      // Activities
+      const act = (p.activityType === 'soil_preparation' ? 'soil_prep' : p.activityType);
+      if (act) {
+        res.activities[act] = (res.activities[act] || 0) + 1;
+      }
+      // Brands
+      const b = p.brand || '';
+      if (b.includes('Grimme')) res.brands['Grimme'] = (res.brands['Grimme'] || 0) + 1;
+      if (b.includes('Struik')) res.brands['Struik'] = (res.brands['Struik'] || 0) + 1;
+      if (b.includes('Domasz')) res.brands['Domasz'] = (res.brands['Domasz'] || 0) + 1;
+      if (b.includes('Рівненські') || b.includes('Бердянські')) res.brands['Рівненські жатки'] = (res.brands['Рівненські жатки'] || 0) + 1;
+      if (b.includes('ZIBO')) res.brands['ZIBO'] = (res.brands['ZIBO'] || 0) + 1;
+      if (b.includes('AgroVektor')) res.brands['AgroVektor'] = (res.brands['AgroVektor'] || 0) + 1;
+      if (b.includes('AVR')) res.brands['AVR'] = (res.brands['AVR'] || 0) + 1;
+      if (b.includes('DeWulf') || b.includes('Dewulf')) res.brands['DeWulf'] = (res.brands['DeWulf'] || 0) + 1;
+    });
+
+    return res;
+  }, []);
+
   const activities = [
-    { id: 'all', name: 'Вид с/г діяльності' },
-    { id: 'potato', name: 'Вирощування картоплі (23)' },
-    { id: 'carrot', name: 'Вирощування моркви (15)' },
-    { id: 'onion', name: 'Вирощування цибулі (15)' },
-    { id: 'beet', name: 'Вирощування цукрового буряку (14)' },
-    { id: 'grain', name: 'Зернові та кукурудза (12)' },
+    { id: 'all', name: 'Вид операції (Всі)' },
+    { id: 'soil_prep', name: `Підготовка ґрунту (${counts.activities['soil_prep'] || 17})` },
+    { id: 'planting', name: `Посадка та посів (${counts.activities['planting'] || 8})` },
+    { id: 'haulm_topping', name: `Видалення бадилля (${counts.activities['haulm_topping'] || 3})` },
+    { id: 'harvesting', name: `Збирання врожаю (${counts.activities['harvesting'] || 7})` },
+    { id: 'sorting', name: `Сортування та зберігання (${counts.activities['sorting'] || 49})` },
+    { id: 'grain', name: `Зернові та жнива (${counts.activities['grain'] || 4})` },
+    { id: 'maintenance', name: `Запчастини та сервіс (${counts.activities['maintenance'] || 18})` },
   ];
 
   const types = [
-    { id: 'all', name: 'Тип техніки' },
-    { id: 'haulm', name: 'Видалення бадилля (4)' },
-    { id: 'harvest', name: 'Збір врожаю (4)' },
-    { id: 'tillage', name: 'Підготовка грунту (13)' },
-    { id: 'planting', name: 'Посадка/Посів (5)' },
-    { id: 'spraying', name: 'Обприскування та внесення КАС (3)' },
-    { id: 'tractors', name: 'Важкі тягові трактори (4)' },
+    { id: 'all', name: 'Категорія техніки (Всі)' },
+    { id: 'field', name: `Польова техніка (${counts.types['field'] || 20})` },
+    { id: 'zhatky', name: `Жатки зернові (${counts.types['zhatky'] || 4})` },
+    { id: 'warehouse', name: `Складська техніка (${counts.types['warehouse'] || 47})` },
+    { id: 'parts', name: `Запасні частини (${counts.types['parts'] || 17})` },
+    { id: 'used', name: `Техніка Б/В (${counts.types['used'] || 18})` },
   ];
 
   const brands = [
-    { id: 'all', name: 'Марка' },
-    { id: 'Grimme', name: 'Grimme (2)' },
-    { id: 'Struik', name: 'Struik (15)' },
-    { id: 'Baselier', name: 'Baselier (2)' },
-    { id: 'Dewulf', name: 'DeWulf (2)' },
-    { id: 'John Deere', name: 'John Deere (3)' },
-    { id: 'Fendt', name: 'Fendt (2)' },
-    { id: 'Claas', name: 'Claas (2)' },
-    { id: 'Horsch', name: 'Horsch (3)' },
-    { id: 'Lemken', name: 'Lemken (2)' },
-    { id: 'ZIBO', name: 'ZIBO (1)' },
-    { id: 'Інше', name: 'Інше (6)' },
-  ];
-
-  const models = [
-    { id: 'all', name: 'Модель' },
-    { id: 'GL 32E', name: 'GL 32E (1)' },
-    { id: 'FLKB', name: 'FLKB (1)' },
-    { id: 'GLUTTON', name: 'GLUTTON (1)' },
-    { id: 'ROW-FIX', name: 'ROW-FIX (2)' },
-    { id: 'LKB-Shift 1500', name: 'LKB-Shift 1500 (1)' },
-    { id: 'BIOROTIX', name: 'BIOROTIX (1)' },
-    { id: 'VariX', name: 'VariX (5)' },
-    { id: 'Weed-Master', name: 'Weed-Master (1)' },
-    { id: 'WR', name: 'WR (1)' },
-    { id: 'ZF', name: 'ZF (1)' },
-    { id: 'SE-260', name: 'SE-260 (1)' },
-    { id: '8RX 410', name: '8RX 410 (1)' },
-    { id: '1050 Vario', name: '1050 Vario (1)' },
-    { id: 'Lexion 8800', name: 'Lexion 8800 (1)' },
-    { id: 'Maestro 16 SV', name: 'Maestro 16 SV (1)' },
-    { id: 'Leeb PT', name: 'Leeb 8.300 PT (1)' },
+    { id: 'all', name: 'Виробник (Всі)' },
+    { id: 'Grimme', name: `Grimme (${counts.brands['Grimme'] || 24})` },
+    { id: 'Struik', name: `Struik (${counts.brands['Struik'] || 17})` },
+    { id: 'Domasz', name: `Domasz (${counts.brands['Domasz'] || 40})` },
+    { id: 'Рівненські жатки', name: `Рівненські жатки (${counts.brands['Рівненські жатки'] || 4})` },
+    { id: 'ZIBO', name: `ZIBO (${counts.brands['ZIBO'] || 3})` },
+    { id: 'AgroVektor', name: `AgroVektor (${counts.brands['AgroVektor'] || 1})` },
+    { id: 'AVR', name: `AVR (${counts.brands['AVR'] || 2})` },
+    { id: 'DeWulf', name: `DeWulf (${counts.brands['DeWulf'] || 2})` },
+    { id: 'Інше', name: 'Інші виробники' },
   ];
 
   const serviceTypes = [
-    { id: 'all', name: 'Тип запчастини / Послуги' },
-    { id: 'operator', name: 'З екіпажем операторів' },
-    { id: 'trall', name: 'З доставкою тралом' },
-    { id: 'parts', name: 'Робочі органи & комплектуючі' },
+    { id: 'all', name: 'Умови та послуги' },
+    { id: 'operator', name: 'Оренда з оператором' },
+    { id: 'delivery', name: 'Доставка тралом по Україні' },
+    { id: 'warranty', name: 'Гарантія та сервісний супровід' },
   ];
 
-  const isFiltered = activityType !== 'all' || 
-                     machineryType !== 'all' || 
-                     selectedBrand !== 'all' || 
-                     selectedModel !== 'all' || 
-                     (selectedServiceType && selectedServiceType !== 'all');
+  const isFiltered = (activityType && activityType !== 'all') || 
+                     (machineryType && machineryType !== 'all') || 
+                     (selectedBrand && selectedBrand !== 'all') || 
+                     (selectedModel && selectedModel !== 'all') || 
+                     (selectedServiceType && selectedServiceType !== 'all') ||
+                     Boolean(searchTerm && searchTerm.trim());
 
   return (
     <div id="main-catalog" className="wpf-filters">
       <div className="container">
         <h2>Оберіть значення у фільтрі товарів</h2>
-        <p>Знайдіть ваш товар за даними критеріями:</p>
+        <p>Знайдіть потрібну сільгосптехніку або запчастини за параметрами:</p>
 
-        {/* 5-Column Filter Grid */}
-        <div className="wpfMainWrapper">
+        {/* 4-Column Filter Grid */}
+        <div className="wpfMainWrapper" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))' }}>
           
-          {/* 1. Activity Type */}
-          <div>
-            <select
-              value={activityType}
-              onChange={(e) => setActivityType(e.target.value)}
-              className="wpf-select"
-            >
-              {activities.map((a) => (
-                <option key={a.id} value={a.id}>{a.name}</option>
-              ))}
-            </select>
-          </div>
-
-          {/* 2. Machinery Type */}
+          {/* 1. Machinery Category */}
           <div>
             <select
               value={machineryType}
@@ -114,6 +117,19 @@ export default function FilterBar({
             >
               {types.map((t) => (
                 <option key={t.id} value={t.id}>{t.name}</option>
+              ))}
+            </select>
+          </div>
+
+          {/* 2. Activity Operation */}
+          <div>
+            <select
+              value={activityType}
+              onChange={(e) => setActivityType(e.target.value)}
+              className="wpf-select"
+            >
+              {activities.map((a) => (
+                <option key={a.id} value={a.id}>{a.name}</option>
               ))}
             </select>
           </div>
@@ -131,20 +147,7 @@ export default function FilterBar({
             </select>
           </div>
 
-          {/* 4. Model */}
-          <div>
-            <select
-              value={selectedModel}
-              onChange={(e) => setSelectedModel(e.target.value)}
-              className="wpf-select"
-            >
-              {models.map((m) => (
-                <option key={m.id} value={m.id}>{m.name}</option>
-              ))}
-            </select>
-          </div>
-
-          {/* 5. Service / Parts */}
+          {/* 4. Service / Terms */}
           <div>
             <select
               value={selectedServiceType}
@@ -162,24 +165,28 @@ export default function FilterBar({
         {/* Shop Loop Head Bar */}
         <div className="shop-loop-head" style={{ marginTop: '24px' }}>
           <div className="woocommerce-result-count">
-            Відображаються усі з <strong>{totalFilteredCount} результатів</strong>
+            {searchTerm ? (
+              <span>За запитом «<strong>{searchTerm}</strong>» знайдено: <strong>{totalFilteredCount} товарів</strong></span>
+            ) : (
+              <span>Відображаються <strong>{totalFilteredCount} товарів</strong></span>
+            )}
           </div>
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '14px', flexWrap: 'wrap' }}>
             {isFiltered && (
               <button
                 onClick={onResetFilters}
                 style={{
-                  background: 'none',
-                  border: 'none',
+                  background: '#f3f4f6',
+                  border: '1px solid #d1d5db',
+                  padding: '6px 12px',
                   color: 'var(--wd-primary-color)',
                   fontSize: '13px',
                   fontWeight: 600,
-                  cursor: 'pointer',
-                  textDecoration: 'underline'
+                  cursor: 'pointer'
                 }}
               >
-                Скинути фільтри
+                ✕ Скинути всі фільтри
               </button>
             )}
 
@@ -195,9 +202,10 @@ export default function FilterBar({
                 color: '#333333'
               }}
             >
-              <option value="popular">За замовчуванням (Нові)</option>
-              <option value="price_asc">Ціна: від низької до високої</option>
-              <option value="price_desc">Ціна: від високої до низької</option>
+              <option value="popular">Сортування: За замовчуванням</option>
+              <option value="price_asc">Ціна: від дешевших до дорожчих</option>
+              <option value="price_desc">Ціна: від дорожчих до дешевших</option>
+              <option value="name_asc">За алфавітом (А-Я)</option>
               <option value="power">За потужністю</option>
             </select>
           </div>

@@ -1,10 +1,11 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { useNavigate, useParams, Link } from 'react-router-dom';
+import { useNavigate, useParams, Link, useSearchParams } from 'react-router-dom';
 import { ChevronRight } from 'lucide-react';
 import FilterBar from '../components/FilterBar';
 import MachineryCard from '../components/MachineryCard';
 import { MACHINERY_DATA } from '../data/machineryData';
 import { setPageSeo } from '../utils/seo';
+import { filterMachinery } from '../utils/searchHelper';
 
 const CATEGORY_MAP = {
   'field': {
@@ -52,16 +53,25 @@ export default function CatalogPage({
 }) {
   const navigate = useNavigate();
   const { category } = useParams();
+  const [searchParams, setSearchParams] = useSearchParams();
 
   const currentCategoryInfo = category ? CATEGORY_MAP[category] : null;
 
   // Filters State
   const [activityType, setActivityType] = useState('all');
-  const [machineryType, setMachineryType] = useState('all');
+  const [machineryType, setMachineryType] = useState(currentCategoryInfo ? currentCategoryInfo.machineryType : 'all');
   const [selectedBrand, setSelectedBrand] = useState('all');
   const [selectedModel, setSelectedModel] = useState('all');
   const [selectedServiceType, setSelectedServiceType] = useState('all');
   const [sortBy, setSortBy] = useState('popular');
+
+  // Sync URL search query param
+  useEffect(() => {
+    const query = searchParams.get('s') || searchParams.get('search');
+    if (query !== null && query !== undefined && query !== searchTerm) {
+      setSearchTerm(query);
+    }
+  }, [searchParams]);
 
   // Sync category route with filter state & SEO
   useEffect(() => {
@@ -105,66 +115,15 @@ export default function CatalogPage({
 
   // Filtering Logic
   const filteredMachinery = useMemo(() => {
-    return MACHINERY_DATA.filter((machine) => {
-      // Category routing filter
-      if (currentCategoryInfo) {
-        if (machine.machineryType !== currentCategoryInfo.machineryType) {
-          return false;
-        }
-      } else if (machineryType !== 'all' && machine.machineryType !== machineryType) {
-        return false;
-      }
-
-      // Activity Filter
-      if (activityType !== 'all' && machine.activityType !== activityType) {
-        return false;
-      }
-
-      // Brand Filter
-      if (selectedBrand !== 'all' && machine.brand !== selectedBrand) {
-        return false;
-      }
-
-      // Model Filter
-      if (selectedModel !== 'all' && machine.model !== selectedModel) {
-        return false;
-      }
-
-      // Service Type Filter
-      if (selectedServiceType === 'operator' && !machine.specs?.operatorIncluded) {
-        return false;
-      }
-
-      // Search Query
-      if (searchTerm.trim()) {
-        const q = searchTerm.toLowerCase();
-        const matchName = machine.name.toLowerCase().includes(q);
-        const matchBrand = machine.brand.toLowerCase().includes(q);
-        const matchModel = (machine.model || '').toLowerCase().includes(q);
-        const matchDesc = (machine.shortDescription || '').toLowerCase().includes(q);
-        if (!matchName && !matchBrand && !matchModel && !matchDesc) {
-          return false;
-        }
-      }
-
-      return true;
-    }).sort((a, b) => {
-      if (sortBy === 'price_asc') {
-        const priceA = a.pricing?.purchasePriceUah || a.pricing?.pricePerShiftUah || 0;
-        const priceB = b.pricing?.purchasePriceUah || b.pricing?.pricePerShiftUah || 0;
-        return priceA - priceB;
-      }
-      if (sortBy === 'price_desc') {
-        const priceA = a.pricing?.purchasePriceUah || a.pricing?.pricePerShiftUah || 0;
-        const priceB = b.pricing?.purchasePriceUah || b.pricing?.pricePerShiftUah || 0;
-        return priceB - priceA;
-      }
-      if (sortBy === 'power') {
-        const powerA = parseInt((a.specs?.powerHp || '').replace(/\D/g, '')) || 0;
-        const powerB = parseInt((b.specs?.powerHp || '').replace(/\D/g, '')) || 0;
-        return powerB - powerA;
-      }
-      return 0;
+    return filterMachinery(MACHINERY_DATA, {
+      activityType,
+      machineryType,
+      selectedBrand,
+      selectedModel,
+      selectedServiceType,
+      searchTerm,
+      sortBy,
+      currentCategoryType: currentCategoryInfo ? currentCategoryInfo.machineryType : null
     });
   }, [activityType, machineryType, selectedBrand, selectedModel, selectedServiceType, searchTerm, sortBy, currentCategoryInfo]);
 
@@ -180,6 +139,9 @@ export default function CatalogPage({
     setSelectedServiceType('all');
     setSearchTerm('');
     setSortBy('popular');
+    if (searchParams.get('s') || searchParams.get('search')) {
+      setSearchParams({});
+    }
   };
 
   return (
@@ -230,6 +192,8 @@ export default function CatalogPage({
         setSortBy={setSortBy}
         totalFilteredCount={filteredMachinery.length}
         onResetFilters={handleResetFilters}
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
       />
 
       {/* Main Products Grid */}

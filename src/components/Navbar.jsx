@@ -33,9 +33,16 @@ export default function Navbar({
 
   const handleSearchSubmit = (e) => {
     if (e) e.preventDefault();
-    navigate('/');
-    const el = document.getElementById('main-catalog');
-    if (el) el.scrollIntoView({ behavior: 'smooth' });
+    const query = (searchTerm || '').trim();
+    if (location.pathname.startsWith('/product-category/')) {
+      navigate(`${location.pathname}${query ? `?s=${encodeURIComponent(query)}` : ''}`);
+    } else {
+      navigate(`/${query ? `?s=${encodeURIComponent(query)}` : ''}`);
+    }
+    setTimeout(() => {
+      const el = document.getElementById('main-catalog');
+      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    }, 100);
   };
 
   return (
