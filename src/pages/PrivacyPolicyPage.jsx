@@ -184,11 +184,11 @@ export default function PrivacyPolicyPage() {
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Phone size={16} color="var(--wd-primary-color)" />
-                <a href="tel:+380966610100" style={{ color: '#111', fontWeight: 600 }}>+38 (096) 66 10 100</a>
+                <a href="tel:+380970079746" style={{ color: '#111', fontWeight: 600 }}>+38 (097) 007-97-46</a>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Mail size={16} color="var(--wd-primary-color)" />
-                <a href="mailto:info@agrorentex.com" style={{ color: 'var(--wd-primary-color)' }}>info@agrorentex.com</a>
+                <a href="mailto:agrorentex@gmail.com" style={{ color: 'var(--wd-primary-color)' }}>agrorentex@gmail.com</a>
               </div>
             </div>
           </section>

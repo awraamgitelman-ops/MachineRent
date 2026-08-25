@@ -62,8 +62,8 @@ export default function ContactPage({ onOpenQuickLead }) {
           "@id": "https://agrorentex.com/#organization",
           "name": "AGRORENTEX",
           "url": "https://agrorentex.com/",
-          "telephone": "+380966610100",
-          "email": "info@agrorentex.com",
+          "telephone": "+380970079746",
+          "email": "agrorentex@gmail.com",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "вул. Свободи 26",
@@ -196,8 +196,8 @@ export default function ContactPage({ onOpenQuickLead }) {
                   }}>
                     <Phone size={16} color="var(--wd-primary-color)" />
                   </div>
-                  <a href="tel:+380966610100" style={{ fontSize: '15px', fontWeight: 700, color: '#111111', textDecoration: 'none' }}>
-                    +38 (096) 66 10 100
+                  <a href="tel:+380970079746" style={{ fontSize: '15px', fontWeight: 700, color: '#111111', textDecoration: 'none' }}>
+                    +38 (097) 007-97-46
                   </a>
                 </li>
                 <li style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
@@ -212,8 +212,8 @@ export default function ContactPage({ onOpenQuickLead }) {
                   }}>
                     <Mail size={16} color="var(--wd-primary-color)" />
                   </div>
-                  <a href="mailto:info@agrorentex.com" style={{ fontSize: '14px', fontWeight: 600, color: 'var(--wd-primary-color)', textDecoration: 'none' }}>
-                    info@agrorentex.com
+                  <a href="mailto:agrorentex@gmail.com" style={{ fontSize: '14px', fontWeight: 600, color: 'var(--wd-primary-color)', textDecoration: 'none' }}>
+                    agrorentex@gmail.com
                   </a>
                 </li>
               </ul>
@@ -244,8 +244,8 @@ export default function ContactPage({ onOpenQuickLead }) {
                     <Phone size={16} color="var(--wd-primary-color)" />
                   </div>
                   <div>
-                    <a href="tel:+380966610100" style={{ fontSize: '16px', fontWeight: 700, color: 'var(--wd-primary-color)', textDecoration: 'none' }}>
-                      +38 (096) 66 10 100
+                    <a href="tel:+380970079746" style={{ fontSize: '16px', fontWeight: 700, color: 'var(--wd-primary-color)', textDecoration: 'none' }}>
+                      +38 (097) 007-97-46
                     </a>
                     <div style={{ fontSize: '12px', color: '#666666' }}>
                       Підбір техніки, прорахунок оренди та запчастини
@@ -471,7 +471,7 @@ export default function ContactPage({ onOpenQuickLead }) {
                   <div>
                     <input
                       type="tel"
-                      placeholder="+38 (096) 66 10 100"
+                      placeholder="+38 (097) 007-97-46"
                       value={formData.phone}
                       onChange={(e) => {
                         setFormData({ ...formData, phone: e.target.value });

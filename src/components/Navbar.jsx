@@ -46,9 +46,9 @@ export default function Navbar({
           
           {/* Phone Number */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <a href="tel:+380966610100" style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: 600, color: 'var(--wd-primary-color)' }}>
+            <a href="tel:+380970079746" style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: 600, color: 'var(--wd-primary-color)' }}>
               <Phone size={14} color="var(--wd-primary-color)" />
-              <span>+38 (096) 66 10 100</span>
+              <span>+38 (097) 007-97-46</span>
             </a>
             <span style={{ fontSize: '12px', color: '#666' }}>Відділ продажу та оренди</span>
           </div>

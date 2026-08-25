@@ -38,16 +38,16 @@ export default function Footer({ onOpenQuickLead }) {
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '10px' }}>
               <li style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Phone size={15} color="var(--wd-primary-color)" style={{ flexShrink: 0 }} />
-                <a href="tel:+380966610100" style={{ fontSize: '15px', fontWeight: 700, color: '#111111', textDecoration: 'none' }}>
-                  +38 (096) 66 10 100
+                <a href="tel:+380970079746" style={{ fontSize: '15px', fontWeight: 700, color: '#111111', textDecoration: 'none' }}>
+                  +38 (097) 007-97-46
                 </a>
                 <span style={{ fontSize: '12px', color: '#777777' }}>Відділ продажу та оренди</span>
               </li>
 
               <li style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Mail size={15} color="var(--wd-primary-color)" style={{ flexShrink: 0 }} />
-                <a href="mailto:info@agrorentex.com" style={{ fontSize: '13px', fontWeight: 600, color: 'var(--wd-primary-color)', textDecoration: 'none' }}>
-                  info@agrorentex.com
+                <a href="mailto:agrorentex@gmail.com" style={{ fontSize: '13px', fontWeight: 600, color: 'var(--wd-primary-color)', textDecoration: 'none' }}>
+                  agrorentex@gmail.com
                 </a>
               </li>
 

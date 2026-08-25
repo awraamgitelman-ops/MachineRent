@@ -201,11 +201,11 @@ export default function PublicOfferPage() {
                 <div style={{ color: '#777', fontSize: '12px', textTransform: 'uppercase', fontWeight: 600, marginBottom: '2px' }}>Контактні дані:</div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                   <Phone size={14} color="var(--wd-primary-color)" />
-                  <a href="tel:+380966610100" style={{ color: '#111', fontWeight: 600 }}>+38 (096) 66 10 100</a>
+                  <a href="tel:+380970079746" style={{ color: '#111', fontWeight: 600 }}>+38 (097) 007-97-46</a>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginTop: '2px' }}>
                   <Mail size={14} color="var(--wd-primary-color)" />
-                  <a href="mailto:info@agrorentex.com" style={{ color: 'var(--wd-primary-color)' }}>info@agrorentex.com</a>
+                  <a href="mailto:agrorentex@gmail.com" style={{ color: 'var(--wd-primary-color)' }}>agrorentex@gmail.com</a>
                 </div>
               </div>
             </div>

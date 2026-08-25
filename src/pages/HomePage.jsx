@@ -575,7 +575,7 @@ export default function HomePage({
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '18px', flexWrap: 'wrap' }}>
             <a
-              href="tel:+380966610100"
+              href="tel:+380970079746"
               style={{
                 color: 'var(--wd-accent-yellow)',
                 fontSize: '18px',
@@ -586,7 +586,7 @@ export default function HomePage({
               }}
             >
               <Phone size={20} />
-              <span>+38 (096) 66 10 100</span>
+              <span>+38 (097) 007-97-46</span>
             </a>
 
             <button

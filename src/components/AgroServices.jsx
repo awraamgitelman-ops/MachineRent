@@ -219,12 +219,12 @@ export default function AgroServices({ onOpenQuickLead }) {
               Замовити аудит поля
             </button>
             <a
-              href="tel:+380966610100"
+              href="tel:+380970079746"
               className="btn btn-outline btn-lg"
               style={{ borderColor: '#34d399', color: '#34d399', fontWeight: 700 }}
             >
               <PhoneCall size={16} />
-              <span>+38 (096) 66 10 100</span>
+              <span>+38 (097) 007-97-46</span>
             </a>
           </div>
         </div>

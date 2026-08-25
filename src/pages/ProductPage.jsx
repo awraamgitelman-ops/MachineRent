@@ -453,7 +453,7 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
               </button>
 
               <a
-                href="tel:+380966610100"
+                href="tel:+380970079746"
                 className="btn-adena-secondary"
                 style={{
                   height: '50px',
@@ -467,7 +467,7 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
                 }}
               >
                 <Phone size={16} color="var(--wd-primary-color)" />
-                <span>+38 (096) 66 10 100</span>
+                <span>+38 (097) 007-97-46</span>
               </a>
             </div>
 

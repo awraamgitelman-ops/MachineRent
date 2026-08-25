@@ -780,7 +780,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
               35306, Україна, м.Рівне, с.Колоденка, вул. Свободи, буд. 26
             </h3>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
-              <a href="tel:+380966610100" style={{ fontSize: '20px', fontWeight: 800, color: 'var(--wd-primary-color)', textDecoration: 'none' }}>+38 (096) 66 10 100</a>
+              <a href="tel:+380970079746" style={{ fontSize: '20px', fontWeight: 800, color: 'var(--wd-primary-color)', textDecoration: 'none' }}>+38 (097) 007-97-46</a>
               <span style={{ fontSize: '13px', color: '#666' }}>Відділ продажу та оренди</span>
             </div>
           </div>

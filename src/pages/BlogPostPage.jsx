@@ -222,12 +222,12 @@ export default function BlogPostPage({ onOpenQuickLead }) {
               <span>Замовити консультацію</span>
             </button>
             <a
-              href="tel:+380966610100"
+              href="tel:+380970079746"
               className="btn-adena-secondary"
               style={{ height: '44px', padding: '0 16px', fontWeight: 600, fontSize: '14px', display: 'inline-flex', alignItems: 'center', gap: '6px' }}
             >
               <Phone size={15} color="var(--wd-primary-color)" />
-              <span>+38 (096) 66 10 100</span>
+              <span>+38 (097) 007-97-46</span>
             </a>
           </div>
         </div>

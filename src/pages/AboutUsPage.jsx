@@ -166,12 +166,12 @@ export default function AboutUsPage({ onOpenQuickLead }) {
                 <span>Замовити консультацію</span>
               </button>
               <a
-                href="tel:+380966610100"
+                href="tel:+380970079746"
                 className="btn-adena-secondary"
                 style={{ height: '48px', padding: '0 20px', fontWeight: 700, fontSize: '14px', display: 'inline-flex', alignItems: 'center', gap: '8px', textDecoration: 'none' }}
               >
                 <Phone size={16} color="var(--wd-primary-color)" />
-                <span>+38 (096) 66 10 100</span>
+                <span>+38 (097) 007-97-46</span>
               </a>
             </div>
           </div>
@@ -383,7 +383,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
                 Потрібен точний підбір під ваше поле?
               </h3>
               <a
-                href="tel:+380966610100"
+                href="tel:+380970079746"
                 style={{
                   display: 'block',
                   fontSize: '22px',
@@ -393,7 +393,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
                   textDecoration: 'none'
                 }}
               >
-                +38 (096) 66 10 100
+                +38 (097) 007-97-46
               </a>
               <button
                 onClick={() => onOpenQuickLead('Підбір техніки для овочівництва')}

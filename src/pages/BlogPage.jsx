@@ -335,11 +335,11 @@ export default function BlogPage({ onOpenQuickLead }) {
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '14px', flexWrap: 'wrap' }}>
             <a
-              href="tel:+380966610100"
+              href="tel:+380970079746"
               style={{ color: 'var(--wd-accent-yellow)', fontSize: '17px', fontWeight: 700, display: 'flex', alignItems: 'center', gap: '6px' }}
             >
               <Phone size={18} />
-              <span>+38 (096) 66 10 100</span>
+              <span>+38 (097) 007-97-46</span>
             </a>
             <button
               onClick={() => onOpenQuickLead('Підбір техніки для овочівництва')}
