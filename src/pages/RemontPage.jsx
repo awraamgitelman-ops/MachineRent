@@ -777,7 +777,7 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
             padding: '30px 24px'
           }}>
             <h3 style={{ fontSize: '18px', fontWeight: 600, color: '#111', marginBottom: '14px' }}>
-              35306, Україна, м.Рівне, с.Колоденка, вул. Свободи, буд. 26
+              49051, Україна, м. Дніпро, вул. Курсантська, 3
             </h3>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
               <a href="tel:+380970079746" style={{ fontSize: '20px', fontWeight: 800, color: 'var(--wd-primary-color)', textDecoration: 'none' }}>+38 (097) 007-97-46</a>

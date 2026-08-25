@@ -31,7 +31,7 @@ export default function Footer({ onOpenQuickLead }) {
 
             <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', fontSize: '13px', color: '#666666', marginBottom: '18px' }}>
               <MapPin size={16} color="var(--wd-primary-color)" style={{ flexShrink: 0, marginTop: '2px' }} />
-              <span>35306, Україна, м. Рівне, с. Колоденка, вул. Свободи 26</span>
+              <span>49051, Україна, м. Дніпро, вул. Курсантська, 3</span>
             </div>
 
             {/* Contacts list */}

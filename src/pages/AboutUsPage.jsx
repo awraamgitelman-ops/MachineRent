@@ -84,7 +84,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
       id: 'parts',
       badge: 'Власний склад',
       title: 'Оригінальні запчастини та комплектуючі',
-      desc: 'Постійна наявність швидкозношуваних деталей для європейських машин на складі у Рівному.',
+      desc: 'Постійна наявність швидкозношуваних деталей для європейських машин на складі у Дніпрі.',
       bullets: [
         'Пруткові транспортери для всіх типів комбайнів Grimme, Bolko, Anna, Karlik',
         'Опорні та підтримуючі ролики, приводні зірочки, замки стрічок, шківи та вали',
@@ -354,7 +354,7 @@ export default function AboutUsPage({ onOpenQuickLead }) {
                 <MapPin size={22} color="var(--wd-primary-color)" style={{ flexShrink: 0, marginTop: '2px' }} />
                 <div>
                   <strong style={{ fontSize: '15px', color: '#111', display: 'block', marginBottom: '2px' }}>
-                    35306, Україна, Рівненська обл., м. Рівне, с. Колоденка, вул. Свободи 26
+                    49051, Україна, Дніпропетровська обл., м. Дніпро, вул. Курсантська, 3
                   </strong>
                   <span style={{ fontSize: '13px', color: '#666' }}>
                     Графік роботи: Пн-Сб 08:00 - 19:00

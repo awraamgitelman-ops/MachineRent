@@ -180,7 +180,7 @@ export default function PrivacyPolicyPage() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '14px' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <MapPin size={16} color="var(--wd-primary-color)" />
-                <span>Юридична адреса: 49000, Україна, Дніпропетровська обл., м. Дніпро | Майданчик: м. Рівне, с. Колоденка, вул. Свободи 26</span>
+                <span>Юридична адреса та майданчик: 49051, Україна, Дніпропетровська обл., м. Дніпро, вул. Курсантська, 3</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Phone size={16} color="var(--wd-primary-color)" />

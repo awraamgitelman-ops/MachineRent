@@ -66,15 +66,15 @@ export default function ContactPage({ onOpenQuickLead }) {
           "email": "agrorentex@gmail.com",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "вул. Свободи 26",
-            "addressLocality": "с. Колоденка, м. Рівне",
-            "postalCode": "35306",
+            "streetAddress": "вул. Курсантська, 3",
+            "addressLocality": "м. Дніпро",
+            "postalCode": "49051",
             "addressCountry": "UA"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": 50.5843,
-            "longitude": 26.3142
+            "latitude": 48.499408,
+            "longitude": 35.117782
           }
         }
       ]
@@ -180,7 +180,7 @@ export default function ContactPage({ onOpenQuickLead }) {
                 Головний офіс
               </h3>
               <p style={{ fontSize: '14px', lineHeight: 1.6, color: '#444444', marginBottom: '16px' }}>
-                35306, Україна, м. Рівне<br />с. Колоденка, вул. Свободи 26
+                49051, Україна, м. Дніпро<br />вул. Курсантська, 3
               </p>
 
               <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px' }}>
@@ -335,13 +335,13 @@ export default function ContactPage({ onOpenQuickLead }) {
               backgroundColor: '#f9f9f9'
             }}>
               <iframe
-                title="35306, Україна, м.Рівне с.Колоденка, вул.Свободи 26"
-                aria-label="35306, Україна, м.Рівне с.Колоденка, вул.Свободи 26"
+                title="49051, Україна, м. Дніпро, вул. Курсантська, 3"
+                aria-label="49051, Україна, м. Дніпро, вул. Курсантська, 3"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: '420px', display: 'block' }}
                 loading="lazy"
-                src="https://maps.google.com/maps?q=35306%2C%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0%2C%20%D0%BC.%D0%A0%D1%96%D0%B2%D0%BD%D0%B5%20%D1%81.%D0%9A%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%D0%BA%D0%B0%2C%20%D0%B2%D1%83%D0%BB.%D0%A1%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%B8%2026&t=m&z=15&output=embed&iwloc=near"
+                src="https://maps.google.com/maps?q=48.499408050344606%2C35.117782300424665+(AGRORENTEX)&t=m&z=16&output=embed&iwloc=near"
               />
             </div>
           </div>

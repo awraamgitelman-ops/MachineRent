@@ -64,7 +64,7 @@ export default function Navbar({
           {/* Location Address */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '12px', color: '#666', ...(window.innerWidth < 768 ? { display: 'none' } : {}) }}>
             <MapPin size={13} color="var(--wd-primary-color)" />
-            <span>35306, Україна, м.Рівне, с.Колоденка, вул.Свободи 26</span>
+            <span>49051, Україна, м. Дніпро, вул. Курсантська, 3</span>
           </div>
 
         </div>
