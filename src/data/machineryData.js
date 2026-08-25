@@ -768,15 +768,10 @@ export const MACHINERY_DATA = [
     "status": "available",
     "badge": "В наявності",
     "images": [
+      "/assets/products/pidgortach-grebneutvoryuvach-zibo-super.jpg",
       "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUZwUF9dZFBaTV1KGXlVSgMRSg.jpg",
       "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUwoBR0wMwQAFgoNWhIXEQ4XQjkIHF8EHlhGJg.jpg",
-      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUZwUF9dZFJYQlNJGXlQSgMRSg.jpg",
-      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQRxVUNfZlddK1RNHXRUVERQAHpICk5TXFdSbw0CCA.jpg",
-      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQRxVUNfZlddK1RNHXVRVERQAHpICk5TXFdSbw0CCA.jpg",
-      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQRxVUNfZlddK1RNHXtUV0RQAHpICk5TXFdSbw0CCA.jpg",
-      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQRxVUNfZlddK1RNHXtVV0RQAHpICk5TXFdSbw0CCA.jpg",
-      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQRxVUNfZlddK1RNHXhWUkRQHGYWGkxeVVYYKxcV.jpg",
-      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQN4SQIBNQ.png"
+      "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUZwUF9dZFJYQlNJGXlQSgMRSg.jpg"
     ],
     "pricing": {
       "purchasePriceUah": 380000,
