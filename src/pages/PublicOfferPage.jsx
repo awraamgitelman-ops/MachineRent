@@ -88,7 +88,7 @@ export default function PublicOfferPage() {
               1. Загальні положення та правовий статус
             </h2>
             <p>
-              Цей документ є офіційною публічною пропозицією (публічною офертою) компанії <strong>AGRORENTEX</strong> (надалі: «Виконавець» або «Продавець») укласти договір купівлі-продажу сільськогосподарської техніки, комплектуючих та/або договір про надання послуг оренди сільськогосподарської та складської техніки на умовах, викладених нижче, відповідно до статей 633, 641 та 642 Цивільного кодексу України та Закону України «Про електронну комерцію».
+              Цей документ є офіційною публічною пропозицією (публічною офертою) <strong>Товариства з обмеженою відповідальністю «КОМБАЙН АГРО»</strong> (код ЄДРПОУ: <strong>43584638</strong>), що здійснює господарську та комерційну діяльність під торговельним знаком та онлайн-сервісом <strong>AGRORENTEX</strong> (надалі: «Виконавець» або «Продавець»), укласти договір купівлі-продажу сільськогосподарської техніки, обладнання, комплектуючих та/або договір про надання послуг оренди с/г та складської техніки на умовах, викладених нижче, відповідно до статей 633, 641 та 642 Цивільного кодексу України та Закону України «Про електронну комерцію».
             </p>
             <p>
               Оформлення заявки на Сайті <strong>https://agrorentex.com/</strong>, телефонне замовлення або оплата рахунку є повним та безумовним прийняттям (акцептом) умов цієї Оферти з боку фізичної чи юридичної особи (надалі: «Замовник» або «Покупець»).
@@ -170,22 +170,43 @@ export default function PublicOfferPage() {
 
           {/* Section 7 */}
           <section style={{ backgroundColor: '#fafafa', border: '1px solid #e5e5e5', padding: '24px', borderRadius: '0px' }}>
-            <h2 style={{ fontSize: '18px', fontWeight: 600, color: '#111', marginBottom: '12px' }}>
+            <h2 style={{ fontSize: '18px', fontWeight: 600, color: '#111', marginBottom: '16px' }}>
               7. Реквізити та контакти Виконавця
             </h2>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '14px' }}>
-              <div><strong>Найменування:</strong> AGRORENTEX (Польова та складська с/г техніка)</div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <MapPin size={16} color="var(--wd-primary-color)" />
-                <span>35306, Україна, Рівненська обл., м. Рівне, с. Колоденка, вул. Свободи 26</span>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '16px', fontSize: '14px', lineHeight: 1.6 }}>
+              <div>
+                <div style={{ color: '#777', fontSize: '12px', textTransform: 'uppercase', fontWeight: 600, marginBottom: '2px' }}>Юридична особа (Оператор платформи):</div>
+                <strong style={{ color: '#111', fontSize: '15px' }}>ТОВ «КОМБАЙН АГРО»</strong>
+                <div style={{ color: '#555', marginTop: '2px' }}>Торговельне найменування: <strong>AGRORENTEX</strong></div>
               </div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <Phone size={16} color="var(--wd-primary-color)" />
-                <span>+38 (096) 66 10 100</span>
+
+              <div>
+                <div style={{ color: '#777', fontSize: '12px', textTransform: 'uppercase', fontWeight: 600, marginBottom: '2px' }}>Податковий статус та коди:</div>
+                <div>Код ЄДРПОУ: <strong>43584638</strong></div>
+                <div>ІПН / Платник ПДВ: <strong>435846304627</strong></div>
+                <div>Основний КВЕД: <strong>77.31</strong> (Оренда с/г машин і устатковання)</div>
               </div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <Mail size={16} color="var(--wd-primary-color)" />
-                <span>info@agrorentex.com</span>
+
+              <div>
+                <div style={{ color: '#777', fontSize: '12px', textTransform: 'uppercase', fontWeight: 600, marginBottom: '2px' }}>Юридична адреса:</div>
+                <div style={{ color: '#444' }}>49000, Україна, Дніпропетровська обл., місто Дніпро</div>
+              </div>
+
+              <div>
+                <div style={{ color: '#777', fontSize: '12px', textTransform: 'uppercase', fontWeight: 600, marginBottom: '2px' }}>Фактичний майданчик та сервіс:</div>
+                <div style={{ color: '#444' }}>35306, Україна, Рівненська обл., с. Колоденка (м. Рівне), вул. Свободи 26</div>
+              </div>
+
+              <div>
+                <div style={{ color: '#777', fontSize: '12px', textTransform: 'uppercase', fontWeight: 600, marginBottom: '2px' }}>Контактні дані:</div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <Phone size={14} color="var(--wd-primary-color)" />
+                  <a href="tel:+380966610100" style={{ color: '#111', fontWeight: 600 }}>+38 (096) 66 10 100</a>
+                </div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginTop: '2px' }}>
+                  <Mail size={14} color="var(--wd-primary-color)" />
+                  <a href="mailto:info@agrorentex.com" style={{ color: 'var(--wd-primary-color)' }}>info@agrorentex.com</a>
+                </div>
               </div>
             </div>
           </section>
