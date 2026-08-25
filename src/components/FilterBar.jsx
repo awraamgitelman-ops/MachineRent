@@ -42,7 +42,9 @@ export default function FilterBar({
       if (b.includes('Grimme')) res.brands['Grimme'] = (res.brands['Grimme'] || 0) + 1;
       if (b.includes('Struik')) res.brands['Struik'] = (res.brands['Struik'] || 0) + 1;
       if (b.includes('Domasz')) res.brands['Domasz'] = (res.brands['Domasz'] || 0) + 1;
-      if (b.includes('Рівненські') || b.includes('Бердянські')) res.brands['Рівненські жатки'] = (res.brands['Рівненські жатки'] || 0) + 1;
+      if (b.includes('ХМЗ') || b.includes('Херсонський')) res.brands['ХМЗ'] = (res.brands['ХМЗ'] || 0) + 1;
+      if (b.includes('Бердянські') || b.includes('John Greaves')) res.brands['Бердянські жатки'] = (res.brands['Бердянські жатки'] || 0) + 1;
+      if (b.includes('Югтехагро')) res.brands['Югтехагро'] = (res.brands['Югтехагро'] || 0) + 1;
       if (b.includes('ZIBO')) res.brands['ZIBO'] = (res.brands['ZIBO'] || 0) + 1;
       if (b.includes('AgroVektor')) res.brands['AgroVektor'] = (res.brands['AgroVektor'] || 0) + 1;
       if (b.includes('AVR')) res.brands['AVR'] = (res.brands['AVR'] || 0) + 1;
@@ -77,7 +79,9 @@ export default function FilterBar({
     { id: 'Grimme', name: `Grimme (${counts.brands['Grimme'] || 24})` },
     { id: 'Struik', name: `Struik (${counts.brands['Struik'] || 17})` },
     { id: 'Domasz', name: `Domasz (${counts.brands['Domasz'] || 40})` },
-    { id: 'Рівненські жатки', name: `Рівненські жатки (${counts.brands['Рівненські жатки'] || 4})` },
+    { id: 'ХМЗ', name: `ХМЗ / Херсонські жатки (${counts.brands['ХМЗ'] || 2})` },
+    { id: 'Бердянські жатки', name: `Бердянські жатки (${counts.brands['Бердянські жатки'] || 1})` },
+    { id: 'Югтехагро', name: `Югтехагро (${counts.brands['Югтехагро'] || 1})` },
     { id: 'ZIBO', name: `ZIBO (${counts.brands['ZIBO'] || 3})` },
     { id: 'AgroVektor', name: `AgroVektor (${counts.brands['AgroVektor'] || 1})` },
     { id: 'AVR', name: `AVR (${counts.brands['AVR'] || 2})` },
