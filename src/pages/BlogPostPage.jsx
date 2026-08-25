@@ -140,10 +140,6 @@ export default function BlogPostPage({ onOpenQuickLead }) {
             }}>
               {post.category}
             </span>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: '13px', color: '#777' }}>
-              <Clock size={14} color="var(--wd-primary-color)" />
-              <span>Час читання: {post.readTime}</span>
-            </div>
           </div>
 
           <h1 style={{

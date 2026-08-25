@@ -240,14 +240,6 @@ export default function BlogPage({ onOpenQuickLead }) {
                 {/* Body */}
                 <div style={{ padding: '20px 22px', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
                   <div>
-                    {/* Meta Read Time */}
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '14px', fontSize: '12px', color: '#888', marginBottom: '10px' }}>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-                        <Clock size={13} color="var(--wd-primary-color)" />
-                        <span>{post.readTime}</span>
-                      </div>
-                    </div>
-
                     {/* Title */}
                     <h2 style={{
                       fontSize: '17px',
