@@ -29,6 +29,7 @@ const staticPages = [
   { url: '/contact-us', changefreq: 'monthly', priority: '0.8' },
   { url: '/blog', changefreq: 'daily', priority: '0.8' },
   { url: '/privacy-policy', changefreq: 'monthly', priority: '0.5' },
+  { url: '/terms', changefreq: 'monthly', priority: '0.5' },
   { url: '/public-offer', changefreq: 'monthly', priority: '0.5' }
 ];
 

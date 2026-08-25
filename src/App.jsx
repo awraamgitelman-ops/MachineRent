@@ -12,6 +12,7 @@ import BlogPage from './pages/BlogPage';
 import BlogPostPage from './pages/BlogPostPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import PublicOfferPage from './pages/PublicOfferPage';
+import TermsPage from './pages/TermsPage';
 import QuickLeadModal from './components/QuickLeadModal';
 import { PhoneCall } from 'lucide-react';
 
@@ -188,7 +189,7 @@ export default function App() {
               } 
             />
 
-            {/* 8. Legal Pages: Privacy Policy & Public Offer */}
+            {/* 8. Legal Pages: Privacy Policy, Public Offer & Terms */}
             <Route 
               path="/privacy-policy" 
               element={<PrivacyPolicyPage />} 
@@ -212,6 +213,22 @@ export default function App() {
             <Route 
               path="/publichna-oferta" 
               element={<PublicOfferPage />} 
+            />
+            <Route 
+              path="/terms" 
+              element={<TermsPage />} 
+            />
+            <Route 
+              path="/terms/" 
+              element={<TermsPage />} 
+            />
+            <Route 
+              path="/terms-and-conditions" 
+              element={<TermsPage />} 
+            />
+            <Route 
+              path="/pravila-ta-umovy" 
+              element={<TermsPage />} 
             />
 
             {/* 9. Fallback Route */}

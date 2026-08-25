@@ -90,6 +90,11 @@ export default function Footer({ onOpenQuickLead }) {
                 </Link>
               </li>
               <li>
+                <Link to="/terms" style={{ color: '#555555', transition: 'color 0.2s ease' }}>
+                  Правила та умови
+                </Link>
+              </li>
+              <li>
                 <Link to="/public-offer" style={{ color: '#555555', transition: 'color 0.2s ease' }}>
                   Публічна оферта
                 </Link>

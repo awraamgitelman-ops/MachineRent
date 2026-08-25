@@ -68,6 +68,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://agrorentex.com/terms</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://agrorentex.com/public-offer</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
