@@ -141,7 +141,7 @@ export default function Footer({ onOpenQuickLead }) {
         {/* Bottom Sub-footer Bar */}
         <div className="adena-footer-bottom">
           <div style={{ fontSize: '13px', color: '#777777' }}>
-            2026 | AGRORENTEX. Всі права захищені · ТОВ «КОМБАЙН АГРО» (код ЄДРПОУ 43584638)
+            2026 | AGRORENTEX. Всі права захищені
           </div>
           <div style={{ fontSize: '13px', color: '#888888', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
             <span>Офіційний сервіс, оренда та продаж с/г техніки в Україні</span>
