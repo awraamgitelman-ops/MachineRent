@@ -282,36 +282,6 @@ export default function ContactPage({ onOpenQuickLead }) {
               </div>
             </div>
 
-            {/* Block 3: Юридична інформація */}
-            <div style={{
-              backgroundColor: '#fafafa',
-              border: '1px solid #e5e5e5',
-              padding: '20px 24px',
-              borderRadius: '0px',
-              fontSize: '13px',
-              lineHeight: 1.6,
-              color: '#555555'
-            }}>
-              <h3 style={{ fontSize: '15px', fontWeight: 700, color: '#111111', textTransform: 'uppercase', letterSpacing: '0.03em', marginBottom: '8px' }}>
-                Юридична інформація:
-              </h3>
-              <div style={{ marginBottom: '4px' }}>
-                <strong style={{ color: '#222' }}>Оператор платформи:</strong> ТОВ «КОМБАЙН АГРО»
-              </div>
-              <div style={{ marginBottom: '4px' }}>
-                <strong style={{ color: '#222' }}>Код ЄДРПОУ:</strong> 43584638
-              </div>
-              <div style={{ marginBottom: '4px' }}>
-                <strong style={{ color: '#222' }}>Платник ПДВ:</strong> ІПН 435846304627
-              </div>
-              <div style={{ marginBottom: '4px' }}>
-                <strong style={{ color: '#222' }}>Юридична адреса:</strong> 49000, м. Дніпро, вул. Калинова, буд. 49, кв. 189
-              </div>
-              <div>
-                <strong style={{ color: '#222' }}>Основний КВЕД:</strong> 77.31 (Оренда с/г машин та устатковання)
-              </div>
-            </div>
-
           </div>
 
           {/* Right Column: Як до нас проїхати? (84d384d / 0887dfe) */}
