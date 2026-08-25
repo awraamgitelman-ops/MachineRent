@@ -9,7 +9,16 @@ import {
   Truck, 
   ShieldCheck, 
   Award, 
-  Users 
+  Users,
+  Tractor,
+  Layers,
+  Warehouse,
+  RefreshCw,
+  BadgeCheck,
+  Wrench,
+  Boxes,
+  Coins,
+  Sparkles
 } from 'lucide-react';
 import FilterBar from '../components/FilterBar';
 import MachineryCard from '../components/MachineryCard';
@@ -490,65 +499,198 @@ export default function HomePage({
       </div>
 
       {/* 5. ABOUT & SEO SECTION (Unique AGRORENTEX Brand Content) */}
-      <section style={{ backgroundColor: '#fafafa', borderTop: '1px solid #eaeaea', padding: '50px 0 60px 0' }}>
-        <div className="container" style={{ maxWidth: '1100px' }}>
+      <section style={{ backgroundColor: '#fafafa', borderTop: '1px solid #eaeaea', padding: '60px 0 68px 0' }}>
+        <div className="container" style={{ maxWidth: '1200px' }}>
           
-          <h2 style={{ fontSize: '26px', fontWeight: 600, color: '#111', marginBottom: '16px', textAlign: 'center' }}>
-            AGRORENTEX: Комплексні технологічні рішення для овочівництва та польового агробізнесу
-          </h2>
-          
-          <p style={{ fontSize: '15px', color: '#555', lineHeight: 1.7, textAlign: 'center', maxWidth: '900px', margin: '0 auto 36px auto' }}>
-            <strong>AGRORENTEX</strong> забезпечує українських агровиробників високоефективною спеціалізованою технікою для вирощування картоплі, моркви, столового буряку, цибулі та зернових культур. Наша мета: максимізувати врожайність вашого господарства, скоротити експлуатаційні витрати та гарантувати безперебійну роботу в кожен день сезону.
-          </p>
+          {/* Header Badge & Title */}
+          <div style={{ textAlign: 'center', marginBottom: '40px' }}>
+            <div style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '6px',
+              backgroundColor: '#fff4eb',
+              color: 'var(--wd-primary-color)',
+              padding: '4px 14px',
+              fontSize: '12px',
+              fontWeight: 700,
+              textTransform: 'uppercase',
+              letterSpacing: '0.08em',
+              marginBottom: '12px',
+              borderLeft: '3px solid var(--wd-primary-color)'
+            }}>
+              <Sparkles size={14} />
+              <span>Професійний підхід до агробізнесу</span>
+            </div>
 
+            <h2 style={{ fontSize: '28px', fontWeight: 700, color: '#111111', lineHeight: 1.3, marginBottom: '14px', maxWidth: '950px', margin: '0 auto 14px auto' }}>
+              AGRORENTEX: Комплексні технологічні рішення для овочівництва та польового агробізнесу
+            </h2>
+            
+            <p style={{ fontSize: '15px', color: '#555555', lineHeight: 1.75, maxWidth: '900px', margin: '0 auto' }}>
+              <strong>AGRORENTEX</strong> забезпечує українських агровиробників високоефективною спеціалізованою технікою для вирощування картоплі, моркви, столового буряку, цибулі та зернових культур. Наша мета: максимізувати врожайність вашого господарства, скоротити експлуатаційні витрати та гарантувати безперебійну роботу в кожен день сезону.
+            </p>
+          </div>
+
+          {/* 2 Main Visual Blocks */}
           <div style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(2, 1fr)',
-            gap: '30px',
-            marginBottom: '40px',
-            ...(window.innerWidth < 768 ? { gridTemplateColumns: '1fr' } : {})
+            gap: '28px',
+            marginBottom: '10px'
           }}>
             
             {/* Box 1: Напрямки діяльності */}
-            <div style={{ backgroundColor: '#ffffff', border: '1px solid #e5e5e5', padding: '24px' }}>
-              <h3 style={{ fontSize: '18px', fontWeight: 600, color: '#111', marginBottom: '16px', borderBottom: '2px solid var(--wd-primary-color)', paddingBottom: '6px' }}>
-                Ключові напрямки постачання:
-              </h3>
-              <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px', fontSize: '14px', lineHeight: 1.6 }}>
-                <li>
-                  <strong style={{ color: '#111' }}>Спеціалізована польова техніка:</strong> Комплекси для глибокого обробітку, гребнеутворювачі, високоточні саджалки та картоплезбиральні комбайни.
-                </li>
-                <li>
-                  <strong style={{ color: '#111' }}>Жатки та збиральні системи:</strong> Продуктивні зернові, соєві та соняшникові жатки John Deere, Case IH, CLAAS, New Holland та Бердянські жатки.
-                </li>
-                <li>
-                  <strong style={{ color: '#111' }}>Автоматизовані овочесховища:</strong> Приймальні бункери, сортувальні столи, щіткові машини, мийки та вагопакувальні станції.
-                </li>
-                <li>
-                  <strong style={{ color: '#111' }}>Відновлення транспортерів:</strong> Власна технологія реставрації гумово-пруткових стрічок будь-якого кроку з економією до 50% від вартості нових.
-                </li>
-              </ul>
+            <div style={{
+              backgroundColor: '#ffffff',
+              border: '1px solid #e8e8e8',
+              boxShadow: '0 4px 16px rgba(0,0,0,0.03)',
+              padding: '30px 26px',
+              display: 'flex',
+              flexDirection: 'column'
+            }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '22px', borderBottom: '2px solid var(--wd-primary-color)', paddingBottom: '12px' }}>
+                <div style={{ width: '38px', height: '38px', backgroundColor: '#fff4eb', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--wd-primary-color)' }}>
+                  <Layers size={20} />
+                </div>
+                <h3 style={{ fontSize: '17px', fontWeight: 700, color: '#111111', margin: 0, textTransform: 'uppercase', letterSpacing: '0.02em' }}>
+                  Ключові напрямки постачання
+                </h3>
+              </div>
+
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                <div style={{ display: 'flex', gap: '14px', alignItems: 'flex-start' }}>
+                  <div style={{ width: '32px', height: '32px', backgroundColor: '#f5f5f5', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: '2px', color: 'var(--wd-primary-color)' }}>
+                    <Tractor size={17} />
+                  </div>
+                  <div>
+                    <div style={{ fontSize: '14px', fontWeight: 700, color: '#111111', marginBottom: '3px' }}>
+                      Спеціалізована польова техніка
+                    </div>
+                    <div style={{ fontSize: '13px', color: '#666666', lineHeight: 1.6 }}>
+                      Комплекси для глибокого обробітку, гребнеутворювачі, високоточні саджалки та картоплезбиральні комбайни.
+                    </div>
+                  </div>
+                </div>
+
+                <div style={{ display: 'flex', gap: '14px', alignItems: 'flex-start' }}>
+                  <div style={{ width: '32px', height: '32px', backgroundColor: '#f5f5f5', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: '2px', color: 'var(--wd-primary-color)' }}>
+                    <Sparkles size={17} />
+                  </div>
+                  <div>
+                    <div style={{ fontSize: '14px', fontWeight: 700, color: '#111111', marginBottom: '3px' }}>
+                      Жатки та збиральні системи
+                    </div>
+                    <div style={{ fontSize: '13px', color: '#666666', lineHeight: 1.6 }}>
+                      Продуктивні зернові, соєві та соняшникові жатки John Deere, Case IH, CLAAS, New Holland та Рівненські жатки.
+                    </div>
+                  </div>
+                </div>
+
+                <div style={{ display: 'flex', gap: '14px', alignItems: 'flex-start' }}>
+                  <div style={{ width: '32px', height: '32px', backgroundColor: '#f5f5f5', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: '2px', color: 'var(--wd-primary-color)' }}>
+                    <Warehouse size={17} />
+                  </div>
+                  <div>
+                    <div style={{ fontSize: '14px', fontWeight: 700, color: '#111111', marginBottom: '3px' }}>
+                      Автоматизовані овочесховища
+                    </div>
+                    <div style={{ fontSize: '13px', color: '#666666', lineHeight: 1.6 }}>
+                      Приймальні бункери, сортувальні столи, щіткові машини, мийки та вагопакувальні станції.
+                    </div>
+                  </div>
+                </div>
+
+                <div style={{ display: 'flex', gap: '14px', alignItems: 'flex-start' }}>
+                  <div style={{ width: '32px', height: '32px', backgroundColor: '#f5f5f5', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: '2px', color: 'var(--wd-primary-color)' }}>
+                    <RefreshCw size={17} />
+                  </div>
+                  <div>
+                    <div style={{ fontSize: '14px', fontWeight: 700, color: '#111111', marginBottom: '3px' }}>
+                      Відновлення транспортерів
+                    </div>
+                    <div style={{ fontSize: '13px', color: '#666666', lineHeight: 1.6 }}>
+                      Власна технологія реставрації гумово-пруткових стрічок будь-якого кроку з економією до 50% від вартості нових.
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
             {/* Box 2: Чому AGRORENTEX */}
-            <div style={{ backgroundColor: '#ffffff', border: '1px solid #e5e5e5', padding: '24px' }}>
-              <h3 style={{ fontSize: '18px', fontWeight: 600, color: '#111', marginBottom: '16px', borderBottom: '2px solid var(--wd-accent-yellow)', paddingBottom: '6px' }}>
-                Переваги співпраці з AGRORENTEX:
-              </h3>
-              <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px', fontSize: '14px', lineHeight: 1.6 }}>
-                <li>
-                  <strong style={{ color: '#111' }}>Практична агрономічна експертиза:</strong> Понад 30 років безпосереднього досвіду вирощування овочів на власних масивах.
-                </li>
-                <li>
-                  <strong style={{ color: '#111' }}>Мобільний виїзний сервіс:</strong> Оперативна технічна допомога, налаштування в полі та введення в експлуатацію.
-                </li>
-                <li>
-                  <strong style={{ color: '#111' }}>Склад запчастин в Україні:</strong> Постійна наявність роликів, пасів, зірочок та зношуваних деталей у Рівному.
-                </li>
-                <li>
-                  <strong style={{ color: '#111' }}>Гнучкі умови фінансування:</strong> Вигідні тарифи подобової та сезонної оренди, прямий викуп та лізингові програми.
-                </li>
-              </ul>
+            <div style={{
+              backgroundColor: '#ffffff',
+              border: '1px solid #e8e8e8',
+              boxShadow: '0 4px 16px rgba(0,0,0,0.03)',
+              padding: '30px 26px',
+              display: 'flex',
+              flexDirection: 'column'
+            }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '22px', borderBottom: '2px solid var(--wd-accent-yellow)', paddingBottom: '12px' }}>
+                <div style={{ width: '38px', height: '38px', backgroundColor: '#fffbeb', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#d97706' }}>
+                  <BadgeCheck size={20} />
+                </div>
+                <h3 style={{ fontSize: '17px', fontWeight: 700, color: '#111111', margin: 0, textTransform: 'uppercase', letterSpacing: '0.02em' }}>
+                  Переваги співпраці з AGRORENTEX
+                </h3>
+              </div>
+
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                <div style={{ display: 'flex', gap: '14px', alignItems: 'flex-start' }}>
+                  <div style={{ width: '32px', height: '32px', backgroundColor: '#f5f5f5', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: '2px', color: '#d97706' }}>
+                    <Award size={17} />
+                  </div>
+                  <div>
+                    <div style={{ fontSize: '14px', fontWeight: 700, color: '#111111', marginBottom: '3px' }}>
+                      Практична агрономічна експертиза
+                    </div>
+                    <div style={{ fontSize: '13px', color: '#666666', lineHeight: 1.6 }}>
+                      Понад 30 років безпосереднього досвіду вирощування овочів на власних масивах.
+                    </div>
+                  </div>
+                </div>
+
+                <div style={{ display: 'flex', gap: '14px', alignItems: 'flex-start' }}>
+                  <div style={{ width: '32px', height: '32px', backgroundColor: '#f5f5f5', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: '2px', color: '#d97706' }}>
+                    <Wrench size={17} />
+                  </div>
+                  <div>
+                    <div style={{ fontSize: '14px', fontWeight: 700, color: '#111111', marginBottom: '3px' }}>
+                      Мобільний виїзний сервіс
+                    </div>
+                    <div style={{ fontSize: '13px', color: '#666666', lineHeight: 1.6 }}>
+                      Оперативна технічна допомога, налаштування в полі та введення в експлуатацію.
+                    </div>
+                  </div>
+                </div>
+
+                <div style={{ display: 'flex', gap: '14px', alignItems: 'flex-start' }}>
+                  <div style={{ width: '32px', height: '32px', backgroundColor: '#f5f5f5', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: '2px', color: '#d97706' }}>
+                    <Boxes size={17} />
+                  </div>
+                  <div>
+                    <div style={{ fontSize: '14px', fontWeight: 700, color: '#111111', marginBottom: '3px' }}>
+                      Склад запчастин в Україні
+                    </div>
+                    <div style={{ fontSize: '13px', color: '#666666', lineHeight: 1.6 }}>
+                      Постійна наявність роликів, пасів, зірочок та зношуваних деталей на складі в Дніпрі.
+                    </div>
+                  </div>
+                </div>
+
+                <div style={{ display: 'flex', gap: '14px', alignItems: 'flex-start' }}>
+                  <div style={{ width: '32px', height: '32px', backgroundColor: '#f5f5f5', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: '2px', color: '#d97706' }}>
+                    <Coins size={17} />
+                  </div>
+                  <div>
+                    <div style={{ fontSize: '14px', fontWeight: 700, color: '#111111', marginBottom: '3px' }}>
+                      Гнучкі умови фінансування
+                    </div>
+                    <div style={{ fontSize: '13px', color: '#666666', lineHeight: 1.6 }}>
+                      Вигідні тарифи подобової та сезонної оренди, прямий викуп та лізингові програми.
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
           </div>
