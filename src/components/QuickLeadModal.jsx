@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { X, CheckCircle2, Phone, ChevronDown, Edit3 } from 'lucide-react';
 import { formatPhoneNumber, isValidUkrainianPhone } from '../utils/phoneFormatter';
+import { submitLead } from '../utils/leadSender';
 
 const TOPIC_PRESETS = [
   'Консультація',
@@ -79,20 +80,13 @@ export default function QuickLeadModal({
     const finalTopic = isCustom ? customTopic.trim() : selectedTopic;
 
     try {
-      await fetch('/api/send-lead', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          fullName: fullName.trim(),
-          phone: phone.trim(),
-          company: company.trim(),
-          companyName: company.trim(),
-          topic: finalTopic,
-          source: 'Модальне вікно консультації',
-          timestamp: new Date().toISOString()
-        })
-      }).catch(() => null);
-
+      await submitLead({
+        fullName: fullName.trim(),
+        phone: phone.trim(),
+        company: company.trim(),
+        topic: finalTopic,
+        source: 'Модальне вікно консультації'
+      });
       setIsSuccess(true);
     } catch (err) {
       setIsSuccess(true);

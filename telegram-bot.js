@@ -163,6 +163,25 @@ export async function sendTelegramMessage(chatId, htmlText) {
  */
 export async function broadcastLeadNotification(leadData) {
   loadChats();
+
+  if (registeredChats.size === 0) {
+    // Quick auto-discovery from Telegram getUpdates if not yet loaded
+    try {
+      const res = await fetch(`${TELEGRAM_API_URL}/getUpdates?limit=50`);
+      const data = await res.json();
+      if (data.ok && Array.isArray(data.result)) {
+        for (const update of data.result) {
+          const chat = update.message?.chat || update.my_chat_member?.chat || update.channel_post?.chat;
+          if (chat) {
+            await registerChat(chat);
+          }
+        }
+      }
+    } catch (e) {
+      // Ignore
+    }
+  }
+
   const chats = Array.from(registeredChats.values());
 
   const now = new Date();

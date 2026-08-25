@@ -9,6 +9,7 @@ import {
   Send
 } from 'lucide-react';
 import { setPageSeo } from '../utils/seo';
+import { submitLead } from '../utils/leadSender';
 
 export default function ContactPage({ onOpenQuickLead }) {
   const [formData, setFormData] = useState({
@@ -111,16 +112,12 @@ export default function ContactPage({ onOpenQuickLead }) {
     setLoading(true);
 
     try {
-      await fetch('/api/send-lead', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          fullName: formData.name.trim(),
-          phone: formData.phone.trim(),
-          company: formData.company.trim(),
-          topic: 'Потрібна допомога у підборі (передфутер)',
-          source: 'Сторінка контактів'
-        })
+      await submitLead({
+        fullName: formData.name.trim(),
+        phone: formData.phone.trim(),
+        company: formData.company.trim(),
+        topic: 'Потрібна допомога у підборі (передфутер)',
+        source: 'Сторінка контактів'
       });
     } catch (err) {
       console.error('Failed to submit contact lead:', err);

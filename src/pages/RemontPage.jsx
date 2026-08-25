@@ -14,6 +14,7 @@ import {
   Sparkles
 } from 'lucide-react';
 import { setPageSeo } from '../utils/seo';
+import { submitLead } from '../utils/leadSender';
 
 export default function RemontPage({ currency, onOpenQuickLead }) {
   useEffect(() => {
@@ -85,15 +86,11 @@ export default function RemontPage({ currency, onOpenQuickLead }) {
     setSubmitted(true);
 
     try {
-      await fetch('/api/send-lead', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          fullName: name.trim(),
-          phone: phone.trim(),
-          topic: 'Ремонт та реставрація транспортерів (консультація інженера)',
-          source: 'Сторінка Ремонт транспортерів'
-        })
+      await submitLead({
+        fullName: name.trim(),
+        phone: phone.trim(),
+        topic: 'Ремонт та реставрація транспортерів (консультація інженера)',
+        source: 'Сторінка Ремонт транспортерів'
       });
     } catch (err) {
       console.error('Failed to submit remont lead:', err);

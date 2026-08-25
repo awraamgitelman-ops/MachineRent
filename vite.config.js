@@ -26,7 +26,48 @@ function decryptImageUrl(tokenWithExt) {
 function encryptedMediaPlugin() {
   return {
     name: 'encrypted-media-proxy',
-    configureServer(server) {
+    async configureServer(server) {
+      // Initialize Telegram Bot in Dev mode
+      try {
+        const { initTelegramBot, broadcastLeadNotification, getBotStatus } = await import('./telegram-bot.js');
+        initTelegramBot().catch(() => null);
+
+        // Handle /api/send-lead
+        server.middlewares.use('/api/send-lead', async (req, res) => {
+          if (req.method === 'POST') {
+            let body = '';
+            req.on('data', chunk => { body += chunk; });
+            req.on('end', async () => {
+              try {
+                const leadData = JSON.parse(body || '{}');
+                console.log('\n🚜 [НОВА ЗАЯВКА НА ОРЕНДУ / КУПІВЛЮ АГРОТЕХНІКИ]');
+                console.log(`👤 Клієнт: ${leadData.fullName} | 📞 Телефон: ${leadData.phone}`);
+                console.log(`📌 Тема: ${leadData.topic} | 🏢 Підприємство: ${leadData.company || '—'}`);
+                
+                const telegramResult = await broadcastLeadNotification(leadData);
+                res.setHeader('Content-Type', 'application/json');
+                res.end(JSON.stringify({ success: true, telegram: telegramResult }));
+              } catch (err) {
+                res.setHeader('Content-Type', 'application/json');
+                res.end(JSON.stringify({ success: false, error: err.message }));
+              }
+            });
+            return;
+          }
+          res.setHeader('Content-Type', 'application/json');
+          res.end(JSON.stringify({ success: true }));
+        });
+
+        // Handle /api/telegram-status
+        server.middlewares.use('/api/telegram-status', (req, res) => {
+          res.setHeader('Content-Type', 'application/json');
+          res.end(JSON.stringify(getBotStatus()));
+        });
+      } catch (e) {
+        console.warn('Telegram bot dev integration note:', e.message);
+      }
+
+      // Handle /api/media
       server.middlewares.use('/api/media', (req, res, next) => {
         const token = req.url.slice(1);
         const rawUrl = decryptImageUrl(token);

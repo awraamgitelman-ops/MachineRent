@@ -201,6 +201,6 @@ export const HOME_DISCOUNTS_PRODUCTS = [
     "slug": "samoskyd-kontejneriv-seriya-ws-1600-1000-perekydach-kontejneriv-z-ovochamy",
     "brand": "Domasz",
     "priceUah": 286720,
-    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUsgAhdfPwkdK1VKAycVAw.jpg"
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUEySkNXYlVfRlVIAH5VVBFSHXtLE11V.jpg"
   }
 ];
