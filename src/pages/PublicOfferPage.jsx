@@ -173,7 +173,7 @@ export default function PublicOfferPage() {
               </div>
 
               <div>
-                <div style={{ color: '#777', fontSize: '12px', textTransform: 'uppercase', fontWeight: 600, marginBottom: '2px' }}>Фактичний майданчик та сервіс:</div>
+                <div style={{ color: '#777', fontSize: '12px', textTransform: 'uppercase', fontWeight: 600, marginBottom: '2px' }}>Відділ продажу та сервіс:</div>
                 <div style={{ color: '#444' }}>49051, Україна, Дніпропетровська обл., м. Дніпро, вул. Курсантська, 3</div>
               </div>
 

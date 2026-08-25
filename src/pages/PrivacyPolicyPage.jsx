@@ -180,7 +180,7 @@ export default function PrivacyPolicyPage() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '14px' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <MapPin size={16} color="var(--wd-primary-color)" />
-                <span>Юр. адреса: 49000, м. Дніпро, вул. Калинова, 49, кв. 189 | Майданчик: 49051, м. Дніпро, вул. Курсантська, 3</span>
+                <span>Юр. адреса: 49000, м. Дніпро, вул. Калинова, 49, кв. 189 | Відділ продажу: 49051, м. Дніпро, вул. Курсантська, 3</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Phone size={16} color="var(--wd-primary-color)" />
