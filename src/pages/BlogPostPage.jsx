@@ -141,11 +141,7 @@ export default function BlogPostPage({ onOpenQuickLead }) {
               {post.category}
             </span>
             <div style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: '13px', color: '#777' }}>
-              <Calendar size={14} color="#888" />
-              <span>{post.formattedDate}</span>
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: '13px', color: '#777' }}>
-              <Clock size={14} color="#888" />
+              <Clock size={14} color="var(--wd-primary-color)" />
               <span>Час читання: {post.readTime}</span>
             </div>
           </div>
@@ -279,8 +275,9 @@ export default function BlogPostPage({ onOpenQuickLead }) {
                     </div>
                   </div>
 
-                  <div style={{ padding: '0 14px 14px 14px', fontSize: '12px', color: '#888' }}>
-                    {rel.formattedDate}
+                  <div style={{ padding: '0 14px 14px 14px', fontSize: '12px', color: '#888', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                    <Clock size={12} color="#888" />
+                    <span>{rel.readTime}</span>
                   </div>
                 </div>
               ))}
