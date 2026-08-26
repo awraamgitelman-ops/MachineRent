@@ -32,7 +32,8 @@ export default function MachineryCard({
             objectFit: 'contain'
           }}
           onError={(e) => {
-            e.target.src = '/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUc2Bw0cDhJbEQgfAwwAUBsJEQcCGkF_Ukt_GkcaB1tB.jpg';
+            e.target.onerror = null;
+            e.target.src = '/assets/products/zhatky-dlya-kombajniv.webp';
           }}
         />
       </div>

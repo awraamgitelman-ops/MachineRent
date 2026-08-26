@@ -276,6 +276,10 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
               <img
                 src={machine.images[activePhotoIdx] || machine.images[0]}
                 alt={machine.name}
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = '/assets/products/zhatky-dlya-kombajniv.webp';
+                }}
                 style={{
                   maxWidth: '100%',
                   maxHeight: '100%',

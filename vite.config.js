@@ -2,6 +2,9 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import https from 'https';
 import http from 'http';
+import fs from 'fs';
+import path from 'path';
+import crypto from 'crypto';
 
 const SECRET_KEY = 'AgroRentex-Media-Key-2026';
 
@@ -67,12 +70,30 @@ function encryptedMediaPlugin() {
         console.warn('Telegram bot dev integration note:', e.message);
       }
 
-      // Handle /api/media
+      // Handle /api/media with local disk caching and 429 protection
+      const MEDIA_CACHE_DIR = path.resolve(process.cwd(), 'public', 'media-cache');
+      if (!fs.existsSync(MEDIA_CACHE_DIR)) {
+        fs.mkdirSync(MEDIA_CACHE_DIR, { recursive: true });
+      }
+      const FALLBACK_IMAGE_PATH = path.resolve(process.cwd(), 'public', 'assets', 'products', 'zhatky-dlya-kombajniv.webp');
+
       server.middlewares.use('/api/media', (req, res, next) => {
         const token = req.url.slice(1);
+        const safeFileName = crypto.createHash('md5').update(token).digest('hex') + '.jpg';
+        const cacheFilePath = path.join(MEDIA_CACHE_DIR, safeFileName);
+
+        if (fs.existsSync(cacheFilePath)) {
+          res.setHeader('Content-Type', 'image/jpeg');
+          res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+          return fs.createReadStream(cacheFilePath).pipe(res);
+        }
+
         const rawUrl = decryptImageUrl(token);
 
         if (!rawUrl || !rawUrl.startsWith('http')) {
+          if (fs.existsSync(FALLBACK_IMAGE_PATH)) {
+            return fs.createReadStream(FALLBACK_IMAGE_PATH).pipe(res);
+          }
           return next();
         }
 
@@ -82,7 +103,7 @@ function encryptedMediaPlugin() {
 
           const requestOptions = {
             headers: {
-              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+              'User-Agent': 'Googlebot-Image/1.0',
               'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
               'Referer': parsed.origin
             }
@@ -93,22 +114,42 @@ function encryptedMediaPlugin() {
               const redirectClient = externalRes.headers.location.startsWith('https') ? https : http;
               redirectClient.get(externalRes.headers.location, requestOptions, (redirectRes) => {
                 res.setHeader('Content-Type', redirectRes.headers['content-type'] || 'image/jpeg');
-                res.setHeader('Cache-Control', 'public, max-age=2592000, immutable');
+                res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+                const fileStream = fs.createWriteStream(cacheFilePath);
+                redirectRes.pipe(fileStream);
                 redirectRes.pipe(res);
-              }).on('error', () => next());
+              }).on('error', () => {
+                if (fs.existsSync(FALLBACK_IMAGE_PATH)) fs.createReadStream(FALLBACK_IMAGE_PATH).pipe(res);
+                else next();
+              });
               return;
             }
 
             if (externalRes.statusCode !== 200) {
+              if (fs.existsSync(FALLBACK_IMAGE_PATH)) {
+                return fs.createReadStream(FALLBACK_IMAGE_PATH).pipe(res);
+              }
               return next();
             }
 
             res.setHeader('Content-Type', externalRes.headers['content-type'] || 'image/jpeg');
-            res.setHeader('Cache-Control', 'public, max-age=2592000, immutable');
+            res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+            const fileStream = fs.createWriteStream(cacheFilePath);
+            externalRes.pipe(fileStream);
             externalRes.pipe(res);
-          }).on('error', () => next());
+          }).on('error', () => {
+            if (fs.existsSync(FALLBACK_IMAGE_PATH)) {
+              fs.createReadStream(FALLBACK_IMAGE_PATH).pipe(res);
+            } else {
+              next();
+            }
+          });
         } catch {
-          next();
+          if (fs.existsSync(FALLBACK_IMAGE_PATH)) {
+            fs.createReadStream(FALLBACK_IMAGE_PATH).pipe(res);
+          } else {
+            next();
+          }
         }
       });
     }

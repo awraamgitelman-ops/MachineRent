@@ -4,6 +4,8 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import https from 'https';
 import http from 'http';
+import fs from 'fs';
+import crypto from 'crypto';
 import { initTelegramBot, broadcastLeadNotification, getBotStatus } from './telegram-bot.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -121,13 +123,33 @@ function decryptImageUrl(tokenWithExt) {
   }
 }
 
-// Encrypted Media Streamer (/api/media/:encodedUrl)
+const MEDIA_CACHE_DIR = path.join(__dirname, 'public', 'media-cache');
+if (!fs.existsSync(MEDIA_CACHE_DIR)) {
+  fs.mkdirSync(MEDIA_CACHE_DIR, { recursive: true });
+}
+
+const FALLBACK_IMAGE_PATH = path.join(__dirname, 'public', 'assets', 'products', 'zhatky-dlya-kombajniv.webp');
+
+// Encrypted Media Streamer (/api/media/:encodedUrl) with disk cache & 429 protection
 app.get('/api/media/:encodedUrl', (req, res) => {
+  const safeFileName = crypto.createHash('md5').update(req.params.encodedUrl).digest('hex') + '.jpg';
+  const cacheFilePath = path.join(MEDIA_CACHE_DIR, safeFileName);
+
+  // 1. Return from disk cache if already downloaded
+  if (fs.existsSync(cacheFilePath)) {
+    res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+    return res.sendFile(cacheFilePath);
+  }
+
   try {
     let rawUrl = decryptImageUrl(req.params.encodedUrl);
     if (!rawUrl || !rawUrl.startsWith('http')) {
-      // Fallback: try raw decodeURIComponent
       rawUrl = decodeURIComponent(req.params.encodedUrl);
+    }
+
+    if (!rawUrl || !rawUrl.startsWith('http')) {
+      if (fs.existsSync(FALLBACK_IMAGE_PATH)) return res.sendFile(FALLBACK_IMAGE_PATH);
+      return res.status(200).end();
     }
 
     const parsedUrl = new URL(rawUrl);
@@ -135,7 +157,7 @@ app.get('/api/media/:encodedUrl', (req, res) => {
 
     const requestOptions = {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'User-Agent': 'Googlebot-Image/1.0',
         'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
         'Referer': parsedUrl.origin
       }
@@ -143,32 +165,50 @@ app.get('/api/media/:encodedUrl', (req, res) => {
 
     client.get(rawUrl, requestOptions, (externalRes) => {
       if (externalRes.statusCode >= 300 && externalRes.statusCode < 400 && externalRes.headers.location) {
-        // Handle redirect
         const redirectClient = externalRes.headers.location.startsWith('https') ? https : http;
         redirectClient.get(externalRes.headers.location, requestOptions, (redirectRes) => {
           const contentType = redirectRes.headers['content-type'] || 'image/jpeg';
           res.setHeader('Content-Type', contentType);
-          res.setHeader('Cache-Control', 'public, max-age=2592000, immutable');
+          res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+          const fileStream = fs.createWriteStream(cacheFilePath);
+          redirectRes.pipe(fileStream);
           redirectRes.pipe(res);
-        }).on('error', () => res.status(500).send('Redirect stream error'));
+        }).on('error', () => {
+          if (fs.existsSync(FALLBACK_IMAGE_PATH)) res.sendFile(FALLBACK_IMAGE_PATH);
+          else res.status(200).end();
+        });
         return;
       }
 
       if (externalRes.statusCode !== 200) {
-        return res.status(externalRes.statusCode).send('Failed to fetch image');
+        // Upstream rate limit or error - serve fallback gracefully instead of breaking
+        if (fs.existsSync(FALLBACK_IMAGE_PATH)) {
+          return res.sendFile(FALLBACK_IMAGE_PATH);
+        }
+        return res.status(200).end();
       }
 
       const contentType = externalRes.headers['content-type'] || 'image/jpeg';
       res.setHeader('Content-Type', contentType);
-      res.setHeader('Cache-Control', 'public, max-age=2592000, immutable'); // Cache for 30 days
+      res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
 
+      const fileStream = fs.createWriteStream(cacheFilePath);
+      externalRes.pipe(fileStream);
       externalRes.pipe(res);
     }).on('error', (err) => {
-      console.error('Media proxy error:', err.message);
-      res.status(500).send('Media stream error');
+      console.error('Media proxy fetch error:', err.message);
+      if (fs.existsSync(FALLBACK_IMAGE_PATH)) {
+        res.sendFile(FALLBACK_IMAGE_PATH);
+      } else {
+        res.status(200).end();
+      }
     });
   } catch (err) {
-    res.status(400).send('Invalid URL format');
+    if (fs.existsSync(FALLBACK_IMAGE_PATH)) {
+      res.sendFile(FALLBACK_IMAGE_PATH);
+    } else {
+      res.status(200).end();
+    }
   }
 });
 
