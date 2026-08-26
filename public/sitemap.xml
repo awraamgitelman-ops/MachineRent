@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://agrorentex.com/</loc>
     <lastmod>2026-08-26</lastmod>
@@ -50,6 +49,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://agrorentex.com/contact</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://agrorentex.com/contact-us</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -84,1581 +89,665 @@
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUEkVEIfPhAdK1VKAycVAw.jpg</image:loc>
-      <image:title>Автоматизація передпродажної підготовки: вагопакувальні лінії Domasz WE-30 та сортувальні столи</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/blog/restavracziya-transporteriv-yak-zaoshhadyty-do-50-bjudzhetu</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQkCh0BJkgaBgQWXj0KFh0EXyITVBwfAwIGOVRCX3wSCxYV.webp</image:loc>
-      <image:title>Реставрація гумово-пруткових транспортерів: як заощадити до 50% бюджету перед осіннім копанням</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/blog/rynok-ovochivnycztva-ukrayiny-rozshyrennya-ploshh-pid-ovochi</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHV0zCBoCMwkxFw0dXyMMAwAXAzwAG10.webp</image:loc>
-      <image:title>Ринок овочівництва України: розширення площ під цибулю та столовий буряк у західних та центральних областях</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/blog/kontejnerne-zberigannya-ovochiv-zberezhennya-tovarnogo-vyglyadu</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUBsEhkdMxwHGgxVQywHDRsAVC5ICUJCRV5PIBUcACERB1kOF0M5AA4HBF8lAFRXUFVAXyYGHAErBEMfBApZIhUIAE9HOwI.jpg</image:loc>
-      <image:title>Контейнерне зберігання овочів: як зберегти товарний вигляд картоплі та моркви до весни</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/blog/pidgotovka-do-sezonu-zbyrannya-kartopli-nalashtuvannya-kombajniv-grimme</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHV0gFQYAIgkXFUgIQiEAV0cLXSw.jpg</image:loc>
-      <image:title>Підготовка до сезону збирання картоплі: як налаштувати комбайни Grimme та мінімізувати втрати врожаю</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/aplikator-mikrogranulyator-zibo-gandy-elektropryvid</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQ52A0MMMVFYFVBASXhRUQoHTioGGkgKUVEDIwZFWDYAMRYMHwMnFQM.jpg</image:loc>
-      <image:title>ZIBO / Gandy: Аплікатор-мікрогранулятор 12 В</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/grebneutvoryuvach</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQJyUUdcaldZTFdPFWMPFA4.jpg</image:loc>
-      <image:title>Дисковий гребенеутворювач 7х75 см</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQZ0VEQNM1xXRwYdFH5cXFFZHC5TQUgKAlAPJVZKX2NQQB4VHUo.jpeg</image:loc>
-      <image:title>Дисковий гребенеутворювач 7х75 см</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHVR5X0pdZFMNTAZKSHVTUA8AFSkESx8LUlMDdwFCX2QAQB4VHUo.jpeg</image:loc>
-      <image:title>Дисковий гребенеутворювач 7х75 см</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-gl32e-kartoplesadzhalka</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUUiFRcKPBYGGxEnGhIXARoUQT9LE11V.jpg</image:loc>
-      <image:title>Grimme GL32E Картоплесаджалка</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUUiFRcKPBYGGxEnHBIXARoUQT9LE11V.jpg</image:loc>
-      <image:title>Grimme GL32E Картоплесаджалка</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHQNwBEJdMQBdEQZBSCsEXQ0HTHkEHRpWAQJQclBBWmcDW0RcQB8rAFc2E0g4EBVZHFpCUQ.jpg</image:loc>
-      <image:title>Grimme GL32E Картоплесаджалка</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/struik-flkb</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVAtDBAwZgkBBAJLQigdDh4VcikMFl9dRFtObFRCX2JIAQBLEl0q.jpg</image:loc>
-      <image:title>Struik FLKB: Навісний подрібнювач бадилля</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVAtDBAwaggCBhAaXDwICRAPcikMFl9dRFtObFRCX2JIAQBLEl0q.jpg</image:loc>
-      <image:title>Struik FLKB: Навісний подрібнювач бадилля</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVAtDBAwahMLGA8fQyRUHh8FcikMFl9dRFtObFRCX2JIAQBLEl0q.jpg</image:loc>
-      <image:title>Struik FLKB: Навісний подрібнювач бадилля</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/struik-lkb-shift-1500</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVoqBV8cOgwIAEhJGH1VOxBWQz4WGkUAV1pPdDgVAycRGhsLVkc9Ag.jpg</image:loc>
-      <image:title>Struik LKB-SHIFT 1500 подрібнювач бадилля</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVoqBV8cOgwIAEhJGH1VO1kXXj8EHkVdCFxRMjgVAycRGhsLVkc9Ag.jpg</image:loc>
-      <image:title>Struik LKB-SHIFT 1500 подрібнювач бадилля</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVoqBV8cOgwIAEhJGH1VOxkWHCQEEV9FVlxfcjgVAycRGhsLVkc9Ag.jpg</image:loc>
-      <image:title>Struik LKB-SHIFT 1500 подрібнювач бадилля</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/struik-glutton-podribnyuvach-badyllya</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxRRwZVyoJBhgTSH4BJkpeRUZCLglfXnwPHhM.jpg</image:loc>
-      <image:title>Struik GLUTTON подрібнювач бадилля</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxFgsSVCQEUgdXVCRTJkpeRUZCLglfXnwPHhM.jpg</image:loc>
-      <image:title>Struik GLUTTON подрібнювач бадилля</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVEtEgYbPQsxEwMPRzpTUxpQXjEDJkpeRUZCLglfXnwPHhM.jpg</image:loc>
-      <image:title>Struik GLUTTON подрібнювач бадилля</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/weed-master</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEkAhZCPwQdAAAKciJcDxkFVHodTk5IAW1RLRIGGz0LQB4VHw.jpg</image:loc>
-      <image:title>Struik WEED-MASTER машина для механічного видалення бур'янів</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEkAhZCPwQdAAAKciAfFB4KRyEJQFkHUW1RLRIGGz0LQB4VHw.jpg</image:loc>
-      <image:title>Struik WEED-MASTER машина для механічного видалення бур'янів</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEkAhZCPwQdAAAKcj4AExoGFCgGHkYLSm1RLRIGGz0LQB4VHw.jpg</image:loc>
-      <image:title>Struik WEED-MASTER машина для механічного видалення бур'янів</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/struik-wr-grebneutvoryuvach</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEzOAJbOAIKBRIVTj8LFERQciwJDFlGX1wYKxcV.jpg</image:loc>
-      <image:title>Struik WR Гребнеутворювач</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEzOEtYJgEJRBIVGSRdBzYGQT4RDUJcHlhGJg.jpg</image:loc>
-      <image:title>Struik WR Гребнеутворювач</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUEzOAEOKwkDRxweQydcATYGQT4RDUJcHlhGJg.jpg</image:loc>
-      <image:title>Struik WR Гребнеутворювач</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/row-fix-space-mizhryadnyj-rotornyj-kultyvator</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx1DBxUZTig6CgZSGjwGEUZKVV1MbFYtCD4QGgAKFgMnFQM.jpg</image:loc>
-      <image:title>Struik ROW-FIX SPACE міжрядний роторний культиватор</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx1DBxUZTig6Ew8ZWz8SGkMKX0tZHgAeGiYRARpLEl0q.jpg</image:loc>
-      <image:title>Struik ROW-FIX SPACE міжрядний роторний культиватор</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx1DBxUZTig6VwgFHDgVSUNeQEYEbFYtCD4QGgAKFgMnFQM.jpg</image:loc>
-      <image:title>Struik ROW-FIX SPACE міжрядний роторний культиватор</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/zf-mizhryadnyj-rotornyj-kultyvator</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUwnOBkZJgofEgESXitWHkRQciwJDFlGX1wYKxcV.jpg</image:loc>
-      <image:title>Struik ZF міжрядний роторний культиватор</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUwnOEsfOgYNQg0LRH4NCTYGQT4RDUJcHlhGJg.jpg</image:loc>
-      <image:title>Struik ZF міжрядний роторний культиватор</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUwnOBMeJhcWRVEPTy8HEjYGQT4RDUJcHlhGJg.jpg</image:loc>
-      <image:title>Struik ZF міжрядний роторний культиватор</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/row-fix-mizhryadnyj-rotornyj-kultyvator</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xQh8JHyITHVoAGi4NJkpeRUZCLglcBSIC.jpg</image:loc>
-      <image:title>Struik ROW-FIX міжрядний роторний культиватор</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xEAgBSygBAxAEW34BJkpeRUZCLglcBSIC.jpg</image:loc>
-      <image:title>Struik ROW-FIX міжрядний роторний культиватор</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xBgEaWDgNBVgARjsSVBxtV15DNRMdAXwPHhM.jpg</image:loc>
-      <image:title>Struik ROW-FIX міжрядний роторний культиватор</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/biorotix-3000-ot-rotornyj-kultyvator</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUQuEF8JOx0xBgEaWDgNBVgARjsSJk9bX0BZNQ4KQmFVXkRIF1ljDxQO.jpg</image:loc>
-      <image:title>Struik BIOROTIX 3000-OT роторний культиватор</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQoCAAAJgwWKxYUHy5TDwsNFDwUFHJQWV1ELhMbF39WXkRVVUI5Sw4ZBg.jpg</image:loc>
-      <image:title>Struik BIOROTIX 3000-OT роторний культиватор</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVQoCAAAJgwWKwQOGCAWFRpYQzsdCXJQWV1ELhMbF39WXkRVVUI5Sw4ZBg.jpg</image:loc>
-      <image:title>Struik BIOROTIX 3000-OT роторний культиватор</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/varix-3000-ot-rotornyj-kultyvator</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwoYERcMQj0DFgwEXhRTH0teUV8GNBUFHD46CRgQDFkiC0oDEUo.jpg</image:loc>
-      <image:title>Struik VARIX 3000-OT роторний культиватор</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwoYERcMQj0DFgwEXhQAFB9cXwJbJB8XFmE6CRgQDFkiC0oDEUo.jpg</image:loc>
-      <image:title>Struik VARIX 3000-OT роторний культиватор</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwoYERcMQj0DFgwEXhQNSk9IRVMFIB4BHSQ6CRgQDFkiC0oDEUo.jpg</image:loc>
-      <image:title>Struik VARIX 3000-OT роторний культиватор</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/varix-twinrotor-rotornyj-kultyvator-iz-dvoma-valamy-rotora</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXDRIGFgoaGDsMCBNVTBQCFVhGRF1Ybw0CCA.jpg</image:loc>
-      <image:title>Struik VARIX TWIN ROTOR роторний культиватор з двома валами</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXDRcCERAIRzscEQJWVxQCFVhGRF1Ybw0CCA.jpg</image:loc>
-      <image:title>Struik VARIX TWIN ROTOR роторний культиватор з двома валами</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXDVQGQA4RRy5cEh4EVxQCFVhGRF1Ybw0CCA.jpg</image:loc>
-      <image:title>Struik VARIX TWIN ROTOR роторний культиватор з двома валами</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/varix-fx-modyfikovanyj-rotornyj-kultyvator</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMWKxYbGSICFxsIQy4IA3JVXEdCNQgcQTgVCQ.jpg</image:loc>
-      <image:title>Struik VARIX FX роторний культиватор для полів з плоским рельєфом</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMWKwAfQzgUBwgTRiYSEHJVXEdCNQgcQTgVCQ.jpg</image:loc>
-      <image:title>Struik VARIX FX роторний культиватор для полів з плоским рельєфом</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMWKw8cSSgGExEASXsNCXJVXEdCNQgcQTgVCQ.jpg</image:loc>
-      <image:title>Struik VARIX FX роторний культиватор для полів з плоским рельєфом</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/varix-f-kultyvator-dlya-poliv-z-ploskym-relyefom</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMxAQsASS5VDFwOV3sWVBxtV15DNRMdAXwPHhM.jpg</image:loc>
-      <image:title>Struik VARIX F культиватор для полів з плоским рельєфом</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMxAQsASS5VDFwOV3sWJkpeRUZCLglcBSIC.jpg</image:loc>
-      <image:title>Struik VARIX F культиватор для полів з плоским рельєфом</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHUAgFRsXfwMxQgALWSMGHhNZVSVTJkpeRUZCLglcBSIC.jpg</image:loc>
-      <image:title>Struik VARIX F культиватор для полів з плоским рельєфом</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/struik-rf-universalnyj-rotornyj-kultyvator</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcj8XHQ0LVS0NF1xfAm1EJBQHAyZLBAQC.jpg</image:loc>
-      <image:title>Struik RF універсальний роторний культиватор</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcnkIHQwZRnoOC0VAWG1EJBQHAyZLBAQC.jpg</image:loc>
-      <image:title>Struik RF універсальний роторний культиватор</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgICHVUuChAGPwQdAAAKcjQMFwATXCcdCxpLVW1EJBQHAyZLBAQC.jpg</image:loc>
-      <image:title>Struik RF універсальний роторний культиватор</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/79612</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIBHUYpCAYADVdeRlZVHHxIVlE-HHtISRQfAQFpJgsHGyYKAFoPCEo.jpg</image:loc>
-      <image:title>Struik VariX універсальний роторний культиватор</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIBHUAgFRsXDQMbEgoJQz5VFB4bSRQCFVhGRF1Ybw0CCA.jpg</image:loc>
-      <image:title>Struik VariX універсальний роторний культиватор</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIBHUAgFRsXDRYPGlUNRS4TFBMPRxQCFVhGRF1Ybw0CCA.jpg</image:loc>
-      <image:title>Struik VariX універсальний роторний культиватор</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/pidgortach-grebneutvoryuvach-zibo-super</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/assets/products/pidgortach-grebneutvoryuvach-zibo-super.jpg</image:loc>
-      <image:title>Підгортач-гребнеутворювач Zibo Super</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUZwUF9dZFBaTV1KGXlVSgMRSg.jpg</image:loc>
-      <image:title>Підгортач-гребнеутворювач Zibo Super</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUwoBR0wMwQAFgoNWhIXEQ4XQjkIHF8EHlhGJg.jpg</image:loc>
-      <image:title>Підгортач-гребнеутворювач Zibo Super</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/gasytel-padinnya-dlya-ovochiv</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUU1CAIcOgoNH0gIQjkEEAZMWCUMFkMfVlNaLQUACjMOCwZIFEIsAQ0HBgA4AAhYV15RU2xSXAUiAg.jpg</image:loc>
-      <image:title>Гаситель падіння для овочів</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUU1CAIcOgoNH0gIQjkEEAZMWCUMFkMfVlNaLQUACjMOCwZIFEIsAQ0HBgA4AAhYV15RU2xWXAUiAg.jpg</image:loc>
-      <image:title>Гаситель падіння для овочів</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-c-line-avtomatyzovane-ochyshhennya-czybuli</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVVsCxsBN1RAHhUf.jpg</image:loc>
-      <image:title>Domasz C-Line: Автоматизоване очищення цибулі</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVVsCxsBN1dAHhUf.jpg</image:loc>
-      <image:title>Domasz C-Line: Автоматизоване очищення цибулі</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVVsCxsBN1ZAHhUf.jpg</image:loc>
-      <image:title>Domasz C-Line: Автоматизоване очищення цибулі</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-sst-onion-400x120-inspekczijnyj-stil-dlya-czybuli</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHUUyEx0BOwoARFRLAHxLDhkG.jpg</image:loc>
-      <image:title>Domasz SST ONION 400×120: Інспекційний стіл для цибулі</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHUUyEx0BOwoARFRLAycVAw.jpg</image:loc>
-      <image:title>Domasz SST ONION 400×120: Інспекційний стіл для цибулі</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHUUyEx0BOwoARFRMAycVAw.jpg</image:loc>
-      <image:title>Domasz SST ONION 400×120: Інспекційний стіл для цибулі</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-om3-mashyna-dlya-obrizannya-pera-czybuli</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVksVC1CPAoYEVVJAycVAw.jpg</image:loc>
-      <image:title>Domasz OM3: Машина для обрізання пера цибулі</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVksVC1CPAoYEVVKAycVAw.jpg</image:loc>
-      <image:title>Domasz OM3: Машина для обрізання пера цибулі</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVksVC1CYlRAHhUf.jpg</image:loc>
-      <image:title>Domasz OM3: Машина для обрізання пера цибулі</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-om2-mashyna-dlya-obrizannya-pera-czybuli</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVksVS1fY0sEBAI.jpg</image:loc>
-      <image:title>Domasz OM2: Машина для обрізання пера цибулі</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVksVS0BPRILWVVKAycVAw.jpg</image:loc>
-      <image:title>Domasz OM2: Машина для обрізання пера цибулі</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVksVS1fY0hdRFUAHn1VSgMRSg.jpg</image:loc>
-      <image:title>Domasz OM2: Машина для обрізання пера цибулі</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-ans-napovnyuvach-yashhykiv-ta-korobok</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVcvFC1fYEhdRFUAHn1VSgMRSg.jpg</image:loc>
-      <image:title>Domasz ANS: Наповнювач ящиків та коробок</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-fa-1-avtomatychna-pakuvalna-mashyna</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVAgVi1fY0hdRFUAHn1VSgMRSg.jpg</image:loc>
-      <image:title>Domasz FA-1: Автоматична пакувальна машина</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-ra-1-avtomatychna-pakuvalna-mashyna</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHUQgVi1fYUhdRFUAHn1VSgMRSg.jpg</image:loc>
-      <image:title>Domasz RA-1: Автоматична пакувальна машина</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-r12l-kombinaczijni-vagy</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHURwVR4wY0sEBAI.jpg</image:loc>
-      <image:title>Domasz R12L: Комбінаційні ваги</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHURwVR4wY0hdRFUAHn1VSgMRSg.jpg</image:loc>
-      <image:title>Domasz R12L: Комбінаційні ваги</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-r09xl-kombinaczijni-vagy</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHURxXgoDDVRAHhUf.jpg</image:loc>
-      <image:title>Domasz R09XL: Комбінаційні ваги</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHURxXgoDDVRDR1VIVX5VVEcLXSw.jpg</image:loc>
-      <image:title>Domasz R09XL: Комбінаційні ваги</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-r09l-kombinaczijni-vagy</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHURxXh4wY0hdRFUAHn1VSgMRSg.jpg</image:loc>
-      <image:title>Domasz R09L: Комбінаційні ваги</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-we-50-plus-zvazhuvalna-stancziya-dlya-ovochiv</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHUEkUkIfPhAdK1VLAH5VVBFSHXtLE11V.jpg</image:loc>
-      <image:title>Domasz WE-50 PLUS: Зважувальна станція для овочів</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/zvazhuvalno-pakuvalna-mashyna-elektronna</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUEkVEIfPhAdK1VKAycVAw.jpg</image:loc>
-      <image:title>Domasz WE-30 PLUS: Зважувально-пакувальна машина</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUEkVEIfPhAdK1VLAycVAw.jpg</image:loc>
-      <image:title>Domasz WE-30 PLUS: Зважувально-пакувальна машина</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQZ4V19WYkheKxcdXjgJEDYTSDgQFVkcWkJR.jpg</image:loc>
-      <image:title>Domasz WE-30 PLUS: Зважувально-пакувальна машина</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-we-15-plus-zvazhuvalna-stancziya-dlya-ovochiv</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHUEkVkcwYlRDR1VIVX5VVEcLXSw.jpg</image:loc>
-      <image:title>Domasz WE-15 PLUS: Зважувальна станція для овочів</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-bbw-2-napovnyuvach-big-bag-mishkiv</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVQjEEAwYlZAHhUf.jpg</image:loc>
-      <image:title>Domasz BBW-2: Наповнювач &amp;#8220;Big-Bag&amp;#8221; мішків</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVQjEEAwYlRAHhUf.jpg</image:loc>
-      <image:title>Domasz BBW-2: Наповнювач &amp;#8220;Big-Bag&amp;#8221; мішків</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVQjEEAwYldAHhUf.jpg</image:loc>
-      <image:title>Domasz BBW-2: Наповнювач &amp;#8220;Big-Bag&amp;#8221; мішків</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-bbw-1-napovnyuvach-big-bag-mishkiv</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVQjEEMwYlZAHhUf.jpg</image:loc>
-      <image:title>Domasz BBW-1: Наповнювач &amp;#8220;Big-Bag&amp;#8221; мішків</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVQjEEMwYlRAHhUf.jpg</image:loc>
-      <image:title>Domasz BBW-1: Наповнювач &amp;#8220;Big-Bag&amp;#8221; мішків</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVQjEEMwYldAHhUf.jpg</image:loc>
-      <image:title>Domasz BBW-1: Наповнювач &amp;#8220;Big-Bag&amp;#8221; мішків</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/mashyna-dlya-pakuvannya-ovochiv-kartoplya-morkva-czybulya-ta-in-v-rashel-mishky-2-nytkova</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUFwVENdYVRcRwdVHn1VHFpRHWUPCUo.jpg</image:loc>
-      <image:title>WE-30, RA-1: Машина для пакування овочів в рашель-мішки</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-so-900-2500-sortuvalna-mashyna-dlya-ovochiv</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUuXkJfYFBeRDpJAHxLDhkG.jpg</image:loc>
-      <image:title>Domasz SO 900/2500: Сортувальна машина для овочів</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUuXkJfYFBeRDpKAycVAw.jpg</image:loc>
-      <image:title>Domasz SO 900/2500: Сортувальна машина для овочів</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUuXkJfYFBeRDpLAycVAw.jpg</image:loc>
-      <image:title>Domasz SO 900/2500: Сортувальна машина для овочів</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-sst-400x120-inspekczijnyj-stil</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyE0ZfY1dAHhUf.jpg</image:loc>
-      <image:title>Domasz SST 400&amp;#215;120: Інспекційний стіл</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyE0ZfY1cxRUsSXSo.jpg</image:loc>
-      <image:title>Domasz SST 400&amp;#215;120: Інспекційний стіл</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyE0ZfY1cxRksSXSo.jpg</image:loc>
-      <image:title>Domasz SST 400&amp;#215;120: Інспекційний стіл</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-ssr5012-rolykovyj-inspekczijnyj-stil</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyFUdfY1dAHhUf.jpg</image:loc>
-      <image:title>Domasz SSR5012: Роликовий інспекційний стіл</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyFUdfY1cxRksSXSo.jpg</image:loc>
-      <image:title>Domasz SSR5012: Роликовий інспекційний стіл</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyFV8LNxEHGABWRz0C.jpg</image:loc>
-      <image:title>Domasz SSR5012: Роликовий інспекційний стіл</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-ssr3010-rolykovyj-inspekczijnyj-stil</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyFUFfY1VAHhUf.jpg</image:loc>
-      <image:title>Domasz SSR3010: Роликовий інспекційний стіл</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyFUFfY1UxRksSXSo.jpg</image:loc>
-      <image:title>Domasz SSR3010: Роликовий інспекційний стіл</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUUyFV8LNxEHGABWRz0C.jpg</image:loc>
-      <image:title>Domasz SSR3010: Роликовий інспекційний стіл</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-pd9300-poliruvalna-mashyna-dlya-ovochiv</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUYlXkFfYksEBAI.jpg</image:loc>
-      <image:title>Domasz PD9300: Полірувальна машина для овочів</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUYlOAAAPksEBAI.jpg</image:loc>
-      <image:title>Domasz PD9300: Полірувальна машина для овочів</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUYlXkFfYkhdRFUAHn1VSgMRSg.jpg</image:loc>
-      <image:title>Domasz PD9300: Полірувальна машина для овочів</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-pd9200-poliruvalna-mashyna-dlya-ovochiv</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUYlXkBfYkhdRFUAHn1VSgMRSg.jpg</image:loc>
-      <image:title>Domasz PD9200: Полірувальна машина для овочів</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-pd8200-poliruvalna-mashyna-dlya-ovochiv</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUYlX0BfYkhfWhIdTz0.webp</image:loc>
-      <image:title>Domasz PD8200: Полірувальна машина для овочів</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUYlX0BfYksEBAI.jpg</image:loc>
-      <image:title>Domasz PD8200: Полірувальна машина для овочів</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUYlX0BfYjpcWg8ISg.jpg</image:loc>
-      <image:title>Domasz PD8200: Полірувальна машина для овочів</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-cs-110-shhitkova-mashyna-dlya-ochyshhennya</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVUySkNeYjpfWg8ISg.jpg</image:loc>
-      <image:title>Domasz CS-110: Щіткова машина для очищення</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVUySkNeYjpcWg8ISg.jpg</image:loc>
-      <image:title>Domasz CS-110: Щіткова машина для очищення</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVUySkNeYjpdWg8ISg.jpg</image:loc>
-      <image:title>Domasz CS-110: Щіткова машина для очищення</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-cs-55-shhitkova-mashyna-dlya-ochyshhennya</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVUySkdaDVRDR1VIVX5VVEcLXSw.jpg</image:loc>
-      <image:title>Domasz CS-55: Щіткова машина для очищення</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-mdw-400-mashyna-dlya-myjky-ovochiv</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVslEF9bYlVAHhUf.jpg</image:loc>
-      <image:title>Domasz MDW-400: Машина для мийки овочів</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVslEF9bYlUxRksSXSo.jpg</image:loc>
-      <image:title>Domasz MDW-400: Машина для мийки овочів</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVslEF9bYlUxR0sSXSo.jpg</image:loc>
-      <image:title>Domasz MDW-400: Машина для мийки овочів</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-mdw-300-mashyna-dlya-myjky-ovochiv</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVslEF9cYlVDR1VIVX5VVEcLXSw.jpg</image:loc>
-      <image:title>Domasz MDW-300: Машина для мийки овочів</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-kd-m-dozuvalnyj-bunker-z-perekydachem-kontejneriv</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHV0lOB8wYEsEBAI.jpg</image:loc>
-      <image:title>Domasz KD-M: Дозувальний бункер з перекидачем контейнерів</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHV0lOB8wY0sEBAI.jpg</image:loc>
-      <image:title>Domasz KD-M: Дозувальний бункер з перекидачем контейнерів</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHV0lOBkLPzoHGksSXSo.jpg</image:loc>
-      <image:title>Domasz KD-M: Дозувальний бункер з перекидачем контейнерів</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-kd-dozuvalnyj-bunker-z-perekydachem-kontejneriv</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHV0lOBkLPzpcWVZIHTVWVFlPRzsC.jpg</image:loc>
-      <image:title>Domasz KD: Дозувальний бункер з перекидачем контейнерів</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-bd-6-dozuvalnyj-bunker</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVQlSkQwY0hdRFUAHn1VSgMRSg.jpg</image:loc>
-      <image:title>Domasz BD-6: Дозувальний бункер</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/kopiyadomasz-ws-1600-1000-perekydach-kontejneriv-z-ovochamy</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUEySkNXYlVfRlVIAH5VVBFSHXtLE11V.jpg</image:loc>
-      <image:title>Domasz WS-1800/1200: Перекидач контейнерів з овочами</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-ws-1600-1000-perekydach-kontejneriv-z-ovochamy</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUEySkNZYlVfRFVIAycVAw.jpg</image:loc>
-      <image:title>Domasz WS-1600/1000: Перекидач контейнерів з овочами</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUEySkNZYlVfRFVIAH9LDhkG.jpg</image:loc>
-      <image:title>Domasz WS-1600/1000: Перекидач контейнерів з овочами</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHUEySkNZYlVfRFVIAH5LDhkG.jpg</image:loc>
-      <image:title>Domasz WS-1600/1000: Перекидач контейнерів з овочами</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-kpw-3000-pryjmalnyj-bunker-dlya-ovochiv</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIGHV0xEF9cYlVeWVRWRz0C.jpg</image:loc>
-      <image:title>Domasz KPW-3000: Приймальний бункер для овочів</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIGHV0xEF8OPglAHhUf.jpg</image:loc>
-      <image:title>Domasz KPW-3000: Приймальний бункер для овочів</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIGHV0xEF9cYlVeWVRVHn1VHFpRHWUPCUo.jpg</image:loc>
-      <image:title>Domasz KPW-3000: Приймальний бункер для овочів</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-kpw-1000-pryjmalnyj-bunker-dlya-ovochiv</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIGHV0xEF9eYlVeWVRVHn1VHFpRHWUPCUo.jpg</image:loc>
-      <image:title>Domasz KPW-1000: Приймальний бункер для овочів</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-bd-4-dozuvalnyj-bunker</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVQlSkZBOBUJ.jpg</image:loc>
-      <image:title>Domasz BD-4: Дозувальний бункер</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVQlSkYwYEsEBAI.jpg</image:loc>
-      <image:title>Domasz BD-4: Дозувальний бункер</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIHHVQlSkYwZDpfWg8ISg.jpg</image:loc>
-      <image:title>Domasz BD-4: Дозувальний бункер</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-kpw-650-pryjmalnyj-bunker-dlya-ovochiv</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIGHV0xEF9ZZ1VDRUhLHX0dV1lRAyEVHg.jpg</image:loc>
-      <image:title>Domasz KPW-650: Приймальний бункер для овочів</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/suha-chystka-dlya-kartopli-14-shhitok</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUUiFRcKPBYGGxEnHGBWVFkZHntVV0dCVw.jpg</image:loc>
-      <image:title>Adena Agro DC1455: Суха чистка для картоплі</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/inspekczijnyj-rolykovyj-stil-z-kanalom-dlya-vidvodu-nekondycziyi</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVQkHV8BMx8YDUsSXSo.jpg</image:loc>
-      <image:title>Adena agro INS25012: Інспекційний роликовий стіл з каналом для відводу некондиції</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fZ1FfWVdWRz0C.jpg</image:loc>
-      <image:title>Adena agro INS25012: Інспекційний роликовий стіл з каналом для відводу некондиції</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fZ1FdWVdWRz0C.jpg</image:loc>
-      <image:title>Adena agro INS25012: Інспекційний роликовий стіл з каналом для відводу некондиції</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/pryjmalno-sortuvalnyj-bunker-dlya-kartopli-ta-ovochiv-kp-17</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIFHVJwUF9cYlUWR1VIAycVAw.jpg</image:loc>
-      <image:title>Domasz KP-17 Приймально-сортувальний бункер для картоплі та овочів</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/pryjmalno-sortuvalnyj-bunker-dlya-kartopli-ta-ovochiv-kp-12-plus</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIFHVJwVV9efA8eEw.jpg</image:loc>
-      <image:title>Domasz KP-12 plus: Приймально-сортувальний бункер для картоплі та овочів</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIFHV0xSkNdDQkBGgJWRz0C.jpg</image:loc>
-      <image:title>Domasz KP-12 plus: Приймально-сортувальний бункер для картоплі та овочів</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIFHV0xSkNdfw4eWVRKAD0JERpMRjtISBofAQMYcVRcXWJXW1lXSBl1HVVcWB1mVFdaV1JC.webp</image:loc>
-      <image:title>Domasz KP-12 plus: Приймально-сортувальний бункер для картоплі та овочів</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/pryyemno-sortuvalnyj-bunker-dlya-kartopli-ta-ovochiv-kp-12</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIFHVJwVV9cYlUWR1VIAycVAw.jpg</image:loc>
-      <image:title>Domasz KP-12: Приймально-сортувальний бункер</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/perekydach-ovochevyh-kontejneriv</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHVAgBUsMYwFfQFcbHC4DUQpWHXkGQUwGAQcGdAJBXTMBQ0ZXSnI_ABccDVkUFxxeR1xGGCsXFQ.jpg</image:loc>
-      <image:title>Adena-agro: Перекидач контейнерів з овочами</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQMgBhdfMVEKF1VJHyxRVlgATi5RHxoDUVMEI1RAXzYGMQYAC1ghETsbBF4-CQ0DWEBV.jpg</image:loc>
-      <image:title>Adena-agro: Перекидач контейнерів з овочами</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHVAgBUsMYwFfQFcbHC4DUQpWHXkGQUwGAQcGdAJBXTMBMQYAC1ghETsbBF4-CQ0DWEBV.jpg</image:loc>
-      <image:title>Adena-agro: Перекидач контейнерів з овочами</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/liniya-dlya-zvazhuvannya-i-upakovky-riznyh-sypuchyh-materialiv</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUYtOBYAPwQdDjoTTDkECAYGciQCFkFcSR8FeUoXXmVXWUJdTBl-V1JRWQM8ABtd.webp</image:loc>
-      <image:title>Лінія для зважування і упаковки різних сипучих матеріалів</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUYgDB0YMwsHEToISCEJAR0UcntRVF5RUV5TJUpDQSUADAQ.webp</image:loc>
-      <image:title>Лінія для зважування і упаковки різних сипучих матеріалів</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUYtOBYAPwQdDjoTTDkECAYGciQCFkFcSR8FeUoXXmVXWUJdTBl-V1JRWQB4VUlVAQACGDYCEB8.webp</image:loc>
-      <image:title>Лінія для зважування і упаковки різних сипучих матеріалів</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/mashyna-dlya-obrizannya-shyjky-czybuli-zakrytogo-typu</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVksVS0AP1YxHxUUHBIKBhs-Vz4TGE5ab1FMOAUHAw06HBEWDUE5SIbp9QAgCglUS1FtRCQUBwMmSF1EVQAefVVKHgRPOw.webp</image:loc>
-      <image:title>Машина для обрізання шийки цибулі (закритого типу)</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/mashyna-dlya-obrizannya-shyjky-czybuli</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVksVS0AP1YxHxUUHBIKBhs-Vz4TGE5ab1FMOAUHAw06HBEWDUE5SIbp9QAgCglUS1FtRCQUBwMmSF1EVQAefVVKHgRPOw.webp</image:loc>
-      <image:title>Машина для обрізання шийки цибулі</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/shhitkova-poliruvalna-mashyna-ps7</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUYlOEJdDRUBGDoKWDsECAcYRjI6C0hBRV5CHhUXHCcJGloSHU89.webp</image:loc>
-      <image:title>Щіткова полірувальна машина PS7</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUYlOEJeDRUBGDoKWDsECAcYRjI6C0hBRV5CHhUXHCcJGloSHU89.webp</image:loc>
-      <image:title>Щіткова полірувальна машина PS7</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUYlOBYKJgQHGFVJcj0KCDYTWD0EFUNLW0tpMwIBGj4RMQYAC1ghEUoeBE87.webp</image:loc>
-      <image:title>Щіткова полірувальна машина PS7</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/pryjmalnyj-bunker-zasypna-korzyna-kps-1-350</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHV0xVkAwY1dDHxVJGhJVVkQSTioJHEltXV1UIxIcBDcXFysXHV44CRA2E0g4EBVZHwMCBjlUQl98EgsWFQ.webp</image:loc>
-      <image:title>Приймальний бункер засипна корзина KPS: 1 350</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/mishkonapovnyuvach-dlya-sypuchyh-pisok-vugillya-ta-in</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUFwVENdYVRcRwdVHGMPFA4.jpg</image:loc>
-      <image:title>Domasz: Мішконаповнювач для сипучих (пісок, вугілля та ін.)</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fY1xbWg8ISg.jpg</image:loc>
-      <image:title>Domasz: Мішконаповнювач для сипучих (пісок, вугілля та ін.)</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVIyBC1fY1xZWg8ISg.jpg</image:loc>
-      <image:title>Domasz: Мішконаповнювач для сипучих (пісок, вугілля та ін.)</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/okuchnyk-dlya-kartopli-75sm-4-h-ryad-grimme-hd3000n-z-mozhlyvistyu-okuchuvaty-kartoplyu-shho-zijshla</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIEHQRxVURfZlVfK1RBHXlRV0RSHXsdSh0CHlhGJg.jpg</image:loc>
-      <image:title>Окучник для картоплі (75см 4-х ряд) Grimme HD3000N з можливістю окучувати картоплю, що зійшла</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/struik-ushhilnyuyuchi-rolyky-dlya-mokvy-ta-czybuli-4h75sm-novi-ta-b-v</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAF8MMAZaQgFAH3RdBghUFXxVQUxRAQFTcAYTWWRdXxdUQQA7SFdZUVV4VUkDWEBV.jpg</image:loc>
-      <image:title>Struik ущільнюючі ролики для моркви та цибулі 4х75см (нові та б/в)</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/kartoplezbyralnyj-kombajn-grimme-dr-1500-2-ryadnyj-2005-roku-vypuska</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAC1dYldYRFRJGxJUUlpUGXk6Sx8LHQMYKxcV.jpg</image:loc>
-      <image:title>Картоплезбиральний комбайн Grimme DR-1500 2-рядний (2005 року випуска)</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHQRxVURfY1RXK1RJHn5WUkQSTioJHEkcWkJR.jpg</image:loc>
-      <image:title>Картоплезбиральний комбайн Grimme DR-1500 2-рядний (2005 року випуска)</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHQRxVURfY1RXK1RJHnlRUEQSTioJHEkcWkJR.jpg</image:loc>
-      <image:title>Картоплезбиральний комбайн Grimme DR-1500 2-рядний (2005 року випуска)</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/modul-dlya-sortuvannya-ovochiv-shyryna-120sm-climax</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAF9dYldbRVVJFGASBVlRHXxISANYQFU.jpg</image:loc>
-      <image:title>Модуль для сортування овочів ширина 120см CLIMAX</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHVcoFBcDNwYaK1dIH3hVXVlTcnpVTB4GBW1dLQIbATMLFBEMH0gjSw4ZBg.jpg</image:loc>
-      <image:title>Модуль для сортування овочів ширина 120см CLIMAX</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHVcoFBcDNwYaK1dIH3hVXVlTcnpVTB4HCG1dLQIbATMLFBEMH0gjSw4ZBg.jpg</image:loc>
-      <image:title>Модуль для сортування овочів ширина 120см CLIMAX</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/gychkopodribnyuvach-botvovydalyach-dlya-kartopli-4-ryada-na-75-sm-struik-2002-rik</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAF9dYldbRVVJFGASBVlRHH1ISh0CSAEGcUkYHzU.jpg</image:loc>
-      <image:title>Гичкоподрібнювач ( ботвовидаляч ) для картоплі 4 ряда на 75 см STRUIK 2002 рік</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/kopachka-dlya-czybuli-lukovaya-kopalka-keulmac-150sm-shyryna-zahvata-2008-rik</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAF9dYldbRVVJFGASBVlRHXNLE11V.jpg</image:loc>
-      <image:title>Копачка для цибулі ( Луковая копалка ) KEULMAC: 150см ширина захвата 2008 рік</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAF9dYldbRVVJFGASBVlRHXNISh0CSAEGcUkYHzU.jpg</image:loc>
-      <image:title>Копачка для цибулі ( Луковая копалка ) KEULMAC: 150см ширина захвата 2008 рік</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/gychkopodribnyuvach-botvovydalyach-dlya-kartopli-4-ryada-na-75-sm-struik-2005rik</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAF9dYldbRVVJFGASBVlRH35ISh0CSAEGcUkYHzU.jpg</image:loc>
-      <image:title>Гичкоподрібнювач ( ботвовидаляч ) для картоплі 4 ряда на 75 см STRUIK 2005рік</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/mashyna-dlya-suhogo-ochyshhennya-ovochiv-shyryna-60sm-dlya-s-g-vyrobnykiv</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAC1dYldbRFxIFBJUV1tQHn46TxgGHQEGcR9BX2JLBAQC.jpg</image:loc>
-      <image:title>Машина для сухого очищення овочів (ширина 60см) для с/г виробників</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/kombajn-dlya-zbyrannya-kartopli-ta-czybuli-amac-d2</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAF9aNlxfTVBLHikHXVlZG39QGxkBBFQBdlJCW2FcVkRWSwA7SFdZUVV4VUkDWEBV.jpg</image:loc>
-      <image:title>Комбайн для збирання картоплі та цибулі Amac- D2</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/pryjmalnyj-bunker-sortuvalka-grimme-rh-24-60-na-try-frakcziyi-2008-rik</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQpVUBZYjpfRUsSXSo.jpg</image:loc>
-      <image:title>Grimme RH 24-60: Приймальний бункер 2008 рік</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQpVUBZYjpfREsSXSo.jpg</image:loc>
-      <image:title>Grimme RH 24-60: Приймальний бункер 2008 рік</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHUQpVUBZYjpeQUsSXSo.jpg</image:loc>
-      <image:title>Grimme RH 24-60: Приймальний бункер 2008 рік</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/prychypna-kosarka-czybuli-keulmac-ventelyatornogo-typu-pidnimaye-gychku</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIBHV8sAC1dYldbRFxIFBJUV1tXGXM6SxgGHQEGcR9BX2JLBAQC.jpg</image:loc>
-      <image:title>Причипна косарка цибулі &amp;#8220;Keulmac&amp;#8221; вентеляторного типу (піднімає гичку)</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/avtomatychna-klipsatorna-mashyna-sorma-rb2-120-at-5e-c-pack-net-clipper-met-wijnglas-labeler</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQRxVUNeYlVZK1VAHnhVVkQSTioJHEkfARxcMQA.jpg</image:loc>
-      <image:title>Sorma RB2-120 AT-5E: Автоматична кліпсаторна машина</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQRxVUNeYlVZK1VAHnxXV0QSTioJHEkcWkJR.jpg</image:loc>
-      <image:title>Sorma RB2-120 AT-5E: Автоматична кліпсаторна машина</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQRxVUNeYlVZK1VAHnxWU0QSTioJHEkcWkJR.jpg</image:loc>
-      <image:title>Sorma RB2-120 AT-5E: Автоматична кліпсаторна машина</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-dl-1500-2h75-1999-rik</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgMCHV0gAwAOJksEBAAf.jpeg</image:loc>
-      <image:title>Grimme DL-1500: Картоплезбиральний комбайн</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHVB1ARYJZgQKFlBATngEUFBYH3JTShsLA1YHcgEUXzFUMRYMHwMnFQEO.jpeg</image:loc>
-      <image:title>Grimme DL-1500: Картоплезбиральний комбайн</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHQUiBBAJawdfQQZITHpTXFhSTn0BHx4DBVYCeFZEXGdUQB4VHUo.jpeg</image:loc>
-      <image:title>Grimme DL-1500: Картоплезбиральний комбайн</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/pidbyrach-karotopli-czybuli-z-kagativ-krot-skuter-pidbyrach</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHV8sAF9dYldbRVVJFGASBVlRHXhLE11V.jpg</image:loc>
-      <image:title>Підбирач картоплі, цибулі з кагатів (крот) СКУТЕР-ПІДБИРАЧ</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHV8sAF9dYldbRVVJFGASBVlRHXhISh0CSAEGcUkYHzU.jpg</image:loc>
-      <image:title>Підбирач картоплі, цибулі з кагатів (крот) СКУТЕР-ПІДБИРАЧ</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/plyta-dlya-kartoplesadzhalky-grimme-gl</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHV8sAF9fN1RbR1RMG3wDAlsESCgHGkxUAFNVdVFKXmNUVk1VTQA7SFdZUVV4VUkDWEBV.jpg</image:loc>
-      <image:title>Плита для картоплесаджалки Grimme GL</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/pidshypnyk-kulkovyj-radialnyj-6005-zzrst-zakrytyj-dlya-silgosptehniky-grimme-b96-00016</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVR4UVxfYlVfQjpJAH5VVBFSHXtLE11V.jpg</image:loc>
-      <image:title>Grimme B96.00016: Підшипник кульковий радіальний</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-300-45199-zyednuvalnyj-kabel</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY11aWVZIHTVWVFlPRzsC.jpg</image:loc>
-      <image:title>Grimme 300.45199: З'єднувальний кабель</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01021-peremykach-dvopozyczijnyj</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY11bRkhLHX0dV1lRAyEVHg.jpg</image:loc>
-      <image:title>Grimme B94.01021: Перемикач двопозиційний</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01029-kontaktnyj-blok</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY11cRVRWRz0C.jpg</image:loc>
-      <image:title>Grimme B94.01029: Контактний блок</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY11dRUsSXSo.jpg</image:loc>
-      <image:title>Grimme B94.01029: Контактний блок</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVQkHV8BMx8YDUsSXSo.jpg</image:loc>
-      <image:title>Grimme B94.01029: Контактний блок</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01469-relejnyj-modul</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JYK1dJAH5VVBFSHXtLE11V.jpg</image:loc>
-      <image:title>Grimme B94.01469: Релейний модуль</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/kopiyagrimme-b94-01025-mehanichne-rele-tysku-presostat</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRUhNAycVAw.jpg</image:loc>
-      <image:title>Grimme B92.03257: механічне реле тиску (пресостат)</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRkhOAycVAw.jpg</image:loc>
-      <image:title>Grimme B92.03257: механічне реле тиску (пресостат)</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbR0hKAycVAw.jpg</image:loc>
-      <image:title>Grimme B92.03257: механічне реле тиску (пресостат)</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01161-modul-pidsvitky</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY11cRUsSXSo.jpg</image:loc>
-      <image:title>Grimme B94.01161: Модуль підсвітки</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY11cRksSXSo.jpg</image:loc>
-      <image:title>Grimme B94.01161: Модуль підсвітки</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY11cR0sSXSo.jpg</image:loc>
-      <image:title>Grimme B94.01161: Модуль підсвітки</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01160-chotyrohpozyczijnyj-peremykach</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRkhNAH5VVBFSHXtLE11V.jpg</image:loc>
-      <image:title>Grimme B94.01160: Чотирьохпозиційний перемикач</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01028-trypozyczijnyj-peremykach</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRldKAycVAw.jpg</image:loc>
-      <image:title>Grimme B94.01028: Трипозиційний перемикач</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbR0hJAycVAw.jpg</image:loc>
-      <image:title>Grimme B94.01028: Трипозиційний перемикач</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRUhKAycVAw.jpg</image:loc>
-      <image:title>Grimme B94.01028: Трипозиційний перемикач</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01159-kontaktnyj-blok-10-v-10-a</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JYWVdWRz0C.jpg</image:loc>
-      <image:title>Grimme B94.01159: Контактний блок (10 В, 10 А)</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbWVBWRz0C.jpg</image:loc>
-      <image:title>Grimme B94.01159: Контактний блок (10 В, 10 А)</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRUhMAycVAw.jpg</image:loc>
-      <image:title>Grimme B94.01159: Контактний блок (10 В, 10 А)</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-02370-dvopozyczijnyj-peremykach</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRkhLAH5VVBFSHXtLE11V.jpg</image:loc>
-      <image:title>Grimme B94.02370: Двопозиційний перемикач</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01024-trypozyczijnyj-peremykach</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbWVZVHn1VHFpRHWUPCUo.jpg</image:loc>
-      <image:title>Grimme B94.01024: Трипозиційний перемикач</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01027-kontaktnyj-blok-2-v-10-a</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRkhJAH5VVBFSHXtLE11V.jpg</image:loc>
-      <image:title>Grimme B94.01027: Контактний блок (2 В, 10 А)</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01027-kontaktnyj-blok-20-v-10-a</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbRldKH39LDhkG.jpg</image:loc>
-      <image:title>Grimme B94.01026: Контактний блок (20 В, 10 А)</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JYRUsSXSo.jpg</image:loc>
-      <image:title>Grimme B94.01026: Контактний блок (20 В, 10 А)</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY11eWg8ISg.jpg</image:loc>
-      <image:title>Grimme B94.01026: Контактний блок (20 В, 10 А)</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01025-dzhojstyk-4h-pozyczijnyj</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbQFRWRz0C.jpg</image:loc>
-      <image:title>Grimme B94.01025: Джойстик 4х позиційний</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbWg8ISg.jpg</image:loc>
-      <image:title>Grimme B94.01025: Джойстик 4х позиційний</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JbQEsSXSo.jpg</image:loc>
-      <image:title>Grimme B94.01025: Джойстик 4х позиційний</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-04908-dzhojstyk-2h-pozyczijnyj</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JaR1dWRz0C.jpg</image:loc>
-      <image:title>Grimme B94.04908: Джойстик 2х позиційний</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JaRUsSXSo.jpg</image:loc>
-      <image:title>Grimme B94.04908: Джойстик 2х позиційний</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIIHVIyBC1fY1JaWg8ISg.jpg</image:loc>
-      <image:title>Grimme B94.04908: Джойстик 2х позиційний</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/pryvodnyj-pas-z-nyzkym-profilem-ta-zahysnymy-vystupamy-typ-ds</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIFHUYgFAFCIhcHAjpLAH5VVBFSHXtLE11V.jpg</image:loc>
-      <image:title>Приводний пас з низьким профілем тип DS</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/gychkovydalyayuchyj-transprter-200-40946-grimme-dr-1500</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQ5xVRNbN1JZQ1xPSC9XUVAHFXNcTxgABlFTeQJBXWBQMRYMH3J1VVRHC10s.jpg</image:loc>
-      <image:title>Grimme 200.40946: Гичковидаляючий транспортер DR-1500</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/transporter-gychkovidkydnyj-anna-2-h-ryadna</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIDHVV1VEJcZwAKR1JNS3oABwtSGXMHShhRVAVTeQYUDWMHMRYMHwB8OhYMElgnESYdAx5YRiY.jpg</image:loc>
-      <image:title>Anna Z-644: Транспортер гичковидаляючий</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIDHQZ0VxReYVZcFVBIFSwGVltUTHlWHUgCBQAGIgVCDWMHMQYAC1ghEUoDEUo.jpg</image:loc>
-      <image:title>Anna Z-644: Транспортер гичковидаляючий</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/zhatka-zernovaya-pryamogo-kombajnyrovanyya-zhu-6</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/assets/products/zhatka-zhu-6.jpg</image:loc>
-      <image:title>Жатка зернова прямого комбайнування ЖУ-6</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/zhatka-zernobobova-zhzb-4-2</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/assets/products/zhatka-zhzb-42.jpg</image:loc>
-      <image:title>Жатка зернобобова ЖЗБ-4,2</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/zhatky-dlya-kombajniv</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/assets/products/zhatky-dlya-kombajniv.webp</image:loc>
-      <image:title>Жатки для комбайнів</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/zhatka-universalna-zhu-6-psm</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>/assets/products/zhatka-zhu-6-psm.jpg</image:loc>
-      <image:title>Жатка універсальна ЖУ-6 ПСМ</image:title>
-    </image:image>
   </url>
 </urlset>

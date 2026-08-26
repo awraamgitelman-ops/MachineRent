@@ -1,6 +1,8 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Allow: /
-Disallow: /api/
+Allow: /api/media/
+Disallow: /api/send-lead
+Disallow: /api/telegram-status
 
 Sitemap: https://agrorentex.com/sitemap.xml

@@ -109,6 +109,22 @@ export default function App() {
 
             {/* 5. Dedicated Contact Us Page */}
             <Route 
+              path="/contact" 
+              element={
+                <ContactPage
+                  onOpenQuickLead={handleOpenQuickLead}
+                />
+              } 
+            />
+            <Route 
+              path="/contact/" 
+              element={
+                <ContactPage
+                  onOpenQuickLead={handleOpenQuickLead}
+                />
+              } 
+            />
+            <Route 
               path="/contact-us" 
               element={
                 <ContactPage
