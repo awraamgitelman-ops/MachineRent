@@ -43,35 +43,15 @@ export default function PrivacyPolicyPage() {
       {/* 2. Content Container */}
       <div className="container" style={{ maxWidth: '900px', paddingTop: '40px' }}>
         
-        <div style={{
-          display: 'inline-flex',
-          alignItems: 'center',
-          gap: '8px',
-          backgroundColor: '#fff4eb',
-          color: 'var(--wd-primary-color)',
-          padding: '6px 14px',
-          fontSize: '13px',
-          fontWeight: 700,
-          marginBottom: '16px',
-          borderLeft: '3px solid var(--wd-primary-color)'
-        }}>
-          <ShieldCheck size={18} />
-          <span>Захист персональних даних</span>
-        </div>
-
         <h1 style={{
           fontSize: '32px',
           fontWeight: 700,
           color: '#111111',
           lineHeight: 1.25,
-          marginBottom: '12px'
+          marginBottom: '32px'
         }}>
           Політика конфіденційності та захисту інформації
         </h1>
-        
-        <p style={{ fontSize: '14px', color: '#888', marginBottom: '32px' }}>
-          Дата набрання чинності: 20 серпня 2026 року | Версія 1.4
-        </p>
 
         <div style={{
           fontSize: '15px',
