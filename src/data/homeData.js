@@ -1,12 +1,12 @@
 // Static dataset for AGRORENTEX Home Page
 export const HOME_TOP_SEASON = [
   {
-    "id": "pass-ds",
-    "name": "Приводний пас з низьким профілем тип DS",
-    "slug": "pryvodnyj-pas-z-nyzkym-profilem-ta-zahysnymy-vystupamy-typ-ds",
-    "brand": "AVR, DeWulf, Grimme, Keulmac",
-    "priceUah": 2496,
-    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIFHUYgFAFCIhcHAjpLAHpTXBFWG3NLE11V.jpg",
+    "id": "anna-z644",
+    "name": "Anna Z-644: Транспортер гичковидаляючий",
+    "slug": "transporter-gychkovidkydnyj-anna-2-h-ryadna",
+    "brand": "Anna",
+    "priceUah": 85800,
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIDHVV1VEJcZwAKR1JNS3oABwtSGXMHShhRVAVTeQYUDWMHMRYMHwB8OhYMElgnESYdAx0FAHkfRVlqSwQEAg.jpg",
     "badge": "Хіт сезону"
   },
   {
@@ -19,12 +19,12 @@ export const HOME_TOP_SEASON = [
     "badge": "Топ"
   },
   {
-    "id": "anna-z644",
-    "name": "Anna Z-644: Транспортер гичковидаляючий",
-    "slug": "transporter-gychkovidkydnyj-anna-2-h-ryadna",
-    "brand": "Anna",
-    "priceUah": 85800,
-    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dNAgIDHVV1VEJcZwAKR1JNS3oABwtSGXMHShhRVAVTeQYUDWMHMRYMHwB8OhYMElgnESYdAx0FAHkfRVlqSwQEAg.jpg",
+    "id": "pass-ds",
+    "name": "Приводний пас з низьким профілем тип DS",
+    "slug": "pryvodnyj-pas-z-nyzkym-profilem-ta-zahysnymy-vystupamy-typ-ds",
+    "brand": "AVR, DeWulf, Grimme, Keulmac",
+    "priceUah": 2496,
+    "image": "/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dPAgIFHUYgFAFCIhcHAjpLAHpTXBFWG3NLE11V.jpg",
     "badge": "Новинка"
   }
 ];
