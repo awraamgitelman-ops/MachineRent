@@ -212,6 +212,25 @@ app.get('/api/media/:encodedUrl', (req, res) => {
   }
 });
 
+// Explicit sitemap.xml and robots.txt endpoints
+app.get('/sitemap.xml', (req, res) => {
+  const p = fs.existsSync(path.join(distPath, 'sitemap.xml'))
+    ? path.join(distPath, 'sitemap.xml')
+    : path.join(__dirname, 'public', 'sitemap.xml');
+  res.setHeader('Content-Type', 'application/xml; charset=utf-8');
+  res.setHeader('Cache-Control', 'public, max-age=3600');
+  res.sendFile(p);
+});
+
+app.get('/robots.txt', (req, res) => {
+  const p = fs.existsSync(path.join(distPath, 'robots.txt'))
+    ? path.join(distPath, 'robots.txt')
+    : path.join(__dirname, 'public', 'robots.txt');
+  res.setHeader('Content-Type', 'text/plain; charset=utf-8');
+  res.setHeader('Cache-Control', 'public, max-age=3600');
+  res.sendFile(p);
+});
+
 // Serve Static Frontend if build exists
 const distPath = path.join(__dirname, 'dist');
 app.use(express.static(distPath));
