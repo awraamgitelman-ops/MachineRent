@@ -114,6 +114,12 @@ export default function ProductPage({ currency, onOpenQuickLead }) {
         "@type": "Brand",
         "name": machine.brand || "AGRORENTEX"
       },
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "AGRORENTEX",
+        "alternateName": "Агрорентекс",
+        "url": "https://agrorentex.com/"
+      },
       "offers": {
         "@type": "Offer",
         "url": `https://agrorentex.com/product/${machine.slug}`,

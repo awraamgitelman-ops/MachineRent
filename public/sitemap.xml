@@ -3,85 +3,85 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://agrorentex.com/</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://agrorentex.com/product-category/field</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://agrorentex.com/product-category/zhatky-zernovi</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://agrorentex.com/product-category/skladska-tehnika</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://agrorentex.com/product-category/zapchastyny</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://agrorentex.com/product-category/tehnika-b-v</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://agrorentex.com/remont-transporteriv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://agrorentex.com/about-us</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://agrorentex.com/contact-us</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://agrorentex.com/blog</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://agrorentex.com/privacy-policy</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://agrorentex.com/terms</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://agrorentex.com/public-offer</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://agrorentex.com/blog/avtomatyzacziya-peredprodazhnoyi-pidgotovky-domasz-we30</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -91,7 +91,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/blog/restavracziya-transporteriv-yak-zaoshhadyty-do-50-bjudzhetu</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -101,7 +101,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/blog/rynok-ovochivnycztva-ukrayiny-rozshyrennya-ploshh-pid-ovochi</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -111,7 +111,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/blog/kontejnerne-zberigannya-ovochiv-zberezhennya-tovarnogo-vyglyadu</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -121,7 +121,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/blog/pidgotovka-do-sezonu-zbyrannya-kartopli-nalashtuvannya-kombajniv-grimme</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -131,25 +131,17 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/aplikator-mikrogranulyator-zibo-gandy-elektropryvid</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQ52A0MMMVFYFVBASXhRUQoHTioGGkgKUVEDIwZFWDYAMRYMHwMnFQM.jpg</image:loc>
       <image:title>ZIBO / Gandy: Аплікатор-мікрогранулятор 12 В</image:title>
     </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQQiUEULMVxWRQAaHn4GBVsCSXNdHx8AUgZXIAUXCzNRQ0VLEl0oAg.jpeg</image:loc>
-      <image:title>ZIBO / Gandy: Аплікатор-мікрогранулятор 12 В</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dMAgIBHQQiUEULMVxWRQAaHn4GBVsCSXNdHx8AUgZXIAUXCzNRQB4VHUo.jpeg</image:loc>
-      <image:title>ZIBO / Gandy: Аплікатор-мікрогранулятор 12 В</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/grebneutvoryuvach</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -167,7 +159,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-gl32e-kartoplesadzhalka</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -185,7 +177,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/struik-flkb</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -203,7 +195,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/struik-lkb-shift-1500</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -221,7 +213,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/struik-glutton-podribnyuvach-badyllya</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -239,7 +231,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/weed-master</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -257,7 +249,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/struik-wr-grebneutvoryuvach</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -275,7 +267,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/row-fix-space-mizhryadnyj-rotornyj-kultyvator</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -293,7 +285,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/zf-mizhryadnyj-rotornyj-kultyvator</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -311,7 +303,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/row-fix-mizhryadnyj-rotornyj-kultyvator</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -329,7 +321,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/biorotix-3000-ot-rotornyj-kultyvator</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -347,7 +339,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/varix-3000-ot-rotornyj-kultyvator</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -365,7 +357,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/varix-twinrotor-rotornyj-kultyvator-iz-dvoma-valamy-rotora</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -383,7 +375,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/varix-fx-modyfikovanyj-rotornyj-kultyvator</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -401,7 +393,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/varix-f-kultyvator-dlya-poliv-z-ploskym-relyefom</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -419,7 +411,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/struik-rf-universalnyj-rotornyj-kultyvator</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -437,7 +429,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/79612</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -455,9 +447,13 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/pidgortach-grebneutvoryuvach-zibo-super</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>/assets/products/pidgortach-grebneutvoryuvach-zibo-super.jpg</image:loc>
+      <image:title>Підгортач-гребнеутворювач Zibo Super</image:title>
+    </image:image>
     <image:image>
       <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUZwUF9dZFBaTV1KGXlVSgMRSg.jpg</image:loc>
       <image:title>Підгортач-гребнеутворювач Zibo Super</image:title>
@@ -466,14 +462,10 @@
       <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUwoBR0wMwQAFgoNWhIXEQ4XQjkIHF8EHlhGJg.jpg</image:loc>
       <image:title>Підгортач-гребнеутворювач Zibo Super</image:title>
     </image:image>
-    <image:image>
-      <image:loc>/api/media/KRMGHyFfQVsEHEgjBAUOE0JlBhZAHUdCGyIIHBs3CxpbEAhBIgQAGk4fe1dLAgMBHUZwUF9dZFJYQlNJGXlQSgMRSg.jpg</image:loc>
-      <image:title>Підгортач-гребнеутворювач Zibo Super</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/gasytel-padinnya-dlya-ovochiv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -487,7 +479,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-c-line-avtomatyzovane-ochyshhennya-czybuli</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -505,7 +497,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-sst-onion-400x120-inspekczijnyj-stil-dlya-czybuli</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -523,7 +515,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-om3-mashyna-dlya-obrizannya-pera-czybuli</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -541,7 +533,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-om2-mashyna-dlya-obrizannya-pera-czybuli</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -559,7 +551,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-ans-napovnyuvach-yashhykiv-ta-korobok</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -569,7 +561,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-fa-1-avtomatychna-pakuvalna-mashyna</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -579,7 +571,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-ra-1-avtomatychna-pakuvalna-mashyna</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -589,7 +581,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-r12l-kombinaczijni-vagy</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -603,7 +595,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-r09xl-kombinaczijni-vagy</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -617,7 +609,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-r09l-kombinaczijni-vagy</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -627,7 +619,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-we-50-plus-zvazhuvalna-stancziya-dlya-ovochiv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -637,7 +629,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/zvazhuvalno-pakuvalna-mashyna-elektronna</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -655,7 +647,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-we-15-plus-zvazhuvalna-stancziya-dlya-ovochiv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -665,7 +657,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-bbw-2-napovnyuvach-big-bag-mishkiv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -683,7 +675,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-bbw-1-napovnyuvach-big-bag-mishkiv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -701,7 +693,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/mashyna-dlya-pakuvannya-ovochiv-kartoplya-morkva-czybulya-ta-in-v-rashel-mishky-2-nytkova</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -711,7 +703,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-so-900-2500-sortuvalna-mashyna-dlya-ovochiv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -729,7 +721,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-sst-400x120-inspekczijnyj-stil</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -747,7 +739,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-ssr5012-rolykovyj-inspekczijnyj-stil</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -765,7 +757,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-ssr3010-rolykovyj-inspekczijnyj-stil</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -783,7 +775,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-pd9300-poliruvalna-mashyna-dlya-ovochiv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -801,7 +793,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-pd9200-poliruvalna-mashyna-dlya-ovochiv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -811,7 +803,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-pd8200-poliruvalna-mashyna-dlya-ovochiv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -829,7 +821,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-cs-110-shhitkova-mashyna-dlya-ochyshhennya</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -847,7 +839,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-cs-55-shhitkova-mashyna-dlya-ochyshhennya</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -857,7 +849,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-mdw-400-mashyna-dlya-myjky-ovochiv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -875,7 +867,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-mdw-300-mashyna-dlya-myjky-ovochiv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -885,7 +877,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-kd-m-dozuvalnyj-bunker-z-perekydachem-kontejneriv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -903,7 +895,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-kd-dozuvalnyj-bunker-z-perekydachem-kontejneriv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -913,7 +905,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-bd-6-dozuvalnyj-bunker</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -923,7 +915,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/kopiyadomasz-ws-1600-1000-perekydach-kontejneriv-z-ovochamy</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -933,7 +925,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-ws-1600-1000-perekydach-kontejneriv-z-ovochamy</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -951,7 +943,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-kpw-3000-pryjmalnyj-bunker-dlya-ovochiv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -969,7 +961,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-kpw-1000-pryjmalnyj-bunker-dlya-ovochiv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -979,7 +971,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-bd-4-dozuvalnyj-bunker</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -997,7 +989,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/domasz-kpw-650-pryjmalnyj-bunker-dlya-ovochiv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1007,7 +999,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/suha-chystka-dlya-kartopli-14-shhitok</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1017,7 +1009,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/inspekczijnyj-rolykovyj-stil-z-kanalom-dlya-vidvodu-nekondycziyi</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1035,7 +1027,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/pryjmalno-sortuvalnyj-bunker-dlya-kartopli-ta-ovochiv-kp-17</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1045,7 +1037,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/pryjmalno-sortuvalnyj-bunker-dlya-kartopli-ta-ovochiv-kp-12-plus</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1063,7 +1055,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/pryyemno-sortuvalnyj-bunker-dlya-kartopli-ta-ovochiv-kp-12</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1073,7 +1065,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/perekydach-ovochevyh-kontejneriv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1091,7 +1083,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/liniya-dlya-zvazhuvannya-i-upakovky-riznyh-sypuchyh-materialiv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1109,7 +1101,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/mashyna-dlya-obrizannya-shyjky-czybuli-zakrytogo-typu</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1119,7 +1111,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/mashyna-dlya-obrizannya-shyjky-czybuli</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1129,7 +1121,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/shhitkova-poliruvalna-mashyna-ps7</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1147,7 +1139,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/pryjmalnyj-bunker-zasypna-korzyna-kps-1-350</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1157,7 +1149,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/mishkonapovnyuvach-dlya-sypuchyh-pisok-vugillya-ta-in</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1175,7 +1167,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/okuchnyk-dlya-kartopli-75sm-4-h-ryad-grimme-hd3000n-z-mozhlyvistyu-okuchuvaty-kartoplyu-shho-zijshla</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1185,7 +1177,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/struik-ushhilnyuyuchi-rolyky-dlya-mokvy-ta-czybuli-4h75sm-novi-ta-b-v</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1195,7 +1187,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/kartoplezbyralnyj-kombajn-grimme-dr-1500-2-ryadnyj-2005-roku-vypuska</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1213,7 +1205,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/modul-dlya-sortuvannya-ovochiv-shyryna-120sm-climax</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1231,7 +1223,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/gychkopodribnyuvach-botvovydalyach-dlya-kartopli-4-ryada-na-75-sm-struik-2002-rik</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1241,7 +1233,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/kopachka-dlya-czybuli-lukovaya-kopalka-keulmac-150sm-shyryna-zahvata-2008-rik</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1255,7 +1247,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/gychkopodribnyuvach-botvovydalyach-dlya-kartopli-4-ryada-na-75-sm-struik-2005rik</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1265,7 +1257,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/mashyna-dlya-suhogo-ochyshhennya-ovochiv-shyryna-60sm-dlya-s-g-vyrobnykiv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1275,7 +1267,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/kombajn-dlya-zbyrannya-kartopli-ta-czybuli-amac-d2</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1285,7 +1277,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/pryjmalnyj-bunker-sortuvalka-grimme-rh-24-60-na-try-frakcziyi-2008-rik</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1303,7 +1295,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/prychypna-kosarka-czybuli-keulmac-ventelyatornogo-typu-pidnimaye-gychku</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1313,7 +1305,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/avtomatychna-klipsatorna-mashyna-sorma-rb2-120-at-5e-c-pack-net-clipper-met-wijnglas-labeler</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1331,7 +1323,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-dl-1500-2h75-1999-rik</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1349,7 +1341,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/pidbyrach-karotopli-czybuli-z-kagativ-krot-skuter-pidbyrach</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1363,7 +1355,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/plyta-dlya-kartoplesadzhalky-grimme-gl</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1373,7 +1365,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/pidshypnyk-kulkovyj-radialnyj-6005-zzrst-zakrytyj-dlya-silgosptehniky-grimme-b96-00016</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1383,7 +1375,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-300-45199-zyednuvalnyj-kabel</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1393,7 +1385,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01021-peremykach-dvopozyczijnyj</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1403,7 +1395,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01029-kontaktnyj-blok</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1421,7 +1413,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01469-relejnyj-modul</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1431,7 +1423,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/kopiyagrimme-b94-01025-mehanichne-rele-tysku-presostat</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1449,7 +1441,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01161-modul-pidsvitky</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1467,7 +1459,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01160-chotyrohpozyczijnyj-peremykach</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1477,7 +1469,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01028-trypozyczijnyj-peremykach</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1495,7 +1487,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01159-kontaktnyj-blok-10-v-10-a</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1513,7 +1505,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-02370-dvopozyczijnyj-peremykach</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1523,7 +1515,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01024-trypozyczijnyj-peremykach</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1533,7 +1525,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01027-kontaktnyj-blok-2-v-10-a</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1543,7 +1535,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01027-kontaktnyj-blok-20-v-10-a</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1561,7 +1553,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-01025-dzhojstyk-4h-pozyczijnyj</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1579,7 +1571,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/grimme-b94-04908-dzhojstyk-2h-pozyczijnyj</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1597,7 +1589,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/pryvodnyj-pas-z-nyzkym-profilem-ta-zahysnymy-vystupamy-typ-ds</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1607,7 +1599,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/gychkovydalyayuchyj-transprter-200-40946-grimme-dr-1500</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1617,7 +1609,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/transporter-gychkovidkydnyj-anna-2-h-ryadna</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1631,17 +1623,17 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/zhatka-zernovaya-pryamogo-kombajnyrovanyya-zhu-6</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>/assets/products/zhatka-zhu-6.jpg</image:loc>
-      <image:title>Жатка зерновая прямого комбайнирования ЖУ 6</image:title>
+      <image:title>Жатка зернова прямого комбайнування ЖУ-6</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://agrorentex.com/product/zhatka-zernobobova-zhzb-4-2</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1651,7 +1643,7 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/zhatky-dlya-kombajniv</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1661,11 +1653,11 @@
   </url>
   <url>
     <loc>https://agrorentex.com/product/zhatka-universalna-zhu-6-psm</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>/assets/products/zhatka-zhu-6.jpg</image:loc>
+      <image:loc>/assets/products/zhatka-zhu-6-psm.jpg</image:loc>
       <image:title>Жатка універсальна ЖУ-6 ПСМ</image:title>
     </image:image>
   </url>
